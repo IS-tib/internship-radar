@@ -41,8 +41,9 @@ TODAY = dt.datetime.now(dt.timezone.utc).date()
 # Classification
 # --------------------------------------------------------------------------- #
 
-INTERN = re.compile(r"\b(intern|internship|co-?op|early career|new grad|"
-                    r"university grad|campus)\b", re.I)
+# Matches intern / interns / internship / internships (but NOT internal,
+# international, internet) plus co-op and early-career program titles.
+INTERN = re.compile(r"\bintern(?:ship)?s?\b|\bco-?op\b|\bearly career\b", re.I)
 
 # Ordered: the first pattern that matches wins the category.
 CATEGORIES = [
@@ -128,41 +129,94 @@ def _raw(company, title, location, url, posted, deadline, source):
             "posted": _iso(posted), "deadline": _iso(deadline), "source": source}
 
 
-def fetch_greenhouse(company, token):
+def _post(url, payload):
+    body = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(url, data=body, headers={
+        **UA, "Content-Type": "application/json", "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+        return json.loads(r.read().decode("utf-8", "replace"))
+
+
+def fetch_greenhouse(c):
     # The plain jobs endpoint already carries first_published + application_deadline.
-    data = _get(f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs")
-    return [_raw(company, j.get("title", ""), (j.get("location") or {}).get("name", ""),
+    data = _get(f"https://boards-api.greenhouse.io/v1/boards/{c['token']}/jobs")
+    return [_raw(c["name"], j.get("title", ""), (j.get("location") or {}).get("name", ""),
                  j.get("absolute_url", ""), j.get("first_published") or j.get("updated_at"),
                  j.get("application_deadline"), "Greenhouse")
             for j in data.get("jobs", [])]
 
 
-def fetch_lever(company, token):
-    data = _get(f"https://api.lever.co/v0/postings/{token}?mode=json")
+def fetch_lever(c):
+    data = _get(f"https://api.lever.co/v0/postings/{c['token']}?mode=json")
     out = []
     for j in data:
         cats = j.get("categories") or {}
-        out.append(_raw(company, j.get("text", ""), cats.get("location", ""),
+        out.append(_raw(c["name"], j.get("text", ""), cats.get("location", ""),
                         j.get("hostedUrl", ""), j.get("createdAt"), None, "Lever"))
     return out
 
 
-def fetch_ashby(company, token):
-    data = _get(f"https://api.ashbyhq.com/posting-api/job-board/{token}")
-    return [_raw(company, j.get("title", ""), j.get("locationName") or j.get("location", ""),
+def fetch_ashby(c):
+    data = _get(f"https://api.ashbyhq.com/posting-api/job-board/{c['token']}")
+    return [_raw(c["name"], j.get("title", ""), j.get("locationName") or j.get("location", ""),
                  j.get("jobUrl") or j.get("applyUrl", ""), j.get("publishedAt"),
                  None, "Ashby")
             for j in data.get("jobs", [])]
 
 
-FETCHERS = {"greenhouse": fetch_greenhouse, "lever": fetch_lever, "ashby": fetch_ashby}
+def _workday_date(text):
+    """Workday reports 'Posted Today' / 'Posted 5 Days Ago' / 'Posted 30+ Days Ago'
+    rather than a timestamp; convert that to an approximate YYYY-MM-DD."""
+    t = (text or "").lower()
+    if "today" in t:
+        days = 0
+    elif "yesterday" in t:
+        days = 1
+    else:
+        m = re.search(r"(\d+)\s*\+?\s*day", t)
+        days = int(m.group(1)) if m else None
+    if days is None:
+        return ""
+    return (TODAY - dt.timedelta(days=days)).isoformat()
+
+
+def fetch_workday(c):
+    """Workday's job feed is a paginated POST. Each company needs its tenant host
+    and career-site slug — both visible in the company's myworkdayjobs.com URL,
+    e.g. https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS ->
+    host 'boeing.wd1.myworkdayjobs.com', site 'EXTERNAL_CAREERS'."""
+    host, site = c["host"], c["site"]
+    tenant = c.get("tenant") or host.split(".")[0]
+    api = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
+    out, offset, total = [], 0, None
+    while offset < 400:  # hard cap so a huge board can't run away
+        data = _post(api, {"appliedFacets": {}, "limit": 20,
+                           "offset": offset, "searchText": "intern"})
+        posts = data.get("jobPostings") or []
+        if not posts:
+            break
+        for j in posts:
+            path = j.get("externalPath", "")
+            url = f"https://{host}/en-US/{site}{path}" if path else ""
+            out.append(_raw(c["name"], j.get("title", ""), j.get("locationsText", ""),
+                            url, _workday_date(j.get("postedOn", "")), None, "Workday"))
+        if total is None:
+            total = data.get("total", len(posts))
+        offset += 20
+        if offset >= total:
+            break
+    return out
+
+
+FETCHERS = {"greenhouse": fetch_greenhouse, "lever": fetch_lever,
+            "ashby": fetch_ashby, "workday": fetch_workday}
 
 
 def collect(companies):
     """Fetch every board concurrently; boards that error are skipped, logged."""
     raw = []
     with ThreadPoolExecutor(max_workers=12) as pool:
-        futures = {pool.submit(FETCHERS[c["ats"]], c["name"], c["token"]): c
+        futures = {pool.submit(FETCHERS[c["ats"]], c): c
                    for c in companies if c["ats"] in FETCHERS}
         for fut in as_completed(futures):
             c = futures[fut]
@@ -253,13 +307,12 @@ BIG_TECH = [
     ("Meta", "https://www.metacareers.com/jobs?roles[0]=Internship"),
     ("Apple", "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"),
     ("Microsoft", "https://careers.microsoft.com/v2/global/en/students"),
-    ("NVIDIA", "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"),
     ("Uber", "https://www.uber.com/us/en/careers/teams/university/"),
     ("TikTok", "https://lifeattiktok.com/search"),
     ("Netflix", "https://explore.jobs.netflix.net/careers"),
     ("Snap", "https://careers.snap.com/jobs?type=Internship"),
     ("LinkedIn", "https://careers.linkedin.com/students"),
-    ("Salesforce", "https://www.salesforce.com/company/careers/university-recruiting/"),
+    ("Shopify", "https://www.shopify.com/careers/early-careers"),
 ]
 
 
@@ -303,16 +356,19 @@ def render_readme(items):
     L.append("---\n")
     L.append("### How it works\n")
     L.append("`scraper.py` (Python standard library only) calls the public job-board "
-             "APIs of every company in `companies.json` — Greenhouse, Lever, and Ashby — "
-             "concurrently, filters for intern/co-op roles in software, data/ML, other "
-             "technical fields, and product, tags each with its real posting date and "
+             "APIs of every company in `companies.json` — **Greenhouse, Lever, Ashby, and "
+             "Workday** — concurrently, filters for intern/co-op roles in software, data/ML, "
+             "other technical fields, and product, tags each with its real posting date and "
              "target term, and regenerates this file. A GitHub Action runs it every two "
              "hours and commits any changes.\n")
     L.append("### Add a company\n")
-    L.append("Append `{ \"name\": \"...\", \"ats\": \"greenhouse|lever|ashby\", "
-             "\"token\": \"...\" }` to `companies.json`. The token is the board slug in the "
-             "company's careers URL (e.g. `boards.greenhouse.io/<token>`, "
-             "`jobs.lever.co/<token>`, `jobs.ashbyhq.com/<token>`). Open a PR.\n")
+    L.append("For Greenhouse/Lever/Ashby, append `{ \"name\": \"...\", "
+             "\"ats\": \"greenhouse|lever|ashby\", \"token\": \"...\" }` — the token is the "
+             "board slug in the careers URL (`boards.greenhouse.io/<token>`, "
+             "`jobs.lever.co/<token>`, `jobs.ashbyhq.com/<token>`). For Workday, use "
+             "`{ \"name\": \"...\", \"ats\": \"workday\", \"host\": \"tenant.wdN.myworkdayjobs.com\", "
+             "\"site\": \"CareerSiteSlug\" }` — both parts are visible in the company's "
+             "myworkdayjobs.com URL. Open a PR.\n")
     L.append("### Roadmap\n")
     L.append("Workday/SmartRecruiters adapters (to reach more large employers), an "
              "optional web dashboard with filters, and email/RSS alerts on new 🆕 roles.\n")
