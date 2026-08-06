@@ -2,7 +2,7 @@
 
 A self-updating board of **tech & product internships**, scraped straight from company job boards and ranked **newest-first**. Focus: **Summer 2027** (plus Winter 2026 / Spring 2027). Roles posted in the last 7 days are flagged 🆕.
 
-**128 open roles** across **22 companies** · updated 2026-08-06 06:09 UTC  
+**128 open roles** across **22 companies** · updated 2026-08-06 06:26 UTC  
 SWE 75 · Data/ML 31 · Tech 21 · PM 1
 
 > **Posted** is the role's *real* publish date from the source API, so the top of the list is genuinely the freshest. **Deadline** shows a date only when the company publishes one — most tech internships simply close when filled, so treat a fresh Posted date as the cue to apply early.
@@ -61,10 +61,10 @@ SWE 75 · Data/ML 31 · Tech 21 · PM 1
 | Jump Trading | Campus UI Software Engineer (Intern) | SWE | Unspecified | London | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=7974943) |
 | DRW | AI/ML Research Intern | Data/ML | Unspecified | Montreal | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7991171) |
 | DRW | FPGA Intern | Tech | Unspecified | Chicago | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8038923) |
-| DRW | Software Developer Intern | SWE | Unspecified | Chicago | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7992936) |
 | DRW | Software Developer Intern | SWE | Unspecified | Montreal | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7991196) |
-| DRW | Software Developer Intern | SWE | Unspecified | Amsterdam | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8020364) |
+| DRW | Software Developer Intern | SWE | Unspecified | Chicago | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7992936) |
 | DRW | Software Developer Intern | SWE | Unspecified | London | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7942281) |
+| DRW | Software Developer Intern | SWE | Unspecified | Amsterdam | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8020364) |
 | DRW | Software Developer Intern (C++) | SWE | Unspecified | Singapore | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8014910) |
 | Anduril | 2026 Early Career Flight Test Engineer, Mission Autonomy | Tech | 2026 | Costa Mesa, California, United States | 2026-07-13 | — | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5185089007?gh_jid=5185089007) |
 | Akuna Capital | Hardware Engineer Intern, Summer 2027 | Tech | Summer 2027 | Chicago, IL | 2026-07-13 | — | [apply](https://www.akunacapital.com/careers/job/8018880/?gh_jid=8018880) |
