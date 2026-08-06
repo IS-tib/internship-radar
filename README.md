@@ -2,8 +2,8 @@
 
 A self-updating board of **tech & product internships**, scraped straight from company job boards and ranked **newest-first**. Focus: **Summer 2027** (plus Winter 2026 / Spring 2027). Roles posted in the last 7 days are flagged 🆕.
 
-**311 open roles** across **124 companies** · updated 2026-08-06 22:32 UTC  
-SWE 216 · Data/ML 54 · Tech 37 · PM 4
+**310 open roles** across **124 companies** · updated 2026-08-06 23:54 UTC  
+SWE 215 · Data/ML 54 · Tech 37 · PM 4
 
 > **Posted** is the role's *real* publish date from the source API, so the top of the list is genuinely the freshest. **Deadline** shows a date only when the company publishes one — most tech internships simply close when filled, so treat a fresh Posted date as the cue to apply early.
 
@@ -89,7 +89,7 @@ SWE 216 · Data/ML 54 · Tech 37 · PM 4
 | General Dynamics Information Technology | Systems Engineer Intern 🆕 | SWE | Unspecified | Albany, NY | 2026-07-30 | — | [apply](https://www.gd.com/careers/systems-engineer-intern-albany-ny-us-rq225289-gdit-opportunity) |
 | DRW | Platform Engineer Intern 🆕 | SWE | Unspecified | Chicago | 2026-07-30 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7997729) |
 
-## 📋 All open roles — newest first (311)
+## 📋 All open roles — newest first (310)
 
 | Company | Role | Type | Term | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -234,18 +234,16 @@ SWE 216 · Data/ML 54 · Tech 37 · PM 4
 | Akuna Capital | Software Engineer Intern, C# .NET Desktop | SWE | Unspecified | Chicago, IL | 2026-07-24 | — | [apply](https://akunacapital.com/careers/job/8018886/?gh_jid=8018886) |
 | Cisco | Test Engineer Intern, Vietnam | Tech | Unspecified | Hanoi, Vietnam | 2026-07-22 | — | [apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Hanoi-Vietnam/Test-Engineer-Intern--Vietnam_2011415) |
 | Virtu Financial | 2027 Internship - Software Engineer | SWE | 2027 | Dublin, Ireland | 2026-07-20 | — | [apply](https://job-boards.greenhouse.io/virtu/jobs/8551566002) |
-| DRW | FPGA Intern | Tech | Unspecified | London | 2026-07-16 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8070392) |
 | Cloudflare | Software Engineer Intern (Fall 2026) - Austin, TX | SWE | Fall 2026 | In-Office | 2026-07-15 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) |
 | Scopely | Intern - Gen. AI Art | Data/ML | Unspecified | IN - Bangalore, India | 2026-07-14 | — | [apply](https://job-boards.greenhouse.io/scopely/jobs/5341537008?gh_jid=5341537008) |
 | Jump Trading | Campus AI Researcher, PhD/Postdoc (Intern) | Data/ML | Unspecified | London | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=7976964) |
 | Jump Trading | Campus ASIC Engineer (Intern) | Tech | Unspecified | Bristol | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=7974837) |
 | Jump Trading | Campus FPGA Engineer (Intern) | Tech | Unspecified | London | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=7974391) |
 | Jump Trading | Campus ML Research Engineer (Intern) | Data/ML | Unspecified | London | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=7977145) |
-| Jump Trading | Campus Software Engineer (Intern) | SWE | Unspecified | London | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=7975026) |
-| Jump Trading | Campus Systems Engineer (Intern) | SWE | Unspecified | London; Amsterdam | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8000323) |
 | Jump Trading | Campus UI Software Engineer (Intern) | SWE | Unspecified | London | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=7974943) |
 | DRW | AI/ML Research Intern | Data/ML | Unspecified | Montreal | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7991171) |
-| DRW | Software Developer Intern | SWE | Unspecified | Amsterdam | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8020364) |
+| DRW | FPGA Intern | Tech | Unspecified | Chicago | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8038923) |
+| DRW | Software Developer Intern | SWE | Unspecified | London | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7942281) |
 | DRW | Software Developer Intern (C++) | SWE | Unspecified | Singapore | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8014910) |
 | Anduril | 2026 Early Career Flight Test Engineer, Mission Autonomy | Tech | 2026 | Costa Mesa, California, United States | 2026-07-13 | — | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5185089007?gh_jid=5185089007) |
 | Akuna Capital | Hardware Engineer Intern, Summer 2027 | Tech | Summer 2027 | Chicago, IL | 2026-07-13 | — | [apply](https://www.akunacapital.com/careers/job/8018880/?gh_jid=8018880) |
@@ -258,12 +256,13 @@ SWE 216 · Data/ML 54 · Tech 37 · PM 4
 | Stripe | Software Engineer, Intern | SWE | Unspecified | Bengaluru | 2026-07-10 | — | [apply](https://stripe.com/jobs/search?gh_jid=8031833) |
 | Amgen | Software Engineer Intern | SWE | Unspecified | Burnaby, Canada | 2026-07-10 | — | [apply](https://amgen.wd1.myworkdayjobs.com/careers/job/Canada---Burnaby/Undergraduate--Co-op-Student---Software-Engineer---Large-Molecule-Discovery---Technology_R-249424) |
 | Jump Trading Group | Campus UI Software Engineer Intern | SWE | Unspecified | Chicago, IL | 2026-07-09 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8003019) |
-| Jump Trading | Software Engineer Intern | SWE | Unspecified | Chicago, IL | 2026-07-09 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8002989) |
 | Anduril | Early Career Firmware Engineer | Tech | Unspecified | Costa Mesa, California, United States | 2026-07-09 | — | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5167865007?gh_jid=5167865007) |
 | Jump Trading | Campus AI Research Engineer - Deep Learning (Intern) | Data/ML | Unspecified | Chicago; New York | 2026-07-08 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8052338) |
 | Jump Trading | Campus AI Research Engineer (Intern) | Data/ML | Unspecified | Chicago; New York | 2026-07-08 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8052281) |
 | Jump Trading | Campus AI Research Engineer – Research Automation (Intern) | Data/ML | Unspecified | Chicago; New York | 2026-07-08 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8052351) |
 | Jump Trading | Campus Data Engineer (Intern) | Data/ML | Unspecified | Chicago | 2026-07-08 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8002998) |
+| Jump Trading | Campus Software Engineer (Intern) | SWE | Unspecified | Chicago | 2026-07-08 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8002989) |
+| Jump Trading | Campus Systems Engineer (Intern) | SWE | Unspecified | Chicago | 2026-07-08 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8007788) |
 | Optiver | Software Engineer Intern | SWE | Unspecified | Austin, TX | 2026-07-07 | — | [apply](https://www.optiver.com/join-us/jobs/technology/austin/software-engineer-intern-summer-2027-austin/) |
 | NVIDIA | Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026 | Data/ML | Fall 2026 | US, CA, Santa Clara | 2026-07-07 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Deep-Learning-PhD-Research-Intern--Reinforcement-Learning-for-LLMs---Fall-2026_JR2012398) |
 | NVIDIA | PhD Software Engineering Intern, Decision Intelligence - Fall 2026 | SWE | Fall 2026 | US, CA, Santa Clara | 2026-07-07 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
@@ -393,8 +392,9 @@ SWE 216 · Data/ML 54 · Tech 37 · PM 4
 | Rippling | Software Engineer Intern | SWE | Unspecified | New York, NY; San Francisco, CA | 2025-06-07 | — | [apply](https://ats.rippling.com/en-GB/rippling/jobs/203e0cac-0e30-4603-8087-f764e8c3f85c) |
 | Point72 | Quantitative Research Intern (NLP) | Data/ML | Unspecified | New York | 2025-05-31 | — | [apply](https://boards.greenhouse.io/point72/jobs/8018862002?gh_jid=8018862002) |
 | Anduril | 2026 Early Career Electrical Engineer, Battlespace Awareness Radar Team | Tech | 2026 | Fort Collins, Colorado, United States | 2025-05-30 | — | [apply](https://boards.greenhouse.io/andurilindustries/jobs/4747967007?gh_jid=4747967007) |
+| IMC Trading | Software Engineer, Early Career | SWE | Unspecified | Chicago, United States | 2025-04-17 | — | [apply](https://job-boards.eu.greenhouse.io/imc/jobs/4577504101) |
 
-_Showing the newest 300 of 311 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 310 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
