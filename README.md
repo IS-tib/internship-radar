@@ -2,15 +2,21 @@
 
 A self-updating board of **tech & product internships**, scraped straight from company job boards and ranked **newest-first**. Focus: **Summer 2027** (plus Winter 2026 / Spring 2027). Roles posted in the last 7 days are flagged 🆕.
 
-**305 open roles** across **121 companies** · updated 2026-08-06 13:54 UTC  
-SWE 213 · Data/ML 51 · Tech 37 · PM 4
+**311 open roles** across **124 companies** · updated 2026-08-06 22:32 UTC  
+SWE 216 · Data/ML 54 · Tech 37 · PM 4
 
 > **Posted** is the role's *real* publish date from the source API, so the top of the list is genuinely the freshest. **Deadline** shows a date only when the company publishes one — most tech internships simply close when filled, so treat a fresh Posted date as the cue to apply early.
 
-## 🆕 Just posted — last 7 days (71)
+## 🆕 Just posted — last 7 days (77)
 
 | Company | Role | Type | Term | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| SpaceX | Software Engineer Intern, Fleet Health Instrumentation 🆕 | SWE | Unspecified | Remote | 2026-08-06 | — | [apply](https://job-boards.greenhouse.io/spacex/jobs/8621756002) |
+| Shopify | Software Engineering Intern 🆕 | SWE | Unspecified | Remote | 2026-08-06 | — | [apply](https://www.shopify.com/careers/software-engineering-internships-winter-2027_404bb82e-37f3-4a78-b0f3-12923a7c4856?ashby_jid=404bb82e-37f3-4a78-b0f3-12923a7c4856) |
+| Canva | PhD Research Scientist Intern 🆕 | Data/ML | Unspecified | San Francisco, CA | 2026-08-06 | — | [apply](https://jobs.smartrecruiters.com/Canva/6000000001291655-phd-research-scientist-intern) |
+| ByteDance | AI Network Automation Engineer Intern, Global Physical Network Infra 🆕 | Data/ML | Unspecified | San Jose, CA | 2026-08-06 | — | [apply](https://joinbytedance.com/search/7670690923748870405) |
+| ByteDance | GPU/AI Application System Software Engineer Intern 🆕 | SWE | Unspecified | San Jose, CA | 2026-08-06 | — | [apply](https://joinbytedance.com/search/7668464504736876853) |
+| ByteDance | Applied Machine Learning Production Engineer Intern 🆕 | Data/ML | Unspecified | San Jose, CA | 2026-08-06 | — | [apply](https://joinbytedance.com/search/7670009669494704437) |
 | Roblox | [2027] Software Engineer, Early Career 🆕 | SWE | 2027 | San Mateo, CA, United States | 2026-08-05 | — | [apply](https://careers.roblox.com/jobs/8072244?gh_jid=8072244) |
 | Roblox | [Summer 2027] Software Engineer Intern 🆕 | SWE | Summer 2027 | San Mateo, CA, United States | 2026-08-05 | — | [apply](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) |
 | Roblox | Software Engineer Intern 🆕 | SWE | Unspecified | San Mateo, CA | 2026-08-05 | — | [apply](https://careers.roblox.com/jobs/8072713?gh_jid=8072713&gh_src=nnh32o631us) |
@@ -64,6 +70,7 @@ SWE 213 · Data/ML 51 · Tech 37 · PM 4
 | American Express | Product Management Intern 🆕 | PM | Unspecified | New York, NY | 2026-08-04 | — | [apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011916) |
 | Samsara | Software Engineering Internship - London 🆕 | SWE | Unspecified | London - UK2 | 2026-08-03 | — | [apply](https://www.samsara.com/company/careers/roles/8082093?gh_jid=8082093) |
 | Samsara | Software Engineering Internship - San Francisco 🆕 | SWE | Unspecified | San Francisco - SF9 | 2026-08-03 | — | [apply](https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091) |
+| Postman | AI Engineer Intern 🆕 | Data/ML | Unspecified | Berkeley, CA | 2026-08-03 | — | [apply](https://job-boards.greenhouse.io/postman/jobs/7823417003) |
 | Microsoft | Software Engineer Intern, CoreAI 🆕 | SWE | Unspecified | Multiple Locations, United States | 2026-08-03 | — | [apply](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0) |
 | Medtronic | Software Engineering Intern 🆕 | SWE | Unspecified | Fridley, MN; Tempe, AZ | 2026-08-03 | — | [apply](https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630-1) |
 | Jump Trading | Campus C++ Software Engineer (Intern) 🆕 | SWE | Unspecified | Singapore | 2026-08-03 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8027946) |
@@ -72,7 +79,6 @@ SWE 213 · Data/ML 51 · Tech 37 · PM 4
 | HPR | Software Engineering Intern 🆕 | SWE | Unspecified | Needham, MA | 2026-08-03 | — | [apply](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003) |
 | Capital One | Software Engineer Intern 🆕 | SWE | Unspecified | McLean, VA; Plano, TX | 2026-08-03 | — | [apply](https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Technology-Internship-Program---Summer-2027_R244387-1) |
 | Astera | Software Engineering Intern, Neuro & AGI 🆕 | SWE | Unspecified | Emeryville, CA | 2026-08-03 | — | [apply](https://jobs.ashbyhq.com/astera/c2a48c1b-c4c4-4333-addf-313c47e26066) |
-| Postman | AI Engineer, Intern 🆕 | Data/ML | Unspecified | Berkeley, California, United States | 2026-08-01 | — | [apply](https://job-boards.greenhouse.io/postman/jobs/7823417003) |
 | SK Hynix Memory Solution | Software Engineer Intern 🆕 | SWE | Unspecified | San Jose, CA | 2026-07-31 | — | [apply](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4342038009) |
 | Rivian and Volkswagen Group Technologies | Software Engineer Intern, Embedded Platforms 🆕 | SWE | Unspecified | Palo Alto, CA; Irvine, CA | 2026-07-31 | — | [apply](https://jobs.ashbyhq.com/rivianvw.tech/4dfbf1e6-3778-4101-8ac7-cd4015d47eff) |
 | IMC Trading | Hardware Engineer Intern 🆕 | Tech | Unspecified | Amsterdam, Netherlands | 2026-07-31 | — | [apply](https://job-boards.eu.greenhouse.io/imc/jobs/4927149101) |
@@ -83,10 +89,16 @@ SWE 213 · Data/ML 51 · Tech 37 · PM 4
 | General Dynamics Information Technology | Systems Engineer Intern 🆕 | SWE | Unspecified | Albany, NY | 2026-07-30 | — | [apply](https://www.gd.com/careers/systems-engineer-intern-albany-ny-us-rq225289-gdit-opportunity) |
 | DRW | Platform Engineer Intern 🆕 | SWE | Unspecified | Chicago | 2026-07-30 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7997729) |
 
-## 📋 All open roles — newest first (305)
+## 📋 All open roles — newest first (311)
 
 | Company | Role | Type | Term | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| SpaceX | Software Engineer Intern, Fleet Health Instrumentation 🆕 | SWE | Unspecified | Remote | 2026-08-06 | — | [apply](https://job-boards.greenhouse.io/spacex/jobs/8621756002) |
+| Shopify | Software Engineering Intern 🆕 | SWE | Unspecified | Remote | 2026-08-06 | — | [apply](https://www.shopify.com/careers/software-engineering-internships-winter-2027_404bb82e-37f3-4a78-b0f3-12923a7c4856?ashby_jid=404bb82e-37f3-4a78-b0f3-12923a7c4856) |
+| Canva | PhD Research Scientist Intern 🆕 | Data/ML | Unspecified | San Francisco, CA | 2026-08-06 | — | [apply](https://jobs.smartrecruiters.com/Canva/6000000001291655-phd-research-scientist-intern) |
+| ByteDance | AI Network Automation Engineer Intern, Global Physical Network Infra 🆕 | Data/ML | Unspecified | San Jose, CA | 2026-08-06 | — | [apply](https://joinbytedance.com/search/7670690923748870405) |
+| ByteDance | GPU/AI Application System Software Engineer Intern 🆕 | SWE | Unspecified | San Jose, CA | 2026-08-06 | — | [apply](https://joinbytedance.com/search/7668464504736876853) |
+| ByteDance | Applied Machine Learning Production Engineer Intern 🆕 | Data/ML | Unspecified | San Jose, CA | 2026-08-06 | — | [apply](https://joinbytedance.com/search/7670009669494704437) |
 | Roblox | [2027] Software Engineer, Early Career 🆕 | SWE | 2027 | San Mateo, CA, United States | 2026-08-05 | — | [apply](https://careers.roblox.com/jobs/8072244?gh_jid=8072244) |
 | Roblox | [Summer 2027] Software Engineer Intern 🆕 | SWE | Summer 2027 | San Mateo, CA, United States | 2026-08-05 | — | [apply](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) |
 | Roblox | Software Engineer Intern 🆕 | SWE | Unspecified | San Mateo, CA | 2026-08-05 | — | [apply](https://careers.roblox.com/jobs/8072713?gh_jid=8072713&gh_src=nnh32o631us) |
@@ -140,6 +152,7 @@ SWE 213 · Data/ML 51 · Tech 37 · PM 4
 | American Express | Product Management Intern 🆕 | PM | Unspecified | New York, NY | 2026-08-04 | — | [apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011916) |
 | Samsara | Software Engineering Internship - London 🆕 | SWE | Unspecified | London - UK2 | 2026-08-03 | — | [apply](https://www.samsara.com/company/careers/roles/8082093?gh_jid=8082093) |
 | Samsara | Software Engineering Internship - San Francisco 🆕 | SWE | Unspecified | San Francisco - SF9 | 2026-08-03 | — | [apply](https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091) |
+| Postman | AI Engineer Intern 🆕 | Data/ML | Unspecified | Berkeley, CA | 2026-08-03 | — | [apply](https://job-boards.greenhouse.io/postman/jobs/7823417003) |
 | Microsoft | Software Engineer Intern, CoreAI 🆕 | SWE | Unspecified | Multiple Locations, United States | 2026-08-03 | — | [apply](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0) |
 | Medtronic | Software Engineering Intern 🆕 | SWE | Unspecified | Fridley, MN; Tempe, AZ | 2026-08-03 | — | [apply](https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630-1) |
 | Jump Trading | Campus C++ Software Engineer (Intern) 🆕 | SWE | Unspecified | Singapore | 2026-08-03 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8027946) |
@@ -148,7 +161,6 @@ SWE 213 · Data/ML 51 · Tech 37 · PM 4
 | HPR | Software Engineering Intern 🆕 | SWE | Unspecified | Needham, MA | 2026-08-03 | — | [apply](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003) |
 | Capital One | Software Engineer Intern 🆕 | SWE | Unspecified | McLean, VA; Plano, TX | 2026-08-03 | — | [apply](https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Technology-Internship-Program---Summer-2027_R244387-1) |
 | Astera | Software Engineering Intern, Neuro & AGI 🆕 | SWE | Unspecified | Emeryville, CA | 2026-08-03 | — | [apply](https://jobs.ashbyhq.com/astera/c2a48c1b-c4c4-4333-addf-313c47e26066) |
-| Postman | AI Engineer, Intern 🆕 | Data/ML | Unspecified | Berkeley, California, United States | 2026-08-01 | — | [apply](https://job-boards.greenhouse.io/postman/jobs/7823417003) |
 | SK Hynix Memory Solution | Software Engineer Intern 🆕 | SWE | Unspecified | San Jose, CA | 2026-07-31 | — | [apply](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4342038009) |
 | Rivian and Volkswagen Group Technologies | Software Engineer Intern, Embedded Platforms 🆕 | SWE | Unspecified | Palo Alto, CA; Irvine, CA | 2026-07-31 | — | [apply](https://jobs.ashbyhq.com/rivianvw.tech/4dfbf1e6-3778-4101-8ac7-cd4015d47eff) |
 | IMC Trading | Hardware Engineer Intern 🆕 | Tech | Unspecified | Amsterdam, Netherlands | 2026-07-31 | — | [apply](https://job-boards.eu.greenhouse.io/imc/jobs/4927149101) |
@@ -160,12 +172,12 @@ SWE 213 · Data/ML 51 · Tech 37 · PM 4
 | DRW | Platform Engineer Intern 🆕 | SWE | Unspecified | Chicago | 2026-07-30 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7997729) |
 | Virtu Financial | 2027 Internship - Frontend Engineer (UI) | SWE | 2027 | New York | 2026-07-29 | — | [apply](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
 | Virtu Financial | 2027 Internship- Hardware Engineer (FPGA) | Tech | 2027 | Austin, TX | 2026-07-29 | — | [apply](https://job-boards.greenhouse.io/virtu/jobs/8657286002) |
+| Cloudflare | Research Engineer Intern (Fall 2026) | Data/ML | Fall 2026 | In-Office | 2026-07-29 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407) |
 | Salesforce | Summer 2027 Intern - Software Engineer | SWE | Summer 2027 | 2 Locations | 2026-07-28 | — | [apply](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715) |
 | Rendezvous Robotics | Software Engineering Intern | SWE | Unspecified | Golden, CO | 2026-07-28 | — | [apply](https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4328555009?gh_src=kpek4mqz9us) |
 | Rendezvous Robotics | Software Engineering Intern, Spring 2027 | SWE | Spring 2027 | Golden, CO | 2026-07-28 | — | [apply](https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4329122009?gh_src=kpek4mqz9us) |
 | Nightwing | Software / Hardware Engineering Intern | Tech | Unspecified | Annapolis Junction, MD | 2026-07-28 | — | [apply](https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733) |
 | Gemini | Software Engineering Intern | SWE | Unspecified | New York, NY | 2026-07-28 | — | [apply](https://job-boards.greenhouse.io/embed/job_app?for=gemini&token=7875125) |
-| Cloudflare | Research Engineer Intern (Fall 2026) | Data/ML | Fall 2026 | In-Office | 2026-07-28 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379) |
 | Cloudflare | Software Engineer Intern | SWE | Unspecified | Austin, TX | 2026-07-28 | — | [apply](https://job-boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) |
 | Virtu Financial | Software Engineer Intern | SWE | Unspecified | Austin, TX; New York | 2026-07-27 | — | [apply](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | Tenstorrent | Software Engineering Intern, Power Modeling & AI Tools | SWE | Unspecified | Santa Clara, CA | 2026-07-27 | — | [apply](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
@@ -233,7 +245,7 @@ SWE 213 · Data/ML 51 · Tech 37 · PM 4
 | Jump Trading | Campus Systems Engineer (Intern) | SWE | Unspecified | London; Amsterdam | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8000323) |
 | Jump Trading | Campus UI Software Engineer (Intern) | SWE | Unspecified | London | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=7974943) |
 | DRW | AI/ML Research Intern | Data/ML | Unspecified | Montreal | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7991171) |
-| DRW | Software Developer Intern | SWE | Unspecified | Montreal | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7991196) |
+| DRW | Software Developer Intern | SWE | Unspecified | Amsterdam | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8020364) |
 | DRW | Software Developer Intern (C++) | SWE | Unspecified | Singapore | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8014910) |
 | Anduril | 2026 Early Career Flight Test Engineer, Mission Autonomy | Tech | 2026 | Costa Mesa, California, United States | 2026-07-13 | — | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5185089007?gh_jid=5185089007) |
 | Akuna Capital | Hardware Engineer Intern, Summer 2027 | Tech | Summer 2027 | Chicago, IL | 2026-07-13 | — | [apply](https://www.akunacapital.com/careers/job/8018880/?gh_jid=8018880) |
@@ -381,14 +393,8 @@ SWE 213 · Data/ML 51 · Tech 37 · PM 4
 | Rippling | Software Engineer Intern | SWE | Unspecified | New York, NY; San Francisco, CA | 2025-06-07 | — | [apply](https://ats.rippling.com/en-GB/rippling/jobs/203e0cac-0e30-4603-8087-f764e8c3f85c) |
 | Point72 | Quantitative Research Intern (NLP) | Data/ML | Unspecified | New York | 2025-05-31 | — | [apply](https://boards.greenhouse.io/point72/jobs/8018862002?gh_jid=8018862002) |
 | Anduril | 2026 Early Career Electrical Engineer, Battlespace Awareness Radar Team | Tech | 2026 | Fort Collins, Colorado, United States | 2025-05-30 | — | [apply](https://boards.greenhouse.io/andurilindustries/jobs/4747967007?gh_jid=4747967007) |
-| IMC Trading | Software Engineer, Early Career | SWE | Unspecified | Chicago, United States | 2025-04-17 | — | [apply](https://job-boards.eu.greenhouse.io/imc/jobs/4577504101) |
-| Palantir | Software Engineer, Internship | SWE | Unspecified | Denver, CO | 2024-08-29 | — | [apply](https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249) |
-| Point72 | Machine Learning Researcher - Intern | Data/ML | Unspecified | New York | 2024-08-15 | — | [apply](https://boards.greenhouse.io/point72/jobs/7302611002?gh_jid=7302611002) |
-| Point72 | Quantitative Software Developer Intern | SWE | Unspecified | New York, London, or Paris | 2024-08-15 | — | [apply](https://boards.greenhouse.io/point72/jobs/7297666002?gh_jid=7297666002) |
-| Palantir | Forward Deployed Software Engineer, Internship - Defense Tech | SWE | Unspecified | Washington, D.C. | 2024-08-05 | — | [apply](https://jobs.lever.co/palantir/cccfe1bd-f15b-4fe5-b044-c793e7961c1b) |
-| Palantir | Software Engineer, Internship - Defense Tech | SWE | Unspecified | New York, NY | 2024-08-05 | — | [apply](https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e) |
 
-_Showing the newest 300 of 305 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 311 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
