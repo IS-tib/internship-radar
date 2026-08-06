@@ -5,8 +5,9 @@ name: scrape
 
 on:
   schedule:
-    - cron: "0 */2 * * *"   # every 2 hours (UTC)
-  workflow_dispatch:          # lets you run it by hand from the Actions tab
+    - cron: '0 14 * * *'   # 7:00 AM PT
+    - cron: '0 2 * * *'    # 7:00 PM PT
+  workflow_dispatch:
 
 # the job needs to push its own commit back to the repo
 permissions:
