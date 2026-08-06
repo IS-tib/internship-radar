@@ -34,9 +34,15 @@ LISTINGS = os.path.join(HERE, "listings.json")
 README = os.path.join(HERE, "README.md")
 
 NEW_DAYS = 7          # a role posted within this many days is flagged 🆕
+TABLE_CAP = 300       # cap the master table so the README stays renderable
+FRESH_CAP = 120       # cap the "just posted" table
 TIMEOUT = 25
 UA = {"User-Agent": "internship-radar/2.0 (+https://github.com; job-board aggregator)"}
 TODAY = dt.datetime.now(TZ).date()
+
+# Source labels that are community/wide-net feeds rather than a single company's
+# board — used to process them AFTER direct boards when deduping.
+AGG_SOURCES = {"Community (Summer 2027)"}
 
 
 # --------------------------------------------------------------------------- #
@@ -220,8 +226,54 @@ def fetch_workday(c):
     return out
 
 
+def fetch_smartrecruiters(c):
+    """SmartRecruiters exposes a public postings API per company."""
+    token = c["token"]
+    out, offset = [], 0
+    while offset < 400:
+        data = _get(f"https://api.smartrecruiters.com/v1/companies/{token}"
+                    f"/postings?limit=100&offset={offset}")
+        content = data.get("content") or []
+        if not content:
+            break
+        for j in content:
+            loc = j.get("location") or {}
+            where = ", ".join(x for x in (loc.get("city"), loc.get("region"),
+                                          loc.get("country")) if x)
+            url = f"https://jobs.smartrecruiters.com/{token}/{j.get('id', '')}"
+            out.append(_raw(c["name"], j.get("name", ""), where, url,
+                            j.get("releasedDate"), None, "SmartRecruiters"))
+        total = data.get("totalFound", len(content))
+        offset += 100
+        if offset >= total:
+            break
+    return out
+
+
+def fetch_aggregator(c):
+    """A community-maintained internship list (one big JSON of roles collected from
+    across the whole ecosystem). This is the wide net: it catches roles at companies
+    that aren't on our direct board list — including custom/Oracle/Eightfold sites we
+    otherwise can't reach. We keep only active, visible roles; refine() dedupes them
+    against direct-board hits so nothing shows twice."""
+    data = _get(c["url"])
+    out = []
+    for j in (data if isinstance(data, list) else []):
+        if j.get("active") is False or j.get("is_visible") is False:
+            continue
+        locs = j.get("locations") or []
+        where = "; ".join(locs[:2]) if isinstance(locs, list) else str(locs)
+        ts = j.get("date_posted") or j.get("date_updated")
+        posted = (dt.datetime.fromtimestamp(ts, TZ).date().isoformat()
+                  if isinstance(ts, (int, float)) else "")
+        out.append(_raw(j.get("company_name", ""), j.get("title", ""), where,
+                        j.get("url", ""), posted, None, c["name"]))
+    return out
+
+
 FETCHERS = {"greenhouse": fetch_greenhouse, "lever": fetch_lever,
-            "ashby": fetch_ashby, "workday": fetch_workday}
+            "ashby": fetch_ashby, "workday": fetch_workday,
+            "smartrecruiters": fetch_smartrecruiters, "aggregator": fetch_aggregator}
 
 
 def collect(companies):
@@ -245,10 +297,17 @@ def collect(companies):
 # Refine + merge
 # --------------------------------------------------------------------------- #
 
+def _norm(s):
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
 def refine(raw):
-    """Keep intern/co-op roles in our categories and target terms; dedupe."""
+    """Keep intern/co-op roles in our categories and target terms; dedupe both by
+    URL and by (company, title) so the same role from a direct board and from the
+    community feed collapses to one. Direct-board hits are processed first, so they
+    win over the wide-net copy (their dates/links are first-party)."""
     out, seen = [], set()
-    for r in raw:
+    for r in sorted(raw, key=lambda x: x["source"] in AGG_SOURCES):
         title = r["title"]
         if not INTERN.search(title):
             continue
@@ -258,11 +317,13 @@ def refine(raw):
         term = classify_term(title)
         if term is None:
             continue
-        key = r["url"] or f"{r['company']}|{title}|{r['location']}"
-        if key in seen:
+        ukey = r["url"] or f"{r['company']}|{title}|{r['location']}"
+        ckey = (_norm(r["company"]), _norm(title))
+        if ukey in seen or ckey in seen:
             continue
-        seen.add(key)
-        out.append({**r, "key": key, "category": category,
+        seen.add(ukey)
+        seen.add(ckey)
+        out.append({**r, "key": ukey, "category": category,
                     "term": term[0], "priority": term[1]})
     return out
 
@@ -365,12 +426,17 @@ def render_readme(items):
     if fresh:
         L.append(f"## 🆕 Just posted — last {NEW_DAYS} days ({len(fresh)})\n")
         L.append(HEAD)
-        L += [_row(x) for x in fresh]
+        L += [_row(x) for x in fresh[:FRESH_CAP]]
+        if len(fresh) > FRESH_CAP:
+            L.append(f"\n_+{len(fresh) - FRESH_CAP} more in the full list below._")
         L.append("")
 
     L.append(f"## 📋 All open roles — newest first ({len(ranked)})\n")
     L.append(HEAD)
-    L += [_row(x) for x in ranked]
+    L += [_row(x) for x in ranked[:TABLE_CAP]]
+    if len(ranked) > TABLE_CAP:
+        L.append(f"\n_Showing the newest {TABLE_CAP} of {len(ranked)} — the complete, "
+                 f"machine-readable set is in_ `listings.json`.")
     L.append("")
 
     L.append("## 🏢 Direct portals (no public API — apply on their sites)\n")
@@ -382,11 +448,18 @@ def render_readme(items):
     L.append("---\n")
     L.append("### How it works\n")
     L.append("`scraper.py` (Python standard library only) calls the public job-board "
-             "APIs of every company in `companies.json` — **Greenhouse, Lever, Ashby, and "
-             "Workday** — concurrently, filters for intern/co-op roles in software, data/ML, "
-             "other technical fields, and product, tags each with its real posting date and "
-             "target term, and regenerates this file. A GitHub Action runs it every two "
-             "hours and commits any changes.\n")
+             "APIs of every company in `companies.json` — **Greenhouse, Lever, Ashby, "
+             "Workday, and SmartRecruiters** — concurrently, then merges a wide-net "
+             "**community feed** for companies not on that list, filters everything for "
+             "intern/co-op roles in software, data/ML, other technical fields, and product, "
+             "tags each with its real posting date and target term, dedupes, and regenerates "
+             "this file. A GitHub Action runs it every two hours and commits any changes.\n")
+    L.append("### Sources & credit\n")
+    L.append("Direct-from-board scraping is first-party. The wide-net feed is the "
+             "community-maintained [vanshb03/Summer2027-Internships]"
+             "(https://github.com/vanshb03/Summer2027-Internships) list — merged and "
+             "deduped against direct hits so nothing shows twice. Credit and thanks to "
+             "that project and the Pitt CSC / Simplify ecosystem it builds on.\n")
     L.append("### Add a company\n")
     L.append("For Greenhouse/Lever/Ashby, append `{ \"name\": \"...\", "
              "\"ats\": \"greenhouse|lever|ashby\", \"token\": \"...\" }` — the token is the "
