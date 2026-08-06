@@ -315,6 +315,15 @@ BIG_TECH = [
     ("Shopify", "https://www.shopify.com/careers/early-careers"),
 ]
 
+# Finance / quant shops on custom or Oracle/Eightfold systems (no public API).
+FINANCE = [
+    ("JPMorgan", "https://careers.jpmorgan.com/us/en/students-and-graduates"),
+    ("American Express", "https://www.americanexpress.com/en-us/careers/"),
+    ("Citadel", "https://www.citadel.com/careers/students-and-graduates/"),
+    ("Two Sigma", "https://careers.twosigma.com/careers/"),
+    ("Hudson River Trading", "https://www.hudsonrivertrading.com/careers/"),
+]
+
 
 def render_readme(items):
     updated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -348,10 +357,11 @@ def render_readme(items):
     L += [_row(x) for x in ranked]
     L.append("")
 
-    L.append("## 🏢 Big-tech direct portals\n")
-    L.append("These companies run custom systems with no public API, so they can't be "
-             "auto-scraped — apply through their early-career portals directly:\n")
-    L.append(" · ".join(f"[{name}]({url})" for name, url in BIG_TECH) + "\n")
+    L.append("## 🏢 Direct portals (no public API — apply on their sites)\n")
+    L.append("These employers run custom/Oracle/Eightfold systems that can't be "
+             "auto-scraped, so apply through their early-career portals directly.\n")
+    L.append("**Big tech:** " + " · ".join(f"[{n}]({u})" for n, u in BIG_TECH) + "\n")
+    L.append("**Finance & quant:** " + " · ".join(f"[{n}]({u})" for n, u in FINANCE) + "\n")
 
     L.append("---\n")
     L.append("### How it works\n")
