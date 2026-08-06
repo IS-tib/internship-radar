@@ -2,7 +2,7 @@
 
 A self-updating board of **tech & product internships**, scraped straight from company job boards and ranked **newest-first**. Focus: **Summer 2027** (plus Winter 2026 / Spring 2027). Roles posted in the last 7 days are flagged 🆕.
 
-**304 open roles** across **121 companies** · updated 2026-08-06 10:05 UTC  
+**304 open roles** across **121 companies** · updated 2026-08-06 10:34 UTC  
 SWE 212 · Data/ML 51 · Tech 37 · PM 4
 
 > **Posted** is the role's *real* publish date from the source API, so the top of the list is genuinely the freshest. **Deadline** shows a date only when the company publishes one — most tech internships simply close when filled, so treat a fresh Posted date as the cue to apply early.
