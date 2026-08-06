@@ -1,0 +1,49 @@
+name: scrape
+
+# Keeps the board current on its own: runs the scraper on a schedule (and on
+# manual trigger / pushes to scraper code), then commits README.md + listings.json
+# back to the repo if anything changed.
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # every 2 hours (UTC)
+  workflow_dispatch:          # lets you run it by hand from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "scraper.py"
+      - "companies.json"
+
+# the job needs to push its own commit back to the repo
+permissions:
+  contents: write
+
+# don't stack runs on top of each other
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit changes
+        run: |
+          git config user.name  "internship-radar[bot]"
+          git config user.email "actions@github.com"
+          git add README.md listings.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh listings ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
