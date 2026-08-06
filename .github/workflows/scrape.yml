@@ -1,18 +1,12 @@
 name: scrape
 
 # Keeps the board current on its own: runs the scraper on a schedule (and on
-# manual trigger / pushes to scraper code), then commits README.md + listings.json
-# back to the repo if anything changed.
+# manual trigger), then commits README.md + listings.json back if anything changed.
 
 on:
   schedule:
     - cron: "0 */2 * * *"   # every 2 hours (UTC)
   workflow_dispatch:          # lets you run it by hand from the Actions tab
-  push:
-    branches: [main]
-    paths:
-      - "scraper.py"
-      - "companies.json"
 
 # the job needs to push its own commit back to the repo
 permissions:

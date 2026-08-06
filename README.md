@@ -2,7 +2,7 @@
 
 A self-updating board of **tech & product internships**, scraped straight from company job boards and ranked **newest-first**. Focus: **Summer 2027** (plus Winter 2026 / Spring 2027). Roles posted in the last 7 days are flagged 🆕.
 
-**128 open roles** across **22 companies** · updated 2026-08-06 06:04 UTC  
+**128 open roles** across **22 companies** · updated 2026-08-06 06:09 UTC  
 SWE 75 · Data/ML 31 · Tech 21 · PM 1
 
 > **Posted** is the role's *real* publish date from the source API, so the top of the list is genuinely the freshest. **Deadline** shows a date only when the company publishes one — most tech internships simply close when filled, so treat a fresh Posted date as the cue to apply early.
@@ -165,7 +165,7 @@ These employers run custom/Oracle/Eightfold systems that can't be auto-scraped, 
 
 **Big tech:** [Google](https://www.google.com/about/careers/applications/jobs/results/?employment_type=INTERN) · [Amazon](https://www.amazon.jobs/content/en/career-programs/university) · [Meta](https://www.metacareers.com/jobs?roles[0]=Internship) · [Apple](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN) · [Microsoft](https://careers.microsoft.com/v2/global/en/students) · [Uber](https://www.uber.com/us/en/careers/teams/university/) · [TikTok](https://lifeattiktok.com/search) · [Netflix](https://explore.jobs.netflix.net/careers) · [Snap](https://careers.snap.com/jobs?type=Internship) · [LinkedIn](https://careers.linkedin.com/students) · [Shopify](https://www.shopify.com/careers/early-careers)
 
-**Finance & quant:** [JPMorgan](https://careers.jpmorgan.com/us/en/students-and-graduates) · [American Express](https://www.americanexpress.com/en-us/careers/) · [Citadel](https://www.citadel.com/careers/students-and-graduates/) · [Two Sigma](https://careers.twosigma.com/careers/) · [Hudson River Trading](https://www.hudsonrivertrading.com/careers/)
+**Finance & quant:** [JPMorgan](https://careers.jpmorgan.com/us/en/students-and-graduates) · [American Express](https://www.americanexpress.com/en-us/careers/) · [Capital One](https://www.capitalonecareers.com/search-jobs) · [Citadel](https://www.citadel.com/careers/students-and-graduates/) · [Two Sigma](https://careers.twosigma.com/careers/) · [Hudson River Trading](https://www.hudsonrivertrading.com/careers/)
 
 ---
 

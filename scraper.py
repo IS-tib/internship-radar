@@ -319,6 +319,7 @@ BIG_TECH = [
 FINANCE = [
     ("JPMorgan", "https://careers.jpmorgan.com/us/en/students-and-graduates"),
     ("American Express", "https://www.americanexpress.com/en-us/careers/"),
+    ("Capital One", "https://www.capitalonecareers.com/search-jobs"),
     ("Citadel", "https://www.citadel.com/careers/students-and-graduates/"),
     ("Two Sigma", "https://careers.twosigma.com/careers/"),
     ("Hudson River Trading", "https://www.hudsonrivertrading.com/careers/"),
