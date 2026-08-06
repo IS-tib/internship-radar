@@ -2,7 +2,7 @@
 
 Auto-updated listings of **tech and product internships** (Summer 2027 focus; also Winter 2026 / Spring 2027), scraped straight from company job boards every few hours. New roles are flagged 🆕.
 
-**12 open roles** · updated 2026-08-06 02:23 UTC · Software: 5 · Data: 6 · Other: 0 · Product: 1
+**12 open roles** · updated 2026-08-06 02:33 UTC · Software: 5 · Data: 6 · Other: 0 · Product: 1
 
 > Deadlines are shown only when a posting states one — most tech internships close when filled, so the **Added** date (when this repo first saw the role) is the signal to apply early.
 
