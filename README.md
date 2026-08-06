@@ -2,20 +2,19 @@
 
 A self-updating board of **tech & product internships**, scraped straight from company job boards and ranked **newest-first**. Focus: **Summer 2027** (plus Winter 2026 / Spring 2027). Roles posted in the last 7 days are flagged 🆕.
 
-**128 open roles** across **22 companies** · updated 2026-08-06 06:26 UTC  
-SWE 75 · Data/ML 31 · Tech 21 · PM 1
+**134 open roles** across **24 companies** · updated 2026-08-06 09:52 UTC  
+SWE 79 · Data/ML 32 · Tech 22 · PM 1
 
 > **Posted** is the role's *real* publish date from the source API, so the top of the list is genuinely the freshest. **Deadline** shows a date only when the company publishes one — most tech internships simply close when filled, so treat a fresh Posted date as the cue to apply early.
 
-## 🆕 Just posted — last 7 days (14)
+## 🆕 Just posted — last 7 days (13)
 
 | Company | Role | Type | Term | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| NVIDIA | Software Engineering Intern, Dynamo - Fall 2026 🆕 | SWE | Fall 2026 | US, CA, Santa Clara | 2026-08-06 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295) |
-| Cisco | Hardware Engineer II (Co-op) - United States 🆕 | Tech | Unspecified | 3 Locations | 2026-08-06 | — | [apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-II--Co-op----United-States_2000128) |
 | Roblox | [2027] Software Engineer, Early Career 🆕 | SWE | 2027 | San Mateo, CA, United States | 2026-08-05 | — | [apply](https://careers.roblox.com/jobs/8072244?gh_jid=8072244) |
 | Roblox | [Summer 2027] Software Engineer Intern 🆕 | SWE | Summer 2027 | San Mateo, CA, United States | 2026-08-05 | — | [apply](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) |
-| Boeing | Spacecraft Systems Engineer (Early Career) - Millennium Space Systems 🆕 | SWE | Unspecified | USA - El Segundo, CA | 2026-08-05 | — | [apply](https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Spacecraft-Systems-Engineer--Early-Career----Millennium-Space-Systems_JR2026519970-1) |
+| NVIDIA | Software Engineering Intern, Dynamo - Fall 2026 🆕 | SWE | Fall 2026 | US, CA, Santa Clara | 2026-08-05 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295) |
+| Cisco | Hardware Engineer II (Co-op) - United States 🆕 | Tech | Unspecified | 3 Locations | 2026-08-05 | — | [apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-II--Co-op----United-States_2000128) |
 | Cloudflare | U.S. Public Policy and AI Innovation Intern (Fall 2026) 🆕 | Data/ML | Fall 2026 | In-Office | 2026-08-04 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8105728?gh_jid=8105728) |
 | Samsara | Software Engineering Internship - London 🆕 | SWE | Unspecified | London - UK2 | 2026-08-03 | — | [apply](https://www.samsara.com/company/careers/roles/8082093?gh_jid=8082093) |
 | Samsara | Software Engineering Internship - San Francisco 🆕 | SWE | Unspecified | San Francisco - SF9 | 2026-08-03 | — | [apply](https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091) |
@@ -26,15 +25,14 @@ SWE 75 · Data/ML 31 · Tech 21 · PM 1
 | IMC Trading | Hardware Engineer Intern 🆕 | Tech | Unspecified | Amsterdam, Netherlands | 2026-07-31 | — | [apply](https://job-boards.eu.greenhouse.io/imc/jobs/4927149101) |
 | DRW | Platform Engineer Intern 🆕 | SWE | Unspecified | Chicago | 2026-07-30 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7997729) |
 
-## 📋 All open roles — newest first (128)
+## 📋 All open roles — newest first (134)
 
 | Company | Role | Type | Term | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| NVIDIA | Software Engineering Intern, Dynamo - Fall 2026 🆕 | SWE | Fall 2026 | US, CA, Santa Clara | 2026-08-06 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295) |
-| Cisco | Hardware Engineer II (Co-op) - United States 🆕 | Tech | Unspecified | 3 Locations | 2026-08-06 | — | [apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-II--Co-op----United-States_2000128) |
 | Roblox | [2027] Software Engineer, Early Career 🆕 | SWE | 2027 | San Mateo, CA, United States | 2026-08-05 | — | [apply](https://careers.roblox.com/jobs/8072244?gh_jid=8072244) |
 | Roblox | [Summer 2027] Software Engineer Intern 🆕 | SWE | Summer 2027 | San Mateo, CA, United States | 2026-08-05 | — | [apply](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) |
-| Boeing | Spacecraft Systems Engineer (Early Career) - Millennium Space Systems 🆕 | SWE | Unspecified | USA - El Segundo, CA | 2026-08-05 | — | [apply](https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Spacecraft-Systems-Engineer--Early-Career----Millennium-Space-Systems_JR2026519970-1) |
+| NVIDIA | Software Engineering Intern, Dynamo - Fall 2026 🆕 | SWE | Fall 2026 | US, CA, Santa Clara | 2026-08-05 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295) |
+| Cisco | Hardware Engineer II (Co-op) - United States 🆕 | Tech | Unspecified | 3 Locations | 2026-08-05 | — | [apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-II--Co-op----United-States_2000128) |
 | Cloudflare | U.S. Public Policy and AI Innovation Intern (Fall 2026) 🆕 | Data/ML | Fall 2026 | In-Office | 2026-08-04 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8105728?gh_jid=8105728) |
 | Samsara | Software Engineering Internship - London 🆕 | SWE | Unspecified | London - UK2 | 2026-08-03 | — | [apply](https://www.samsara.com/company/careers/roles/8082093?gh_jid=8082093) |
 | Samsara | Software Engineering Internship - San Francisco 🆕 | SWE | Unspecified | San Francisco - SF9 | 2026-08-03 | — | [apply](https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091) |
@@ -44,13 +42,18 @@ SWE 75 · Data/ML 31 · Tech 21 · PM 1
 | Postman | AI Engineer, Intern 🆕 | Data/ML | Unspecified | Berkeley, California, United States | 2026-08-01 | — | [apply](https://job-boards.greenhouse.io/postman/jobs/7823417003) |
 | IMC Trading | Hardware Engineer Intern 🆕 | Tech | Unspecified | Amsterdam, Netherlands | 2026-07-31 | — | [apply](https://job-boards.eu.greenhouse.io/imc/jobs/4927149101) |
 | DRW | Platform Engineer Intern 🆕 | SWE | Unspecified | Chicago | 2026-07-30 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7997729) |
-| Salesforce | Summer 2027 Intern - Software Engineer | SWE | Summer 2027 | 2 Locations | 2026-07-29 | — | [apply](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715) |
+| Virtu Financial | 2027 Internship - Frontend Engineer (UI) | SWE | 2027 | New York | 2026-07-29 | — | [apply](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
+| Virtu Financial | 2027 Internship- Hardware Engineer (FPGA) | Tech | 2027 | Austin, TX | 2026-07-29 | — | [apply](https://job-boards.greenhouse.io/virtu/jobs/8657286002) |
 | Cloudflare | Research Engineer Intern (Fall 2026) | Data/ML | Fall 2026 | In-Office | 2026-07-29 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407) |
+| Salesforce | Summer 2027 Intern - Software Engineer | SWE | Summer 2027 | 2 Locations | 2026-07-28 | — | [apply](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715) |
 | Cloudflare | Research Engineer Intern (Fall 2026) | Data/ML | Fall 2026 | In-Office | 2026-07-28 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379) |
 | Cloudflare | Research Engineer Intern (Fall 2026) | Data/ML | Fall 2026 | In-Office | 2026-07-28 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400) |
-| Cisco | Test Engineer Intern, Vietnam | Tech | Unspecified | Hanoi, Vietnam | 2026-07-23 | — | [apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Hanoi-Vietnam/Test-Engineer-Intern--Vietnam_2011415) |
+| Cisco | Test Engineer Intern, Vietnam | Tech | Unspecified | Hanoi, Vietnam | 2026-07-22 | — | [apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Hanoi-Vietnam/Test-Engineer-Intern--Vietnam_2011415) |
+| Virtu Financial | 2027 Internship - Software Engineer | SWE | 2027 | Austin, TX; New York | 2026-07-21 | — | [apply](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
+| Virtu Financial | 2027 Internship - Software Engineer | SWE | 2027 | Dublin, Ireland | 2026-07-20 | — | [apply](https://job-boards.greenhouse.io/virtu/jobs/8551566002) |
 | DRW | FPGA Intern | Tech | Unspecified | London | 2026-07-16 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8070392) |
-| Cloudflare | Software Engineer Intern (Fall 2026) - Austin, TX | SWE | Fall 2026 | In-Office | 2026-07-14 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) |
+| Cloudflare | Software Engineer Intern (Fall 2026) - Austin, TX | SWE | Fall 2026 | In-Office | 2026-07-15 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) |
+| Scopely | Intern - Gen. AI Art | Data/ML | Unspecified | IN - Bangalore, India | 2026-07-14 | — | [apply](https://job-boards.greenhouse.io/scopely/jobs/5341537008?gh_jid=5341537008) |
 | Jump Trading | Campus AI Researcher, PhD/Postdoc (Intern) | Data/ML | Unspecified | London | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=7976964) |
 | Jump Trading | Campus ASIC Engineer (Intern) | Tech | Unspecified | Bristol | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=7974837) |
 | Jump Trading | Campus Data Engineer (Intern) | Data/ML | Unspecified | London | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=7975008) |
@@ -61,10 +64,10 @@ SWE 75 · Data/ML 31 · Tech 21 · PM 1
 | Jump Trading | Campus UI Software Engineer (Intern) | SWE | Unspecified | London | 2026-07-13 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=7974943) |
 | DRW | AI/ML Research Intern | Data/ML | Unspecified | Montreal | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7991171) |
 | DRW | FPGA Intern | Tech | Unspecified | Chicago | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8038923) |
-| DRW | Software Developer Intern | SWE | Unspecified | Montreal | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7991196) |
 | DRW | Software Developer Intern | SWE | Unspecified | Chicago | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7992936) |
-| DRW | Software Developer Intern | SWE | Unspecified | London | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7942281) |
+| DRW | Software Developer Intern | SWE | Unspecified | Montreal | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7991196) |
 | DRW | Software Developer Intern | SWE | Unspecified | Amsterdam | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8020364) |
+| DRW | Software Developer Intern | SWE | Unspecified | London | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/7942281) |
 | DRW | Software Developer Intern (C++) | SWE | Unspecified | Singapore | 2026-07-13 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8014910) |
 | Anduril | 2026 Early Career Flight Test Engineer, Mission Autonomy | Tech | 2026 | Costa Mesa, California, United States | 2026-07-13 | — | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5185089007?gh_jid=5185089007) |
 | Akuna Capital | Hardware Engineer Intern, Summer 2027 | Tech | Summer 2027 | Chicago, IL | 2026-07-13 | — | [apply](https://www.akunacapital.com/careers/job/8018880/?gh_jid=8018880) |
@@ -126,6 +129,7 @@ SWE 75 · Data/ML 31 · Tech 21 · PM 1
 | Perplexity | Internship - Search Machine Learning Engineer | Data/ML | Unspecified | Belgrade | 2026-01-13 | — | [apply](https://jobs.ashbyhq.com/perplexity/9246cf02-26fd-4ae8-90c5-639c6e85e9e2) |
 | Palantir | Forward Deployed Software Engineer, Internship - US Government | SWE | Unspecified | Honolulu, HI | 2025-12-11 | — | [apply](https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e) |
 | Roblox | [2026] Senior Machine Learning Engineer, Recommendation Systems - PhD Early Career | Data/ML | 2026 | San Mateo, CA, United States | 2025-10-27 | — | [apply](https://careers.roblox.com/jobs/7350081?gh_jid=7350081) |
+| Nuro | Software Engineer, AI Platform - Intern | SWE | Unspecified | Mountain View, California (HQ) | 2025-10-22 | — | [apply](https://nuro.ai/careersitem?gh_jid=7351061) |
 | Palantir | Software Engineer, Internship - Infrastructure | SWE | Unspecified | Palo Alto, CA | 2025-08-19 | — | [apply](https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4) |
 | Palantir | Software Engineer, Internship - Production Infrastructure | SWE | Unspecified | Washington, D.C. | 2025-08-19 | — | [apply](https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86) |
 | Anduril | 2026 Early Career Electrical Engineer | Tech | 2026 | Costa Mesa, California, United States; Fort Collins, Colorado, United States | 2025-08-11 | — | [apply](https://boards.greenhouse.io/andurilindustries/jobs/4802172007?gh_jid=4802172007) |
@@ -151,6 +155,7 @@ SWE 75 · Data/ML 31 · Tech 21 · PM 1
 | Databricks | Product Management Intern (Summer 2027) | PM | Summer 2027 | Bellevue, Washington; Mountain View, California; San Francisco, California | 2023-08-17 | — | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=6883068002) |
 | Palantir | Forward Deployed Software Engineer, Internship - US Government | SWE | Unspecified | New York, NY | 2022-06-30 | — | [apply](https://jobs.lever.co/palantir/e0010393-c300-446f-bf67-fa2ef067f16f) |
 | Palantir | Software Engineer, Internship | SWE | Unspecified | New York, NY | 2022-06-30 | — | [apply](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d) |
+| Virtu Financial | 2027 Internship – Software Engineer | SWE | 2027 | Singapore | 2021-09-01 | — | [apply](https://job-boards.greenhouse.io/virtu/jobs/5513756002) |
 | Palantir | Forward Deployed Software Engineer, Internship - UK Government | SWE | Unspecified | London, United Kingdom | 2021-07-01 | — | [apply](https://jobs.lever.co/palantir/26e23f5d-083b-45aa-b223-1a6e43d960bf) |
 | Palantir | Forward Deployed Software Engineer, Internship - US Government | SWE | Unspecified | Washington, D.C. | 2021-07-01 | — | [apply](https://jobs.lever.co/palantir/e6ff8bf2-135e-474d-ad37-24f490ae1dd2) |
 | Palantir | Software Engineer, Internship | SWE | Unspecified | London, United Kingdom | 2021-07-01 | — | [apply](https://jobs.lever.co/palantir/76a60923-bb49-40f5-b061-7c7eb1299602) |
@@ -163,9 +168,9 @@ SWE 75 · Data/ML 31 · Tech 21 · PM 1
 
 These employers run custom/Oracle/Eightfold systems that can't be auto-scraped, so apply through their early-career portals directly.
 
-**Big tech:** [Google](https://www.google.com/about/careers/applications/jobs/results/?employment_type=INTERN) · [Amazon](https://www.amazon.jobs/content/en/career-programs/university) · [Meta](https://www.metacareers.com/jobs?roles[0]=Internship) · [Apple](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN) · [Microsoft](https://careers.microsoft.com/v2/global/en/students) · [Uber](https://www.uber.com/us/en/careers/teams/university/) · [TikTok](https://lifeattiktok.com/search) · [Netflix](https://explore.jobs.netflix.net/careers) · [Snap](https://careers.snap.com/jobs?type=Internship) · [LinkedIn](https://careers.linkedin.com/students) · [Shopify](https://www.shopify.com/careers/early-careers)
+**Big tech:** [Google](https://www.google.com/about/careers/applications/jobs/results/?employment_type=INTERN) · [Amazon](https://www.amazon.jobs/content/en/career-programs/university) · [Meta](https://www.metacareers.com/jobs?roles[0]=Internship) · [Apple](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN) · [Microsoft](https://careers.microsoft.com/v2/global/en/students) · [Uber](https://www.uber.com/us/en/careers/teams/university/) · [TikTok](https://lifeattiktok.com/search) · [Netflix](https://explore.jobs.netflix.net/careers) · [Snap](https://careers.snap.com/jobs?type=Internship) · [LinkedIn](https://careers.linkedin.com/students) · [Shopify](https://www.shopify.com/careers/early-careers) · [Snowflake](https://careers.snowflake.com/us/en/university)
 
-**Finance & quant:** [JPMorgan](https://careers.jpmorgan.com/us/en/students-and-graduates) · [American Express](https://www.americanexpress.com/en-us/careers/) · [Capital One](https://www.capitalonecareers.com/search-jobs) · [Citadel](https://www.citadel.com/careers/students-and-graduates/) · [Two Sigma](https://careers.twosigma.com/careers/) · [Hudson River Trading](https://www.hudsonrivertrading.com/careers/)
+**Finance & quant:** [JPMorgan](https://careers.jpmorgan.com/us/en/students-and-graduates) · [Morgan Stanley](https://www.morganstanley.com/careers/students-graduates) · [Goldman Sachs](https://www.goldmansachs.com/careers/students/) · [American Express](https://www.americanexpress.com/en-us/careers/) · [Capital One](https://www.capitalonecareers.com/search-jobs) · [Citadel](https://www.citadel.com/careers/students-and-graduates/) · [Two Sigma](https://careers.twosigma.com/careers/) · [Hudson River Trading](https://www.hudsonrivertrading.com/careers/)
 
 ---
 

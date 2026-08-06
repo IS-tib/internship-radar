@@ -26,6 +26,8 @@ import re
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+TZ = dt.timezone.utc   # all dates normalized to UTC
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 COMPANIES = os.path.join(HERE, "companies.json")
 LISTINGS = os.path.join(HERE, "listings.json")
@@ -34,7 +36,7 @@ README = os.path.join(HERE, "README.md")
 NEW_DAYS = 7          # a role posted within this many days is flagged 🆕
 TIMEOUT = 25
 UA = {"User-Agent": "internship-radar/2.0 (+https://github.com; job-board aggregator)"}
-TODAY = dt.datetime.now(dt.timezone.utc).date()
+TODAY = dt.datetime.now(TZ).date()
 
 
 # --------------------------------------------------------------------------- #
@@ -115,12 +117,22 @@ def _get(url):
 
 
 def _iso(value):
-    """Normalize a date (ISO string or epoch-ms) to YYYY-MM-DD, or '' if absent."""
+    """Normalize a date to YYYY-MM-DD in Eastern time, or '' if absent. Accepts an
+    epoch-ms int (Lever), a full ISO timestamp with offset (Ashby/Greenhouse — we
+    convert it to ET so an evening-UTC post doesn't read as 'tomorrow'), or a plain
+    date string (returned as-is)."""
     if not value:
         return ""
     if isinstance(value, (int, float)):
-        return dt.datetime.fromtimestamp(value / 1000, dt.timezone.utc).date().isoformat()
-    return str(value)[:10]
+        return dt.datetime.fromtimestamp(value / 1000, TZ).date().isoformat()
+    s = str(value)
+    try:
+        d = dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
+        if d.tzinfo is not None:
+            return d.astimezone(TZ).date().isoformat()
+    except ValueError:
+        pass
+    return s[:10]
 
 
 def _raw(company, title, location, url, posted, deadline, source):
@@ -313,11 +325,14 @@ BIG_TECH = [
     ("Snap", "https://careers.snap.com/jobs?type=Internship"),
     ("LinkedIn", "https://careers.linkedin.com/students"),
     ("Shopify", "https://www.shopify.com/careers/early-careers"),
+    ("Snowflake", "https://careers.snowflake.com/us/en/university"),
 ]
 
-# Finance / quant shops on custom or Oracle/Eightfold systems (no public API).
+# Finance / quant shops on custom or Oracle/Eightfold/Avature systems (no public API).
 FINANCE = [
     ("JPMorgan", "https://careers.jpmorgan.com/us/en/students-and-graduates"),
+    ("Morgan Stanley", "https://www.morganstanley.com/careers/students-graduates"),
+    ("Goldman Sachs", "https://www.goldmansachs.com/careers/students/"),
     ("American Express", "https://www.americanexpress.com/en-us/careers/"),
     ("Capital One", "https://www.capitalonecareers.com/search-jobs"),
     ("Citadel", "https://www.citadel.com/careers/students-and-graduates/"),
@@ -327,7 +342,7 @@ FINANCE = [
 
 
 def render_readme(items):
-    updated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    updated = dt.datetime.now(TZ).strftime("%Y-%m-%d %H:%M UTC")
     ranked = _newest_first(items)
     fresh = [x for x in ranked if x["is_new"]]
     counts = {name: sum(1 for x in items if x["category"] == name)
@@ -398,7 +413,7 @@ def main():
     items = _newest_first(items)
 
     with open(LISTINGS, "w") as f:
-        json.dump({"updated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        json.dump({"updated": dt.datetime.now(TZ).isoformat(timespec="seconds"),
                    "count": len(items), "listings": items}, f, indent=2)
     with open(README, "w") as f:
         f.write(render_readme(items))
