@@ -1,497 +1,83 @@
 #!/usr/bin/env python3
 """
-internship-radar — a self-updating board of tech and product internships.
+internship-radar entry point.
 
-It reads the *public* job-board APIs of the companies in companies.json
-(Greenhouse, Lever, Ashby), keeps the intern/co-op roles that match the target
-seasons, and regenerates README.md + listings.json. A GitHub Action runs it on a
-schedule and commits the diff, so the board stays current with no manual work.
+Reads sources.json, fetches every configured job board, classifies and dedupes
+the results, reconciles them against the previous run, and rewrites
+README.md + listings.json.
 
-Design notes:
-  * Standard library only — nothing to install, runs anywhere Python 3.9+ runs.
-  * Every role carries its REAL posting date, taken straight from the source API
-    (Greenhouse first_published, Ashby publishedAt, Lever createdAt) — not the
-    date this repo happened to see it. Roles are ranked newest-first.
-  * Where a company publishes an actual application deadline (Greenhouse exposes
-    one), it's shown; most tech internships just close when filled, so the Posted
-    date is the real signal to apply early.
-  * Boards that error (renamed token, downtime) are skipped with a warning rather
-    than failing the whole run.
+    python scraper.py                 # full run
+    python scraper.py --dry-run       # fetch and report, write nothing
+    python scraper.py --only greenhouse,ashby
+    python scraper.py --limit 20      # first N sources (useful when debugging)
+
+Standard library only — no install step, runs anywhere Python 3.9+ runs.
 """
 
-import datetime as dt
+from __future__ import annotations
+
+import argparse
 import json
 import os
-import re
-import urllib.request
-from concurrent.futures import ThreadPoolExecutor, as_completed
-
-TZ = dt.timezone.utc   # all dates normalized to UTC
+import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-COMPANIES = os.path.join(HERE, "companies.json")
+sys.path.insert(0, HERE)
+
+from radar import pipeline, render, store  # noqa: E402
+
+SOURCES = os.path.join(HERE, "sources.json")
 LISTINGS = os.path.join(HERE, "listings.json")
 README = os.path.join(HERE, "README.md")
 
-NEW_DAYS = 7          # a role posted within this many days is flagged 🆕
-TABLE_CAP = 300       # cap the master table so the README stays renderable
-FRESH_CAP = 120       # cap the "just posted" table
-TIMEOUT = 25
-UA = {"User-Agent": "internship-radar/2.0 (+https://github.com; job-board aggregator)"}
-TODAY = dt.datetime.now(TZ).date()
 
-# Source labels that are community/wide-net feeds rather than a single company's
-# board — used to process them AFTER direct boards when deduping.
-AGG_SOURCES = {"Community (Summer 2027)"}
-
-
-# --------------------------------------------------------------------------- #
-# Classification
-# --------------------------------------------------------------------------- #
-
-# Matches intern / interns / internship / internships (but NOT internal,
-# international, internet) plus co-op and early-career program titles.
-INTERN = re.compile(r"\bintern(?:ship)?s?\b|\bco-?op\b|\bearly career\b", re.I)
-
-# Ordered: the first pattern that matches wins the category.
-CATEGORIES = [
-    ("Software Engineering", "SWE",
-     r"software engineer|software developer|\bswe\b|full[- ]?stack|back[- ]?end|"
-     r"front[- ]?end|\bios\b|android|mobile engineer|systems engineer|"
-     r"infrastructure|platform engineer|web developer|distributed systems|"
-     r"compiler|game engineer|gameplay|graphics engineer"),
-    ("Data / ML / AI", "Data/ML",
-     r"machine learning|\bml\b|\bai\b|data scien|data engineer|deep learning|"
-     r"research engineer|research scien|\bnlp\b|computer vision|analytics engineer|"
-     r"applied scien|\bllm\b"),
-    ("Other Technical", "Tech",
-     r"security engineer|\bsre\b|devops|site reliability|hardware|electrical eng|"
-     r"embedded|firmware|network engineer|\bqa\b|test engineer|cloud engineer|"
-     r"solutions engineer|robotics|\basic\b|\bfpga\b|mechanical eng|"
-     r"forward deployed"),
-    ("Product Management", "PM",
-     r"product manager|product management|\bapm\b|associate product|product intern"),
-]
-CATEGORIES = [(name, short, re.compile(pat, re.I)) for name, short, pat in CATEGORIES]
-SHORT = {name: short for name, short, _ in CATEGORIES}
-
-SEASONS = [("summer", "Summer"), ("spring", "Spring"),
-           ("winter", "Winter"), ("fall", "Fall"), ("autumn", "Fall")]
-
-
-def categorize(title):
-    for name, _short, pat in CATEGORIES:
-        if pat.search(title):
-            return name
-    return None
-
-
-def classify_term(title):
-    """Return (label, priority) or None to exclude. Summer 2027 is the focus;
-    Winter 2026 / Spring 2027 are included; anything clearly older (<=2025 or
-    Summer 2026) is dropped. Lower priority sorts first when we tie-break."""
-    t = title.lower()
-    ym = re.search(r"\b20(2[5-9])\b", title)
-    year = int(ym.group(0)) if ym else None
-    season = next((n for kw, n in SEASONS if kw in t), None)
-
-    if year and year <= 2025:
-        return None
-    if season == "Summer" and year == 2026:
-        return None
-
-    label = (f"{season} {year}" if season and year
-             else season or (str(year) if year else "Unspecified"))
-    priority = {
-        ("Summer", 2027): 0,
-        ("Spring", 2027): 1, ("Winter", 2027): 1,
-        ("Winter", 2026): 2, ("Fall", 2026): 2,
-    }.get((season, year))
-    if priority is None:
-        priority = 3 if label == "Unspecified" else 4
-    return label, priority
-
-
-# --------------------------------------------------------------------------- #
-# Sources
-# --------------------------------------------------------------------------- #
-
-def _get(url):
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-        return json.loads(r.read().decode("utf-8", "replace"))
-
-
-def _iso(value):
-    """Normalize a date to YYYY-MM-DD in Eastern time, or '' if absent. Accepts an
-    epoch-ms int (Lever), a full ISO timestamp with offset (Ashby/Greenhouse — we
-    convert it to ET so an evening-UTC post doesn't read as 'tomorrow'), or a plain
-    date string (returned as-is)."""
-    if not value:
-        return ""
-    if isinstance(value, (int, float)):
-        return dt.datetime.fromtimestamp(value / 1000, TZ).date().isoformat()
-    s = str(value)
-    try:
-        d = dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
-        if d.tzinfo is not None:
-            return d.astimezone(TZ).date().isoformat()
-    except ValueError:
-        pass
-    return s[:10]
-
-
-def _raw(company, title, location, url, posted, deadline, source):
-    return {"company": company, "title": title.strip(),
-            "location": (location or "").strip(), "url": url,
-            "posted": _iso(posted), "deadline": _iso(deadline), "source": source}
-
-
-def _post(url, payload):
-    body = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(url, data=body, headers={
-        **UA, "Content-Type": "application/json", "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-        return json.loads(r.read().decode("utf-8", "replace"))
-
-
-def fetch_greenhouse(c):
-    # The plain jobs endpoint already carries first_published + application_deadline.
-    data = _get(f"https://boards-api.greenhouse.io/v1/boards/{c['token']}/jobs")
-    return [_raw(c["name"], j.get("title", ""), (j.get("location") or {}).get("name", ""),
-                 j.get("absolute_url", ""), j.get("first_published") or j.get("updated_at"),
-                 j.get("application_deadline"), "Greenhouse")
-            for j in data.get("jobs", [])]
-
-
-def fetch_lever(c):
-    data = _get(f"https://api.lever.co/v0/postings/{c['token']}?mode=json")
-    out = []
-    for j in data:
-        cats = j.get("categories") or {}
-        out.append(_raw(c["name"], j.get("text", ""), cats.get("location", ""),
-                        j.get("hostedUrl", ""), j.get("createdAt"), None, "Lever"))
-    return out
-
-
-def fetch_ashby(c):
-    data = _get(f"https://api.ashbyhq.com/posting-api/job-board/{c['token']}")
-    return [_raw(c["name"], j.get("title", ""), j.get("locationName") or j.get("location", ""),
-                 j.get("jobUrl") or j.get("applyUrl", ""), j.get("publishedAt"),
-                 None, "Ashby")
-            for j in data.get("jobs", [])]
-
-
-def _workday_date(text):
-    """Workday reports 'Posted Today' / 'Posted 5 Days Ago' / 'Posted 30+ Days Ago'
-    rather than a timestamp; convert that to an approximate YYYY-MM-DD."""
-    t = (text or "").lower()
-    if "today" in t:
-        days = 0
-    elif "yesterday" in t:
-        days = 1
-    else:
-        m = re.search(r"(\d+)\s*\+?\s*day", t)
-        days = int(m.group(1)) if m else None
-    if days is None:
-        return ""
-    return (TODAY - dt.timedelta(days=days)).isoformat()
-
-
-def fetch_workday(c):
-    """Workday's job feed is a paginated POST. Each company needs its tenant host
-    and career-site slug — both visible in the company's myworkdayjobs.com URL,
-    e.g. https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS ->
-    host 'boeing.wd1.myworkdayjobs.com', site 'EXTERNAL_CAREERS'."""
-    host, site = c["host"], c["site"]
-    tenant = c.get("tenant") or host.split(".")[0]
-    api = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
-    out, offset, total = [], 0, None
-    while offset < 400:  # hard cap so a huge board can't run away
-        data = _post(api, {"appliedFacets": {}, "limit": 20,
-                           "offset": offset, "searchText": "intern"})
-        posts = data.get("jobPostings") or []
-        if not posts:
-            break
-        for j in posts:
-            path = j.get("externalPath", "")
-            url = f"https://{host}/en-US/{site}{path}" if path else ""
-            out.append(_raw(c["name"], j.get("title", ""), j.get("locationsText", ""),
-                            url, _workday_date(j.get("postedOn", "")), None, "Workday"))
-        if total is None:
-            total = data.get("total", len(posts))
-        offset += 20
-        if offset >= total:
-            break
-    return out
-
-
-def fetch_smartrecruiters(c):
-    """SmartRecruiters exposes a public postings API per company."""
-    token = c["token"]
-    out, offset = [], 0
-    while offset < 400:
-        data = _get(f"https://api.smartrecruiters.com/v1/companies/{token}"
-                    f"/postings?limit=100&offset={offset}")
-        content = data.get("content") or []
-        if not content:
-            break
-        for j in content:
-            loc = j.get("location") or {}
-            where = ", ".join(x for x in (loc.get("city"), loc.get("region"),
-                                          loc.get("country")) if x)
-            url = f"https://jobs.smartrecruiters.com/{token}/{j.get('id', '')}"
-            out.append(_raw(c["name"], j.get("name", ""), where, url,
-                            j.get("releasedDate"), None, "SmartRecruiters"))
-        total = data.get("totalFound", len(content))
-        offset += 100
-        if offset >= total:
-            break
-    return out
-
-
-def fetch_aggregator(c):
-    """A community-maintained internship list (one big JSON of roles collected from
-    across the whole ecosystem). This is the wide net: it catches roles at companies
-    that aren't on our direct board list — including custom/Oracle/Eightfold sites we
-    otherwise can't reach. We keep only active, visible roles; refine() dedupes them
-    against direct-board hits so nothing shows twice."""
-    data = _get(c["url"])
-    out = []
-    for j in (data if isinstance(data, list) else []):
-        if j.get("active") is False or j.get("is_visible") is False:
-            continue
-        locs = j.get("locations") or []
-        where = "; ".join(locs[:2]) if isinstance(locs, list) else str(locs)
-        ts = j.get("date_posted") or j.get("date_updated")
-        posted = (dt.datetime.fromtimestamp(ts, TZ).date().isoformat()
-                  if isinstance(ts, (int, float)) else "")
-        out.append(_raw(j.get("company_name", ""), j.get("title", ""), where,
-                        j.get("url", ""), posted, None, c["name"]))
-    return out
-
-
-FETCHERS = {"greenhouse": fetch_greenhouse, "lever": fetch_lever,
-            "ashby": fetch_ashby, "workday": fetch_workday,
-            "smartrecruiters": fetch_smartrecruiters, "aggregator": fetch_aggregator}
-
-
-def collect(companies):
-    """Fetch every board concurrently; boards that error are skipped, logged."""
-    raw = []
-    with ThreadPoolExecutor(max_workers=12) as pool:
-        futures = {pool.submit(FETCHERS[c["ats"]], c): c
-                   for c in companies if c["ats"] in FETCHERS}
-        for fut in as_completed(futures):
-            c = futures[fut]
-            try:
-                rows = fut.result()
-                raw += rows
-                print(f"  ok   {c['name']:<20} {len(rows):>4} postings")
-            except Exception as e:
-                print(f"  skip {c['name']:<20} ({type(e).__name__})")
-    return raw
-
-
-# --------------------------------------------------------------------------- #
-# Refine + merge
-# --------------------------------------------------------------------------- #
-
-def _norm(s):
-    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
-
-
-def refine(raw):
-    """Keep intern/co-op roles in our categories and target terms; dedupe both by
-    URL and by (company, title) so the same role from a direct board and from the
-    community feed collapses to one. Direct-board hits are processed first, so they
-    win over the wide-net copy (their dates/links are first-party)."""
-    out, seen = [], set()
-    for r in sorted(raw, key=lambda x: x["source"] in AGG_SOURCES):
-        title = r["title"]
-        if not INTERN.search(title):
-            continue
-        category = categorize(title)
-        if not category:
-            continue
-        term = classify_term(title)
-        if term is None:
-            continue
-        ukey = r["url"] or f"{r['company']}|{title}|{r['location']}"
-        ckey = (_norm(r["company"]), _norm(title))
-        if ukey in seen or ckey in seen:
-            continue
-        seen.add(ukey)
-        seen.add(ckey)
-        out.append({**r, "key": ukey, "category": category,
-                    "term": term[0], "priority": term[1]})
-    return out
-
-
-def merge(current):
-    """Track first_seen (when the radar first saw a role) for history, but the
-    date we DISPLAY and rank by is the role's real posting date from the source.
-    Roles that vanished from the boards (filled/closed) drop off."""
-    prev = {}
-    if os.path.exists(LISTINGS):
-        with open(LISTINGS) as f:
-            for item in json.load(f).get("listings", []):
-                prev[item["key"]] = item.get("first_seen", TODAY.isoformat())
-
-    for item in current:
-        item["first_seen"] = prev.get(item["key"], TODAY.isoformat())
-        # Rank/display by real posting date; fall back to first_seen if the
-        # source didn't give one.
-        item["date"] = item["posted"] or item["first_seen"]
-        item["is_new"] = _age_days(item["date"]) <= NEW_DAYS
-    return current
-
-
-def _age_days(iso):
-    try:
-        return (TODAY - dt.date.fromisoformat(iso[:10])).days
-    except (ValueError, TypeError):
-        return 9999
-
-
-# --------------------------------------------------------------------------- #
-# Output
-# --------------------------------------------------------------------------- #
-
-def _newest_first(items):
-    # Most recent posting date first; unknown dates sink to the bottom.
-    return sorted(items, key=lambda x: (x["date"] or "0000", x["company"]), reverse=True)
-
-
-def _row(x):
-    tag = " 🆕" if x["is_new"] else ""
-    apply = f"[apply]({x['url']})" if x["url"] else "—"
-    deadline = x["deadline"] or "—"
-    return (f"| {x['company']} | {x['title']}{tag} | {SHORT[x['category']]} | "
-            f"{x['term']} | {x['location'] or '—'} | {x['date']} | {deadline} | {apply} |")
-
-
-HEAD = ("| Company | Role | Type | Term | Location | Posted | Deadline | Apply |\n"
-        "| --- | --- | --- | --- | --- | --- | --- | --- |")
-
-BIG_TECH = [
-    ("Google", "https://www.google.com/about/careers/applications/jobs/results/?employment_type=INTERN"),
-    ("Amazon", "https://www.amazon.jobs/content/en/career-programs/university"),
-    ("Meta", "https://www.metacareers.com/jobs?roles[0]=Internship"),
-    ("Apple", "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"),
-    ("Microsoft", "https://careers.microsoft.com/v2/global/en/students"),
-    ("Uber", "https://www.uber.com/us/en/careers/teams/university/"),
-    ("TikTok", "https://lifeattiktok.com/search"),
-    ("Netflix", "https://explore.jobs.netflix.net/careers"),
-    ("Snap", "https://careers.snap.com/jobs?type=Internship"),
-    ("LinkedIn", "https://careers.linkedin.com/students"),
-    ("Shopify", "https://www.shopify.com/careers/early-careers"),
-    ("Snowflake", "https://careers.snowflake.com/us/en/university"),
-]
-
-# Finance / quant shops on custom or Oracle/Eightfold/Avature systems (no public API).
-FINANCE = [
-    ("JPMorgan", "https://careers.jpmorgan.com/us/en/students-and-graduates"),
-    ("Morgan Stanley", "https://www.morganstanley.com/careers/students-graduates"),
-    ("Goldman Sachs", "https://www.goldmansachs.com/careers/students/"),
-    ("American Express", "https://www.americanexpress.com/en-us/careers/"),
-    ("Capital One", "https://www.capitalonecareers.com/search-jobs"),
-    ("Citadel", "https://www.citadel.com/careers/students-and-graduates/"),
-    ("Two Sigma", "https://careers.twosigma.com/careers/"),
-    ("Hudson River Trading", "https://www.hudsonrivertrading.com/careers/"),
-]
-
-
-def render_readme(items):
-    updated = dt.datetime.now(TZ).strftime("%Y-%m-%d %H:%M UTC")
-    ranked = _newest_first(items)
-    fresh = [x for x in ranked if x["is_new"]]
-    counts = {name: sum(1 for x in items if x["category"] == name)
-              for name, _s, _p in CATEGORIES}
-
-    L = []
-    L.append("# internship-radar\n")
-    L.append("A self-updating board of **tech & product internships**, scraped "
-             "straight from company job boards and ranked **newest-first**. "
-             "Focus: **Summer 2027** (plus Winter 2026 / Spring 2027). "
-             f"Roles posted in the last {NEW_DAYS} days are flagged 🆕.\n")
-    L.append(f"**{len(items)} open roles** across **{_company_count(items)} companies** · "
-             f"updated {updated}  \n"
-             + " · ".join(f"{SHORT[n]} {counts[n]}" for n, _s, _p in CATEGORIES) + "\n")
-    L.append("> **Posted** is the role's *real* publish date from the source API, so "
-             "the top of the list is genuinely the freshest. **Deadline** shows a date "
-             "only when the company publishes one — most tech internships simply close "
-             "when filled, so treat a fresh Posted date as the cue to apply early.\n")
-
-    if fresh:
-        L.append(f"## 🆕 Just posted — last {NEW_DAYS} days ({len(fresh)})\n")
-        L.append(HEAD)
-        L += [_row(x) for x in fresh[:FRESH_CAP]]
-        if len(fresh) > FRESH_CAP:
-            L.append(f"\n_+{len(fresh) - FRESH_CAP} more in the full list below._")
-        L.append("")
-
-    L.append(f"## 📋 All open roles — newest first ({len(ranked)})\n")
-    L.append(HEAD)
-    L += [_row(x) for x in ranked[:TABLE_CAP]]
-    if len(ranked) > TABLE_CAP:
-        L.append(f"\n_Showing the newest {TABLE_CAP} of {len(ranked)} — the complete, "
-                 f"machine-readable set is in_ `listings.json`.")
-    L.append("")
-
-    L.append("## 🏢 Direct portals (no public API — apply on their sites)\n")
-    L.append("These employers run custom/Oracle/Eightfold systems that can't be "
-             "auto-scraped, so apply through their early-career portals directly.\n")
-    L.append("**Big tech:** " + " · ".join(f"[{n}]({u})" for n, u in BIG_TECH) + "\n")
-    L.append("**Finance & quant:** " + " · ".join(f"[{n}]({u})" for n, u in FINANCE) + "\n")
-
-    L.append("---\n")
-    L.append("### How it works\n")
-    L.append("`scraper.py` (Python standard library only) calls the public job-board "
-             "APIs of every company in `companies.json` — **Greenhouse, Lever, Ashby, "
-             "Workday, and SmartRecruiters** — concurrently, then merges a wide-net "
-             "**community feed** for companies not on that list, filters everything for "
-             "intern/co-op roles in software, data/ML, other technical fields, and product, "
-             "tags each with its real posting date and target term, dedupes, and regenerates "
-             "this file. A GitHub Action runs it every two hours and commits any changes.\n")
-    L.append("### Sources & credit\n")
-    L.append("Direct-from-board scraping is first-party. The wide-net feed is the "
-             "community-maintained [vanshb03/Summer2027-Internships]"
-             "(https://github.com/vanshb03/Summer2027-Internships) list — merged and "
-             "deduped against direct hits so nothing shows twice. Credit and thanks to "
-             "that project and the Pitt CSC / Simplify ecosystem it builds on.\n")
-    L.append("### Add a company\n")
-    L.append("For Greenhouse/Lever/Ashby, append `{ \"name\": \"...\", "
-             "\"ats\": \"greenhouse|lever|ashby\", \"token\": \"...\" }` — the token is the "
-             "board slug in the careers URL (`boards.greenhouse.io/<token>`, "
-             "`jobs.lever.co/<token>`, `jobs.ashbyhq.com/<token>`). For Workday, use "
-             "`{ \"name\": \"...\", \"ats\": \"workday\", \"host\": \"tenant.wdN.myworkdayjobs.com\", "
-             "\"site\": \"CareerSiteSlug\" }` — both parts are visible in the company's "
-             "myworkdayjobs.com URL. Open a PR.\n")
-    L.append("### Roadmap\n")
-    L.append("Workday/SmartRecruiters adapters (to reach more large employers), an "
-             "optional web dashboard with filters, and email/RSS alerts on new 🆕 roles.\n")
-    return "\n".join(L)
-
-
-def _company_count(items):
-    return len({x["company"] for x in items})
-
-
-def main():
-    with open(COMPANIES) as f:
-        companies = json.load(f)
-    print(f"scanning {len(companies)} company boards…")
-    items = merge(refine(collect(companies)))
-    items = _newest_first(items)
-
-    with open(LISTINGS, "w") as f:
-        json.dump({"updated": dt.datetime.now(TZ).isoformat(timespec="seconds"),
-                   "count": len(items), "listings": items}, f, indent=2)
+def load_sources(path=SOURCES):
+    with open(path) as f:
+        return json.load(f)
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--dry-run", action="store_true",
+                    help="fetch and report metrics without writing files")
+    ap.add_argument("--only", default="",
+                    help="comma-separated adapter names to run (e.g. greenhouse,ashby)")
+    ap.add_argument("--limit", type=int, default=0,
+                    help="only run the first N sources")
+    ap.add_argument("--sources", default=SOURCES)
+    ap.add_argument("--quiet", action="store_true")
+    args = ap.parse_args(argv)
+
+    log = (lambda *a, **k: None) if args.quiet else print
+
+    sources = load_sources(args.sources)
+    if args.only:
+        wanted = {s.strip() for s in args.only.split(",") if s.strip()}
+        sources = [s for s in sources if s.get("ats") in wanted]
+    if args.limit:
+        sources = sources[:args.limit]
+
+    log(f"scanning {len(sources)} sources…\n")
+    previous = store.load(LISTINGS)
+    open_rows, closed_rows, health, metrics = pipeline.build(sources, previous, log=log)
+
+    log("\n── metrics ──")
+    for k in ("roles_open", "companies", "sources_ok", "sources_dead",
+              "dates_trusted_pct", "dates_known_pct", "first_party_pct"):
+        log(f"  {k:<20} {metrics[k]}")
+    log(f"  by_level             {metrics['by_level']}")
+
+    if args.dry_run:
+        log("\n(dry run — nothing written)")
+        return 0
+
+    store.save(LISTINGS, open_rows, closed_rows, health, metrics)
     with open(README, "w") as f:
-        f.write(render_readme(items))
-    print(f"\n{len(items)} matching roles → listings.json + README.md")
+        f.write(render.render(open_rows, metrics, health))
+    log(f"\n{len(open_rows)} roles → listings.json + README.md")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
