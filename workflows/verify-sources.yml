@@ -1,0 +1,63 @@
+name: verify-sources
+
+# Board tokens rot: companies rename their Greenhouse slug, migrate ATS, or go
+# under. Nothing in the normal scrape surfaces that — a dead token just silently
+# contributes zero roles. This job probes every configured source weekly and
+# opens the results as a job summary so dead ones get fixed instead of lingering.
+
+on:
+  schedule:
+    - cron: '0 15 * * 1'   # Mondays, 8:00 AM PT
+  workflow_dispatch:
+    inputs:
+      auto_disable:
+        description: "Automatically mark 404 sources as disabled and commit"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Probe every configured board
+        id: probe
+        continue-on-error: true          # dead sources are a report, not a build break
+        run: |
+          python tools/verify_sources.py --json health.json | tee health.txt
+
+      - name: Publish summary
+        run: |
+          {
+            echo "## Source health"
+            echo '```'
+            tail -n 40 health.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Disable dead sources
+        if: ${{ inputs.auto_disable }}
+        run: |
+          python tools/verify_sources.py --disable-dead || true
+          git config user.name  "internship-radar[bot]"
+          git config user.email "actions@github.com"
+          git add sources.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: disable dead board tokens"
+            git push
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: source-health
+          path: health.json

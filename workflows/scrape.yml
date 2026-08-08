@@ -1,0 +1,47 @@
+name: scrape
+
+# Keeps the board current on its own: runs the test suite, then the scraper, then
+# commits README.md + listings.json back if anything changed.
+
+on:
+  schedule:
+    - cron: '0 14 * * *'   # 7:00 AM PT (14:00 UTC)
+    - cron: '0 2 * * *'    # 7:00 PM PT (02:00 UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # Fail before touching the live board if the parsing/dedupe/date logic is
+      # broken — a green scrape that writes wrong dates is worse than no scrape.
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit changes
+        run: |
+          git config user.name  "internship-radar[bot]"
+          git config user.email "actions@github.com"
+          git add README.md listings.json sources.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh listings ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
