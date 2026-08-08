@@ -28,6 +28,8 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
       - name: Run scraper
         run: python scraper.py
 
@@ -35,7 +37,7 @@ jobs:
         run: |
           git config user.name  "internship-radar[bot]"
           git config user.email "actions@github.com"
-          git add README.md listings.json
+          git add README.md listings.json sources.json
           if git diff --cached --quiet; then
             echo "No changes."
           else
