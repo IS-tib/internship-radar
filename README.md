@@ -2,19 +2,18 @@
 
 A self-updating board of **tech & product internships**, scraped straight from company job boards and ranked **newest-first**. Focus: **Summer 2027** (plus Winter 2026 / Spring 2027). Roles posted in the last 7 days are flagged 🆕.
 
-**310 open roles** across **123 companies** · updated 2026-08-08 04:51 UTC  
-SWE 215 · Data/ML 54 · Tech 37 · PM 4
+**302 open roles** across **122 companies** · updated 2026-08-08 06:42 UTC  
+SWE 214 · Data/ML 51 · Tech 33 · PM 4
 
 > **Posted** is the role's *real* publish date from the source API, so the top of the list is genuinely the freshest. **Deadline** shows a date only when the company publishes one — most tech internships simply close when filled, so treat a fresh Posted date as the cue to apply early.
 
-## 🆕 Just posted — last 7 days (69)
+## 🆕 Just posted — last 7 days (68)
 
 | Company | Role | Type | Term | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | SpaceX | Software Engineer Intern, Fleet Health Instrumentation 🆕 | SWE | Unspecified | Remote | 2026-08-06 | — | [apply](https://job-boards.greenhouse.io/spacex/jobs/8621756002) |
 | Shopify | Software Engineering Intern 🆕 | SWE | Unspecified | Remote | 2026-08-06 | — | [apply](https://www.shopify.com/careers/software-engineering-internships-winter-2027_404bb82e-37f3-4a78-b0f3-12923a7c4856?ashby_jid=404bb82e-37f3-4a78-b0f3-12923a7c4856) |
-| NVIDIA | Software Engineering Intern, Dynamo - Fall 2026 🆕 | SWE | Fall 2026 | US, CA, Santa Clara | 2026-08-06 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295) |
-| Cisco | Hardware Engineer II (Co-op) - United States 🆕 | Tech | Unspecified | 3 Locations | 2026-08-06 | — | [apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-II--Co-op----United-States_2000128) |
+| NVIDIA | Software Engineering Intern, Dynamo 🆕 | SWE | Unspecified | Santa Clara, CA | 2026-08-06 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295) |
 | Canva | PhD Research Scientist Intern 🆕 | Data/ML | Unspecified | San Francisco, CA | 2026-08-06 | — | [apply](https://jobs.smartrecruiters.com/Canva/6000000001291655-phd-research-scientist-intern) |
 | ByteDance | AI Network Automation Engineer Intern, Global Physical Network Infra 🆕 | Data/ML | Unspecified | San Jose, CA | 2026-08-06 | — | [apply](https://joinbytedance.com/search/7670690923748870405) |
 | ByteDance | GPU/AI Application System Software Engineer Intern 🆕 | SWE | Unspecified | San Jose, CA | 2026-08-06 | — | [apply](https://joinbytedance.com/search/7668464504736876853) |
@@ -81,14 +80,13 @@ SWE 215 · Data/ML 54 · Tech 37 · PM 4
 | Capital One | Software Engineer Intern 🆕 | SWE | Unspecified | McLean, VA; Plano, TX | 2026-08-03 | — | [apply](https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Technology-Internship-Program---Summer-2027_R244387-1) |
 | Astera | Software Engineering Intern, Neuro & AGI 🆕 | SWE | Unspecified | Emeryville, CA | 2026-08-03 | — | [apply](https://jobs.ashbyhq.com/astera/c2a48c1b-c4c4-4333-addf-313c47e26066) |
 
-## 📋 All open roles — newest first (310)
+## 📋 All open roles — newest first (302)
 
 | Company | Role | Type | Term | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | SpaceX | Software Engineer Intern, Fleet Health Instrumentation 🆕 | SWE | Unspecified | Remote | 2026-08-06 | — | [apply](https://job-boards.greenhouse.io/spacex/jobs/8621756002) |
 | Shopify | Software Engineering Intern 🆕 | SWE | Unspecified | Remote | 2026-08-06 | — | [apply](https://www.shopify.com/careers/software-engineering-internships-winter-2027_404bb82e-37f3-4a78-b0f3-12923a7c4856?ashby_jid=404bb82e-37f3-4a78-b0f3-12923a7c4856) |
-| NVIDIA | Software Engineering Intern, Dynamo - Fall 2026 🆕 | SWE | Fall 2026 | US, CA, Santa Clara | 2026-08-06 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295) |
-| Cisco | Hardware Engineer II (Co-op) - United States 🆕 | Tech | Unspecified | 3 Locations | 2026-08-06 | — | [apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-II--Co-op----United-States_2000128) |
+| NVIDIA | Software Engineering Intern, Dynamo 🆕 | SWE | Unspecified | Santa Clara, CA | 2026-08-06 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295) |
 | Canva | PhD Research Scientist Intern 🆕 | Data/ML | Unspecified | San Francisco, CA | 2026-08-06 | — | [apply](https://jobs.smartrecruiters.com/Canva/6000000001291655-phd-research-scientist-intern) |
 | ByteDance | AI Network Automation Engineer Intern, Global Physical Network Infra 🆕 | Data/ML | Unspecified | San Jose, CA | 2026-08-06 | — | [apply](https://joinbytedance.com/search/7670690923748870405) |
 | ByteDance | GPU/AI Application System Software Engineer Intern 🆕 | SWE | Unspecified | San Jose, CA | 2026-08-06 | — | [apply](https://joinbytedance.com/search/7668464504736876853) |
@@ -225,7 +223,6 @@ SWE 215 · Data/ML 54 · Tech 37 · PM 4
 | Akuna Capital | Python Software Engineer Intern | SWE | Unspecified | Chicago, IL | 2026-07-24 | — | [apply](https://akunacapital.com/careers/job/8018853/?gh_jid=8018853) |
 | Akuna Capital | Software Engineer Intern, Full Stack Web | SWE | Unspecified | Chicago, IL | 2026-07-24 | — | [apply](https://akunacapital.com/careers/job/8018893/?gh_jid=8018893) |
 | Akuna Capital | Software Engineer Intern, C# .NET Desktop | SWE | Unspecified | Chicago, IL | 2026-07-24 | — | [apply](https://akunacapital.com/careers/job/8018886/?gh_jid=8018886) |
-| Cisco | Test Engineer Intern, Vietnam | Tech | Unspecified | Hanoi, Vietnam | 2026-07-23 | — | [apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Hanoi-Vietnam/Test-Engineer-Intern--Vietnam_2011415) |
 | Virtu Financial | 2027 Internship - Software Engineer | SWE | 2027 | Dublin, Ireland | 2026-07-20 | — | [apply](https://job-boards.greenhouse.io/virtu/jobs/8551566002) |
 | DRW | FPGA Intern | Tech | Unspecified | London | 2026-07-16 | — | [apply](https://job-boards.greenhouse.io/drweng/jobs/8070392) |
 | Cloudflare | Software Engineer Intern (Fall 2026) - Austin, TX | SWE | Fall 2026 | In-Office | 2026-07-15 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) |
@@ -248,13 +245,7 @@ SWE 215 · Data/ML 54 · Tech 37 · PM 4
 | VITAL LYFE | Software Engineering Intern | SWE | Unspecified | Los Angeles, CA | 2026-07-10 | — | [apply](https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af) |
 | Stripe | Software Engineer, Intern | SWE | Unspecified | Bengaluru | 2026-07-10 | — | [apply](https://stripe.com/jobs/search?gh_jid=8031833) |
 | Amgen | Software Engineer Intern | SWE | Unspecified | Burnaby, Canada | 2026-07-10 | — | [apply](https://amgen.wd1.myworkdayjobs.com/careers/job/Canada---Burnaby/Undergraduate--Co-op-Student---Software-Engineer---Large-Molecule-Discovery---Technology_R-249424) |
-| NVIDIA | Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026 | Data/ML | Fall 2026 | US, CA, Santa Clara | 2026-07-09 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Deep-Learning-PhD-Research-Intern--Reinforcement-Learning-for-LLMs---Fall-2026_JR2012398) |
-| NVIDIA | PhD Software Engineering Intern, Decision Intelligence - Fall 2026 | SWE | Fall 2026 | US, CA, Santa Clara | 2026-07-09 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522) |
-| NVIDIA | PhD Research Intern, Generative AI - 2026 | Data/ML | 2026 | US, CA, Santa Clara | 2026-07-09 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Generative-AI---2026_JR2016035) |
-| NVIDIA | Robotics Software Intern, Deployment and Humanoids - 2026 | Tech | 2026 | China, Shanghai | 2026-07-09 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Robotics-Software-Intern--Deployment-and-Humanoids---2026_JR2019641) |
-| NVIDIA | Applied Research Intern, NLP - Fall 2026 | Data/ML | Fall 2026 | US, CA, Santa Clara | 2026-07-09 | — | [apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488) |
 | Jump Trading | Software Engineer Intern | SWE | Unspecified | Chicago, IL | 2026-07-09 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8002989) |
-| Cisco | Solutions Engineer Intern, Philippines | Tech | Unspecified | Taguig City, Philippines | 2026-07-09 | — | [apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Taguig-City-Philippines/Solutions-Engineer-Intern--Philippines_2011485) |
 | Anduril | Early Career Firmware Engineer | Tech | Unspecified | Costa Mesa, California, United States | 2026-07-09 | — | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5167865007?gh_jid=5167865007) |
 | Jump Trading | Campus AI Research Engineer - Deep Learning (Intern) | Data/ML | Unspecified | Chicago; New York | 2026-07-08 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8052338) |
 | Jump Trading | Campus AI Research Engineer (Intern) | Data/ML | Unspecified | Chicago; New York | 2026-07-08 | — | [apply](https://www.jumptrading.com/hr/job?gh_jid=8052281) |
@@ -385,8 +376,16 @@ SWE 215 · Data/ML 54 · Tech 37 · PM 4
 | Point72 | Quantitative Research Intern (NLP) | Data/ML | Unspecified | New York | 2025-05-31 | — | [apply](https://boards.greenhouse.io/point72/jobs/8018862002?gh_jid=8018862002) |
 | Anduril | 2026 Early Career Electrical Engineer, Battlespace Awareness Radar Team | Tech | 2026 | Fort Collins, Colorado, United States | 2025-05-30 | — | [apply](https://boards.greenhouse.io/andurilindustries/jobs/4747967007?gh_jid=4747967007) |
 | IMC Trading | Software Engineer, Early Career | SWE | Unspecified | Chicago, United States | 2025-04-17 | — | [apply](https://job-boards.eu.greenhouse.io/imc/jobs/4577504101) |
+| Palantir | Software Engineer, Internship | SWE | Unspecified | Denver, CO | 2024-08-29 | — | [apply](https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249) |
+| Point72 | Machine Learning Researcher - Intern | Data/ML | Unspecified | New York | 2024-08-15 | — | [apply](https://boards.greenhouse.io/point72/jobs/7302611002?gh_jid=7302611002) |
+| Point72 | Quantitative Software Developer Intern | SWE | Unspecified | New York, London, or Paris | 2024-08-15 | — | [apply](https://boards.greenhouse.io/point72/jobs/7297666002?gh_jid=7297666002) |
+| Palantir | Forward Deployed Software Engineer, Internship - Defense Tech | SWE | Unspecified | Washington, D.C. | 2024-08-05 | — | [apply](https://jobs.lever.co/palantir/cccfe1bd-f15b-4fe5-b044-c793e7961c1b) |
+| Palantir | Software Engineer, Internship - Defense Tech | SWE | Unspecified | New York, NY | 2024-08-05 | — | [apply](https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e) |
+| Databricks | PhD GenAI Research Scientist Intern | Data/ML | Unspecified | San Francisco, California | 2023-11-07 | — | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) |
+| Databricks | Product Management Intern (Summer 2027) | PM | Summer 2027 | Bellevue, Washington; Mountain View, California; San Francisco, California | 2023-08-17 | — | [apply](https://databricks.com/company/careers/open-positions/job?gh_jid=6883068002) |
+| Palantir | Forward Deployed Software Engineer, Internship - UK Government | SWE | Unspecified | London, United Kingdom | 2021-07-01 | — | [apply](https://jobs.lever.co/palantir/26e23f5d-083b-45aa-b223-1a6e43d960bf) |
 
-_Showing the newest 300 of 310 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 302 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
