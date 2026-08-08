@@ -1,59 +1,243 @@
 {
   "schema": 3,
-  "updated": "2026-08-08T11:25:00+00:00",
-  "count": 1218,
+  "updated": "2026-08-08T14:25:21+00:00",
+  "count": 1217,
   "metrics": {
-    "roles_open": 1218,
-    "roles_closed_tracked": 0,
-    "companies": 457,
+    "roles_open": 1217,
+    "roles_closed_tracked": 2,
+    "companies": 456,
     "sources_configured": 267,
-    "sources_ok": 231,
-    "sources_dead": 36,
+    "sources_ok": 230,
+    "sources_dead": 0,
     "sources_failed": 0,
     "by_level": {
-      "intern": 1130,
+      "intern": 1129,
       "new_grad": 88
     },
     "by_category": {
       "Software Engineering": 613,
-      "Data / ML / AI": 464,
-      "Other Technical": 108,
+      "Data / ML / AI": 465,
+      "Other Technical": 106,
       "Product Management": 33
     },
     "by_source": {
       "community": 924,
-      "greenhouse": 146,
+      "greenhouse": 147,
       "workday": 47,
       "Community (Summer 2027)": 42,
       "lever": 39,
       "ashby": 11,
       "Lever": 4,
-      "Greenhouse": 3,
-      "Workday": 2
+      "Greenhouse": 3
     },
-    "dates_trusted": 1120,
-    "dates_trusted_pct": 92.0,
-    "dates_known": 1218,
+    "dates_trusted": 1121,
+    "dates_trusted_pct": 92.1,
+    "dates_known": 1217,
     "dates_known_pct": 100.0,
     "dates_unknown": 0,
     "terms_inferred": 1039,
-    "first_party": 252,
-    "first_party_pct": 20.7,
+    "first_party": 251,
+    "first_party_pct": 20.6,
     "dedupe": {
-      "input": 1455,
+      "input": 1454,
       "merged": 272,
       "near_dupes": 16,
-      "output": 1167
+      "output": 1166
     },
     "lifecycle": {
-      "new": 910,
+      "new": 1,
       "returning": 0,
-      "still_open": 257,
-      "closed": 0,
+      "still_open": 1165,
+      "closed": 2,
       "reopened": 0
     }
   },
   "source_health": {
+    "dbt Labs": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Aurora": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Applied Intuition": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Shield AI": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "ashby"
+    },
+    "OpenSea": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Mistral AI": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "ashby"
+    },
+    "Sentry": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Chroma": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "ashby"
+    },
+    "Convex": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "ashby"
+    },
+    "Fly.io": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "ashby"
+    },
+    "Deepgram": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Retool": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "ashby"
+    },
+    "Unit": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Moov Financial": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Figure Technologies": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Anchorage Digital": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "TRM Labs": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Consensys": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "lever"
+    },
+    "GSR": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Bitso": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "lever"
+    },
+    "XTX Markets": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "The Voleon Group": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Millennium": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "TransMarket Group": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "lever"
+    },
+    "Wolverine Trading": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Corvus Insurance": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Clearcover": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Snyk": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "ForgeRock": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Headway": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Saildrone": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Form Energy": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Guild Education": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "lever"
+    },
+    "Opendoor": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Compass": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "nCino": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
+    "Loop Returns": {
+      "status": "disabled",
+      "count": 0,
+      "ats": "greenhouse"
+    },
     "Stripe": {
       "status": "ok",
       "count": 550,
@@ -61,7 +245,7 @@
     },
     "Databricks": {
       "status": "ok",
-      "count": 819,
+      "count": 820,
       "ats": "greenhouse"
     },
     "Coinbase": {
@@ -76,7 +260,7 @@
     },
     "Airbnb": {
       "status": "ok",
-      "count": 191,
+      "count": 189,
       "ats": "greenhouse"
     },
     "Lyft": {
@@ -148,12 +332,6 @@
       "status": "ok",
       "count": 29,
       "ats": "greenhouse"
-    },
-    "dbt Labs": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
     },
     "CockroachLabs": {
       "status": "ok",
@@ -250,15 +428,15 @@
       "count": 223,
       "ats": "greenhouse"
     },
-    "Instacart": {
-      "status": "ok",
-      "count": 116,
-      "ats": "greenhouse"
-    },
     "Mercury": {
       "status": "ok",
       "count": 0,
       "ats": "ashby"
+    },
+    "Instacart": {
+      "status": "ok",
+      "count": 116,
+      "ats": "greenhouse"
     },
     "Dropbox": {
       "status": "ok",
@@ -320,6 +498,11 @@
       "count": 92,
       "ats": "ashby"
     },
+    "Palantir": {
+      "status": "ok",
+      "count": 305,
+      "ats": "lever"
+    },
     "Postman": {
       "status": "ok",
       "count": 106,
@@ -344,11 +527,6 @@
       "status": "ok",
       "count": 13,
       "ats": "ashby"
-    },
-    "Palantir": {
-      "status": "ok",
-      "count": 305,
-      "ats": "lever"
     },
     "Watershed": {
       "status": "ok",
@@ -390,6 +568,11 @@
       "count": 34,
       "ats": "greenhouse"
     },
+    "Adobe": {
+      "status": "ok",
+      "count": 0,
+      "ats": "workday"
+    },
     "Point72": {
       "status": "ok",
       "count": 231,
@@ -405,11 +588,6 @@
       "count": 46,
       "ats": "greenhouse"
     },
-    "Adobe": {
-      "status": "ok",
-      "count": 0,
-      "ats": "workday"
-    },
     "Flow Traders": {
       "status": "ok",
       "count": 42,
@@ -424,23 +602,6 @@
       "status": "ok",
       "count": 104,
       "ats": "greenhouse"
-    },
-    "Aurora": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Applied Intuition": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Shield AI": {
-      "status": "ok",
-      "count": 430,
-      "ats": "ashby"
     },
     "MongoDB": {
       "status": "ok",
@@ -462,6 +623,11 @@
       "count": 166,
       "ats": "greenhouse"
     },
+    "Mastercard": {
+      "status": "ok",
+      "count": 24,
+      "ats": "workday"
+    },
     "Carta": {
       "status": "ok",
       "count": 61,
@@ -477,30 +643,9 @@
       "count": 32,
       "ats": "greenhouse"
     },
-    "Mastercard": {
-      "status": "ok",
-      "count": 24,
-      "ats": "workday"
-    },
     "Coursera": {
       "status": "ok",
       "count": 18,
-      "ats": "greenhouse"
-    },
-    "Nextdoor": {
-      "status": "ok",
-      "count": 16,
-      "ats": "greenhouse"
-    },
-    "Mistral AI": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "ashby",
-      "error": "HTTP 404"
-    },
-    "Riot Games": {
-      "status": "ok",
-      "count": 164,
       "ats": "greenhouse"
     },
     "ElevenLabs": {
@@ -508,9 +653,24 @@
       "count": 229,
       "ats": "ashby"
     },
+    "Nextdoor": {
+      "status": "ok",
+      "count": 16,
+      "ats": "greenhouse"
+    },
     "Baseten": {
       "status": "ok",
       "count": 65,
+      "ats": "ashby"
+    },
+    "Riot Games": {
+      "status": "ok",
+      "count": 164,
+      "ats": "greenhouse"
+    },
+    "Writer": {
+      "status": "ok",
+      "count": 55,
       "ats": "ashby"
     },
     "Scopely": {
@@ -518,15 +678,9 @@
       "count": 141,
       "ats": "greenhouse"
     },
-    "OpenSea": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Writer": {
+    "Decagon": {
       "status": "ok",
-      "count": 55,
+      "count": 126,
       "ats": "ashby"
     },
     "Snorkel AI": {
@@ -534,35 +688,25 @@
       "count": 43,
       "ats": "greenhouse"
     },
-    "Decagon": {
-      "status": "ok",
-      "count": 126,
-      "ats": "ashby"
-    },
     "Ubisoft": {
       "status": "ok",
       "count": 0,
       "ats": "smartrecruiters"
-    },
-    "Cisco": {
-      "status": "ok",
-      "count": 408,
-      "ats": "workday"
     },
     "Crusoe": {
       "status": "ok",
       "count": 365,
       "ats": "ashby"
     },
-    "Netlify": {
-      "status": "ok",
-      "count": 3,
-      "ats": "greenhouse"
-    },
     "Hex": {
       "status": "ok",
       "count": 30,
       "ats": "ashby"
+    },
+    "Netlify": {
+      "status": "ok",
+      "count": 3,
+      "ats": "greenhouse"
     },
     "PlanetScale": {
       "status": "ok",
@@ -573,6 +717,11 @@
       "status": "ok",
       "count": 29,
       "ats": "ashby"
+    },
+    "Cisco": {
+      "status": "ok",
+      "count": 407,
+      "ats": "workday"
     },
     "PagerDuty": {
       "status": "ok",
@@ -594,11 +743,6 @@
       "count": 101,
       "ats": "ashby"
     },
-    "Workday": {
-      "status": "ok",
-      "count": 1,
-      "ats": "workday"
-    },
     "Contentful": {
       "status": "ok",
       "count": 27,
@@ -608,6 +752,11 @@
       "status": "ok",
       "count": 31,
       "ats": "ashby"
+    },
+    "Workday": {
+      "status": "ok",
+      "count": 1,
+      "ats": "workday"
     },
     "Fastly": {
       "status": "ok",
@@ -619,27 +768,15 @@
       "count": 58,
       "ats": "ashby"
     },
-    "Sentry": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Pinecone": {
-      "status": "ok",
-      "count": 8,
-      "ats": "ashby"
-    },
     "Together AI": {
       "status": "ok",
       "count": 59,
       "ats": "greenhouse"
     },
-    "Chroma": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "ashby",
-      "error": "HTTP 404"
+    "Pinecone": {
+      "status": "ok",
+      "count": 8,
+      "ats": "ashby"
     },
     "CoreWeave": {
       "status": "ok",
@@ -666,12 +803,6 @@
       "count": 123,
       "ats": "ashby"
     },
-    "Convex": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "ashby",
-      "error": "HTTP 404"
-    },
     "WorkOS": {
       "status": "ok",
       "count": 25,
@@ -692,29 +823,24 @@
       "count": 6,
       "ats": "ashby"
     },
-    "Materialize": {
-      "status": "ok",
-      "count": 5,
-      "ats": "ashby"
-    },
     "LaunchDarkly": {
       "status": "ok",
       "count": 38,
       "ats": "greenhouse"
-    },
-    "PostHog": {
-      "status": "ok",
-      "count": 11,
-      "ats": "ashby"
     },
     "Tailscale": {
       "status": "ok",
       "count": 59,
       "ats": "greenhouse"
     },
-    "Render": {
+    "Materialize": {
       "status": "ok",
-      "count": 34,
+      "count": 5,
+      "ats": "ashby"
+    },
+    "PostHog": {
+      "status": "ok",
+      "count": 11,
       "ats": "ashby"
     },
     "Chainguard": {
@@ -722,16 +848,15 @@
       "count": 81,
       "ats": "greenhouse"
     },
-    "Fly.io": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "ashby",
-      "error": "HTTP 404"
-    },
     "Mixpanel": {
       "status": "ok",
       "count": 57,
       "ats": "greenhouse"
+    },
+    "Render": {
+      "status": "ok",
+      "count": 34,
+      "ats": "ashby"
     },
     "Railway": {
       "status": "ok",
@@ -743,19 +868,14 @@
       "count": 49,
       "ats": "greenhouse"
     },
-    "Doppler": {
-      "status": "ok",
-      "count": 3,
-      "ats": "ashby"
-    },
     "Abnormal Security": {
       "status": "ok",
       "count": 71,
       "ats": "greenhouse"
     },
-    "Socket": {
+    "Doppler": {
       "status": "ok",
-      "count": 24,
+      "count": 3,
       "ats": "ashby"
     },
     "Orca Security": {
@@ -763,14 +883,9 @@
       "count": 11,
       "ats": "greenhouse"
     },
-    "Visa": {
+    "Socket": {
       "status": "ok",
-      "count": 307,
-      "ats": "workday"
-    },
-    "Semgrep": {
-      "status": "ok",
-      "count": 17,
+      "count": 24,
       "ats": "ashby"
     },
     "Backblaze": {
@@ -778,9 +893,9 @@
       "count": 32,
       "ats": "greenhouse"
     },
-    "n8n": {
+    "Semgrep": {
       "status": "ok",
-      "count": 39,
+      "count": 17,
       "ats": "ashby"
     },
     "Sauce Labs": {
@@ -788,19 +903,24 @@
       "count": 10,
       "ats": "greenhouse"
     },
-    "Secureframe": {
+    "n8n": {
       "status": "ok",
-      "count": 18,
+      "count": 39,
       "ats": "ashby"
+    },
+    "Visa": {
+      "status": "ok",
+      "count": 307,
+      "ats": "workday"
     },
     "Stability AI": {
       "status": "ok",
       "count": 5,
       "ats": "greenhouse"
     },
-    "Drata": {
+    "Secureframe": {
       "status": "ok",
-      "count": 55,
+      "count": 18,
       "ats": "ashby"
     },
     "SingleStore": {
@@ -808,9 +928,9 @@
       "count": 40,
       "ats": "greenhouse"
     },
-    "ClickUp": {
+    "Drata": {
       "status": "ok",
-      "count": 67,
+      "count": 55,
       "ats": "ashby"
     },
     "Yugabyte": {
@@ -818,20 +938,14 @@
       "count": 17,
       "ats": "greenhouse"
     },
+    "ClickUp": {
+      "status": "ok",
+      "count": 67,
+      "ats": "ashby"
+    },
     "Physical Intelligence": {
       "status": "ok",
       "count": 30,
-      "ats": "ashby"
-    },
-    "Deepgram": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Suno": {
-      "status": "ok",
-      "count": 62,
       "ats": "ashby"
     },
     "Descript": {
@@ -839,9 +953,9 @@
       "count": 10,
       "ats": "greenhouse"
     },
-    "Poolside": {
+    "Suno": {
       "status": "ok",
-      "count": 16,
+      "count": 62,
       "ats": "ashby"
     },
     "Honeycomb": {
@@ -849,57 +963,34 @@
       "count": 14,
       "ats": "greenhouse"
     },
-    "Unstructured": {
-      "status": "ok",
-      "count": 6,
-      "ats": "ashby"
-    },
-    "Unit": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Ideogram": {
-      "status": "ok",
-      "count": 7,
-      "ats": "ashby"
-    },
     "Alloy": {
       "status": "ok",
       "count": 21,
       "ats": "greenhouse"
     },
-    "Luma AI": {
+    "Poolside": {
       "status": "ok",
-      "count": 49,
+      "count": 16,
       "ats": "ashby"
-    },
-    "Moov Financial": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Retool": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "ashby",
-      "error": "HTTP 404"
     },
     "Treasury Prime": {
       "status": "ok",
       "count": 1,
       "ats": "greenhouse"
     },
-    "Salesforce": {
+    "Unstructured": {
       "status": "ok",
-      "count": 518,
-      "ats": "workday"
+      "count": 6,
+      "ats": "ashby"
     },
-    "Vanta": {
+    "Ledger": {
       "status": "ok",
-      "count": 88,
+      "count": 1,
+      "ats": "lever"
+    },
+    "Ideogram": {
+      "status": "ok",
+      "count": 7,
       "ats": "ashby"
     },
     "Solaris": {
@@ -907,71 +998,35 @@
       "count": 33,
       "ats": "greenhouse"
     },
-    "Consensys": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "lever",
-      "error": "HTTP 404"
-    },
-    "Figure Technologies": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Boeing": {
-      "status": "ok",
-      "count": 463,
-      "ats": "workday"
-    },
     "tastytrade": {
       "status": "ok",
       "count": 12,
       "ats": "greenhouse"
     },
-    "Ledger": {
+    "Luma AI": {
       "status": "ok",
-      "count": 1,
-      "ats": "lever"
+      "count": 49,
+      "ats": "ashby"
     },
-    "Bitso": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "lever",
-      "error": "HTTP 404"
+    "Vanta": {
+      "status": "ok",
+      "count": 88,
+      "ats": "ashby"
     },
     "Strike": {
       "status": "ok",
       "count": 7,
       "ats": "greenhouse"
     },
-    "Anchorage Digital": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "TRM Labs": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "NVIDIA": {
-      "status": "ok",
-      "count": 491,
-      "ats": "workday"
-    },
     "BitGo": {
       "status": "ok",
       "count": 33,
       "ats": "greenhouse"
     },
-    "GSR": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
+    "Salesforce": {
+      "status": "ok",
+      "count": 518,
+      "ats": "workday"
     },
     "Bitpanda": {
       "status": "ok",
@@ -988,12 +1043,6 @@
       "count": 72,
       "ats": "greenhouse"
     },
-    "TransMarket Group": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "lever",
-      "error": "HTTP 404"
-    },
     "Optiver": {
       "status": "ok",
       "count": 176,
@@ -1004,33 +1053,15 @@
       "count": 34,
       "ats": "greenhouse"
     },
-    "XTX Markets": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "The Voleon Group": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Samsung": {
+    "NVIDIA": {
       "status": "ok",
-      "count": 341,
+      "count": 492,
       "ats": "workday"
     },
     "Man Group": {
       "status": "ok",
       "count": 60,
       "ats": "greenhouse"
-    },
-    "Millennium": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
     },
     "ExodusPoint Capital": {
       "status": "ok",
@@ -1062,18 +1093,6 @@
       "count": 10,
       "ats": "greenhouse"
     },
-    "Wolverine Trading": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Corvus Insurance": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
     "Oscar Health": {
       "status": "ok",
       "count": 269,
@@ -1084,43 +1103,30 @@
       "count": 19,
       "ats": "greenhouse"
     },
-    "Clearcover": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Snyk": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
     "Wiz": {
       "status": "ok",
       "count": 130,
       "ats": "greenhouse"
-    },
-    "ForgeRock": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
     },
     "BeyondTrust": {
       "status": "ok",
       "count": 54,
       "ats": "greenhouse"
     },
-    "Stytch": {
+    "Boeing": {
       "status": "ok",
-      "count": 5,
-      "ats": "ashby"
+      "count": 463,
+      "ats": "workday"
     },
     "Tanium": {
       "status": "ok",
       "count": 41,
       "ats": "greenhouse"
+    },
+    "Stytch": {
+      "status": "ok",
+      "count": 5,
+      "ats": "ashby"
     },
     "Bugcrowd": {
       "status": "ok",
@@ -1152,14 +1158,14 @@
       "count": 37,
       "ats": "ashby"
     },
+    "Ro": {
+      "status": "ok",
+      "count": 51,
+      "ats": "lever"
+    },
     "OneTrust": {
       "status": "ok",
       "count": 90,
-      "ats": "greenhouse"
-    },
-    "BigID": {
-      "status": "ok",
-      "count": 10,
       "ats": "greenhouse"
     },
     "Insitro": {
@@ -1167,10 +1173,10 @@
       "count": 13,
       "ats": "ashby"
     },
-    "Ro": {
+    "BigID": {
       "status": "ok",
-      "count": 51,
-      "ats": "lever"
+      "count": 10,
+      "ats": "greenhouse"
     },
     "Osano": {
       "status": "ok",
@@ -1202,6 +1208,11 @@
       "count": 54,
       "ats": "greenhouse"
     },
+    "Aurora Solar": {
+      "status": "ok",
+      "count": 8,
+      "ats": "ashby"
+    },
     "Elation Health": {
       "status": "ok",
       "count": 15,
@@ -1211,17 +1222,6 @@
       "status": "ok",
       "count": 34,
       "ats": "greenhouse"
-    },
-    "Aurora Solar": {
-      "status": "ok",
-      "count": 8,
-      "ats": "ashby"
-    },
-    "Headway": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
     },
     "Recursion Pharmaceuticals": {
       "status": "ok",
@@ -1253,28 +1253,15 @@
       "count": 88,
       "ats": "greenhouse"
     },
-    "Guild Education": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "lever",
-      "error": "HTTP 404"
+    "Samsung": {
+      "status": "ok",
+      "count": 341,
+      "ats": "workday"
     },
     "Varda Space Industries": {
       "status": "ok",
       "count": 100,
       "ats": "greenhouse"
-    },
-    "Saildrone": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Form Energy": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
     },
     "Toast": {
       "status": "ok",
@@ -1285,6 +1272,11 @@
       "status": "ok",
       "count": 54,
       "ats": "greenhouse"
+    },
+    "Merge": {
+      "status": "ok",
+      "count": 20,
+      "ats": "ashby"
     },
     "StockX": {
       "status": "ok",
@@ -1301,11 +1293,6 @@
       "count": 38,
       "ats": "greenhouse"
     },
-    "Merge": {
-      "status": "ok",
-      "count": 20,
-      "ats": "ashby"
-    },
     "Motive": {
       "status": "ok",
       "count": 106,
@@ -1321,58 +1308,40 @@
       "count": 7,
       "ats": "greenhouse"
     },
-    "Opendoor": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "Compass": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
-    },
-    "nCino": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
+    "Vori": {
+      "status": "ok",
+      "count": 11,
+      "ats": "ashby"
     },
     "Lattice": {
       "status": "ok",
       "count": 8,
       "ats": "greenhouse"
     },
-    "Vori": {
-      "status": "ok",
-      "count": 11,
-      "ats": "ashby"
-    },
     "Culture Amp": {
       "status": "ok",
       "count": 28,
       "ats": "greenhouse"
+    },
+    "Community · SimplifyJobs S2026": {
+      "status": "ok",
+      "count": 1590,
+      "ats": "community_listings"
     },
     "Attentive": {
       "status": "ok",
       "count": 41,
       "ats": "greenhouse"
     },
-    "Community · SimplifyJobs S2026": {
+    "Community · vanshb03 S2027": {
       "status": "ok",
-      "count": 1589,
+      "count": 314,
       "ats": "community_listings"
     },
     "Braze": {
       "status": "ok",
       "count": 257,
       "ats": "greenhouse"
-    },
-    "Community · vanshb03 S2027": {
-      "status": "ok",
-      "count": 314,
-      "ats": "community_listings"
     },
     "Iterable": {
       "status": "ok",
@@ -1408,12 +1377,6 @@
       "status": "ok",
       "count": 35,
       "ats": "greenhouse"
-    },
-    "Loop Returns": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "greenhouse",
-      "error": "HTTP 404"
     },
     "Butterfly Network": {
       "status": "ok",
@@ -11691,7 +11654,7 @@
     {
       "company": "Cloudflare",
       "title": "Research Engineer Intern (Fall 2026)",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379",
       "source": "greenhouse",
       "source_name": "Greenhouse · Cloudflare",
       "location": "In-Office",
@@ -11705,7 +11668,7 @@
         "precision": "unknown",
         "field": ""
       },
-      "ats_job_id": "8089400",
+      "ats_job_id": "8089379",
       "remote": null,
       "department": "",
       "is_first_party": true,
@@ -11713,20 +11676,20 @@
       "term": "Fall 2026",
       "term_priority": 2,
       "level": "intern",
-      "identity": "url:https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400",
+      "identity": "url:https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379",
       "first_seen": "2026-08-08",
       "last_seen": "2026-08-08",
-      "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400",
+      "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379",
       "term_inferred": false,
       "is_phd": false,
       "merged_from": [
         {
           "source": "Greenhouse · Cloudflare",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407"
+          "url": "https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400"
         },
         {
           "source": "Greenhouse · Cloudflare",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379"
+          "url": "https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407"
         }
       ],
       "health_key": "Cloudflare",
@@ -11766,6 +11729,51 @@
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Research Engineer Intern (Fall 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400",
+      "source": "greenhouse",
+      "source_name": "Greenhouse · Cloudflare",
+      "location": "In-Office",
+      "posted": {
+        "value": "2026-07-28",
+        "precision": "exact",
+        "field": "first_published"
+      },
+      "deadline": {
+        "value": "",
+        "precision": "unknown",
+        "field": ""
+      },
+      "ats_job_id": "8089400",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "Fall 2026",
+      "term_priority": 2,
+      "level": "intern",
+      "identity": "url:https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400",
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400",
+      "term_inferred": false,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Greenhouse · Cloudflare",
+          "url": "https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407"
+        },
+        {
+          "source": "Greenhouse · Cloudflare",
+          "url": "https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379"
+        }
+      ],
+      "health_key": "Cloudflare",
+      "misses": 1,
       "status": "open"
     },
     {
@@ -40716,41 +40724,6 @@
     {
       "company": "Point72",
       "title": "Cubist Quantitative Researcher Intern",
-      "url": "https://boards.greenhouse.io/point72/jobs/7297611002?gh_jid=7297611002",
-      "source": "greenhouse",
-      "source_name": "Greenhouse · Point72",
-      "location": "Hong Kong",
-      "posted": {
-        "value": "2024-08-15",
-        "precision": "exact",
-        "field": "first_published"
-      },
-      "deadline": {
-        "value": "",
-        "precision": "unknown",
-        "field": ""
-      },
-      "ats_job_id": "7297611002",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://boards.greenhouse.io/point72/jobs/7297611002?gh_jid=7297611002",
-      "first_seen": "2026-08-08",
-      "last_seen": "2026-08-08",
-      "canonical_url": "https://boards.greenhouse.io/point72/jobs/7297611002?gh_jid=7297611002",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "Point72",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Point72",
-      "title": "Cubist Quantitative Researcher Intern",
       "url": "https://boards.greenhouse.io/point72/jobs/7297598002?gh_jid=7297598002",
       "source": "greenhouse",
       "source_name": "Greenhouse · Point72",
@@ -40777,6 +40750,41 @@
       "first_seen": "2026-08-08",
       "last_seen": "2026-08-08",
       "canonical_url": "https://boards.greenhouse.io/point72/jobs/7297598002?gh_jid=7297598002",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "Point72",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Point72",
+      "title": "Cubist Quantitative Researcher Intern",
+      "url": "https://boards.greenhouse.io/point72/jobs/7297611002?gh_jid=7297611002",
+      "source": "greenhouse",
+      "source_name": "Greenhouse · Point72",
+      "location": "Hong Kong",
+      "posted": {
+        "value": "2024-08-15",
+        "precision": "exact",
+        "field": "first_published"
+      },
+      "deadline": {
+        "value": "",
+        "precision": "unknown",
+        "field": ""
+      },
+      "ats_job_id": "7297611002",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://boards.greenhouse.io/point72/jobs/7297611002?gh_jid=7297611002",
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "canonical_url": "https://boards.greenhouse.io/point72/jobs/7297611002?gh_jid=7297611002",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "Point72",
@@ -42835,32 +42843,6 @@
       "misses": 0
     },
     {
-      "company": "Cisco",
-      "title": "Test Engineer Intern, Vietnam",
-      "location": "Hanoi, Vietnam",
-      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Hanoi-Vietnam/Test-Engineer-Intern--Vietnam_2011415",
-      "posted": {
-        "value": "2026-07-22",
-        "precision": "approximate",
-        "field": "migrated:v2"
-      },
-      "deadline": {
-        "value": "",
-        "precision": "unknown",
-        "field": ""
-      },
-      "source": "Workday",
-      "key": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Hanoi-Vietnam/Test-Engineer-Intern--Vietnam_2011415",
-      "category": "Other Technical",
-      "term": "Unspecified",
-      "first_seen": "2026-08-08",
-      "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Hanoi-Vietnam/Test-Engineer-Intern--Vietnam_2011415",
-      "level": "intern",
-      "is_first_party": true,
-      "status": "open",
-      "misses": 1
-    },
-    {
       "company": "NVIDIA",
       "title": "ASIC Physical Design and Timing Engineer - New College Grad 2026",
       "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Timing-Engineer---New-College-Grad-2026_JR2013177",
@@ -43040,32 +43022,6 @@
       "health_key": "Boeing",
       "misses": 0,
       "status": "open"
-    },
-    {
-      "company": "Cisco",
-      "title": "Solutions Engineer Intern, Philippines",
-      "location": "Taguig City, Philippines",
-      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Taguig-City-Philippines/Solutions-Engineer-Intern--Philippines_2011485",
-      "posted": {
-        "value": "2026-07-09",
-        "precision": "approximate",
-        "field": "migrated:v2"
-      },
-      "deadline": {
-        "value": "",
-        "precision": "unknown",
-        "field": ""
-      },
-      "source": "Workday",
-      "key": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Taguig-City-Philippines/Solutions-Engineer-Intern--Philippines_2011485",
-      "category": "Other Technical",
-      "term": "Unspecified",
-      "first_seen": "2026-08-08",
-      "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Taguig-City-Philippines/Solutions-Engineer-Intern--Philippines_2011485",
-      "level": "intern",
-      "is_first_party": true,
-      "status": "open",
-      "misses": 1
     },
     {
       "company": "NVIDIA",
@@ -44621,5 +44577,60 @@
       "misses": 0
     }
   ],
-  "closed": []
+  "closed": [
+    {
+      "company": "Cisco",
+      "title": "Test Engineer Intern, Vietnam",
+      "location": "Hanoi, Vietnam",
+      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Hanoi-Vietnam/Test-Engineer-Intern--Vietnam_2011415",
+      "posted": {
+        "value": "2026-07-22",
+        "precision": "approximate",
+        "field": "migrated:v2"
+      },
+      "deadline": {
+        "value": "",
+        "precision": "unknown",
+        "field": ""
+      },
+      "source": "Workday",
+      "key": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Hanoi-Vietnam/Test-Engineer-Intern--Vietnam_2011415",
+      "category": "Other Technical",
+      "term": "Unspecified",
+      "first_seen": "2026-08-08",
+      "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Hanoi-Vietnam/Test-Engineer-Intern--Vietnam_2011415",
+      "level": "intern",
+      "is_first_party": true,
+      "status": "closed",
+      "misses": 2,
+      "closed_at": "2026-08-08"
+    },
+    {
+      "company": "Cisco",
+      "title": "Solutions Engineer Intern, Philippines",
+      "location": "Taguig City, Philippines",
+      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Taguig-City-Philippines/Solutions-Engineer-Intern--Philippines_2011485",
+      "posted": {
+        "value": "2026-07-09",
+        "precision": "approximate",
+        "field": "migrated:v2"
+      },
+      "deadline": {
+        "value": "",
+        "precision": "unknown",
+        "field": ""
+      },
+      "source": "Workday",
+      "key": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Taguig-City-Philippines/Solutions-Engineer-Intern--Philippines_2011485",
+      "category": "Other Technical",
+      "term": "Unspecified",
+      "first_seen": "2026-08-08",
+      "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Taguig-City-Philippines/Solutions-Engineer-Intern--Philippines_2011485",
+      "level": "intern",
+      "is_first_party": true,
+      "status": "closed",
+      "misses": 2,
+      "closed_at": "2026-08-08"
+    }
+  ]
 }

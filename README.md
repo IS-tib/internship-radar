@@ -2,8 +2,8 @@
 
 A self-updating board of **software, data/ML, and product roles for students and new graduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**1218 open roles** · **457 companies** · **231/267 sources healthy** · updated 2026-08-08 11:25 UTC  
-1130 internships · 88 new-grad · SWE 613 · Data/ML 464 · Tech 108 · PM 33
+**1217 open roles** · **456 companies** · **230/267 sources healthy** · updated 2026-08-08 14:25 UTC  
+1129 internships · 88 new-grad · SWE 613 · Data/ML 465 · Tech 106 · PM 33
 
 > **On dates.** Every row shows the real posting date from the source API where one exists. Where a platform only publishes something vague, we say so instead of inventing precision:
 >
@@ -144,7 +144,7 @@ A self-updating board of **software, data/ML, and product roles for students and
 
 _+131 more in the full list below._
 
-## 📋 All open roles — newest first (1218)
+## 📋 All open roles — newest first (1217)
 
 | Company | Role | Type | Level | Term | Location | Posted | Deadline | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -433,8 +433,9 @@ _+131 more in the full list below._
 | Virtu Financial | 2027 Internship - Frontend Engineer (UI) | SWE | Intern | 2027 | New York | 2026-07-29 | — | [apply](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
 | Virtu Financial | 2027 Internship- Hardware Engineer (FPGA) | Tech | Intern | 2027 | Austin, TX | 2026-07-29 | — | [apply](https://job-boards.greenhouse.io/virtu/jobs/8657286002) |
 | Bosch Home Comfort | ADAS Software Engineer Intern | SWE | Intern | ~Summer 2027 | Plymouth, MI | 2026-07-28 | — | [apply](https://jobs.smartrecruiters.com/BoschGroup/744000140317669) |
-| Cloudflare | Research Engineer Intern (Fall 2026) | Data/ML | Intern | Fall 2026 | In-Office | 2026-07-28 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400) |
+| Cloudflare | Research Engineer Intern (Fall 2026) | Data/ML | Intern | Fall 2026 | In-Office | 2026-07-28 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379) |
 | Cloudflare | Research Engineer Intern | Data/ML | Intern | ~Summer 2027 | Austin, TX | 2026-07-28 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8089379) |
+| Cloudflare | Research Engineer Intern (Fall 2026) | Data/ML | Intern | Fall 2026 | In-Office | 2026-07-28 | — | [apply](https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400) |
 | Field AI | Robotics Controls Intern - Robot Control Systems | Tech | Intern | ~Summer 2027 | Irvine, CA | 2026-07-28 | — | [apply](https://jobs.lever.co/field-ai/8a3b5d4b-f88f-4704-bfdd-74e8dcd30704/apply) |
 | Gemini | Software Engineering Intern | SWE | Intern | ~Summer 2027 | New York, NY | 2026-07-28 | — | [apply](https://job-boards.greenhouse.io/embed/job_app?for=gemini&token=7875125) |
 | Kognitos | Forward Deployed Engineer Intern | Tech | Intern | ~Summer 2027 | Mountain View, CA | 2026-07-28 | — | [apply](https://jobs.ashbyhq.com/Kognitos/a4bc3ebf-b619-4c1b-9c9e-784d16c8b148/application?embed=true) |
@@ -447,9 +448,8 @@ _+131 more in the full list below._
 | Tesla | Charging Data Modeling Intern - Charging Data Modeling - Machine Learning Engineer | Data/ML | Intern | ~Summer 2027 | Palo Alto, CA | 2026-07-28 | — | [apply](https://www.tesla.com/careers/search/job/278249) |
 | Anthelion Capital | Quant Developer / Quant Research Intern | Data/ML | Intern | ~Summer 2027 | New York City, NY | 2026-07-27 | — | [apply](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
 | Appian | Information Security Engineer Intern | Tech | Intern | ~Summer 2027 | McLean, VA | 2026-07-27 | — | [apply](https://job-boards.greenhouse.io/appian/jobs/8088496) |
-| Atomic Semi | Software Engineer Intern, Chip Design Tools | SWE | Intern | ~Summer 2027 | San Francisco, CA | 2026-07-27 | — | [apply](https://jobs.ashbyhq.com/fab2/907766af-a3c0-49a3-b01e-246baa437d10?embed=true) |
 
-_Showing the newest 300 of 1218 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 1217 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -461,51 +461,10 @@ _Showing the newest 300 of 1218 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **92.0%** of roles carry an exact posting timestamp from the source (1120/1218).
-- **20.7%** come from a company's own board rather than a community feed.
+- **92.1%** of roles carry an exact posting timestamp from the source (1121/1217).
+- **20.6%** come from a company's own board rather than a community feed.
 - **272** duplicates merged, **16** near-duplicates collapsed.
-- **0** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
-
-<details><summary>36 source(s) returned 404 this run (token likely renamed)</summary>
-
-- Anchorage Digital
-- Applied Intuition
-- Aurora
-- Bitso
-- Chroma
-- Clearcover
-- Compass
-- Consensys
-- Convex
-- Corvus Insurance
-- Deepgram
-- Figure Technologies
-- Fly.io
-- ForgeRock
-- Form Energy
-- GSR
-- Guild Education
-- Headway
-- Loop Returns
-- Millennium
-- Mistral AI
-- Moov Financial
-- OpenSea
-- Opendoor
-- Retool
-- Saildrone
-- Sentry
-- Snyk
-- TRM Labs
-- The Voleon Group
-- TransMarket Group
-- Unit
-- Wolverine Trading
-- XTX Markets
-- dbt Labs
-- nCino
-
-</details>
+- **2** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 ### How it works
 
