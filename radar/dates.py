@@ -99,11 +99,69 @@ class DateInfo:
             return f"listed since {self.value[:7]}"
         return self.value
 
+    def days_ago(self, today: dt.date | None = None) -> str:
+        """Relative age for display, e.g. "0 days ago" / "1 day ago" / "34 days ago".
+
+        Always derived from the stored timestamp at render time, never persisted,
+        so a listing ages from "0 days ago" to "1 day ago" on its own without the
+        scraper rewriting the row.
+
+        Edge cases, all deliberate:
+          * missing/unparseable date  -> "Unknown" (we do not invent a date)
+          * timestamp in the future   -> clamped to "0 days ago" within a day of
+            now (clock skew and timezone rounding are normal), "Unknown" beyond
+            that, because a far-future date is bad data rather than a fresh post
+          * open-ended "30+ days ago" -> "≥30 days ago", preserving that the
+            value is a floor rather than a measurement
+          * approximate values        -> prefixed "~"
+          * anything over a year      -> "365+ days ago", which is also how an
+            evergreen requisition reads
+        """
+        return format_days_ago(self.age_days(today), self.precision, self.known)
+
     def as_dict(self) -> dict:
         return {"value": self.value, "precision": self.precision, "field": self.field}
 
 
 UNKNOWN_DATE = DateInfo()
+
+#: Beyond this we stop counting precisely; "412 days ago" is noise, and the
+#: bucket doubles as the signal that a requisition has been open a very long time.
+LONG_AGO_DAYS = 365
+
+#: How far into the future a timestamp may sit before we treat it as bad data
+#: rather than clock skew between us and the source's timezone.
+FUTURE_TOLERANCE_DAYS = 1
+
+UNKNOWN_LABEL = "Unknown"
+
+
+def format_days_ago(age: int | None, precision: str = EXACT, known: bool = True) -> str:
+    """Render an age in days as human-readable text with correct pluralisation."""
+    if not known or age is None:
+        return UNKNOWN_LABEL
+
+    if age < 0:
+        # A posting dated in the future. Within a day it is almost certainly a
+        # timezone/rounding artefact, so show it as brand new; beyond that the
+        # source data is wrong and we say so rather than print "-12 days ago".
+        if age >= -FUTURE_TOLERANCE_DAYS:
+            age = 0
+        else:
+            return UNKNOWN_LABEL
+
+    if age > LONG_AGO_DAYS:
+        text = f"{LONG_AGO_DAYS}+ days ago"
+    elif age == 1:
+        text = "1 day ago"
+    else:
+        text = f"{age} days ago"
+
+    if precision == AT_LEAST:
+        return f"≥{text}"
+    if precision == APPROXIMATE:
+        return f"~{text}"
+    return text
 
 
 # --------------------------------------------------------------------------- #

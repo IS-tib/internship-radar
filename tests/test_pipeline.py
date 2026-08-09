@@ -14,7 +14,7 @@ from radar.models import Posting
 TODAY = dt.date(2026, 8, 8)
 
 
-def _p(company, title, url, source="greenhouse", loc="Remote", jid="",
+def _p(company, title, url, source="greenhouse", loc="San Francisco, CA", jid="",
        posted=None, first_party=True):
     return Posting(company=company, title=title, url=url, source=source,
                    source_name=f"{source} · {company}", location=loc,
@@ -73,7 +73,7 @@ class TestCollect(unittest.TestCase):
 class TestRefine(unittest.TestCase):
     def test_filters_by_level_discipline_and_term(self):
         rows, _ = pipeline.collect(SOURCES, log=lambda *a, **k: None)
-        kept = pipeline.refine(rows, TODAY)
+        kept, _rej = pipeline.refine(rows, TODAY)
         titles = {r.title for r in kept}
         self.assertIn("Software Engineer Intern, Summer 2027", titles)
         self.assertIn("New Grad Software Engineer", titles)
@@ -83,7 +83,7 @@ class TestRefine(unittest.TestCase):
 
     def test_new_grad_can_be_excluded(self):
         rows, _ = pipeline.collect(SOURCES, log=lambda *a, **k: None)
-        kept = pipeline.refine(rows, TODAY, include_levels=("intern",))
+        kept, _rej = pipeline.refine(rows, TODAY, include_levels=("intern",))
         self.assertTrue(all(r.level == "intern" for r in kept))
 
 
@@ -190,7 +190,9 @@ class TestRenderHonesty(unittest.TestCase):
                "posted": {"value": TODAY.isoformat(), "precision": "at_least",
                           "field": "postedOn"}}
         self.assertFalse(render._is_new(row, TODAY))
-        self.assertIn("≥", render._date_cell(row, TODAY))
+        cell = render._date_cell(row, TODAY)
+        self.assertIn("≥", cell)
+        self.assertIn("day", cell)
 
     def test_exact_recent_date_gets_badge(self):
         row = {"posted": {"value": "2026-08-06", "precision": "exact", "field": "f"}}
@@ -198,7 +200,7 @@ class TestRenderHonesty(unittest.TestCase):
 
     def test_unknown_date_renders_as_unknown(self):
         row = {"posted": {"value": "", "precision": "unknown", "field": ""}}
-        self.assertEqual(render._date_cell(row, TODAY), "unknown")
+        self.assertEqual(render._date_cell(row, TODAY), "Unknown")
         self.assertFalse(render._is_new(row, TODAY))
 
 

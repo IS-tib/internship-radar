@@ -40,11 +40,61 @@ sys.path.insert(0, ROOT)
 
 from radar import adapters  # noqa: E402
 from radar.classify import classify_level  # noqa: E402
-from radar.http import FetchError, get_json  # noqa: E402
+from radar.http import FetchError, get_json, get_text  # noqa: E402
 
 SOURCES = os.path.join(ROOT, "sources.json")
 
 YC_HIRING = "https://raw.githubusercontent.com/yc-oss/api/main/companies/hiring.json"
+
+# --------------------------------------------------------------------------- #
+# URL harvesting — the highest-yield discovery mechanism
+# --------------------------------------------------------------------------- #
+#
+# Community feeds already link straight at employers' ATS pages, and those URLs
+# encode the board token. Harvesting them converts a second-hand community row
+# into a first-party source we can read directly — better dates, better links,
+# and it scales to a whole platform instead of one hand-added company at a time.
+#
+#   https://boards.greenhouse.io/acme/jobs/123   -> greenhouse token "acme"
+#   https://jobs.lever.co/acme/uuid              -> lever token "acme"
+#   https://jobs.ashbyhq.com/acme/uuid           -> ashby token "acme"
+#
+URL_PATTERNS = [
+    ("greenhouse", re.compile(
+        r"https?://(?:www\.)?(?:boards|job-boards)(?:\.eu)?\.greenhouse\.io/"
+        r"(?:embed/job_board\?for=)?([a-z0-9_-]+)", re.I)),
+    ("lever", re.compile(r"https?://jobs\.(?:eu\.)?lever\.co/([a-z0-9_-]+)", re.I)),
+    ("ashby", re.compile(r"https?://jobs\.ashbyhq\.com/([a-z0-9_.-]+)", re.I)),
+    ("workable", re.compile(r"https?://(?:apply|jobs)\.workable\.com/([a-z0-9_-]+)", re.I)),
+    ("smartrecruiters", re.compile(
+        r"https?://(?:jobs|careers)\.smartrecruiters\.com/([a-z0-9_-]+)", re.I)),
+    ("recruitee", re.compile(r"https?://([a-z0-9_-]+)\.recruitee\.com", re.I)),
+    ("breezy", re.compile(r"https?://([a-z0-9_-]+)\.breezy\.hr", re.I)),
+    ("rippling", re.compile(r"https?://ats\.rippling\.com/(?:[a-z-]{2,5}/)?([a-z0-9_-]+)", re.I)),
+]
+
+#: Path segments that are part of the platform's own routing, not a company slug.
+NOT_TOKENS = {"embed", "job", "jobs", "api", "www", "en", "en-us", "search",
+              "companies", "board", "o", "p", "j", "careers", "apply"}
+
+
+def harvest_from_urls(urls):
+    """Extract (ats, token) pairs from a pile of job URLs."""
+    found = {}
+    for url in urls:
+        if not url:
+            continue
+        for ats, pat in URL_PATTERNS:
+            m = pat.search(url)
+            if not m:
+                continue
+            token = m.group(1)
+            if not token or token.lower() in NOT_TOKENS or len(token) < 2:
+                continue
+            found.setdefault((ats, token), 0)
+            found[(ats, token)] += 1
+            break
+    return found
 
 #: Order matters: cheapest/most common platform first so we stop early.
 PROBE_ORDER = ("greenhouse", "ashby", "lever")
@@ -107,6 +157,64 @@ def seed_yc(limit):
     return out[:limit] if limit else out
 
 
+def seed_urls(limit):
+    """Harvest board tokens from every job URL we have already collected.
+
+    Returns pseudo-seeds of the form ("<Company>", "", ats, token) so the caller
+    can probe the exact token rather than guessing it from the company name —
+    far more reliable than name-based slug guessing.
+    """
+    listings = os.path.join(ROOT, "listings.json")
+    urls, names = [], {}
+    if os.path.exists(listings):
+        with open(listings) as f:
+            data = json.load(f)
+        for r in data.get("listings", []) + data.get("closed", []):
+            u = r.get("url") or ""
+            urls.append(u)
+            for ats, pat in URL_PATTERNS:
+                m = pat.search(u)
+                if m:
+                    names[(ats, m.group(1))] = r.get("company", "") or m.group(1)
+                    break
+
+    pairs = harvest_from_urls(urls)
+    ranked = sorted(pairs.items(), key=lambda kv: -kv[1])
+    out = []
+    for (ats, token), _count in ranked:
+        out.append((names.get((ats, token), token), "", ats, token))
+    return out[:limit] if limit else out
+
+
+#: An open dataset mapping ~80k companies to the ATS they use and their board
+#: slug, across 65 platforms. Enormous discovery value, but it is a third-party
+#: dataset whose terms of use we have not reviewed, so it is strictly opt-in via
+#: `--seed jobhive` and never consulted by default. Every candidate it yields is
+#: still verified against the live board before being suggested.
+JOBHIVE_ATS = "https://storage.stapply.ai/jobhive/v1/{ats}/companies.csv"
+
+
+def seed_jobhive(limit, platforms=("greenhouse", "lever", "ashby")):
+    """Pull company/slug pairs for platforms we already support."""
+    import csv
+    import io
+
+    out = []
+    for ats in platforms:
+        try:
+            text = get_text(JOBHIVE_ATS.format(ats=ats))
+        except Exception as e:
+            print(f"  (skipping {ats}: {e})")
+            continue
+        reader = csv.DictReader(io.StringIO(text))
+        for row in reader:
+            slug = (row.get("slug") or "").strip()
+            name = (row.get("name") or slug).strip()
+            if slug:
+                out.append((name, "", ats, slug))
+    return out[:limit] if limit else out
+
+
 def seed_community(limit):
     """Companies seen in community feeds — candidates for first-party upgrade."""
     listings = os.path.join(ROOT, "listings.json")
@@ -130,7 +238,11 @@ def seed_community(limit):
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--seed", choices=("yc", "community", "file"), default="community")
+    ap.add_argument("--seed", choices=("urls", "yc", "community", "jobhive", "file"),
+                    default="urls",
+                    help="urls = harvest ATS tokens from job links we already have "
+                         "(highest yield); yc = probe Y Combinator companies; "
+                         "community = upgrade feed-only companies; file = your list")
     ap.add_argument("--file", default="")
     ap.add_argument("--limit", type=int, default=200)
     ap.add_argument("--workers", type=int, default=6)
@@ -139,7 +251,14 @@ def main(argv=None):
     ap.add_argument("--json", default="")
     args = ap.parse_args(argv)
 
-    if args.seed == "yc":
+    exact = []          # (name, ats, token) — token already known, just verify
+    if args.seed == "urls":
+        exact = [(n, a, t) for n, _w, a, t in seed_urls(args.limit)]
+        seeds = []
+    elif args.seed == "jobhive":
+        exact = [(n, a, t) for n, _w, a, t in seed_jobhive(args.limit)]
+        seeds = []
+    elif args.seed == "yc":
         seeds = seed_yc(args.limit)
     elif args.seed == "community":
         seeds = seed_community(args.limit)
@@ -152,13 +271,39 @@ def main(argv=None):
     known_tokens = {(s.get("ats"), (s.get("token") or "").lower()) for s in existing}
     known_names = {s.get("name", "").lower() for s in existing}
 
+    exact = [(n, a, t) for n, a, t in exact
+             if (a, t.lower()) not in known_tokens]
     seeds = [(n, w) for n, w in seeds if n.lower() not in known_names]
-    print(f"probing {len(seeds)} candidate companies "
-          f"({len(known_names)} already configured)…\n")
+
+    if exact:
+        print(f"harvested {len(exact)} board token(s) from job URLs that are not "
+              f"yet configured; verifying…\n")
+    else:
+        print(f"probing {len(seeds)} candidate companies "
+              f"({len(known_names)} already configured)…\n")
+
+    def verify_exact(name, ats, token):
+        spec = adapters.get(ats)
+        if spec is None:
+            return None
+        try:
+            rows = spec({"name": name, "ats": ats, "token": token})
+        except FetchError:
+            return None
+        except Exception:
+            return None
+        early = [r for r in rows if classify_level(r.title)]
+        if not early:
+            return None
+        return {"name": name, "ats": ats, "token": token, "total": len(rows),
+                "early": len(early), "sample": early[0].title[:70]}
 
     found = []
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futs = {pool.submit(probe_company, n, w): n for n, w in seeds}
+        if exact:
+            futs = {pool.submit(verify_exact, n, a, t): n for n, a, t in exact}
+        else:
+            futs = {pool.submit(probe_company, n, w): n for n, w in seeds}
         for fut in as_completed(futs):
             r = fut.result()
             if not r:

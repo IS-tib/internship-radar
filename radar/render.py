@@ -23,10 +23,21 @@ TABLE_CAP = 300
 FRESH_CAP = 120
 
 
-def _date_cell(row, today):
+def _posted_info(row) -> DateInfo:
     p = row.get("posted") or {}
-    info = DateInfo(p.get("value", ""), p.get("precision", "unknown"), p.get("field", ""))
-    return info.label(today)
+    if not isinstance(p, dict):
+        return DateInfo()
+    return DateInfo(p.get("value", ""), p.get("precision", "unknown"), p.get("field", ""))
+
+
+def _date_cell(row, today):
+    """The Posted column: age in days, recomputed from the stored timestamp.
+
+    Nothing about this value is persisted — the row keeps the real timestamp and
+    this is derived on every render, so a listing moves from "0 days ago" to
+    "1 day ago" without the scraper touching it.
+    """
+    return _posted_info(row).days_ago(today)
 
 
 def _is_new(row, today):
@@ -44,18 +55,18 @@ def _is_new(row, today):
 def _row(x, today):
     tag = " 🆕" if _is_new(x, today) else ""
     apply = f"[apply]({x['url']})" if x.get("url") else "—"
-    dl = (x.get("deadline") or {}).get("value") or "—"
     term = x.get("term", "")
     if x.get("term_inferred"):
         term = f"~{term}"
     level = "Intern" if x.get("level") == "intern" else "New grad"
+    where = x.get("location_display") or x.get("location") or "—"
     return (f"| {x.get('company','')} | {x.get('title','')}{tag} | "
             f"{SHORT.get(x.get('category',''), '—')} | {level} | {term} | "
-            f"{x.get('location') or '—'} | {_date_cell(x, today)} | {dl} | {apply} |")
+            f"{where} | {_date_cell(x, today)} | {apply} |")
 
 
-HEAD = ("| Company | Role | Type | Level | Term | Location | Posted | Deadline | Apply |\n"
-        "| --- | --- | --- | --- | --- | --- | --- | --- | --- |")
+HEAD = ("| Company | Role | Type | Level | Term | Location | Posted | Apply |\n"
+        "| --- | --- | --- | --- | --- | --- | --- | --- |")
 
 BIG_TECH = [
     ("Google", "https://www.google.com/about/careers/applications/jobs/results/?employment_type=INTERN"),
@@ -91,26 +102,34 @@ def render(rows, metrics, health, today=None):
 
     L = []
     L.append("# internship-radar\n")
-    L.append("A self-updating board of **software, data/ML, and product roles for "
-             "students and new graduates**, scraped straight from company job "
-             "boards and ranked **newest-first**.\n")
+    L.append("A self-updating board of **US software, data/ML, and product roles "
+             "for undergraduates**, scraped straight from company job boards and "
+             "ranked **newest-first**.\n")
     L.append(f"**{len(rows)} open roles** · **{metrics['companies']} companies** · "
              f"**{metrics['sources_ok']}/{metrics['sources_configured']} sources healthy** · "
              f"updated {updated}  \n"
              f"{interns} internships · {grads} new-grad · "
              + " · ".join(f"{SHORT[n]} {counts[n]}" for n, _s, _p in CATEGORIES) + "\n")
 
-    L.append("> **On dates.** Every row shows the real posting date from the "
-             "source API where one exists. Where a platform only publishes "
-             "something vague, we say so instead of inventing precision:\n"
+    L.append("> **Scope.** Undergraduate-eligible roles located in the United "
+             "States. Postings restricted to PhD, Master's, or graduate students "
+             "are filtered out, as are senior/experienced positions. A role is "
+             "only included when its location gives positive evidence of being "
+             "US-based — a bare \"Remote\" with no country is excluded rather "
+             "than assumed.\n")
+
+    L.append("> **On the Posted column.** It shows how long ago the role went up, "
+             "recalculated on every run from the real timestamp stored in "
+             "`listings.json` (so a listing ages by itself). Where a platform "
+             "publishes something vague we say so rather than invent precision:\n"
              ">\n"
              "> | Shown | Means |\n"
              "> | --- | --- |\n"
-             "> | `2026-08-04` | exact publish timestamp from the source |\n"
-             "> | `~2026-08-04` | approximate — source said e.g. \"posted 4 days ago\" |\n"
-             "> | `≥34d ago` | source said \"30+ days ago\"; this is a floor, not a date |\n"
-             "> | `listed since 2016-02` | evergreen requisition, open for years |\n"
-             "> | `unknown` | the platform publishes no posting date |\n"
+             "> | `3 days ago` | exact publish timestamp from the source |\n"
+             "> | `~4 days ago` | approximate — source said e.g. \"posted 4 days ago\" |\n"
+             "> | `≥30 days ago` | source said \"30+ days ago\"; a floor, not a measurement |\n"
+             "> | `365+ days ago` | open more than a year (typically an evergreen req) |\n"
+             "> | `Unknown` | the platform publishes no posting date |\n"
              ">\n"
              f"> Only exact dates earn the 🆕 badge. A `~` before a term "
              "(e.g. `~Summer 2027`) means the term was inferred from the posting "

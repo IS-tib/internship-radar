@@ -87,7 +87,6 @@ class TestGreenhouse(unittest.TestCase):
         self.assertEqual(r.posted.value, "2026-06-29")
         self.assertEqual(r.posted.field, "first_published")
         self.assertEqual(r.posted.precision, dates.EXACT)
-        self.assertEqual(r.deadline.value, "2026-09-30")
         self.assertEqual(r.ats_job_id, "8559344002")
         self.assertTrue(r.is_first_party)
 
@@ -179,6 +178,67 @@ class TestWorkday(unittest.TestCase):
             rows = workday.fetch_workday({"name": "N", "host": "h", "site": "s",
                                           "search_terms": ["intern", "new grad"]})
         self.assertEqual(len(rows), 2)   # not 4
+
+
+
+
+WORKDAY_COLLAPSED = {"total": 1, "jobPostings": [
+    {"title": "Software Engineering Intern", "externalPath": "/job/SWE_R9",
+     "locationsText": "2 Locations", "postedOn": "Posted 3 Days Ago",
+     "bulletFields": ["R9"]},
+]}
+
+WORKDAY_DETAIL = {"jobPostingInfo": {
+    "location": "Austin, TX",
+    "additionalLocations": ["Seattle, WA", "Austin, TX"],
+}}
+
+
+class TestWorkdayCollapsedLocations(unittest.TestCase):
+    """'2 Locations' carries no geography and would be dropped by the US filter."""
+
+    def test_detail_endpoint_resolves_real_locations(self):
+        with mock.patch.object(workday, "post_json", return_value=WORKDAY_COLLAPSED), \
+             mock.patch.object(workday, "get_json", return_value=WORKDAY_DETAIL):
+            rows = workday.fetch_workday({"name": "J&J", "host": "h", "site": "s",
+                                          "search_terms": ["intern"]})
+        self.assertEqual(rows[0].location, "Austin, TX; Seattle, WA")
+
+    def test_detail_failure_leaves_row_intact(self):
+        def boom(*a, **k):
+            raise workday.FetchError("nope")
+
+        with mock.patch.object(workday, "post_json", return_value=WORKDAY_COLLAPSED), \
+             mock.patch.object(workday, "get_json", side_effect=boom):
+            rows = workday.fetch_workday({"name": "J&J", "host": "h", "site": "s",
+                                          "search_terms": ["intern"]})
+        self.assertEqual(rows[0].location, "2 Locations")   # unchanged, not crashed
+
+    def test_budget_limits_detail_calls(self):
+        calls = {"n": 0}
+
+        def counting(*a, **k):
+            calls["n"] += 1
+            return WORKDAY_DETAIL
+
+        with mock.patch.object(workday, "post_json", return_value=WORKDAY_COLLAPSED), \
+             mock.patch.object(workday, "get_json", side_effect=counting):
+            workday.fetch_workday({"name": "X", "host": "h", "site": "s",
+                                   "search_terms": ["intern"], "detail_budget": 0})
+        self.assertEqual(calls["n"], 0)
+
+    def test_normal_location_never_triggers_a_detail_call(self):
+        calls = {"n": 0}
+
+        def counting(*a, **k):
+            calls["n"] += 1
+            return WORKDAY_DETAIL
+
+        with mock.patch.object(workday, "post_json", return_value=WORKDAY_PAGE), \
+             mock.patch.object(workday, "get_json", side_effect=counting):
+            workday.fetch_workday({"name": "X", "host": "h", "site": "s",
+                                   "search_terms": ["intern"]})
+        self.assertEqual(calls["n"], 0)
 
 
 if __name__ == "__main__":

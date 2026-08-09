@@ -14,9 +14,10 @@ from __future__ import annotations
 import datetime as dt
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from . import adapters
+from . import adapters, locations
 from .classify import categorize, classify_level, classify_term, is_phd_role
 from .dedupe import deduplicate, primary_identity
+from .eligibility import undergrad_eligible
 from .http import FetchError, NotFound
 from .dates import TRUSTED
 
@@ -73,20 +74,50 @@ def collect(sources, workers=MAX_WORKERS, log=print):
     return postings, health
 
 
-def refine(postings, today=None, include_levels=("intern", "new_grad")):
-    """Filter to early-career technical roles and attach classification."""
+def refine(postings, today=None, include_levels=("intern", "new_grad"),
+           us_only=True, undergrad_only=True):
+    """Filter to undergraduate-appropriate US technical roles and classify them.
+
+    Returns (kept, rejections) where `rejections` counts why rows were dropped,
+    so a run can prove it is filtering for the right reasons instead of quietly
+    shrinking the board.
+    """
     today = today or dt.date.today()
     kept = []
+    rejected = {}
+
+    def drop(reason):
+        rejected[reason] = rejected.get(reason, 0) + 1
+
     for p in postings:
         level = classify_level(p.title)
         if level is None or level not in include_levels:
+            drop("not_early_career")
             continue
         category = categorize(p.title)
         if category is None:
+            drop("not_technical")
             continue
+
+        if undergrad_only:
+            ok, reason = undergrad_eligible(p.title, level, p.description)
+            if not ok:
+                drop(f"undergrad:{reason}")
+                continue
+
+        if us_only:
+            verdict = locations.is_us(p.location)
+            if verdict is not True:
+                # `None` means the string carried no geographic evidence (a bare
+                # "Remote", "2 Locations"). We exclude rather than assume US.
+                drop("non_us" if verdict is False else "location_unknown")
+                continue
+
         term = classify_term(p.title, p.posted, today)
         if term is None:
+            drop("stale_term")
             continue
+
         label, priority, inferred = term
         p.level = level
         p.category = category
@@ -94,9 +125,12 @@ def refine(postings, today=None, include_levels=("intern", "new_grad")):
         p.term_priority = priority
         p.term_inferred = inferred
         p.is_phd = is_phd_role(p.title)
+        p.location_display = locations.normalize(p.location)
+        p.is_remote = locations.is_remote(p.location)
         p.identity = primary_identity(p)
         kept.append(p)
-    return kept
+
+    return kept, rejected
 
 
 def _sort_key(row):
@@ -133,8 +167,11 @@ def build(sources, previous, today=None, log=print):
     raw, health = collect(sources, log=log)
     log(f"\n{len(raw)} raw postings from {sum(1 for h in health.values() if h['status'] == 'ok')} healthy sources")
 
-    matched = refine(raw, today)
-    log(f"{len(matched)} early-career technical roles after classification")
+    matched, rejected = refine(raw, today)
+    log(f"{len(matched)} undergraduate-eligible US roles after filtering")
+    if rejected:
+        top = sorted(rejected.items(), key=lambda kv: -kv[1])[:8]
+        log("  filtered: " + ", ".join(f"{k}={v}" for k, v in top))
 
     unique, dedupe_stats = deduplicate(matched)
     log(f"{len(unique)} unique after dedupe "
@@ -162,11 +199,13 @@ def build(sources, previous, today=None, log=print):
     open_rows, closed_rows, life = reconcile(rows, previous, healthy, today)
     open_rows.sort(key=_sort_key)
 
-    metrics = compute_metrics(open_rows, closed_rows, health, dedupe_stats, life)
+    metrics = compute_metrics(open_rows, closed_rows, health, dedupe_stats, life,
+                              rejected)
     return open_rows, closed_rows, health, metrics
 
 
-def compute_metrics(open_rows, closed_rows, health, dedupe_stats, life):
+def compute_metrics(open_rows, closed_rows, health, dedupe_stats, life,
+                    rejected=None):
     """Reproducible quality metrics, embedded in listings.json every run."""
     def pct(n, d):
         return round(100.0 * n / d, 1) if d else 0.0
@@ -203,6 +242,8 @@ def compute_metrics(open_rows, closed_rows, health, dedupe_stats, life):
         "first_party_pct": pct(first_party, total),
         "dedupe": dedupe_stats,
         "lifecycle": life,
+        "filtered_out": dict(sorted((rejected or {}).items(), key=lambda kv: -kv[1])),
+        "remote_roles": sum(1 for r in open_rows if r.get("is_remote")),
     }
 
 

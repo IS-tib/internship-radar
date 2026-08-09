@@ -107,7 +107,6 @@ class Posting:
     source_name: str = ""           # human label, e.g. "Greenhouse · Stripe"
     location: str = ""
     posted: DateInfo = field(default_factory=lambda: UNKNOWN_DATE)
-    deadline: DateInfo = field(default_factory=lambda: UNKNOWN_DATE)
     ats_job_id: str = ""            # stable per-ATS identifier when available
     remote: bool | None = None
     department: str = ""
@@ -122,6 +121,8 @@ class Posting:
     identity: str = ""
     first_seen: str = ""
     last_seen: str = ""
+    location_display: str = ""      # normalised location for the table
+    is_remote: bool = False
 
     def __post_init__(self):
         self.company = (self.company or "").strip()
@@ -148,8 +149,10 @@ class Posting:
 
     def to_dict(self) -> dict:
         d = asdict(self)
+        # `posted` is stored as a full record (value + precision + source field)
+        # so the displayed "N days ago" can be recomputed on every render from
+        # the real timestamp rather than being frozen at scrape time.
         d["posted"] = self.posted.as_dict()
-        d["deadline"] = self.deadline.as_dict()
         d["canonical_url"] = self.canonical_url
         # description is only needed in-process for similarity checks; keeping it
         # would balloon listings.json by megabytes.

@@ -89,7 +89,6 @@ def _score(p) -> tuple:
         1 if p.is_first_party else 0,
         1 if p.posted.precision in TRUSTED else 0,
         1 if p.posted.known else 0,
-        1 if p.deadline.known else 0,
         len(p.description or ""),
         len(p.location or ""),
     )

@@ -30,7 +30,7 @@ import os
 CLOSE_AFTER_MISSES = 2
 ARCHIVE_DAYS = 30
 
-SCHEMA_VERSION = 3
+SCHEMA_VERSION = 4
 
 
 def _today():
@@ -76,13 +76,16 @@ def migrate(data):
                 row["identity"] = f"cts:{key}"
             else:
                 row["identity"] = f"cts:{row.get('company','')}|{row.get('title','')}"
-        for f in ("posted", "deadline"):
-            v = row.get(f)
-            if isinstance(v, str):
-                row[f] = ({"value": v, "precision": "approximate", "field": "migrated:v2"}
-                          if v else {"value": "", "precision": "unknown", "field": ""})
-            elif not isinstance(v, dict):
-                row[f] = {"value": "", "precision": "unknown", "field": ""}
+        v = row.get("posted")
+        if isinstance(v, str):
+            row["posted"] = ({"value": v, "precision": "approximate", "field": "migrated:v2"}
+                             if v else {"value": "", "precision": "unknown", "field": ""})
+        elif not isinstance(v, dict):
+            row["posted"] = {"value": "", "precision": "unknown", "field": ""}
+        # The deadline column was removed: sources populated it too rarely to be
+        # useful, so it is dropped from the schema rather than carried as dead
+        # weight through every run.
+        row.pop("deadline", None)
         row.pop("date", None)
         row.pop("is_new", None)
         row.pop("priority", None)

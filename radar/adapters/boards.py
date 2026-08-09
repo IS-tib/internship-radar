@@ -61,7 +61,6 @@ def fetch_greenhouse(source):
             source_name=f"Greenhouse · {source['name']}",
             location=(j.get("location") or {}).get("name", ""),
             posted=posted,
-            deadline=dates.from_iso(j.get("application_deadline"), "application_deadline"),
             ats_job_id=str(j.get("id") or ""),
             department=_first_dept(j),
         ))
@@ -287,6 +286,38 @@ def fetch_breezy(source):
 # --------------------------------------------------------------------------- #
 # Rippling ATS
 # --------------------------------------------------------------------------- #
+
+@register("careerpuck", requires=("token",))
+def fetch_careerpuck(source):
+    """CareerPuck public job-board API.
+
+    CareerPuck fronts other ATS systems but exposes its own clean public feed
+    with a real `postedAt` timestamp, which is more than several of the
+    platforms it aggregates publish directly.
+    """
+    token = source["token"]
+    data = get_json(f"https://api.careerpuck.com/v1/public/job-boards/{token}")
+
+    out = []
+    for j in data.get("jobs", []):
+        loc = j.get("location")
+        if isinstance(loc, dict):
+            where = _loc(loc.get("city"), loc.get("state"), loc.get("country"))
+        else:
+            where = str(loc or "")
+        out.append(Posting(
+            company=source["name"],
+            title=j.get("title", ""),
+            url=j.get("applyUrl") or j.get("url", ""),
+            source="careerpuck",
+            source_name=f"CareerPuck · {source['name']}",
+            location=where,
+            posted=dates.from_iso(j.get("postedAt"), "postedAt"),
+            ats_job_id=str(j.get("id") or j.get("atsSourceId") or ""),
+            department=j.get("department", "") or "",
+        ))
+    return out
+
 
 @register("rippling", requires=("token",))
 def fetch_rippling(source):
