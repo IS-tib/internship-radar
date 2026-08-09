@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**1470 open roles** · **501 companies** · **471/506 sources healthy** · updated 2026-08-09 11:03 UTC  
-1070 internships · 400 new-grad · SWE 828 · Data/ML 439 · Tech 166 · PM 37
+**1463 open roles** · **500 companies** · **471/506 sources healthy** · updated 2026-08-09 14:28 UTC  
+1063 internships · 400 new-grad · SWE 826 · Data/ML 437 · Tech 163 · PM 37
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -146,7 +146,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 
 _+159 more in the full list below._
 
-## 📋 All open roles — newest first (1470)
+## 📋 All open roles — newest first (1463)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -451,7 +451,7 @@ _+159 more in the full list below._
 | Skydio | Product Management Intern | PM | Intern | ~Summer 2027 | San Mateo, California, United States | 9 days ago | [apply](https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf) |
 | Tesla | Vehicle Software Intern - Vehicle Software Engineer-Diagnostic User Interface | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 9 days ago | [apply](https://www.tesla.com/careers/search/job/278703) |
 
-_Showing the newest 300 of 1470 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 1463 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 1470 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **91.1%** of roles carry an exact posting timestamp from the source (1339/1470).
-- **29.4%** come from a company's own board rather than a community feed.
-- **1146** duplicates merged, **22** near-duplicates collapsed.
-- **0** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **91.5%** of roles carry an exact posting timestamp from the source (1339/1463).
+- **29.0%** come from a company's own board rather than a community feed.
+- **1147** duplicates merged, **22** near-duplicates collapsed.
+- **7** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>2 source(s) returned 404 this run (token likely renamed)</summary>
 
