@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**1466 open roles** · **500 companies** · **471/506 sources healthy** · updated 2026-08-10 03:47 UTC  
-1066 internships · 400 new-grad · SWE 827 · Data/ML 438 · Tech 164 · PM 37
+**1472 open roles** · **501 companies** · **471/506 sources healthy** · updated 2026-08-10 14:53 UTC  
+1072 internships · 400 new-grad · SWE 830 · Data/ML 440 · Tech 164 · PM 38
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,11 +19,17 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (275)
+## 🆕 Just posted — last 7 days (281)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| ASR INTERNATIONAL | Junior Software Engineer Intern - Instrumentation 🆕 | SWE | Intern | ~Summer 2027 | Newport News, VA | 0 days ago | [apply](https://asrinternationalcorp.applytojob.com/apply/nknm2W31uu/SoftwareInstrumentation-Engineer-Junior) |
 | Field AI | Mechanical Engineer, Robotics Hardware - Part-Time Internship 🆕 | Tech | Intern | ~Summer 2027 | Irvine, CA | 0 days ago | [apply](https://jobs.lever.co/field-ai/88f05d6e-ee93-4fc5-80cd-efe6854e22bc) |
+| InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | New York, NY, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000142560129) |
+| TikTok | Data Engineer Intern - Monetization Data 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7671232204182276405) |
+| TikTok | Software Engineer Intern - Global E-commerce-Search 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://lifeattiktok.com/search/7670839727059339525) |
+| Vertiv | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Westerville, OH | 0 days ago | [apply](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278933) |
+| Vertiv | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Delaware, OH | 0 days ago | [apply](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278777) |
 | ProNexus | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote (US) | 2 days ago | [apply](https://apply.workable.com/pronexus-1/j/AF8C34AC6D/apply) |
 | SentiLink | Research Scientist New Grad 🆕 | Data/ML | New grad | ~Summer 2027 | Remote (US) | 2 days ago | [apply](https://jobs.ashbyhq.com/sentilink/f9a47314-c48a-4053-a113-6974b211559f/application?embed=true) |
 | SentiLink | Applied Scientist New Grad - Multiple Teams 🆕 | Data/ML | New grad | ~Summer 2027 | Remote (US) | 2 days ago | [apply](https://jobs.ashbyhq.com/sentilink/cbe2397c-5e7a-4649-a8c0-07e5d1204e82/application?embed=true) |
@@ -137,20 +143,20 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Microsoft | Research Intern - Firmware Security 🆕 | Tech | Intern | ~Summer 2027 | Redmond, WA | 6 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393556955518) |
 | Microsoft | Software Engineer Intern, Fullstack Product (Web + Services) 🆕 | SWE | Intern | ~Summer 2027 | Multiple Locations, United States | 6 days ago | [apply](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922922) |
 | Netsmart | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Overland Park, KS | 6 days ago | [apply](https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667) |
-| PlusAI | Deep Learning Research Intern — Multimodal BEV Perception 🆕 | Data/ML | Intern | ~Summer 2027 | Santa Clara, CA | 6 days ago | [apply](https://jobs.lever.co/plus-2/2ee24f85-bfa1-47fc-bfe3-fd07521a7b62) |
-| RTX | Software Engineer Intern, Fleet Health Instrumentation 🆕 | SWE | Intern | ~Summer 2027 | Fullerton, CA | 6 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-FULLERTON-675--1801-Hughes-Dr--BLDG-675/Software-Engineering-Intern--Summer-2027-_01863012) |
-| RTX | Software Engineer Intern - Summer 2027 🆕 | SWE | Intern | Summer 2027 | Cedar Rapids, IA | 6 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1) |
-| RTX | Software Engineer Intern, Fleet Health Instrumentation 🆕 | SWE | Intern | ~Summer 2027 | McKinney, TX | 6 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072) |
-| Tesla | Data Engineer Intern - Cell Engineering 🆕 | Data/ML | Intern | ~Summer 2027 | Palo Alto, CA | 6 days ago | [apply](https://www.tesla.com/careers/search/job/278622) |
-| TikTok | Machine Learning Engineer Intern - Data Search Local Service 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 6 days ago | [apply](https://lifeattiktok.com/search/7668381860191734021) |
 
-_+155 more in the full list below._
+_+161 more in the full list below._
 
-## 📋 All open roles — newest first (1466)
+## 📋 All open roles — newest first (1472)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| ASR INTERNATIONAL | Junior Software Engineer Intern - Instrumentation 🆕 | SWE | Intern | ~Summer 2027 | Newport News, VA | 0 days ago | [apply](https://asrinternationalcorp.applytojob.com/apply/nknm2W31uu/SoftwareInstrumentation-Engineer-Junior) |
 | Field AI | Mechanical Engineer, Robotics Hardware - Part-Time Internship 🆕 | Tech | Intern | ~Summer 2027 | Irvine, CA | 0 days ago | [apply](https://jobs.lever.co/field-ai/88f05d6e-ee93-4fc5-80cd-efe6854e22bc) |
+| InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | New York, NY, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000142560129) |
+| TikTok | Data Engineer Intern - Monetization Data 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7671232204182276405) |
+| TikTok | Software Engineer Intern - Global E-commerce-Search 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://lifeattiktok.com/search/7670839727059339525) |
+| Vertiv | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Westerville, OH | 0 days ago | [apply](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278933) |
+| Vertiv | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Delaware, OH | 0 days ago | [apply](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278777) |
 | ProNexus | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote (US) | 2 days ago | [apply](https://apply.workable.com/pronexus-1/j/AF8C34AC6D/apply) |
 | SentiLink | Research Scientist New Grad 🆕 | Data/ML | New grad | ~Summer 2027 | Remote (US) | 2 days ago | [apply](https://jobs.ashbyhq.com/sentilink/f9a47314-c48a-4053-a113-6974b211559f/application?embed=true) |
 | SentiLink | Applied Scientist New Grad - Multiple Teams 🆕 | Data/ML | New grad | ~Summer 2027 | Remote (US) | 2 days ago | [apply](https://jobs.ashbyhq.com/sentilink/cbe2397c-5e7a-4649-a8c0-07e5d1204e82/application?embed=true) |
@@ -347,8 +353,8 @@ _+155 more in the full list below._
 | Medtronic | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Fridley, MN; Tempe, AZ | 7 days ago | [apply](https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630-1) |
 | Metropolitan Transportation Authority | Data Analyst Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Brooklyn, NY | 7 days ago | [apply](https://jobs.jobvite.com/metropolitantransportationauthority/job/oboAAfwt?nl=1&nl=1&fr=false) |
 | Microchip Technology | Engineering Intern - Firmware Development 🆕 | Tech | Intern | ~Summer 2027 | Houston, TX | 7 days ago | [apply](https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Firmware-Development-_R3372-26) |
-| Microsoft | Software Engineer Intern - CoreAI 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA | 7 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393556951950) |
 | Microsoft | Software Engineer Intern, CoreAI 🆕 | SWE | Intern | ~Summer 2027 | Multiple Locations, United States | 7 days ago | [apply](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0) |
+| Microsoft | Software Engineer Intern - CoreAI 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA | 7 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393556951950) |
 | NTT DATA AIVista | AI Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Palo Alto, CA; San Francisco, CA | 7 days ago | [apply](https://jobs.ashbyhq.com/ntt-data-aivista/75f9f312-1cf9-4141-b352-60cb2fac8fe9/application?embed=true) |
 | NTT DATA AIVista | AI Scientist - Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco Bay Area | 7 days ago | [apply](https://jobs.ashbyhq.com/ntt-data-aivista/75f9f312-1cf9-4141-b352-60cb2fac8fe9) |
 | Naver U.Hub INC | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Redwood City, CA | 7 days ago | [apply](https://naveruhubinc.applytojob.com/apply/snw35vU7eX/ThingsBook-Product-Management-Intern) |
@@ -444,14 +450,8 @@ _+155 more in the full list below._
 | HPR (Hyannis Port Research) | FPGA Engineering Intern - Summer 2027 | Tech | Intern | Summer 2027 | Needham, MA | 10 days ago | [apply](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003) |
 | Heliux | Software Engineer Intern | SWE | Intern | ~Summer 2027 | San Francisco, CA | 10 days ago | [apply](https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef/application?embed=true) |
 | Heliux | Software Engineer (Internship, Summer 2027) | SWE | Intern | Summer 2027 | HQ (San Francisco, CA) | 10 days ago | [apply](https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef) |
-| Melius | Software Engineer Intern | SWE | Intern | ~Summer 2027 | New York, NY | 10 days ago | [apply](https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf/application?embed=true) |
-| Melius | Software Engineering Intern [Spring/Summer 2027] | SWE | Intern | Summer 2027 | New York, NY | 10 days ago | [apply](https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280) |
-| New York Post Holdings | Product Intern | PM | Intern | ~Summer 2027 | New York, NY | 10 days ago | [apply](https://dowjones.wd1.myworkdayjobs.com/New_York_Post_Careers/job/NYC---1211-Ave-of-the-Americas/Product-Intern--Fall-2026--10-weeks--24-hours-a-week-_Job_Req_54488) |
-| NewsBreak | Software Engineer Junior New Grad - ML Infra | SWE | New grad | ~Summer 2027 | Mountain View, CA | 10 days ago | [apply](https://job-boards.greenhouse.io/newsbreak/jobs/4615879006) |
-| Persona AI | Machine Learning Intern, Manipulation | Data/ML | Intern | ~Summer 2027 | Houston, TX | 10 days ago | [apply](https://jobs.ashbyhq.com/persona.ai/ed9a7425-9798-471e-b46a-fefd59570630) |
-| SK Hynix Memory Solution | Test Automation Software Engineer Intern | SWE | Intern | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4342038009) |
 
-_Showing the newest 300 of 1466 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 1472 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,9 +463,9 @@ _Showing the newest 300 of 1466 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **91.5%** of roles carry an exact posting timestamp from the source (1342/1466).
-- **29.1%** come from a company's own board rather than a community feed.
-- **1136** duplicates merged, **22** near-duplicates collapsed.
+- **91.6%** of roles carry an exact posting timestamp from the source (1348/1472).
+- **29.0%** come from a company's own board rather than a community feed.
+- **1135** duplicates merged, **22** near-duplicates collapsed.
 - **7** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>2 source(s) returned 404 this run (token likely renamed)</summary>
