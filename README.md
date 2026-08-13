@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**1582 open roles** · **545 companies** · **471/506 sources healthy** · updated 2026-08-13 04:05 UTC  
-1163 internships · 419 new-grad · SWE 893 · Data/ML 479 · Tech 162 · PM 48
+**1599 open roles** · **556 companies** · **471/506 sources healthy** · updated 2026-08-13 14:52 UTC  
+1178 internships · 421 new-grad · SWE 905 · Data/ML 481 · Tech 163 · PM 50
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,13 +19,33 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (183)
+## 🆕 Just posted — last 7 days (203)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Applied Materials | Software Engineer New Grad - DevOps 🆕 | SWE | New grad | ~Summer 2027 | Gloucester, MA | 0 days ago | [apply](https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Software-Engineer--DevOps---New-College-Grad---Bachelor-s--Gloucester--MA-_R2625762) |
+| Calpion/Plutus Health | AI Engineering Intern - Python & Agentic AI 🆕 | Data/ML | Intern | ~Summer 2027 | Dallas, TX | 0 days ago | [apply](https://calpionplutus.bamboohr.com/careers/310/) |
 | ConnectPrep | Data Analyst Internship 🆕 | Data/ML | Intern | ~Summer 2027 | Washington, District of Columbia, United States | 0 days ago | [apply](https://apply.workable.com/j/D1C67258C0) |
 | Epic Games | Gameplay Programmer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cary, NC | 0 days ago | [apply](https://epicgames.com/careers/jobs/6141180004?gh_jid=6141180004) |
+| Gartner | Data Analyst Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Irving, TX | 0 days ago | [apply](https://gartner.wd5.myworkdayjobs.com/EXT/job/Irving-TX/Data-Analyst-Internship--2028-Graduates-_113297) |
+| Inbulks | Junior Front End Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Long Island City, Queens, NY | 0 days ago | [apply](https://jobs.smartrecruiters.com/InbulksCorp/743999750129753) |
+| InfiniteQuant | Quantitative Developer - Internship - Summer 2027 🆕 | SWE | Intern | Summer 2027 | New York, New York, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594) |
+| InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | New York, NY, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000143307421) |
+| Mapjects | PHP or Drupal Web Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Washington, DC | 0 days ago | [apply](https://jobs.smartrecruiters.com/Mapjectscom/79253426) |
+| Mapjects | PHP Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Washington, DC | 0 days ago | [apply](https://jobs.smartrecruiters.com/Mapjectscom/78665247) |
+| Mapjects | Java Developer Intern - Web Application Developer 🆕 | SWE | Intern | ~Summer 2027 | Washington, DC | 0 days ago | [apply](https://jobs.smartrecruiters.com/Mapjectscom/78913939) |
+| Mapjects | Java Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Washington, DC | 0 days ago | [apply](https://jobs.smartrecruiters.com/Mapjectscom/79770294) |
+| Mapjects | Java Developer Intern - Salary 🆕 | SWE | Intern | ~Summer 2027 | College Park, MD | 0 days ago | [apply](https://jobs.smartrecruiters.com/Mapjectscom/79183538) |
+| RRS Group | Software Engineer Intern - Placement Year 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://jobs.smartrecruiters.com/RRSGroup/744000142513209) |
+| RRS Group | Data Engineering & Analytics Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://jobs.smartrecruiters.com/RRSGroup/744000130586249) |
+| Specter Aerospace | Full Stack Developer Co-op 🆕 | SWE | Intern | ~Summer 2027 | Boston, MA; Peabody, MA | 0 days ago | [apply](https://specteraerospace.bamboohr.com/careers/122/) |
+| Specter Aerospace | Front-End Software Developer Co-op 🆕 | SWE | Intern | ~Summer 2027 | Boston, MA; Peabody, MA | 0 days ago | [apply](https://specteraerospace.bamboohr.com/careers/120/) |
+| Specter Aerospace | Embedded Software Co-op 🆕 | Tech | Intern | ~Summer 2027 | Boston, MA | 0 days ago | [apply](https://specteraerospace.bamboohr.com/careers/119/) |
+| Tesla | Firmware Engineer Intern - New Programs Engineering 🆕 | Tech | Intern | ~Summer 2027 | Fremont, CA | 0 days ago | [apply](https://www.tesla.com/careers/search/job/279991) |
+| TikTok | Data Science Intern - Advertisement Team 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7673226686054107445) |
 | TikTok | Backend Software Engineer New Grad - Creator Strategy 🆕 | SWE | New grad | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7672976491146004741) |
+| Tuckernuck | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Washington, DC | 0 days ago | [apply](https://tnuck.bamboohr.com/careers/273/) |
+| VWH Capital Management | Quantitative Researcher Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Dallas, TX | 0 days ago | [apply](https://jobs.smartrecruiters.com/VWHCapitalManagementLP/744000135105801) |
 | 9to9 Software Solutions | Entry Level Software Developer 🆕 | SWE | New grad | ~Summer 2027 | Copperhill, TN | 1 day ago | [apply](https://jobs.smartrecruiters.com/9to9SoftwareSolutionsLLC/743999677188473) |
 | 9to9 Software Solutions | Entry Level Software Developer 🆕 | SWE | New grad | ~Summer 2027 | Randolph AFB, TX | 1 day ago | [apply](https://jobs.smartrecruiters.com/9to9SoftwareSolutionsLLC/743999674053935) |
 | Assured Guaranty | Product Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://boards.greenhouse.io/assuredguaranty/jobs/8700953002) |
@@ -123,36 +143,36 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | LPL Financial Holdings | Data Engineering New Grad 🆕 | Data/ML | New grad | ~Summer 2027 | Austin, TX; Fort Mill, SC | 3 days ago | [apply](https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/New-Grad---2027---Data-Engineering_R-052493-1) |
 | LPL Financial Holdings | Product Management New Grad - Product 🆕 | PM | New grad | ~Summer 2027 | Austin, TX; Fort Mill, SC | 3 days ago | [apply](https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/New-Grad---2027---Product_R-052468-1) |
 | Micron Technology | Electrical Engineer New Grad - DRAM Design Engineering 🆕 | Tech | New grad | ~Summer 2027 | Boise, ID | 3 days ago | [apply](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/New-College-Grad---DRAM-Design-Engineer_JR107861) |
-| Northwood Space | RF & Antenna Systems Engineer (Early Career) 🆕 | SWE | New grad | ~Summer 2027 | Torrance, CA | 3 days ago | [apply](https://jobs.ashbyhq.com/NorthwoodSpace/11992bc2-5ec9-4143-9b64-e70be5b13726) |
-| RLI | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Honolulu, HI | 3 days ago | [apply](https://wd1.myworkdaysite.com/recruiting/rlicorp/RLI_Corp_Careers/job/Honolulu-HI/Product-Management-Intern--Honolulu--HI_R1646) |
-| RTX | Software Engineer Intern - Summer 2027 🆕 | SWE | Intern | Summer 2027 | Marlborough, MA | 3 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineering-Intern--Summer-2027-_01865158) |
-| RTX | Software Engineer Intern - Summer 2027 🆕 | SWE | Intern | Summer 2027 | Woburn, MA | 3 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineering-Intern--Summer-2027-_01864764) |
-| RTX | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Largo, FL | 3 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-LARGO-382SR--7887-Bryan-Dairy-Rd--BLDG-600/Software-Engineer-Intern--Summer-2027-_01864811-1) |
-| Rockwell Automation | Embedded Software Engineer Co-op 🆕 | SWE | Intern | ~Summer 2027 | Mayfield Heights, OH | 3 days ago | [apply](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Spring-2027-Co-op--Embedded-Software-Engineer--January-2027---August-2027-_R26-3473) |
-| Sargent & Lundy | AI & Automation Intern - Enterprise Data & Analytics 🆕 | Data/ML | Intern | ~Summer 2027 | Chicago, IL | 3 days ago | [apply](https://careers-sargentlundy.icims.com/jobs/25986/job?mobile=true&needsRedirect=false) |
-| Seagate Technology | Firmware Engineer - Early Career 🆕 | Tech | New grad | ~Summer 2027 | Longmont, CO | 3 days ago | [apply](https://seagatecareers.com/job/Longmont-Firmware-Engineer-Early-Career-CO-80501/1417701800/?ats=successfactors) |
-| Tesla | Software Engineer Intern - Engineering Automation - Vehicle Engineering 🆕 | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 3 days ago | [apply](https://www.tesla.com/careers/search/job/279763) |
-| TikTok | Data Engineer Intern - Monetization Data 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 3 days ago | [apply](https://lifeattiktok.com/search/7671232204182276405) |
-| TikTok | Software Engineer Intern - Global E-commerce-Search 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 3 days ago | [apply](https://lifeattiktok.com/search/7670839727059339525) |
-| Vertiv | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Westerville, OH | 3 days ago | [apply](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278933) |
-| Vertiv | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Delaware, OH | 3 days ago | [apply](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278777) |
-| ProNexus | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote (US) | 5 days ago | [apply](https://apply.workable.com/pronexus-1/j/AF8C34AC6D/apply) |
-| SentiLink | Research Scientist New Grad 🆕 | Data/ML | New grad | ~Summer 2027 | Remote (US) | 5 days ago | [apply](https://jobs.ashbyhq.com/sentilink/f9a47314-c48a-4053-a113-6974b211559f/application?embed=true) |
-| SentiLink | Applied Scientist New Grad - Multiple Teams 🆕 | Data/ML | New grad | ~Summer 2027 | Remote (US) | 5 days ago | [apply](https://jobs.ashbyhq.com/sentilink/cbe2397c-5e7a-4649-a8c0-07e5d1204e82/application?embed=true) |
-| SentiLink | Quantitative Researcher New Grad - Emerging Products - Application Fraud 🆕 | Data/ML | New grad | ~Summer 2027 | Remote (US) | 5 days ago | [apply](https://jobs.ashbyhq.com/sentilink/4e28d1a3-75a8-4031-85eb-82b7847d365a/application?embed=true) |
-| TMEIC Corporation Americas | Applications Intern - AI and Machine Learning 🆕 | Data/ML | Intern | ~Summer 2027 | Roanoke, VA | 5 days ago | [apply](https://apply.workable.com/tmeic-corporation-americas/j/FD4C9770FF/apply) |
-| WallStreetQuants | Quantitative Researcher Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 5 days ago | [apply](https://apply.workable.com/wallstreetquants/j/494E392FD3/apply) |
-| Axon | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Boston, MA; Seattle, WA | 6 days ago | [apply](https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837133003) |
 
-_+63 more in the full list below._
+_+83 more in the full list below._
 
-## 📋 All open roles — newest first (1582)
+## 📋 All open roles — newest first (1599)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Applied Materials | Software Engineer New Grad - DevOps 🆕 | SWE | New grad | ~Summer 2027 | Gloucester, MA | 0 days ago | [apply](https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Software-Engineer--DevOps---New-College-Grad---Bachelor-s--Gloucester--MA-_R2625762) |
+| Calpion/Plutus Health | AI Engineering Intern - Python & Agentic AI 🆕 | Data/ML | Intern | ~Summer 2027 | Dallas, TX | 0 days ago | [apply](https://calpionplutus.bamboohr.com/careers/310/) |
 | ConnectPrep | Data Analyst Internship 🆕 | Data/ML | Intern | ~Summer 2027 | Washington, District of Columbia, United States | 0 days ago | [apply](https://apply.workable.com/j/D1C67258C0) |
 | Epic Games | Gameplay Programmer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cary, NC | 0 days ago | [apply](https://epicgames.com/careers/jobs/6141180004?gh_jid=6141180004) |
+| Gartner | Data Analyst Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Irving, TX | 0 days ago | [apply](https://gartner.wd5.myworkdayjobs.com/EXT/job/Irving-TX/Data-Analyst-Internship--2028-Graduates-_113297) |
+| Inbulks | Junior Front End Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Long Island City, Queens, NY | 0 days ago | [apply](https://jobs.smartrecruiters.com/InbulksCorp/743999750129753) |
+| InfiniteQuant | Quantitative Developer - Internship - Summer 2027 🆕 | SWE | Intern | Summer 2027 | New York, New York, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594) |
+| InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | New York, NY, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000143307421) |
+| Mapjects | PHP or Drupal Web Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Washington, DC | 0 days ago | [apply](https://jobs.smartrecruiters.com/Mapjectscom/79253426) |
+| Mapjects | PHP Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Washington, DC | 0 days ago | [apply](https://jobs.smartrecruiters.com/Mapjectscom/78665247) |
+| Mapjects | Java Developer Intern - Web Application Developer 🆕 | SWE | Intern | ~Summer 2027 | Washington, DC | 0 days ago | [apply](https://jobs.smartrecruiters.com/Mapjectscom/78913939) |
+| Mapjects | Java Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Washington, DC | 0 days ago | [apply](https://jobs.smartrecruiters.com/Mapjectscom/79770294) |
+| Mapjects | Java Developer Intern - Salary 🆕 | SWE | Intern | ~Summer 2027 | College Park, MD | 0 days ago | [apply](https://jobs.smartrecruiters.com/Mapjectscom/79183538) |
+| RRS Group | Software Engineer Intern - Placement Year 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://jobs.smartrecruiters.com/RRSGroup/744000142513209) |
+| RRS Group | Data Engineering & Analytics Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://jobs.smartrecruiters.com/RRSGroup/744000130586249) |
+| Specter Aerospace | Full Stack Developer Co-op 🆕 | SWE | Intern | ~Summer 2027 | Boston, MA; Peabody, MA | 0 days ago | [apply](https://specteraerospace.bamboohr.com/careers/122/) |
+| Specter Aerospace | Front-End Software Developer Co-op 🆕 | SWE | Intern | ~Summer 2027 | Boston, MA; Peabody, MA | 0 days ago | [apply](https://specteraerospace.bamboohr.com/careers/120/) |
+| Specter Aerospace | Embedded Software Co-op 🆕 | Tech | Intern | ~Summer 2027 | Boston, MA | 0 days ago | [apply](https://specteraerospace.bamboohr.com/careers/119/) |
+| Tesla | Firmware Engineer Intern - New Programs Engineering 🆕 | Tech | Intern | ~Summer 2027 | Fremont, CA | 0 days ago | [apply](https://www.tesla.com/careers/search/job/279991) |
+| TikTok | Data Science Intern - Advertisement Team 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7673226686054107445) |
 | TikTok | Backend Software Engineer New Grad - Creator Strategy 🆕 | SWE | New grad | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7672976491146004741) |
+| Tuckernuck | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Washington, DC | 0 days ago | [apply](https://tnuck.bamboohr.com/careers/273/) |
+| VWH Capital Management | Quantitative Researcher Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Dallas, TX | 0 days ago | [apply](https://jobs.smartrecruiters.com/VWHCapitalManagementLP/744000135105801) |
 | 9to9 Software Solutions | Entry Level Software Developer 🆕 | SWE | New grad | ~Summer 2027 | Copperhill, TN | 1 day ago | [apply](https://jobs.smartrecruiters.com/9to9SoftwareSolutionsLLC/743999677188473) |
 | 9to9 Software Solutions | Entry Level Software Developer 🆕 | SWE | New grad | ~Summer 2027 | Randolph AFB, TX | 1 day ago | [apply](https://jobs.smartrecruiters.com/9to9SoftwareSolutionsLLC/743999674053935) |
 | Assured Guaranty | Product Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://boards.greenhouse.io/assuredguaranty/jobs/8700953002) |
@@ -430,28 +450,8 @@ _+63 more in the full list below._
 | Bosch | 2027 Spring Mechanical/Electrical Engineering Co-Op | Tech | Intern | Spring 2027 | Charleston, SC, us | 10 days ago | [apply](https://jobs.smartrecruiters.com/BoschGroup/744000141338219) |
 | ByteDance | Research Scientist Intern - AI Infra Compute | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7667379221434796341/detail) |
 | ByteDance | Software Engineer Intern - AI Infrastructure Compute | SWE | Intern | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7667377525182662965/detail) |
-| ByteDance | Research Scientist Intern - Distributed NoSQL Database Systems | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7668371003554138421/detail) |
-| ByteDance | Network Security Software Engineer Intern - Security Engineering | SWE | Intern | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7667876489597257989/detail) |
-| ByteDance | AI Perception Intern - Pico | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7665457718334425349/detail) |
-| ByteDance | Research Scientist Intern - Multi-modal Agentic Databases | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7667380487805995269/detail) |
-| ByteDance | Software Engineer Intern - Distributed NoSQL Database Systems | SWE | Intern | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7668374190764050741/detail) |
-| ByteDance | Security Engineer New Grad - Threat Detection and Response | Tech | New grad | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7668614787018393909/detail) |
-| ByteDance | Software Engineer New Grad - Traffic Infrastructure | SWE | New grad | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7665849950984194309/detail) |
-| ByteDance | Research Scientist New Grad - Infrastructure System Lab | SWE | New grad | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7665108869591140613/detail) |
-| ByteDance | Research Scientist New Grad - Computational Imaging | Data/ML | New grad | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7665836153219959093/detail) |
-| ByteDance | Backend and Infrastructure Software Engineer New Grad - Dev Infra | SWE | New grad | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7667894766036322565/detail) |
-| ByteDance | Research Scientist New Grad - AI for Infrastructure | SWE | New grad | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7667291055662811445/detail) |
-| ByteDance | Research Scientist Intern - Multi-modal Agentic Databases | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7667380184615127301/detail) |
-| ByteDance | Research Scientist Intern - Distributed NoSQL Database Systems | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7668371456348326149/detail) |
-| ByteDance | Software Engineer Intern - AI Infra Compute | SWE | Intern | ~Summer 2027 | Seattle, WA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7667378931599214853/detail) |
-| ByteDance | Research Scientist Intern | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7667379218929780997/detail) |
-| ByteDance | Software Engineer Intern | SWE | Intern | ~Summer 2027 | Seattle, WA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7668373268886161669/detail) |
-| ByteDance | Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling | SWE | New grad | ~Summer 2027 | Seattle, WA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7668799020705679669/detail) |
-| ByteDance | Research Scientist New Grad - Distributed NoSQL Database Systems | Data/ML | New grad | ~Summer 2027 | Seattle, WA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7668365143156721973/detail) |
-| ByteDance | Research Scientist New Grad - Multi-modal Agentic Databases | Data/ML | New grad | ~Summer 2027 | Seattle, WA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7665104241446652213/detail) |
-| ByteDance | Software Engineer New Grad - AI Infra Compute | SWE | New grad | ~Summer 2027 | Seattle, WA | 10 days ago | [apply](https://jobs.bytedance.com/en/position/7667303429264115973/detail) |
 
-_Showing the newest 300 of 1582 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 1599 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 1582 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **93.4%** of roles carry an exact posting timestamp from the source (1477/1582).
-- **26.7%** come from a company's own board rather than a community feed.
-- **1161** duplicates merged, **17** near-duplicates collapsed.
-- **20** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **93.5%** of roles carry an exact posting timestamp from the source (1495/1599).
+- **26.0%** come from a company's own board rather than a community feed.
+- **1177** duplicates merged, **17** near-duplicates collapsed.
+- **27** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>2 source(s) returned 404 this run (token likely renamed)</summary>
 
