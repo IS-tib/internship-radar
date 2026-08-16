@@ -2,7 +2,7 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**1671 open roles** · **582 companies** · **470/506 sources healthy** · updated 2026-08-16 02:55 UTC  
+**1671 open roles** · **582 companies** · **469/506 sources healthy** · updated 2026-08-16 14:16 UTC  
 1222 internships · 449 new-grad · SWE 946 · Data/ML 500 · Tech 172 · PM 53
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
@@ -468,10 +468,11 @@ _Showing the newest 300 of 1671 — the complete, machine-readable set is in_ `l
 - **1197** duplicates merged, **17** near-duplicates collapsed.
 - **37** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
-<details><summary>3 source(s) returned 404 this run (token likely renamed)</summary>
+<details><summary>4 source(s) returned 404 this run (token likely renamed)</summary>
 
 - Atomic Semi
 - Cirrus Logic
+- Singularity 6
 - Sword Health
 
 </details>

@@ -1,14 +1,14 @@
 {
   "schema": 4,
-  "updated": "2026-08-16T02:55:08+00:00",
+  "updated": "2026-08-16T14:16:12+00:00",
   "count": 1671,
   "metrics": {
     "roles_open": 1671,
     "roles_closed_tracked": 37,
     "companies": 582,
     "sources_configured": 506,
-    "sources_ok": 470,
-    "sources_dead": 3,
+    "sources_ok": 469,
+    "sources_dead": 4,
     "sources_failed": 0,
     "by_level": {
       "intern": 1222,
@@ -48,15 +48,15 @@
       "output": 1483
     },
     "lifecycle": {
-      "new": 3,
+      "new": 0,
       "returning": 0,
-      "still_open": 1480,
+      "still_open": 1483,
       "closed": 0,
       "reopened": 0
     },
     "filtered_out": {
-      "not_early_career": 41159,
-      "not_technical": 1918,
+      "not_early_career": 41151,
+      "not_technical": 1914,
       "non_us": 475,
       "undergrad:phd_required": 100,
       "location_unknown": 62,
@@ -287,7 +287,7 @@
     },
     "Figma": {
       "status": "ok",
-      "count": 162,
+      "count": 161,
       "ats": "greenhouse"
     },
     "Datadog": {
@@ -425,14 +425,19 @@
       "count": 746,
       "ats": "ashby"
     },
+    "Reddit": {
+      "status": "ok",
+      "count": 151,
+      "ats": "greenhouse"
+    },
     "Linear": {
       "status": "ok",
       "count": 33,
       "ats": "ashby"
     },
-    "Reddit": {
+    "Vercel": {
       "status": "ok",
-      "count": 151,
+      "count": 83,
       "ats": "greenhouse"
     },
     "Pinterest": {
@@ -440,20 +445,15 @@
       "count": 222,
       "ats": "greenhouse"
     },
-    "Vercel": {
+    "Instacart": {
       "status": "ok",
-      "count": 83,
+      "count": 112,
       "ats": "greenhouse"
     },
     "Mercury": {
       "status": "ok",
       "count": 0,
       "ats": "ashby"
-    },
-    "Instacart": {
-      "status": "ok",
-      "count": 112,
-      "ats": "greenhouse"
     },
     "Dropbox": {
       "status": "ok",
@@ -515,6 +515,11 @@
       "count": 100,
       "ats": "ashby"
     },
+    "Palantir": {
+      "status": "ok",
+      "count": 308,
+      "ats": "lever"
+    },
     "Postman": {
       "status": "ok",
       "count": 109,
@@ -540,11 +545,6 @@
       "count": 13,
       "ats": "ashby"
     },
-    "Palantir": {
-      "status": "ok",
-      "count": 308,
-      "ats": "lever"
-    },
     "Watershed": {
       "status": "ok",
       "count": 35,
@@ -555,25 +555,25 @@
       "count": 393,
       "ats": "ashby"
     },
-    "Jane Street": {
-      "status": "ok",
-      "count": 232,
-      "ats": "greenhouse"
-    },
     "Deel": {
       "status": "ok",
       "count": 0,
       "ats": "ashby"
     },
-    "IMC Trading": {
+    "Jane Street": {
       "status": "ok",
-      "count": 165,
+      "count": 232,
       "ats": "greenhouse"
     },
     "Supabase": {
       "status": "ok",
       "count": 54,
       "ats": "ashby"
+    },
+    "IMC Trading": {
+      "status": "ok",
+      "count": 165,
+      "ats": "greenhouse"
     },
     "Jump Trading": {
       "status": "ok",
@@ -590,6 +590,11 @@
       "count": 229,
       "ats": "greenhouse"
     },
+    "Adobe": {
+      "status": "ok",
+      "count": 0,
+      "ats": "workday"
+    },
     "DRW": {
       "status": "ok",
       "count": 162,
@@ -599,11 +604,6 @@
       "status": "ok",
       "count": 46,
       "ats": "greenhouse"
-    },
-    "Adobe": {
-      "status": "ok",
-      "count": 0,
-      "ats": "workday"
     },
     "Flow Traders": {
       "status": "ok",
@@ -667,13 +667,8 @@
     },
     "ElevenLabs": {
       "status": "ok",
-      "count": 242,
+      "count": 243,
       "ats": "ashby"
-    },
-    "Mastercard": {
-      "status": "ok",
-      "count": 41,
-      "ats": "workday"
     },
     "Riot Games": {
       "status": "ok",
@@ -704,6 +699,11 @@
       "status": "ok",
       "count": 134,
       "ats": "ashby"
+    },
+    "Mastercard": {
+      "status": "ok",
+      "count": 41,
+      "ats": "workday"
     },
     "Ubisoft": {
       "status": "ok",
@@ -755,6 +755,11 @@
       "count": 107,
       "ats": "ashby"
     },
+    "Cisco": {
+      "status": "ok",
+      "count": 419,
+      "ats": "workday"
+    },
     "Contentful": {
       "status": "ok",
       "count": 26,
@@ -764,11 +769,6 @@
       "status": "ok",
       "count": 30,
       "ats": "ashby"
-    },
-    "Cisco": {
-      "status": "ok",
-      "count": 417,
-      "ats": "workday"
     },
     "Fastly": {
       "status": "ok",
@@ -789,6 +789,11 @@
       "status": "ok",
       "count": 8,
       "ats": "ashby"
+    },
+    "Workday": {
+      "status": "ok",
+      "count": 2,
+      "ats": "workday"
     },
     "CoreWeave": {
       "status": "ok",
@@ -815,11 +820,6 @@
       "count": 123,
       "ats": "ashby"
     },
-    "Workday": {
-      "status": "ok",
-      "count": 2,
-      "ats": "workday"
-    },
     "WorkOS": {
       "status": "ok",
       "count": 26,
@@ -845,15 +845,15 @@
       "count": 46,
       "ats": "greenhouse"
     },
-    "Materialize": {
-      "status": "ok",
-      "count": 5,
-      "ats": "ashby"
-    },
     "Tailscale": {
       "status": "ok",
       "count": 57,
       "ats": "greenhouse"
+    },
+    "Materialize": {
+      "status": "ok",
+      "count": 5,
+      "ats": "ashby"
     },
     "PostHog": {
       "status": "ok",
@@ -895,19 +895,14 @@
       "count": 68,
       "ats": "greenhouse"
     },
-    "Socket": {
-      "status": "ok",
-      "count": 24,
-      "ats": "ashby"
-    },
     "Orca Security": {
       "status": "ok",
       "count": 11,
       "ats": "greenhouse"
     },
-    "Semgrep": {
+    "Socket": {
       "status": "ok",
-      "count": 17,
+      "count": 24,
       "ats": "ashby"
     },
     "Backblaze": {
@@ -915,9 +910,9 @@
       "count": 33,
       "ats": "greenhouse"
     },
-    "n8n": {
+    "Semgrep": {
       "status": "ok",
-      "count": 39,
+      "count": 17,
       "ats": "ashby"
     },
     "Sauce Labs": {
@@ -925,15 +920,20 @@
       "count": 9,
       "ats": "greenhouse"
     },
-    "Secureframe": {
+    "n8n": {
       "status": "ok",
-      "count": 18,
+      "count": 39,
       "ats": "ashby"
     },
     "Stability AI": {
       "status": "ok",
       "count": 5,
       "ats": "greenhouse"
+    },
+    "Secureframe": {
+      "status": "ok",
+      "count": 18,
+      "ats": "ashby"
     },
     "Drata": {
       "status": "ok",
@@ -944,6 +944,11 @@
       "status": "ok",
       "count": 40,
       "ats": "greenhouse"
+    },
+    "Visa": {
+      "status": "ok",
+      "count": 310,
+      "ats": "workday"
     },
     "ClickUp": {
       "status": "ok",
@@ -985,20 +990,20 @@
       "count": 22,
       "ats": "greenhouse"
     },
-    "Unstructured": {
-      "status": "ok",
-      "count": 6,
-      "ats": "ashby"
-    },
     "Treasury Prime": {
       "status": "ok",
       "count": 1,
       "ats": "greenhouse"
     },
-    "Visa": {
+    "Unstructured": {
       "status": "ok",
-      "count": 311,
-      "ats": "workday"
+      "count": 6,
+      "ats": "ashby"
+    },
+    "Ledger": {
+      "status": "ok",
+      "count": 1,
+      "ats": "lever"
     },
     "Ideogram": {
       "status": "ok",
@@ -1007,23 +1012,18 @@
     },
     "Solaris": {
       "status": "ok",
-      "count": 34,
+      "count": 32,
       "ats": "greenhouse"
-    },
-    "Ledger": {
-      "status": "ok",
-      "count": 1,
-      "ats": "lever"
-    },
-    "Luma AI": {
-      "status": "ok",
-      "count": 50,
-      "ats": "ashby"
     },
     "tastytrade": {
       "status": "ok",
       "count": 15,
       "ats": "greenhouse"
+    },
+    "Luma AI": {
+      "status": "ok",
+      "count": 50,
+      "ats": "ashby"
     },
     "Vanta": {
       "status": "ok",
@@ -1050,6 +1050,11 @@
       "count": 11,
       "ats": "greenhouse"
     },
+    "Salesforce": {
+      "status": "ok",
+      "count": 526,
+      "ats": "workday"
+    },
     "Tower Research Capital": {
       "status": "ok",
       "count": 79,
@@ -1074,11 +1079,6 @@
       "status": "ok",
       "count": 2,
       "ats": "greenhouse"
-    },
-    "Salesforce": {
-      "status": "ok",
-      "count": 526,
-      "ats": "workday"
     },
     "3Red Partners": {
       "status": "ok",
@@ -1145,11 +1145,6 @@
       "count": 5,
       "ats": "ashby"
     },
-    "Boeing": {
-      "status": "ok",
-      "count": 467,
-      "ats": "workday"
-    },
     "Cribl": {
       "status": "ok",
       "count": 66,
@@ -1170,20 +1165,25 @@
       "count": 86,
       "ats": "greenhouse"
     },
-    "Rula": {
-      "status": "ok",
-      "count": 40,
-      "ats": "ashby"
-    },
     "BigID": {
       "status": "ok",
       "count": 7,
       "ats": "greenhouse"
     },
+    "Rula": {
+      "status": "ok",
+      "count": 40,
+      "ats": "ashby"
+    },
     "Osano": {
       "status": "ok",
       "count": 6,
       "ats": "greenhouse"
+    },
+    "Ro": {
+      "status": "ok",
+      "count": 52,
+      "ats": "lever"
     },
     "Insitro": {
       "status": "ok",
@@ -1195,10 +1195,10 @@
       "count": 61,
       "ats": "greenhouse"
     },
-    "Ro": {
+    "Boeing": {
       "status": "ok",
-      "count": 52,
-      "ats": "lever"
+      "count": 464,
+      "ats": "workday"
     },
     "Transmit Security": {
       "status": "ok",
@@ -1216,14 +1216,14 @@
       "ats": "greenhouse",
       "error": "HTTP 404"
     },
-    "Samsung": {
-      "status": "ok",
-      "count": 347,
-      "ats": "workday"
-    },
     "Zocdoc": {
       "status": "ok",
       "count": 53,
+      "ats": "greenhouse"
+    },
+    "Elation Health": {
+      "status": "ok",
+      "count": 14,
       "ats": "greenhouse"
     },
     "Aurora Solar": {
@@ -1231,15 +1231,15 @@
       "count": 7,
       "ats": "ashby"
     },
-    "Elation Health": {
-      "status": "ok",
-      "count": 14,
-      "ats": "greenhouse"
-    },
     "Komodo Health": {
       "status": "ok",
       "count": 35,
       "ats": "greenhouse"
+    },
+    "NVIDIA": {
+      "status": "ok",
+      "count": 566,
+      "ats": "workday"
     },
     "Recursion Pharmaceuticals": {
       "status": "ok",
@@ -1260,6 +1260,11 @@
       "status": "ok",
       "count": 15,
       "ats": "greenhouse"
+    },
+    "Samsung": {
+      "status": "ok",
+      "count": 347,
+      "ats": "workday"
     },
     "Formlabs": {
       "status": "ok",
@@ -1285,11 +1290,6 @@
       "status": "ok",
       "count": 51,
       "ats": "greenhouse"
-    },
-    "NVIDIA": {
-      "status": "ok",
-      "count": 565,
-      "ats": "workday"
     },
     "Merge": {
       "status": "ok",
@@ -1343,7 +1343,7 @@
     },
     "Community · SimplifyJobs S2026": {
       "status": "ok",
-      "count": 1701,
+      "count": 1699,
       "ats": "community_listings"
     },
     "Attentive": {
@@ -1412,14 +1412,20 @@
       "ats": "ashby"
     },
     "Singularity 6": {
-      "status": "ok",
+      "status": "not_found",
       "count": 0,
-      "ats": "greenhouse"
+      "ats": "greenhouse",
+      "error": "HTTP 404"
     },
     "Collective": {
       "status": "ok",
       "count": 19,
       "ats": "ashby"
+    },
+    "SoloPulse": {
+      "status": "ok",
+      "count": 10,
+      "ats": "lever"
     },
     "CS Disco": {
       "status": "ok",
@@ -1430,11 +1436,6 @@
       "status": "ok",
       "count": 6,
       "ats": "ashby"
-    },
-    "SoloPulse": {
-      "status": "ok",
-      "count": 10,
-      "ats": "lever"
     },
     "Butterfly Network": {
       "status": "ok",
@@ -1496,6 +1497,11 @@
       "count": 23,
       "ats": "ashby"
     },
+    "Hermeus": {
+      "status": "ok",
+      "count": 85,
+      "ats": "lever"
+    },
     "Nirmata": {
       "status": "ok",
       "count": 3,
@@ -1515,11 +1521,6 @@
       "status": "ok",
       "count": 131,
       "ats": "ashby"
-    },
-    "Hermeus": {
-      "status": "ok",
-      "count": 85,
-      "ats": "lever"
     },
     "Muon Space": {
       "status": "ok",
@@ -1571,15 +1572,15 @@
       "count": 73,
       "ats": "ashby"
     },
-    "Northslope Technologies": {
-      "status": "ok",
-      "count": 10,
-      "ats": "ashby"
-    },
     "Oklo": {
       "status": "ok",
       "count": 63,
       "ats": "greenhouse"
+    },
+    "Northslope Technologies": {
+      "status": "ok",
+      "count": 10,
+      "ats": "ashby"
     },
     "Antora Energy": {
       "status": "ok",
@@ -1601,6 +1602,11 @@
       "count": 31,
       "ats": "ashby"
     },
+    "Belvedere Trading": {
+      "status": "ok",
+      "count": 14,
+      "ats": "lever"
+    },
     "Freeform": {
       "status": "ok",
       "count": 62,
@@ -1620,11 +1626,6 @@
       "status": "ok",
       "count": 14,
       "ats": "ashby"
-    },
-    "Belvedere Trading": {
-      "status": "ok",
-      "count": 14,
-      "ats": "lever"
     },
     "PDT Partners": {
       "status": "ok",
@@ -1661,6 +1662,11 @@
       "count": 79,
       "ats": "greenhouse"
     },
+    "PlusAI": {
+      "status": "ok",
+      "count": 37,
+      "ats": "lever"
+    },
     "Middesk": {
       "status": "ok",
       "count": 21,
@@ -1671,25 +1677,20 @@
       "count": 19,
       "ats": "ashby"
     },
-    "PlusAI": {
-      "status": "ok",
-      "count": 37,
-      "ats": "lever"
-    },
     "Rilla": {
       "status": "ok",
       "count": 31,
-      "ats": "ashby"
-    },
-    "Podium Automation": {
-      "status": "ok",
-      "count": 7,
       "ats": "ashby"
     },
     "SpreeAI": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
+    },
+    "Podium Automation": {
+      "status": "ok",
+      "count": 7,
+      "ats": "ashby"
     },
     "pony.ai": {
       "status": "ok",
@@ -1736,45 +1737,50 @@
       "count": 183,
       "ats": "greenhouse"
     },
-    "Mercator": {
-      "status": "ok",
-      "count": 5,
-      "ats": "ashby"
-    },
     "Walleye Capital": {
       "status": "ok",
       "count": 4,
       "ats": "greenhouse"
+    },
+    "Mercator": {
+      "status": "ok",
+      "count": 5,
+      "ats": "ashby"
     },
     "kos.ai": {
       "status": "ok",
       "count": 5,
       "ats": "ashby"
     },
-    "Rivian and Volkswagen Group Technologies": {
+    "Xsolla": {
       "status": "ok",
-      "count": 115,
-      "ats": "ashby"
-    },
-    "Canva": {
-      "status": "ok",
-      "count": 248,
-      "ats": "smartrecruiters"
+      "count": 183,
+      "ats": "lever"
     },
     "Neuralink": {
       "status": "ok",
       "count": 78,
       "ats": "greenhouse"
     },
-    "Cybernetic Labs": {
+    "Canva": {
       "status": "ok",
-      "count": 28,
+      "count": 248,
+      "ats": "smartrecruiters"
+    },
+    "Rivian and Volkswagen Group Technologies": {
+      "status": "ok",
+      "count": 115,
       "ats": "ashby"
     },
     "TMEIC": {
       "status": "ok",
       "count": 35,
       "ats": "workable"
+    },
+    "Cybernetic Labs": {
+      "status": "ok",
+      "count": 28,
+      "ats": "ashby"
     },
     "Fab2": {
       "status": "ok",
@@ -1785,6 +1791,11 @@
       "status": "ok",
       "count": 20,
       "ats": "ashby"
+    },
+    "Diversified Automation": {
+      "status": "ok",
+      "count": 11,
+      "ats": "lever"
     },
     "Skydio": {
       "status": "ok",
@@ -1801,24 +1812,19 @@
       "count": 110,
       "ats": "ashby"
     },
-    "Xsolla": {
+    "HPR (Hyannis Port Research)": {
       "status": "ok",
-      "count": 183,
-      "ats": "lever"
+      "count": 10,
+      "ats": "greenhouse"
     },
     "Melotech": {
       "status": "ok",
       "count": 13,
       "ats": "ashby"
     },
-    "Diversified Automation": {
+    "Rendezvous Robotics": {
       "status": "ok",
-      "count": 11,
-      "ats": "lever"
-    },
-    "HPR (Hyannis Port Research)": {
-      "status": "ok",
-      "count": 10,
+      "count": 24,
       "ats": "greenhouse"
     },
     "Western Digital": {
@@ -1831,11 +1837,6 @@
       "count": 0,
       "ats": "ashby",
       "error": "HTTP 404"
-    },
-    "Rendezvous Robotics": {
-      "status": "ok",
-      "count": 24,
-      "ats": "greenhouse"
     },
     "LinkedIn": {
       "status": "ok",
@@ -1867,11 +1868,6 @@
       "count": 6,
       "ats": "greenhouse"
     },
-    "Bosch": {
-      "status": "ok",
-      "count": 1000,
-      "ats": "smartrecruiters"
-    },
     "ShyftLabs": {
       "status": "ok",
       "count": 32,
@@ -1881,6 +1877,11 @@
       "status": "ok",
       "count": 8,
       "ats": "ashby"
+    },
+    "Bosch": {
+      "status": "ok",
+      "count": 1000,
+      "ats": "smartrecruiters"
     },
     "Eulerity": {
       "status": "ok",
@@ -1899,7 +1900,7 @@
     },
     "Astera": {
       "status": "ok",
-      "count": 41,
+      "count": 45,
       "ats": "ashby"
     },
     "Docugami": {
@@ -1912,54 +1913,49 @@
       "count": 3,
       "ats": "ashby"
     },
-    "Veeam Software": {
-      "status": "ok",
-      "count": 229,
-      "ats": "greenhouse"
-    },
-    "Anthelion Capital": {
-      "status": "ok",
-      "count": 3,
-      "ats": "ashby"
-    },
-    "Axiomatic AI": {
-      "status": "ok",
-      "count": 5,
-      "ats": "greenhouse"
-    },
-    "ProNexus": {
-      "status": "ok",
-      "count": 11,
-      "ats": "workable"
-    },
     "Magnet Forensics": {
       "status": "ok",
       "count": 45,
       "ats": "lever"
     },
-    "Quadrillion": {
+    "Veeam Software": {
       "status": "ok",
-      "count": 6,
-      "ats": "ashby"
-    },
-    "Integra FEC": {
-      "status": "ok",
-      "count": 5,
+      "count": 230,
       "ats": "greenhouse"
-    },
-    "Turabify": {
-      "status": "ok",
-      "count": 22,
-      "ats": "workable"
     },
     "Multiply Labs": {
       "status": "ok",
       "count": 7,
       "ats": "lever"
     },
-    "Atoms": {
+    "Anthelion Capital": {
       "status": "ok",
-      "count": 246,
+      "count": 3,
+      "ats": "ashby"
+    },
+    "ProNexus": {
+      "status": "ok",
+      "count": 11,
+      "ats": "workable"
+    },
+    "Axiomatic AI": {
+      "status": "ok",
+      "count": 5,
+      "ats": "greenhouse"
+    },
+    "Quadrillion": {
+      "status": "ok",
+      "count": 6,
+      "ats": "ashby"
+    },
+    "Turabify": {
+      "status": "ok",
+      "count": 22,
+      "ats": "workable"
+    },
+    "Integra FEC": {
+      "status": "ok",
+      "count": 5,
       "ats": "greenhouse"
     },
     "WallStreetQuants": {
@@ -1967,15 +1963,26 @@
       "count": 19,
       "ats": "workable"
     },
-    "impact.com": {
+    "Atoms": {
       "status": "ok",
-      "count": 88,
+      "count": 246,
       "ats": "greenhouse"
     },
     "Luminance": {
       "status": "ok",
       "count": 46,
       "ats": "workable"
+    },
+    "impact.com": {
+      "status": "ok",
+      "count": 88,
+      "ats": "greenhouse"
+    },
+    "Cirrus Logic": {
+      "status": "not_found",
+      "count": 0,
+      "ats": "lever",
+      "error": "HTTP 404"
     },
     "StudyFetch": {
       "status": "ok",
@@ -1992,12 +1999,6 @@
       "count": 19,
       "ats": "greenhouse"
     },
-    "Cirrus Logic": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "lever",
-      "error": "HTTP 404"
-    },
     "Brio Water Technology": {
       "status": "ok",
       "count": 0,
@@ -2013,20 +2014,10 @@
       "count": 19,
       "ats": "greenhouse"
     },
-    "NBCUniversal": {
-      "status": "ok",
-      "count": 401,
-      "ats": "smartrecruiters"
-    },
     "LightGuide, Inc.": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
-    },
-    "HyperLight": {
-      "status": "ok",
-      "count": 19,
-      "ats": "workable"
     },
     "Droyd Robotics": {
       "status": "ok",
@@ -2037,6 +2028,16 @@
       "status": "ok",
       "count": 20,
       "ats": "greenhouse"
+    },
+    "HyperLight": {
+      "status": "ok",
+      "count": 19,
+      "ats": "workable"
+    },
+    "NBCUniversal": {
+      "status": "ok",
+      "count": 401,
+      "ats": "smartrecruiters"
     },
     "Cohere": {
       "status": "ok",
@@ -2063,15 +2064,25 @@
       "count": 6,
       "ats": "greenhouse"
     },
+    "Tacit": {
+      "status": "ok",
+      "count": 17,
+      "ats": "ashby"
+    },
+    "Field AI": {
+      "status": "ok",
+      "count": 127,
+      "ats": "lever"
+    },
     "Prophet": {
       "status": "ok",
       "count": 23,
       "ats": "greenhouse"
     },
-    "Tacit": {
+    "Kepler Communications": {
       "status": "ok",
-      "count": 17,
-      "ats": "ashby"
+      "count": 33,
+      "ats": "lever"
     },
     "NTT DATA AIVista": {
       "status": "ok",
@@ -2083,6 +2094,11 @@
       "count": 29,
       "ats": "greenhouse"
     },
+    "Denari": {
+      "status": "ok",
+      "count": 0,
+      "ats": "rippling"
+    },
     "GRITT ROBOTICS INC": {
       "status": "ok",
       "count": 21,
@@ -2093,30 +2109,15 @@
       "count": 7,
       "ats": "greenhouse"
     },
-    "Denari": {
-      "status": "ok",
-      "count": 0,
-      "ats": "rippling"
-    },
-    "OpusClip": {
-      "status": "ok",
-      "count": 9,
-      "ats": "ashby"
-    },
-    "Kepler Communications": {
-      "status": "ok",
-      "count": 33,
-      "ats": "lever"
-    },
     "Five Rings": {
       "status": "ok",
       "count": 17,
       "ats": "greenhouse"
     },
-    "Field AI": {
+    "OpusClip": {
       "status": "ok",
-      "count": 127,
-      "ats": "lever"
+      "count": 9,
+      "ats": "ashby"
     },
     "Bild AI": {
       "status": "ok",
@@ -2208,15 +2209,20 @@
       "count": 2,
       "ats": "ashby"
     },
-    "Red Bull": {
-      "status": "ok",
-      "count": 1000,
-      "ats": "smartrecruiters"
-    },
     "Oligo Space": {
       "status": "ok",
       "count": 15,
       "ats": "ashby"
+    },
+    "Phonic": {
+      "status": "ok",
+      "count": 7,
+      "ats": "ashby"
+    },
+    "Red Bull": {
+      "status": "ok",
+      "count": 1000,
+      "ats": "smartrecruiters"
     },
     "ConnectPrep": {
       "status": "ok",
@@ -2227,11 +2233,6 @@
       "status": "ok",
       "count": 15,
       "ats": "greenhouse"
-    },
-    "Phonic": {
-      "status": "ok",
-      "count": 7,
-      "ats": "ashby"
     },
     "Veeda AI": {
       "status": "ok",
@@ -2278,29 +2279,24 @@
       "count": 14,
       "ats": "greenhouse"
     },
-    "1X": {
-      "status": "ok",
-      "count": 83,
-      "ats": "ashby"
-    },
-    "WindBorne Systems": {
-      "status": "ok",
-      "count": 23,
-      "ats": "ashby"
-    },
     "Institute of Foundation Models": {
       "status": "ok",
       "count": 44,
       "ats": "lever"
+    },
+    "1X": {
+      "status": "ok",
+      "count": 83,
+      "ats": "ashby"
     },
     "TribalScale": {
       "status": "ok",
       "count": 7,
       "ats": "greenhouse"
     },
-    "CTGT": {
+    "WindBorne Systems": {
       "status": "ok",
-      "count": 3,
+      "count": 23,
       "ats": "ashby"
     },
     "XPENG Motors": {
@@ -2308,15 +2304,20 @@
       "count": 27,
       "ats": "greenhouse"
     },
-    "Human Computer Lab": {
+    "CTGT": {
       "status": "ok",
-      "count": 13,
+      "count": 3,
       "ats": "ashby"
     },
     "Clarity Innovations": {
       "status": "ok",
       "count": 33,
       "ats": "greenhouse"
+    },
+    "Human Computer Lab": {
+      "status": "ok",
+      "count": 13,
+      "ats": "ashby"
     },
     "Instead": {
       "status": "ok",
@@ -2328,11 +2329,6 @@
       "count": 11,
       "ats": "lever"
     },
-    "Maxima": {
-      "status": "ok",
-      "count": 24,
-      "ats": "ashby"
-    },
     "Astera Labs": {
       "status": "ok",
       "count": 5,
@@ -2343,19 +2339,24 @@
       "count": 20,
       "ats": "workable"
     },
-    "Binance": {
+    "Maxima": {
       "status": "ok",
-      "count": 8,
+      "count": 24,
       "ats": "ashby"
+    },
+    "Reply": {
+      "status": "ok",
+      "count": 40,
+      "ats": "lever"
     },
     "Apera AI": {
       "status": "ok",
       "count": 7,
       "ats": "greenhouse"
     },
-    "AfterQuery": {
+    "Binance": {
       "status": "ok",
-      "count": 27,
+      "count": 8,
       "ats": "ashby"
     },
     "InfiniteQuant": {
@@ -2363,30 +2364,35 @@
       "count": 4,
       "ats": "smartrecruiters"
     },
-    "Reply": {
+    "AfterQuery": {
       "status": "ok",
-      "count": 40,
-      "ats": "lever"
+      "count": 27,
+      "ats": "ashby"
     },
     "Eluvio": {
       "status": "ok",
       "count": 2,
       "ats": "workable"
     },
+    "Lawrence Livermore National Laboratory (LLNL)": {
+      "status": "ok",
+      "count": 147,
+      "ats": "smartrecruiters"
+    },
+    "Acceldata": {
+      "status": "ok",
+      "count": 44,
+      "ats": "lever"
+    },
     "Hiverge": {
       "status": "ok",
       "count": 4,
       "ats": "ashby"
     },
-    "Intuitive Surgical": {
+    "Rainmaker": {
       "status": "ok",
-      "count": 645,
-      "ats": "smartrecruiters"
-    },
-    "Lawrence Livermore National Laboratory (LLNL)": {
-      "status": "ok",
-      "count": 147,
-      "ats": "smartrecruiters"
+      "count": 33,
+      "ats": "lever"
     },
     "Al Warren Oil Company": {
       "status": "ok",
@@ -2398,44 +2404,39 @@
       "count": 23,
       "ats": "ashby"
     },
-    "Sweatpals": {
-      "status": "ok",
-      "count": 5,
-      "ats": "ashby"
-    },
     "Workato": {
       "status": "ok",
       "count": 152,
       "ats": "greenhouse"
     },
-    "Acceldata": {
+    "Intuitive Surgical": {
       "status": "ok",
-      "count": 44,
+      "count": 645,
+      "ats": "smartrecruiters"
+    },
+    "Cloudforce": {
+      "status": "ok",
+      "count": 6,
       "ats": "lever"
     },
-    "Rainmaker": {
+    "Sweatpals": {
       "status": "ok",
-      "count": 33,
-      "ats": "lever"
+      "count": 5,
+      "ats": "ashby"
     },
     "Omnis": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
     },
+    "SharkNinja": {
+      "status": "ok",
+      "count": 224,
+      "ats": "greenhouse"
+    },
     "Tessera Labs": {
       "status": "ok",
       "count": 11,
-      "ats": "ashby"
-    },
-    "SharkNinja": {
-      "status": "ok",
-      "count": 225,
-      "ats": "greenhouse"
-    },
-    "Nuclear Promise X": {
-      "status": "ok",
-      "count": 14,
       "ats": "ashby"
     },
     "Doctors Without Borders": {
@@ -2443,14 +2444,9 @@
       "count": 8,
       "ats": "greenhouse"
     },
-    "Cloudforce": {
+    "Nuclear Promise X": {
       "status": "ok",
-      "count": 6,
-      "ats": "lever"
-    },
-    "Apex Technology, Inc.": {
-      "status": "ok",
-      "count": 77,
+      "count": 14,
       "ats": "ashby"
     },
     "Digs": {
@@ -2458,9 +2454,9 @@
       "count": 1,
       "ats": "greenhouse"
     },
-    "Heron Power": {
+    "Apex Technology, Inc.": {
       "status": "ok",
-      "count": 37,
+      "count": 77,
       "ats": "ashby"
     },
     "AXQ Capital": {
@@ -2468,15 +2464,20 @@
       "count": 21,
       "ats": "greenhouse"
     },
-    "Super": {
+    "Heron Power": {
       "status": "ok",
-      "count": 17,
+      "count": 37,
       "ats": "ashby"
     },
     "Samaya": {
       "status": "ok",
       "count": 9,
       "ats": "greenhouse"
+    },
+    "Super": {
+      "status": "ok",
+      "count": 17,
+      "ats": "ashby"
     },
     "Homebase": {
       "status": "ok",
@@ -2498,15 +2499,15 @@
       "count": 2,
       "ats": "ashby"
     },
-    "Barkback": {
-      "status": "ok",
-      "count": 6,
-      "ats": "smartrecruiters"
-    },
     "Poshmark": {
       "status": "ok",
       "count": 28,
       "ats": "ashby"
+    },
+    "Barkback": {
+      "status": "ok",
+      "count": 6,
+      "ats": "smartrecruiters"
     },
     "Output Biosciences": {
       "status": "ok",
@@ -2518,15 +2519,20 @@
       "count": 12,
       "ats": "greenhouse"
     },
+    "Uncountable": {
+      "status": "ok",
+      "count": 32,
+      "ats": "ashby"
+    },
     "RESPEC": {
       "status": "ok",
       "count": 90,
       "ats": "smartrecruiters"
     },
-    "Uncountable": {
+    "Waabi": {
       "status": "ok",
-      "count": 32,
-      "ats": "ashby"
+      "count": 58,
+      "ats": "lever"
     },
     "Internship": {
       "status": "ok",
@@ -2535,7 +2541,7 @@
     },
     "Community · SimplifyJobs New-Grad": {
       "status": "ok",
-      "count": 3004,
+      "count": 2995,
       "ats": "community_listings"
     },
     "Smiths Detection": {
@@ -2553,11 +2559,6 @@
       "count": 635,
       "ats": "community_listings"
     },
-    "Waabi": {
-      "status": "ok",
-      "count": 58,
-      "ats": "lever"
-    },
     "Fundwell": {
       "status": "ok",
       "count": 7,
@@ -2565,7 +2566,7 @@
     },
     "Community · SimplifyJobs S2027": {
       "status": "ok",
-      "count": 1701,
+      "count": 1699,
       "ats": "community_listings"
     },
     "HCompany": {
@@ -54694,7 +54695,7 @@
       "source_name": "Workday · NVIDIA",
       "location": "US, CA, Santa Clara",
       "posted": {
-        "value": "2026-08-15",
+        "value": "2026-08-14",
         "precision": "approximate",
         "field": "postedOn"
       },
@@ -54726,7 +54727,7 @@
       "source_name": "Workday · NVIDIA",
       "location": "US, CA, Santa Clara; US, TX, Austin",
       "posted": {
-        "value": "2026-08-14",
+        "value": "2026-08-13",
         "precision": "approximate",
         "field": "postedOn"
       },
@@ -54751,6 +54752,27 @@
       "status": "open"
     },
     {
+      "company": "Canva",
+      "title": "PhD Research Scientist Intern",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000001291655-phd-research-scientist-intern",
+      "posted": {
+        "value": "2026-08-06",
+        "precision": "approximate",
+        "field": "migrated:v2"
+      },
+      "source": "Community (Summer 2027)",
+      "key": "https://jobs.smartrecruiters.com/Canva/6000000001291655-phd-research-scientist-intern",
+      "category": "Data / ML / AI",
+      "term": "Unspecified",
+      "first_seen": "2026-08-07",
+      "identity": "url:https://jobs.smartrecruiters.com/Canva/6000000001291655-phd-research-scientist-intern",
+      "level": "intern",
+      "is_first_party": false,
+      "status": "open",
+      "misses": 0
+    },
+    {
       "company": "NVIDIA",
       "title": "Technical Product Marketing Engineer, Metropolis - New College Grad 2026",
       "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Technical-Product-Marketing-Engineer--Metropolis---New-College-Grad-2026_JR2022906-1",
@@ -54758,7 +54780,7 @@
       "source_name": "Workday · NVIDIA",
       "location": "US, CA, Santa Clara",
       "posted": {
-        "value": "2026-08-07",
+        "value": "2026-08-06",
         "precision": "approximate",
         "field": "postedOn"
       },
@@ -54790,7 +54812,7 @@
       "source_name": "Workday · Salesforce",
       "location": "California - San Francisco; California - Palo Alto; Washington - Seattle; Indiana - Indianapolis; Washington - Bellevue; Texas - Dallas",
       "posted": {
-        "value": "2026-08-07",
+        "value": "2026-08-06",
         "precision": "approximate",
         "field": "postedOn"
       },
@@ -54811,59 +54833,6 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "Salesforce",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Canva",
-      "title": "PhD Research Scientist Intern",
-      "location": "San Francisco, CA",
-      "url": "https://jobs.smartrecruiters.com/Canva/6000000001291655-phd-research-scientist-intern",
-      "posted": {
-        "value": "2026-08-06",
-        "precision": "approximate",
-        "field": "migrated:v2"
-      },
-      "source": "Community (Summer 2027)",
-      "key": "https://jobs.smartrecruiters.com/Canva/6000000001291655-phd-research-scientist-intern",
-      "category": "Data / ML / AI",
-      "term": "Unspecified",
-      "first_seen": "2026-08-07",
-      "identity": "url:https://jobs.smartrecruiters.com/Canva/6000000001291655-phd-research-scientist-intern",
-      "level": "intern",
-      "is_first_party": false,
-      "status": "open",
-      "misses": 0
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Software Engineering Intern, Dynamo - Fall 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-06",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2022295",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "Fall 2026",
-      "term_priority": 2,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-      "first_seen": "2026-08-07",
-      "last_seen": "2026-08-16",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
       "misses": 0,
       "status": "open"
     },
@@ -54910,6 +54879,38 @@
       "misses": 0
     },
     {
+      "company": "NVIDIA",
+      "title": "Software Engineering Intern, Dynamo - Fall 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-05",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2022295",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "Fall 2026",
+      "term_priority": 2,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-16",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
       "company": "Cloudflare",
       "title": "U.S. Public Policy and AI Innovation Intern (Fall 2026)",
       "location": "In-Office",
@@ -54950,38 +54951,6 @@
       "is_first_party": false,
       "status": "open",
       "misses": 0
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Systems Software Engineer - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-OR-Hillsboro/Systems-Software-Engineer---New-College-Grad-2026_JR2017083",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, OR, Hillsboro",
-      "posted": {
-        "value": "2026-08-04",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2017083",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-OR-Hillsboro/Systems-Software-Engineer---New-College-Grad-2026_JR2017083",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-08-16",
-      "location_display": "Hillsboro, OR",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-OR-Hillsboro/Systems-Software-Engineer---New-College-Grad-2026_JR2017083",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
     },
     {
       "company": "TikTok",
@@ -55236,6 +55205,38 @@
       "misses": 0
     },
     {
+      "company": "NVIDIA",
+      "title": "Systems Software Engineer - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-OR-Hillsboro/Systems-Software-Engineer---New-College-Grad-2026_JR2017083",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, OR, Hillsboro",
+      "posted": {
+        "value": "2026-08-03",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2017083",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-OR-Hillsboro/Systems-Software-Engineer---New-College-Grad-2026_JR2017083",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-16",
+      "location_display": "Hillsboro, OR",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-OR-Hillsboro/Systems-Software-Engineer---New-College-Grad-2026_JR2017083",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
       "company": "Samsara",
       "title": "Software Engineering Internship - London",
       "location": "London - UK2",
@@ -55264,7 +55265,7 @@
       "source_name": "Workday · Boeing",
       "location": "USA - El Segundo, CA",
       "posted": {
-        "value": "2026-08-01",
+        "value": "2026-07-31",
         "precision": "approximate",
         "field": "postedOn"
       },
@@ -55611,7 +55612,7 @@
       "source_name": "Workday · NVIDIA",
       "location": "US, CA, Santa Clara",
       "posted": {
-        "value": "2026-07-23",
+        "value": "2026-07-22",
         "precision": "approximate",
         "field": "postedOn"
       },
@@ -55643,7 +55644,7 @@
       "source_name": "Workday · NVIDIA",
       "location": "US, CA, Santa Clara; US, CA, Remote",
       "posted": {
-        "value": "2026-07-21",
+        "value": "2026-07-20",
         "precision": "approximate",
         "field": "postedOn"
       },
@@ -55687,44 +55688,6 @@
       "is_first_party": true,
       "status": "open",
       "misses": 0
-    },
-    {
-      "company": "NVIDIA",
-      "title": "ASIC Design Engineer - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-07-18",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2021534",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-08-16",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
-      "term_inferred": false,
-      "is_phd": false,
-      "merged_from": [
-        {
-          "source": "Workday · NVIDIA",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2020309"
-        }
-      ],
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
     },
     {
       "company": "Boeing",
@@ -55920,6 +55883,44 @@
       "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
       "term_inferred": false,
       "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "ASIC Design Engineer - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-07-17",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2021534",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-16",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
+      "term_inferred": false,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Workday · NVIDIA",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2020309"
+        }
+      ],
       "health_key": "NVIDIA",
       "misses": 0,
       "status": "open"
