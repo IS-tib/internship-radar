@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**1672 open roles** · **582 companies** · **469/506 sources healthy** · updated 2026-08-17 02:55 UTC  
-1222 internships · 450 new-grad · SWE 947 · Data/ML 500 · Tech 172 · PM 53
+**1677 open roles** · **583 companies** · **469/506 sources healthy** · updated 2026-08-17 14:21 UTC  
+1227 internships · 450 new-grad · SWE 950 · Data/ML 502 · Tech 172 · PM 53
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,10 +19,15 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (211)
+## 🆕 Just posted — last 7 days (216)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| American Express | Software Engineer Intern - Enterprise Technology Services 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 0 days ago | [apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082) |
+| American Express | Software Engineer Intern - Enterprise Technology Services 🆕 | SWE | Intern | ~Summer 2027 | Charlotte, NC | 0 days ago | [apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987) |
+| TikTok | Data Engineer Intern - Data Platform Global Live 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7674032146438162693) |
+| TikTok | Machine Learning Engineer Intern - E-Commerce Governance 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://lifeattiktok.com/search/7674029136531015941) |
+| W.W. Grainger | Software Engineer Intern - Grainger Technology Group 🆕 | SWE | Intern | ~Summer 2027 | Chicago, IL | 0 days ago | [apply](https://jobs.grainger.com/job/CHICAGO-GTG-Intern-Software-Engineer-IL-60661-4555/1419930800/?ats=successfactors) |
 | General Dynamics Mission Systems | Software Engineer - Entry Level 🆕 | SWE | New grad | ~Summer 2027 | Scottsdale, AZ | 1 day ago | [apply](https://careers-gdms.icims.com/jobs/74274/job?mobile=true&needsRedirect=false) |
 | Photon | Software Engineering Intern - AI 🆕 | SWE | Intern | ~Summer 2027 | Remote (US) | 1 day ago | [apply](https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26738) |
 | Abridge | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA; New York, NY | 2 days ago | [apply](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application?embed=true) |
@@ -138,18 +143,18 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Navy Federal | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Pensacola, FL; Vienna, VA | 5 days ago | [apply](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/31873) |
 | New Balance | Sports Research Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Brighton, Boston, MA | 5 days ago | [apply](https://newbalance.wd1.myworkdayjobs.com/careers/job/Sports-Research-Lab-Brighton-MA/Sports-Research-Engineer-Intern_R40740) |
 | Oracle | Platform Software Engineer 1 Intern - Full-time Intern Conversion 🆕 | SWE | Intern | ~Summer 2027 | United States | 5 days ago | [apply](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342415) |
-| RTX | Software Engineering Intern - Summer 2027 🆕 | SWE | Intern | Summer 2027 | Cedar Rapids, IA | 5 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875) |
-| RTX | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Huntsville, AL | 5 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AL-HUNTSVILLE-382--420-Jan-Davis-Dr--DAVIS-382/Summer-2027--Software-Intern-OnSite_01865160) |
-| Schweitzer Engineering Laboratories | Software Engineer Intern - AI Focus 🆕 | SWE | Intern | ~Summer 2027 | Pullman, WA | 5 days ago | [apply](https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601) |
-| TMEIC | Intern - Applications, AI and Machine Learning (Spring 2027) (ET26075) 🆕 | Data/ML | Intern | Spring 2027 | Roanoke, Virginia, United States | 5 days ago | [apply](https://apply.workable.com/j/6FDBF2FD32) |
-| TMEIC Corporation Americas | Applications Intern - AI and Machine Learning 🆕 | Data/ML | Intern | ~Summer 2027 | Roanoke, VA | 5 days ago | [apply](https://apply.workable.com/tmeic-corporation-americas/j/6FDBF2FD32/apply) |
 
-_+91 more in the full list below._
+_+96 more in the full list below._
 
-## 📋 All open roles — newest first (1672)
+## 📋 All open roles — newest first (1677)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| American Express | Software Engineer Intern - Enterprise Technology Services 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 0 days ago | [apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082) |
+| American Express | Software Engineer Intern - Enterprise Technology Services 🆕 | SWE | Intern | ~Summer 2027 | Charlotte, NC | 0 days ago | [apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987) |
+| TikTok | Data Engineer Intern - Data Platform Global Live 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7674032146438162693) |
+| TikTok | Machine Learning Engineer Intern - E-Commerce Governance 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://lifeattiktok.com/search/7674029136531015941) |
+| W.W. Grainger | Software Engineer Intern - Grainger Technology Group 🆕 | SWE | Intern | ~Summer 2027 | Chicago, IL | 0 days ago | [apply](https://jobs.grainger.com/job/CHICAGO-GTG-Intern-Software-Engineer-IL-60661-4555/1419930800/?ats=successfactors) |
 | General Dynamics Mission Systems | Software Engineer - Entry Level 🆕 | SWE | New grad | ~Summer 2027 | Scottsdale, AZ | 1 day ago | [apply](https://careers-gdms.icims.com/jobs/74274/job?mobile=true&needsRedirect=false) |
 | Photon | Software Engineering Intern - AI 🆕 | SWE | Intern | ~Summer 2027 | Remote (US) | 1 day ago | [apply](https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26738) |
 | Abridge | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA; New York, NY | 2 days ago | [apply](https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application?embed=true) |
@@ -445,13 +450,8 @@ _+91 more in the full list below._
 | Rainmaker | Electrical Engineering Intern - Fall | Tech | Intern | ~Fall 2027 | El Segundo, CA | 12 days ago | [apply](https://jobs.lever.co/make-rain/3d4f859f-f2dd-4f2d-b15b-675e0d62a37b) |
 | Roblox | [2027] Software Engineer, Early Career | SWE | New grad | 2027 | San Mateo, CA, United States | 12 days ago | [apply](https://careers.roblox.com/jobs/8072244?gh_jid=8072244) |
 | Roblox | [Summer 2027] Software Engineer Intern | SWE | Intern | Summer 2027 | San Mateo, CA, United States | 12 days ago | [apply](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) |
-| Skydio | Hardware Test & Reliability Intern | Tech | Intern | ~Summer 2027 | San Mateo, California, United States | 12 days ago | [apply](https://jobs.ashbyhq.com/skydio/d75d4adf-760c-46b6-bb98-3497650a8924) |
-| Skydio | Hardware Test & Reliability Intern | Tech | Intern | ~Summer 2027 | San Mateo, CA | 12 days ago | [apply](https://jobs.ashbyhq.com/skydio/d75d4adf-760c-46b6-bb98-3497650a8924/application?embed=true) |
-| Tacit | Radio Frequency Hardware Intern - Fall 2026 | Tech | Intern | Fall 2026 | San Francisco, CA | 12 days ago | [apply](https://jobs.ashbyhq.com/tacit/d001e2d9-90af-4d0b-bc97-fd6fa149ad19/application?embed=true) |
-| The Boeing Company | Entry-Level Software Engineer | SWE | New grad | ~Summer 2027 | Maryland Heights, MO; Hazelwood, MO | 12 days ago | [apply](https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Maryland-Heights-MO/Entry-Level-Software-Engineer_JR2026516694) |
-| TikTok | Data Science Intern - TikTok Product | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 12 days ago | [apply](https://lifeattiktok.com/search/7669683639101884725) |
 
-_Showing the newest 300 of 1672 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 1677 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,9 +463,9 @@ _Showing the newest 300 of 1672 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **93.7%** of roles carry an exact posting timestamp from the source (1567/1672).
-- **24.8%** come from a company's own board rather than a community feed.
-- **1196** duplicates merged, **17** near-duplicates collapsed.
+- **93.7%** of roles carry an exact posting timestamp from the source (1572/1677).
+- **24.7%** come from a company's own board rather than a community feed.
+- **1193** duplicates merged, **17** near-duplicates collapsed.
 - **37** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>4 source(s) returned 404 this run (token likely renamed)</summary>
