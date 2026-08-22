@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**1899 open roles** · **656 companies** · **470/506 sources healthy** · updated 2026-08-22 02:49 UTC  
-1415 internships · 484 new-grad · SWE 1062 · Data/ML 567 · Tech 210 · PM 60
+**1894 open roles** · **657 companies** · **470/506 sources healthy** · updated 2026-08-22 14:15 UTC  
+1411 internships · 483 new-grad · SWE 1058 · Data/ML 567 · Tech 209 · PM 60
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,10 +19,11 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (244)
+## 🆕 Just posted — last 7 days (246)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Microsoft | AI Software Engineer Intern - Edge 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA; Mountain View, CA | 0 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393556979054) |
 | TikTok | AI Product Manager Intern - Product Social 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7675616554318596357) |
 | TikTok | Product Manager Intern - Content and Service Ads 🆕 | PM | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7676283436713593093) |
 | AMD | Data Analyst Intern/Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | Rochester, NY; Austin, TX | 1 day ago | [apply](https://careers.amd.com/jobs/91183?icims=1) |
@@ -61,6 +62,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Databricks | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA; Bellevue, WA | 1 day ago | [apply](https://boards.greenhouse.io/embed/job_app?token=8732364002) |
 | Draper | Embedded Quality & Fielded Systems Intern 🆕 | Tech | Intern | ~Summer 2027 | Cambridge, MA | 1 day ago | [apply](https://draper.wd5.myworkdayjobs.com/en-US/draper_careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718) |
 | Eaton | Application Engineer Co-op - Marketing 🆕 | SWE | Intern | ~Summer 2027 | Ellisville, MO | 1 day ago | [apply](https://eaton.eightfold.ai/careers/job/687238323389) |
+| Ecolab | Digital & AI Technology Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Naperville, IL; Eagan, MN | 1 day ago | [apply](https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Minnesota---Saint-Paul/Digital---AI-Technology-Intern_R00303249) |
 | Epic Games | Gameplay Programmer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cary, United States | 1 day ago | [apply](https://www.epicgames.com/site/careers/jobs/6141180004?gh_jid=6141180004) |
 | Eudia | Product Intern 🆕 | PM | Intern | ~Summer 2027 | Palo Alto, CA | 1 day ago | [apply](https://job-boards.greenhouse.io/eudia/jobs/4379570009) |
 | Exa | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA | 1 day ago | [apply](https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16) |
@@ -141,15 +143,14 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | GlobalFoundries | AI/ML Software Engineer New Grad 🆕 | SWE | New grad | ~Summer 2027 | Austin, TX; Santa Clara, CA | 3 days ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/Richardson/AI-ML-Software-Engineer--2026-New-College-Graduate-_JR-2602832) |
 | Goldman Sachs | Summer Analyst Intern - Americas - AWM Product Management 🆕 | PM | Intern | ~Summer 2027 | New York, NY | 3 days ago | [apply](https://higher.gs.com/roles/182389?type=students) |
 | Goldman Sachs | AWM Product Management Analyst Intern 🆕 | PM | Intern | ~Summer 2027 | Dallas, TX | 3 days ago | [apply](https://higher.gs.com/roles/171513?type=students) |
-| InfiniteQuant | Quantitative Developer - Internship - Summer 2027 🆕 | SWE | Intern | Summer 2027 | New York, New York, us | 3 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000144281579) |
-| Microsoft | AI Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA; Mountain View, CA | 3 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393556962891) |
 
-_+124 more in the full list below._
+_+126 more in the full list below._
 
-## 📋 All open roles — newest first (1899)
+## 📋 All open roles — newest first (1894)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Microsoft | AI Software Engineer Intern - Edge 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA; Mountain View, CA | 0 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393556979054) |
 | TikTok | AI Product Manager Intern - Product Social 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7675616554318596357) |
 | TikTok | Product Manager Intern - Content and Service Ads 🆕 | PM | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7676283436713593093) |
 | AMD | Data Analyst Intern/Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | Rochester, NY; Austin, TX | 1 day ago | [apply](https://careers.amd.com/jobs/91183?icims=1) |
@@ -188,6 +189,7 @@ _+124 more in the full list below._
 | Databricks | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA; Bellevue, WA | 1 day ago | [apply](https://boards.greenhouse.io/embed/job_app?token=8732364002) |
 | Draper | Embedded Quality & Fielded Systems Intern 🆕 | Tech | Intern | ~Summer 2027 | Cambridge, MA | 1 day ago | [apply](https://draper.wd5.myworkdayjobs.com/en-US/draper_careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718) |
 | Eaton | Application Engineer Co-op - Marketing 🆕 | SWE | Intern | ~Summer 2027 | Ellisville, MO | 1 day ago | [apply](https://eaton.eightfold.ai/careers/job/687238323389) |
+| Ecolab | Digital & AI Technology Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Naperville, IL; Eagan, MN | 1 day ago | [apply](https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Minnesota---Saint-Paul/Digital---AI-Technology-Intern_R00303249) |
 | Epic Games | Gameplay Programmer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cary, United States | 1 day ago | [apply](https://www.epicgames.com/site/careers/jobs/6141180004?gh_jid=6141180004) |
 | Eudia | Product Intern 🆕 | PM | Intern | ~Summer 2027 | Palo Alto, CA | 1 day ago | [apply](https://job-boards.greenhouse.io/eudia/jobs/4379570009) |
 | Exa | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA | 1 day ago | [apply](https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16) |
@@ -448,10 +450,8 @@ _+124 more in the full list below._
 | Valeo | Software Engineer Intern | SWE | Intern | ~Summer 2027 | Troy, MI | 8 days ago | [apply](https://valeo.wd3.myworkdayjobs.com/en-US/valeo_jobs/job/Troy-MI/Software-Engineer-Intern_REQ2026076575) |
 | WeRide | Software Engineer Intern - Perception/Computer Vision | SWE | Intern | ~Summer 2027 | San Jose, CA | 8 days ago | [apply](https://jobs.lever.co/weride/5cde0d09-ba2d-408d-947e-4a42028cd4f7/apply) |
 | WeRide | Software Engineer New Grad - Algorithm | SWE | New grad | ~Summer 2027 | San Jose, CA | 8 days ago | [apply](https://jobs.lever.co/weride/5a7cbc83-2381-482e-9d6d-e9c9d59ad63b/apply) |
-| onsemi | Tax AI and Automation Intern | Data/ML | Intern | ~Summer 2027 | Scottsdale, AZ | 8 days ago | [apply](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506307) |
-| Analytical Mechanics Associates | Research Scientist Intern | Data/ML | Intern | ~Summer 2027 | New Jersey | 9 days ago | [apply](https://amainc.wd12.myworkdayjobs.com/ama_careers/job/Remote---New-Jersey/Graduate-Research-Scientist-intern_R-100717-1) |
 
-_Showing the newest 300 of 1899 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 1894 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 1899 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **94.0%** of roles carry an exact posting timestamp from the source (1786/1899).
-- **22.1%** come from a company's own board rather than a community feed.
+- **94.0%** of roles carry an exact posting timestamp from the source (1781/1894).
+- **21.8%** come from a company's own board rather than a community feed.
 - **1325** duplicates merged, **16** near-duplicates collapsed.
-- **60** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **67** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>3 source(s) returned 404 this run (token likely renamed)</summary>
 
