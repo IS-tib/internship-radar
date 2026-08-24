@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**1901 open roles** · **658 companies** · **470/506 sources healthy** · updated 2026-08-24 02:58 UTC  
-1418 internships · 483 new-grad · SWE 1060 · Data/ML 569 · Tech 209 · PM 63
+**1911 open roles** · **663 companies** · **470/506 sources healthy** · updated 2026-08-24 14:35 UTC  
+1428 internships · 483 new-grad · SWE 1067 · Data/ML 570 · Tech 211 · PM 63
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,10 +19,19 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (233)
+## 🆕 Just posted — last 7 days (242)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| BNY | Engineering Developer Intern - Engineering 🆕 | SWE | Intern | ~Summer 2027 | Lake Mary, FL | 0 days ago | [apply](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81252) |
+| Gulfstream | Software Engineer Intern - Innovation, Engineering and Flight 🆕 | SWE | Intern | ~Summer 2027 | Savannah, GA | 0 days ago | [apply](https://careers.gulfstream.com/job/Savannah-Spring-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421676700/?ats=successfactors) |
+| Gulfstream | Software Engineer Intern - IEF 🆕 | SWE | Intern | ~Summer 2027 | Savannah, GA | 0 days ago | [apply](https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421863200/?ats=successfactors) |
+| InfiniteQuant | Quantitative Developer - Internship - Summer 2027 🆕 | SWE | Intern | Summer 2027 | New York, New York, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000145263134) |
+| InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | New York, NY, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000145264634) |
+| Mastercard | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | O'Fallon, MO; Arlington County, Arlington, VA | 0 days ago | [apply](https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Software-Engineer-Intern--Summer-2027---United-States_R-287618-1) |
+| Nomagic | Engineering Intern - Software or Hardware 🆕 | Tech | Intern | ~Summer 2027 | Alpharetta, GA | 0 days ago | [apply](https://jobs.lever.co/Nomagic/c7a6445d-3fd8-4bf1-90c0-ec01c2bef2af/apply) |
+| The Walt Disney Company | Show Control Hardware Intern 🆕 | Tech | Intern | ~Summer 2027 | Orlando, FL; Celebration, FL | 0 days ago | [apply](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Celebration-FL-USA/WDI-Show-Control-Hardware-Intern--Glendale--Spring-2027_10158467) |
+| The Walt Disney Company | Systems Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Glendale, CA | 0 days ago | [apply](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137) |
 | Microsoft | AI Software Engineer Intern - Edge 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA; Mountain View, CA | 2 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393556979054) |
 | Springs Window Fashions | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Long Island City, Queens, NY | 2 days ago | [apply](https://careers-springswindowfashions.icims.com/jobs/12892/job?mobile=true&needsRedirect=false) |
 | Springs Window Fashions | Application Engineering Intern - Summer 2027 🆕 | SWE | Intern | Summer 2027 | Long Island City, Queens, NY | 2 days ago | [apply](https://careers-springswindowfashions.icims.com/jobs/12893/job?mobile=true&needsRedirect=false) |
@@ -134,22 +143,22 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Vanguard | Data Science Intern - College to Corporate IT 🆕 | Data/ML | Intern | ~Summer 2027 | Charlotte, NC | 4 days ago | [apply](https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_181765) |
 | Vanguard | Data Analyst Intern - College to Corporate IT 🆕 | Data/ML | Intern | ~Summer 2027 | Charlotte, NC | 4 days ago | [apply](https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Analyst--NC-_181767) |
 | Vanguard | Data Science Intern - Information Technology 🆕 | Data/ML | Intern | ~Summer 2027 | Malvern, PA | 4 days ago | [apply](https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_181766) |
-| Western Magnetics | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | South SF | 4 days ago | [apply](https://apply.workable.com/western-magnetics/j/E366930F3F/apply) |
-| Zipline | Software Engineer Intern - Spring 2027 🆕 | SWE | Intern | Spring 2027 | South SF | 4 days ago | [apply](https://www.zipline.com/open-roles?gh_jid=7907191003) |
-| ByteDance | Immigration Data Analyst Intern - Hrops 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 5 days ago | [apply](https://jobs.bytedance.com/en/position/7675376319236311349/detail) |
-| Copart | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Dallas, TX | 5 days ago | [apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Data-Engineering-Intern_JR110617) |
-| Crowe | AI Functional Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Lexington, KY; Boston, MA | 5 days ago | [apply](https://crowe.wd12.myworkdayjobs.com/en-US/external_careers/job/Chicago-IL-USA/AI-Functional-Intern---WINTER-2027_R-71015) |
-| Detroit Lions | Quantitative Research Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Allen Park, MI | 5 days ago | [apply](https://job-boards.greenhouse.io/detroitlions/jobs/4723291005) |
-| Eulerity | Website Developer & Technical Content Marketing Intern - AI & Automation 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 5 days ago | [apply](https://job-boards.greenhouse.io/eulerity/jobs/4706780006) |
-| Freeform | Electrical Engineering Intern (Summer 2027) 🆕 | Tech | Intern | Summer 2027 | Los Angeles, CA (On-site) | 5 days ago | [apply](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7895657003) |
-| Freeform | Electrical Engineer (New Grad Summer 2027) 🆕 | Tech | New grad | Summer 2027 | Los Angeles, CA (On-site) | 5 days ago | [apply](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7895658003) |
 
-_+113 more in the full list below._
+_+122 more in the full list below._
 
-## 📋 All open roles — newest first (1901)
+## 📋 All open roles — newest first (1911)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| BNY | Engineering Developer Intern - Engineering 🆕 | SWE | Intern | ~Summer 2027 | Lake Mary, FL | 0 days ago | [apply](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81252) |
+| Gulfstream | Software Engineer Intern - Innovation, Engineering and Flight 🆕 | SWE | Intern | ~Summer 2027 | Savannah, GA | 0 days ago | [apply](https://careers.gulfstream.com/job/Savannah-Spring-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421676700/?ats=successfactors) |
+| Gulfstream | Software Engineer Intern - IEF 🆕 | SWE | Intern | ~Summer 2027 | Savannah, GA | 0 days ago | [apply](https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421863200/?ats=successfactors) |
+| InfiniteQuant | Quantitative Developer - Internship - Summer 2027 🆕 | SWE | Intern | Summer 2027 | New York, New York, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000145263134) |
+| InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | New York, NY, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000145264634) |
+| Mastercard | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | O'Fallon, MO; Arlington County, Arlington, VA | 0 days ago | [apply](https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Software-Engineer-Intern--Summer-2027---United-States_R-287618-1) |
+| Nomagic | Engineering Intern - Software or Hardware 🆕 | Tech | Intern | ~Summer 2027 | Alpharetta, GA | 0 days ago | [apply](https://jobs.lever.co/Nomagic/c7a6445d-3fd8-4bf1-90c0-ec01c2bef2af/apply) |
+| The Walt Disney Company | Show Control Hardware Intern 🆕 | Tech | Intern | ~Summer 2027 | Orlando, FL; Celebration, FL | 0 days ago | [apply](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Celebration-FL-USA/WDI-Show-Control-Hardware-Intern--Glendale--Spring-2027_10158467) |
+| The Walt Disney Company | Systems Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Glendale, CA | 0 days ago | [apply](https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137) |
 | Microsoft | AI Software Engineer Intern - Edge 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA; Mountain View, CA | 2 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393556979054) |
 | Springs Window Fashions | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Long Island City, Queens, NY | 2 days ago | [apply](https://careers-springswindowfashions.icims.com/jobs/12892/job?mobile=true&needsRedirect=false) |
 | Springs Window Fashions | Application Engineering Intern - Summer 2027 🆕 | SWE | Intern | Summer 2027 | Long Island City, Queens, NY | 2 days ago | [apply](https://careers-springswindowfashions.icims.com/jobs/12893/job?mobile=true&needsRedirect=false) |
@@ -441,17 +450,8 @@ _+113 more in the full list below._
 | RTX | Software Engineer Intern - Summer 2027 | SWE | Intern | Summer 2027 | Fullerton, CA | 10 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-FULLERTON-676--1801-Hughes-Dr--BLDG-676/Software-Engineering-Intern--Summer-2027-_01867439) |
 | RTX | Software Engineer Intern | SWE | Intern | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-SAN-JOSE-826--200-Holger-Way--BLDG-826/Software-Engineering-Intern--Summer-2027-_01867392) |
 | RTX | Software Engineer Intern | SWE | Intern | ~Summer 2027 | West Valley City, UT | 10 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-UT-WEST-VALLEY-CITY-338--1127--1128-w-2400-S--BLDG-338/Software-Engineering-Intern--Summer-2027-_01865952) |
-| RTX | Electrical Engineering Intern | Tech | Intern | ~Summer 2027 | Tewksbury, MA | 10 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/RDP-Engineering-Intern--Summer-2027-_01864281) |
-| Schweitzer Engineering Laboratories | Test Engineer Intern | Tech | Intern | ~Summer 2027 | Pullman, WA | 10 days ago | [apply](https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Engineering-Intern_2026-22411) |
-| Seagate Technology | Systems Engineer - Early Career | SWE | New grad | ~Summer 2027 | Longmont, CO | 10 days ago | [apply](https://seagatecareers.com/job/Longmont-Systems-Engineer-Early-Career-CO-80501/1419329400/?ats=successfactors) |
-| Snap | Research Scientist Intern - User Modeling and Personalization | Data/ML | Intern | ~Summer 2027 | Los Angeles, CA; Bellevue, WA | 10 days ago | [apply](https://wd1.myworkdaysite.com/recruiting/snapchat/snap/job/Bellevue-Washington/Research-Intern--User-Modeling-and-Personalization_R0046464-1) |
-| SpaceX | Software Engineer New Grad - Software - Starlink | SWE | New grad | ~Summer 2027 | Palo Alto, CA | 10 days ago | [apply](https://boards.greenhouse.io/spacex/jobs/8696080002) |
-| SpaceX | Software Engineer New Grad - Software | SWE | New grad | ~Summer 2027 | Redmond, WA | 10 days ago | [apply](https://boards.greenhouse.io/spacex/jobs/8696058002) |
-| SpaceX | Software Engineer New Grad - Software - Starlink | SWE | New grad | ~Summer 2027 | Bastrop, TX | 10 days ago | [apply](https://boards.greenhouse.io/spacex/jobs/8696097002) |
-| The Nuclear Company | Spring 2027 AI Applied Research Internship | Data/ML | Intern | Spring 2027 | Washington, DC | 10 days ago | [apply](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391888008) |
-| TikTok | Product Manager Intern - Content and Services | PM | Intern | ~Summer 2027 | San Jose, CA | 10 days ago | [apply](https://lifeattiktok.com/search/7673337777708550405) |
 
-_Showing the newest 300 of 1901 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 1911 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,9 +463,9 @@ _Showing the newest 300 of 1901 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **94.1%** of roles carry an exact posting timestamp from the source (1788/1901).
+- **94.0%** of roles carry an exact posting timestamp from the source (1797/1911).
 - **21.7%** come from a company's own board rather than a community feed.
-- **1322** duplicates merged, **16** near-duplicates collapsed.
+- **1332** duplicates merged, **16** near-duplicates collapsed.
 - **66** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>3 source(s) returned 404 this run (token likely renamed)</summary>
