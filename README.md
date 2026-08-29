@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**2187 open roles** · **732 companies** · **468/506 sources healthy** · updated 2026-08-29 08:31 UTC  
-1667 internships · 520 new-grad · SWE 1213 · Data/ML 655 · Tech 244 · PM 75
+**2190 open roles** · **733 companies** · **468/506 sources healthy** · updated 2026-08-29 17:29 UTC  
+1670 internships · 520 new-grad · SWE 1214 · Data/ML 657 · Tech 244 · PM 75
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -146,7 +146,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 
 _+165 more in the full list below._
 
-## 📋 All open roles — newest first (2187)
+## 📋 All open roles — newest first (2190)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -287,12 +287,12 @@ _+165 more in the full list below._
 | Realm | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote (US) | 3 days ago | [apply](https://jobs.ashbyhq.com/realmalliance/a8a2f78e-1c28-4b52-a77a-c2b2ad9b7a8a/application?embed=true) |
 | Sabre Systems | AI Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Lexington Park, MD | 3 days ago | [apply](https://careers.sabresystems.com/jobs/4759?icims=1) |
 | Tesla | AI Hardware Physical Design Engineer Intern - AI Hardware 🆕 | Data/ML | Intern | ~Summer 2027 | Palo Alto, CA; Austin, TX | 3 days ago | [apply](https://www.tesla.com/careers/search/job/281233) |
-| Tesla | Fullstack C++ Engineer Intern - Vehicle User Interface 🆕 | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 3 days ago | [apply](https://www.tesla.com/careers/search/job/280604) |
 | Tesla | Embedded Software Engineer Intern - Firmware Platforms 🆕 | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 3 days ago | [apply](https://www.tesla.com/careers/search/job/281102) |
 | Tesla | Fullstack Software Engineer Intern - Fleetnet - Fullstack Software Engineering 🆕 | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 3 days ago | [apply](https://www.tesla.com/careers/search/job/281099) |
-| Tesla | Software Engineer Intern - Maps & Navigation Validation 🆕 | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 3 days ago | [apply](https://www.tesla.com/careers/search/job/281271) |
 | Tesla | Software Engineer Intern - Maps & Navigation - Robotaxi 🆕 | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 3 days ago | [apply](https://www.tesla.com/careers/search/job/280960) |
 | Tesla | Android Engineer Intern - Mobile Software 🆕 | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 3 days ago | [apply](https://www.tesla.com/careers/search/job/280605) |
+| Tesla | Fullstack C++ Engineer Intern - Vehicle User Interface 🆕 | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 3 days ago | [apply](https://www.tesla.com/careers/search/job/280604) |
+| Tesla | Software Engineer Intern - Maps & Navigation Validation 🆕 | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 3 days ago | [apply](https://www.tesla.com/careers/search/job/281271) |
 | The Hartford | Data Engineer Intern - Technology, Data, AI, and Operations 🆕 | Data/ML | Intern | ~Summer 2027 | Chicago, IL | 3 days ago | [apply](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Chicago-IL/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Chicago-_R2626650) |
 | The Hartford | Data Engineer Intern - Technology, Data, AI, and Operations 🆕 | Data/ML | Intern | ~Summer 2027 | Charlotte, NC | 3 days ago | [apply](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Charlotte-_R2626648) |
 | The Hartford | Software Engineer Intern - Technology, Data, AI, and Operations 🆕 | SWE | Intern | ~Summer 2027 | Charlotte, NC | 3 days ago | [apply](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Charlotte-_R2626649) |
@@ -435,6 +435,9 @@ _+165 more in the full list below._
 | Springs Window Fashions | Product Management Dashboard Analytics Intern 🆕 | PM | Intern | ~Summer 2027 | Middleton, WI | 7 days ago | [apply](https://careers-springswindowfashions.icims.com/jobs/12882/job?mobile=true&needsRedirect=false) |
 | TikTok | AI Product Manager Intern - Product Social 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 7 days ago | [apply](https://lifeattiktok.com/search/7675616554318596357) |
 | TikTok | Product Manager Intern - Content and Service Ads 🆕 | PM | Intern | ~Summer 2027 | San Jose, CA | 7 days ago | [apply](https://lifeattiktok.com/search/7676283436713593093) |
+| AMD | Software Engineer Intern | SWE | Intern | ~Summer 2027 | Austin, TX; Boxborough, MA | 8 days ago | [apply](https://careers.amd.com/careers-home/jobs/91180) |
+| AMD | Software Engineer Intern, Co-op | SWE | Intern | ~Summer 2027 | Santa Clara, CA; San Jose, CA | 8 days ago | [apply](https://careers.amd.com/careers-home/jobs/91176) |
+| AMD | Software Engineer Intern | SWE | Intern | ~Summer 2027 | Santa Clara, CA; San Jose, CA | 8 days ago | [apply](https://careers.amd.com/careers-home/jobs/90891) |
 | AMD | Data Analyst Intern/Co-op | Data/ML | Intern | ~Summer 2027 | Rochester, NY; Austin, TX | 8 days ago | [apply](https://careers.amd.com/jobs/91183?icims=1) |
 | AMD | Machine Learning Intern/Co-op - Multiple Teams | Data/ML | Intern | ~Summer 2027 | Rochester, NY; Austin, TX | 8 days ago | [apply](https://careers.amd.com/jobs/91170?icims=1) |
 | AMD | Hardware Engineer Intern/Co-op - Hardware Engineering | Tech | Intern | ~Summer 2027 | Rochester, NY; Austin, TX | 8 days ago | [apply](https://careers.amd.com/jobs/91182?icims=1) |
@@ -447,11 +450,8 @@ _+165 more in the full list below._
 | AMD | Machine Learning Intern/Co-op - Machine Learning - Artificial Intelligence | Data/ML | Intern | ~Summer 2027 | San Jose, CA; Santa Clara, CA | 8 days ago | [apply](https://careers.amd.com/jobs/91177?icims=1) |
 | AMD | Software Engineer Intern/Co-op | SWE | Intern | ~Summer 2027 | San Jose, CA; Santa Clara, CA | 8 days ago | [apply](https://careers.amd.com/jobs/90891?icims=1) |
 | AMD | Firmware Engineering Intern Co-op - Undergrad | Tech | Intern | ~Summer 2027 | San Jose, CA; Santa Clara, CA | 8 days ago | [apply](https://careers.amd.com/jobs/90807?icims=1) |
-| AMD | Firmware Engineer Co-op/Intern | Tech | Intern | ~Summer 2027 | San Jose, CA; Santa Clara, CA | 8 days ago | [apply](https://careers.amd.com/jobs/90809?icims=1) |
-| AMD | Hardware Engineer Intern/Co-op | Tech | Intern | ~Summer 2027 | San Jose, CA; Santa Clara, CA | 8 days ago | [apply](https://careers.amd.com/jobs/90894?icims=1) |
-| AMD | Firmware Engineer Intern/Co-op | Tech | Intern | ~Summer 2027 | Secaucus, NJ; Rochester, NY | 8 days ago | [apply](https://careers.amd.com/jobs/90801?icims=1) |
 
-_Showing the newest 300 of 2187 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 2190 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,9 +463,9 @@ _Showing the newest 300 of 2187 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **94.7%** of roles carry an exact posting timestamp from the source (2071/2187).
-- **19.8%** come from a company's own board rather than a community feed.
-- **1554** duplicates merged, **18** near-duplicates collapsed.
+- **94.7%** of roles carry an exact posting timestamp from the source (2074/2190).
+- **19.7%** come from a company's own board rather than a community feed.
+- **1552** duplicates merged, **18** near-duplicates collapsed.
 - **91** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>4 source(s) returned 404 this run (token likely renamed)</summary>
