@@ -2,7 +2,7 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**2190 open roles** · **733 companies** · **468/506 sources healthy** · updated 2026-08-30 07:44 UTC  
+**2190 open roles** · **733 companies** · **468/506 sources healthy** · updated 2026-08-30 17:52 UTC  
 1670 internships · 520 new-grad · SWE 1214 · Data/ML 657 · Tech 244 · PM 75
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
@@ -19,7 +19,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (276)
+## 🆕 Just posted — last 7 days (277)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -144,7 +144,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Kognitos | Marketing Intern (AI-Native) 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose - HQ | 4 days ago | [apply](https://jobs.ashbyhq.com/Kognitos/f36e4854-46c4-4a56-81db-597afb82bce8) |
 | Kognitos | Software Engineer Intern (AI-Native) — Fall 2026 🆕 | SWE | Intern | Fall 2026 | San Jose - HQ | 4 days ago | [apply](https://jobs.ashbyhq.com/Kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5) |
 
-_+156 more in the full list below._
+_+157 more in the full list below._
 
 ## 📋 All open roles — newest first (2190)
 
@@ -331,6 +331,7 @@ _+156 more in the full list below._
 | Johns Hopkins Applied Physics Laboratory | Data Scientist Intern - Data Science - System Performance Evaluation 🆕 | Data/ML | Intern | ~Summer 2027 | Laurel, MD | 5 days ago | [apply](https://careers.jhuapl.edu/jobs/59800?icims=1) |
 | Johns Hopkins Applied Physics Laboratory | Software Engineering/ML/Data Scientist New Grad - Intelligence Systems 🆕 | SWE | New grad | ~Summer 2027 | Laurel, MD | 5 days ago | [apply](https://careers.jhuapl.edu/jobs/59654?icims=1) |
 | L3Harris Technologies | Security Research Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Herndon, VA | 5 days ago | [apply](https://jobs.l3harris.com/job/Herndon-Intern,-Security-Research-Engineer-VA-20171/1422834800/?ats=successfactors) |
+| L3Harris Technologies | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Fort Wayne, IN | 5 days ago | [apply](https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422838400/?ats=successfactors) |
 | L3Harris Technologies | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Fort Wayne, IN | 5 days ago | [apply](https://jobs.l3harris.com/job/Fort-Wayne-Intern-D,-Software-Engineer-IN-46818/1422797900/?ats=successfactors) |
 | Maximor AI | Software Engineer New Grad 🆕 | SWE | New grad | ~Summer 2027 | New York, NY | 5 days ago | [apply](https://jobs.ashbyhq.com/maximor/67d0c7d0-fddb-4b8d-aed8-0647337a988e/application?embed=true) |
 | Meridian Partners | Data Scientist Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | Cambridge, MA; Arlington County, Arlington, VA | 5 days ago | [apply](https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967886003) |
@@ -449,7 +450,6 @@ _+156 more in the full list below._
 | AMD | Firmware Engineering Intern Co-op - Undergrad | Tech | Intern | ~Summer 2027 | San Jose, CA; Santa Clara, CA | 9 days ago | [apply](https://careers.amd.com/jobs/90807?icims=1) |
 | AMD | Firmware Engineer Co-op/Intern | Tech | Intern | ~Summer 2027 | San Jose, CA; Santa Clara, CA | 9 days ago | [apply](https://careers.amd.com/jobs/90809?icims=1) |
 | AMD | Hardware Engineer Intern/Co-op | Tech | Intern | ~Summer 2027 | San Jose, CA; Santa Clara, CA | 9 days ago | [apply](https://careers.amd.com/jobs/90894?icims=1) |
-| AMD | Firmware Engineer Intern/Co-op | Tech | Intern | ~Summer 2027 | Secaucus, NJ; Rochester, NY | 9 days ago | [apply](https://careers.amd.com/jobs/90801?icims=1) |
 
 _Showing the newest 300 of 2190 — the complete, machine-readable set is in_ `listings.json`.
 
@@ -465,8 +465,8 @@ _Showing the newest 300 of 2190 — the complete, machine-readable set is in_ `l
 
 - **94.7%** of roles carry an exact posting timestamp from the source (2074/2190).
 - **19.7%** come from a company's own board rather than a community feed.
-- **1550** duplicates merged, **18** near-duplicates collapsed.
-- **91** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **1549** duplicates merged, **18** near-duplicates collapsed.
+- **92** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>4 source(s) returned 404 this run (token likely renamed)</summary>
 
