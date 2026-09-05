@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**2910 open roles** · **897 companies** · **458/506 sources healthy** · updated 2026-09-05 06:35 UTC  
-2319 internships · 591 new-grad · SWE 1536 · Data/ML 842 · Tech 408 · PM 124
+**2907 open roles** · **896 companies** · **465/506 sources healthy** · updated 2026-09-05 16:27 UTC  
+2316 internships · 591 new-grad · SWE 1536 · Data/ML 841 · Tech 406 · PM 124
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -146,7 +146,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 
 _+471 more in the full list below._
 
-## 📋 All open roles — newest first (2910)
+## 📋 All open roles — newest first (2907)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -435,11 +435,11 @@ _+471 more in the full list below._
 | Booz Allen | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Huntsville, AL | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394) |
 | Booz Allen | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Huntsville, AL | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Data-Scientist-Intern---Huntsville--AL_R0248407) |
 | Booz Allen | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Fort Walton Beach, FL | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Software-Developer-Intern---Ft-Walton-Beach--FL_R0248404) |
-| Booz Allen | Data Scientist Intern - University - Summer Games 🆕 | Data/ML | Intern | ~Summer 2027 | Fort Walton Beach, FL | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Data-Scientist-Intern---Ft-Walton-Beach--FL_R0248409) |
 | Booz Allen | Systems Engineer Intern - Summer Games 🆕 | SWE | Intern | ~Summer 2027 | Fort Walton Beach, FL | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Systems-Engineer-Intern---Ft-Walton-Beach--FL_R0248388) |
 | Booz Allen | Data Scientist Intern - University 🆕 | Data/ML | Intern | ~Summer 2027 | Annapolis Junction, MD | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Data-Scientist-Intern---Annapolis-Junction--MD_R0248408) |
 | Booz Allen | Software Developer Intern - University 🆕 | SWE | Intern | ~Summer 2027 | Annapolis Junction, MD | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0248403) |
 | Booz Allen | Systems Engineer Intern - University - 2027 Summer Games 🆕 | SWE | Intern | Summer 2027 | Annapolis Junction, MD | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Systems-Engineer-Intern---Annapolis-Junction--MD_R0248384) |
+| Booz Allen | Data Scientist Intern - University - Summer Games 🆕 | Data/ML | Intern | ~Summer 2027 | Fort Walton Beach, FL | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Data-Scientist-Intern---Ft-Walton-Beach--FL_R0248409) |
 | ByteDance | Software Engineer Intern - Relational Database 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 4 days ago | [apply](https://jobs.bytedance.com/en/position/7678449088065997109/detail) |
 | CACI | Embedded Software Engineer Co-op - Fall 2027 🆕 | SWE | Intern | Fall 2027 | Danbury, CT | 4 days ago | [apply](https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Embedded-Software-Engineering-Co-Op---Fall-2027_331393) |
 | Ciena | Software Developer New Grad 🆕 | SWE | New grad | ~Summer 2027 | Atlanta, GA | 4 days ago | [apply](https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/WaveLogic-Software-Developer---New-Grad_R031608) |
@@ -451,7 +451,7 @@ _+471 more in the full list below._
 | Clearwater Analytics | Software Engineer Intern - Technical Product Management 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 4 days ago | [apply](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Technical-Product-Management-Intern_R12058) |
 | Clearwater Analytics | Generative AI Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 4 days ago | [apply](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---Seattle/Gen-AI-Intern_R12193) |
 
-_Showing the newest 300 of 2910 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 2907 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 2910 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **96.0%** of roles carry an exact posting timestamp from the source (2793/2910).
+- **95.9%** of roles carry an exact posting timestamp from the source (2789/2907).
 - **15.7%** come from a company's own board rather than a community feed.
 - **2082** duplicates merged, **18** near-duplicates collapsed.
-- **128** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **131** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>7 source(s) returned 404 this run (token likely renamed)</summary>
 
