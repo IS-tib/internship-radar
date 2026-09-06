@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**2911 open roles** · **896 companies** · **465/506 sources healthy** · updated 2026-09-06 06:44 UTC  
-2320 internships · 591 new-grad · SWE 1539 · Data/ML 840 · Tech 408 · PM 124
+**2908 open roles** · **896 companies** · **465/506 sources healthy** · updated 2026-09-06 16:38 UTC  
+2317 internships · 591 new-grad · SWE 1538 · Data/ML 840 · Tech 406 · PM 124
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -146,7 +146,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 
 _+463 more in the full list below._
 
-## 📋 All open roles — newest first (2911)
+## 📋 All open roles — newest first (2908)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -451,7 +451,7 @@ _+463 more in the full list below._
 | Ciena | Software Developer New Grad 🆕 | SWE | New grad | ~Summer 2027 | Atlanta, GA | 5 days ago | [apply](https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/WaveLogic-Software-Developer---New-Grad_R031608) |
 | Clarios | IT Digital/AI Intern - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | Milwaukee, WI | 5 days ago | [apply](https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Wisconsin-Milwaukee/IT-Digital-AI-Intern--Summer-2027-_WD49910) |
 
-_Showing the newest 300 of 2911 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 2908 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 2911 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **96.0%** of roles carry an exact posting timestamp from the source (2795/2911).
-- **15.7%** come from a company's own board rather than a community feed.
+- **96.0%** of roles carry an exact posting timestamp from the source (2792/2908).
+- **15.6%** come from a company's own board rather than a community feed.
 - **2095** duplicates merged, **18** near-duplicates collapsed.
-- **133** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **136** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>7 source(s) returned 404 this run (token likely renamed)</summary>
 
