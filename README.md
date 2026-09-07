@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**2914 open roles** · **898 companies** · **465/506 sources healthy** · updated 2026-09-07 06:53 UTC  
-2323 internships · 591 new-grad · SWE 1539 · Data/ML 845 · Tech 406 · PM 124
+**2922 open roles** · **899 companies** · **465/506 sources healthy** · updated 2026-09-07 18:32 UTC  
+2330 internships · 592 new-grad · SWE 1541 · Data/ML 850 · Tech 407 · PM 124
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,11 +19,18 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (585)
+## 🆕 Just posted — last 7 days (592)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Dropbox | Software Engineering Intern (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Remote (US) | 0 days ago | [apply](https://jobs.dropbox.com/listing/8106224?gh_jid=8106224) |
+| Dropbox | Software Engineer Intern - Summer 2027 🆕 | SWE | Intern | Summer 2027 | Remote (US) | 0 days ago | [apply](https://boards.greenhouse.io/embed/job_app?token=8106224) |
 | ICF International | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Reston, VA | 0 days ago | [apply](https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002) |
+| NXP Semiconductors | Data Science / Structured Problem Solving Intern - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | Austin, TX | 0 days ago | [apply](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Ed-Bluestein-Office/Data-Science---Structured-Problem-Solving-Intern---Summer-2027_R-10065037) |
+| NXP Semiconductors | Data Analytics Engineer Intern - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | Austin, TX | 0 days ago | [apply](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/Data-Analytics-Engineer-Intern---Summer-2027_R-10065538) |
+| NXP Semiconductors | Design for Test Engineer Intern - Summer 2027 🆕 | Tech | Intern | Summer 2027 | Austin, TX | 0 days ago | [apply](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Summer-2027_R-10065550) |
+| NXP Semiconductors | AI/ML ASIC Design and Implementation Automation Intern - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | San Diego, CA | 0 days ago | [apply](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Treena-St/AI-ML-ASIC-Design-and-Implementation-Automation-Intern---Summer-2027_R-10065562) |
+| NXP Semiconductors | Embedded Machine Learning & Radar Processing Intern - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | San Jose, CA | 0 days ago | [apply](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/Embedded-Machine-Learning---Radar-Processing-Intern---Summer-2027_R-10065534) |
 | Xcel Energy | Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Minneapolis, MN; Denver, CO | 0 days ago | [apply](https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/Data-Science-Intern-CO--MN_JR116327-1) |
 | Xcel Energy | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Minneapolis, MN; Denver, CO | 0 days ago | [apply](https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55401/Data-Scientist-Intern---MN--CO_JR115668-1) |
 | Xcel Energy | AI Solutions Development Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Minneapolis, MN; Denver, CO | 0 days ago | [apply](https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI-Solutions-Development-Intern-CO--MN_JR116329-1) |
@@ -136,21 +143,21 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Hadrian | Robotics Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Los Angeles, CA; Torrance, CA | 4 days ago | [apply](https://jobs.ashbyhq.com/hadrian-automation/02e33109-08c5-4db7-8881-67294c172584/application?embed=true) |
 | Hadrian | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Los Angeles, CA; Torrance, CA | 4 days ago | [apply](https://jobs.ashbyhq.com/hadrian-automation/2b0423c6-947d-4226-8d23-90743bd5e63e/application?embed=true) |
 | Hadrian | Data Science/Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Los Angeles, CA; Torrance, CA | 4 days ago | [apply](https://jobs.ashbyhq.com/hadrian-automation/f718bcfe-3f5b-4682-a294-697499caf813/application?embed=true) |
-| Hermeus | Mission Systems Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Atlanta, GA | 4 days ago | [apply](https://jobs.lever.co/hermeus/9229aa88-f54d-4ecd-85ee-b31f53b4207d) |
-| Hermeus | GNC & Flight Software Intern - Spring/Summer 2027 🆕 | SWE | Intern | Summer 2027 | Atlanta, GA | 4 days ago | [apply](https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7) |
-| Hermeus | Software Engineer Intern - Command & Control 🆕 | SWE | Intern | ~Summer 2027 | Atlanta, GA | 4 days ago | [apply](https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796/apply) |
-| Hewlett Packard | Finance Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Spring, TX | 4 days ago | [apply](https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Spring-Texas-United-States-of-America/Finance-Intern_UNI4241) |
-| InfiniteQuant | Quantitative Developer - Internship - Summer 2027 🆕 | SWE | Intern | Summer 2027 | New York, New York, us | 4 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000147163879) |
-| InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | New York, NY, us | 4 days ago | [apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000147161390) |
-| Innovative Systems | Software Engineer Intern/Co-op 🆕 | SWE | Intern | ~Summer 2027 | Pittsburgh, PA | 4 days ago | [apply](http://innovativesystems.applytojob.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering) |
 
-_+465 more in the full list below._
+_+472 more in the full list below._
 
-## 📋 All open roles — newest first (2914)
+## 📋 All open roles — newest first (2922)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Dropbox | Software Engineering Intern (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Remote (US) | 0 days ago | [apply](https://jobs.dropbox.com/listing/8106224?gh_jid=8106224) |
+| Dropbox | Software Engineer Intern - Summer 2027 🆕 | SWE | Intern | Summer 2027 | Remote (US) | 0 days ago | [apply](https://boards.greenhouse.io/embed/job_app?token=8106224) |
 | ICF International | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Reston, VA | 0 days ago | [apply](https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002) |
+| NXP Semiconductors | Data Science / Structured Problem Solving Intern - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | Austin, TX | 0 days ago | [apply](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Ed-Bluestein-Office/Data-Science---Structured-Problem-Solving-Intern---Summer-2027_R-10065037) |
+| NXP Semiconductors | Data Analytics Engineer Intern - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | Austin, TX | 0 days ago | [apply](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/Data-Analytics-Engineer-Intern---Summer-2027_R-10065538) |
+| NXP Semiconductors | Design for Test Engineer Intern - Summer 2027 🆕 | Tech | Intern | Summer 2027 | Austin, TX | 0 days ago | [apply](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Summer-2027_R-10065550) |
+| NXP Semiconductors | AI/ML ASIC Design and Implementation Automation Intern - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | San Diego, CA | 0 days ago | [apply](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Treena-St/AI-ML-ASIC-Design-and-Implementation-Automation-Intern---Summer-2027_R-10065562) |
+| NXP Semiconductors | Embedded Machine Learning & Radar Processing Intern - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | San Jose, CA | 0 days ago | [apply](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/Embedded-Machine-Learning---Radar-Processing-Intern---Summer-2027_R-10065534) |
 | Xcel Energy | Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Minneapolis, MN; Denver, CO | 0 days ago | [apply](https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/Data-Science-Intern-CO--MN_JR116327-1) |
 | Xcel Energy | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Minneapolis, MN; Denver, CO | 0 days ago | [apply](https://xcelenergy.wd1.myworkdayjobs.com/External/job/Minneapolis-MN-55401/Data-Scientist-Intern---MN--CO_JR115668-1) |
 | Xcel Energy | AI Solutions Development Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Minneapolis, MN; Denver, CO | 0 days ago | [apply](https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI-Solutions-Development-Intern-CO--MN_JR116329-1) |
@@ -443,15 +450,8 @@ _+465 more in the full list below._
 | Booz Allen | Systems Engineer Intern - Summer Games 🆕 | SWE | Intern | ~Summer 2027 | Atlanta, GA | 6 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Atlanta-GA/University---2027-Summer-Games--Systems-Engineer-Intern---Atlanta--GA_R0248381) |
 | Booz Allen | Systems Engineer Intern - Summer Games 🆕 | SWE | Intern | ~Summer 2027 | Honolulu, HI | 6 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Systems-Engineer-Intern---Honolulu--HI_R0248370) |
 | Booz Allen | Software Developer Intern - University 🆕 | SWE | Intern | ~Summer 2027 | Honolulu, HI | 6 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Software-Developer-Intern---Honolulu--HI_R0248393) |
-| Booz Allen | Data Scientist Intern - 2027 Summer Games 🆕 | Data/ML | Intern | Summer 2027 | Honolulu, HI | 6 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games--Data-Scientist-Intern---Honolulu--HI_R0248406) |
-| Booz Allen | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Huntsville, AL | 6 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394) |
-| Booz Allen | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Huntsville, AL | 6 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Data-Scientist-Intern---Huntsville--AL_R0248407) |
-| Booz Allen | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Fort Walton Beach, FL | 6 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Software-Developer-Intern---Ft-Walton-Beach--FL_R0248404) |
-| Booz Allen | Systems Engineer Intern - Summer Games 🆕 | SWE | Intern | ~Summer 2027 | Fort Walton Beach, FL | 6 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Systems-Engineer-Intern---Ft-Walton-Beach--FL_R0248388) |
-| Booz Allen | Data Scientist Intern - University 🆕 | Data/ML | Intern | ~Summer 2027 | Annapolis Junction, MD | 6 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Data-Scientist-Intern---Annapolis-Junction--MD_R0248408) |
-| Booz Allen | Software Developer Intern - University 🆕 | SWE | Intern | ~Summer 2027 | Annapolis Junction, MD | 6 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0248403) |
 
-_Showing the newest 300 of 2914 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 2922 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,9 +463,9 @@ _Showing the newest 300 of 2914 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **96.0%** of roles carry an exact posting timestamp from the source (2798/2914).
+- **96.0%** of roles carry an exact posting timestamp from the source (2805/2922).
 - **15.6%** come from a company's own board rather than a community feed.
-- **2099** duplicates merged, **18** near-duplicates collapsed.
+- **2102** duplicates merged, **18** near-duplicates collapsed.
 - **136** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>7 source(s) returned 404 this run (token likely renamed)</summary>
