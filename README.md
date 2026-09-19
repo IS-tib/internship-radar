@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**3846 open roles** · **1132 companies** · **454/506 sources healthy** · updated 2026-09-19 06:55 UTC  
-3191 internships · 655 new-grad · SWE 1999 · Data/ML 1113 · Tech 545 · PM 189
+**3846 open roles** · **1133 companies** · **461/506 sources healthy** · updated 2026-09-19 16:58 UTC  
+3190 internships · 656 new-grad · SWE 1998 · Data/ML 1113 · Tech 546 · PM 189
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,7 +19,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (472)
+## 🆕 Just posted — last 7 days (473)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -91,6 +91,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Amperesand | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Reno, NV | 2 days ago | [apply](https://job-boards.greenhouse.io/amperesand/jobs/4409254009) |
 | Avis Budget Group | IT Engineering Intern - Accelerate 🆕 | Tech | Intern | ~Summer 2027 | Parsippany-Troy Hills, NJ | 2 days ago | [apply](https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---IT-Engineering-Intern-Summer-2027_R0190463) |
 | Avis Budget Group | IT Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Parsippany-Troy Hills, NJ | 2 days ago | [apply](https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---IT-Engineering-Intern_R0190464) |
+| Axiom Space | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Houston, TX | 2 days ago | [apply](https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Software-Engineering-Intern--Summer-2026-_JR100691) |
 | Bosch | AI Engineering Intern (October 2026 - August 2027) 🆕 | Data/ML | Intern | 2026 | Plymouth, MI, us | 2 days ago | [apply](https://jobs.smartrecruiters.com/BoschGroup/744000150217869) |
 | Bosch | DATA ANALYST INTERN 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, Heredia, cr | 2 days ago | [apply](https://jobs.smartrecruiters.com/BoschGroup/744000150216697) |
 | Boston Scientific | Data Science Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | Maple Grove, MN | 2 days ago | [apply](https://bostonscientific.eightfold.ai/careers/job/563602813600487) |
@@ -142,9 +143,8 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Renesas Electronics | Embedded Systems Intern 🆕 | Tech | Intern | ~Summer 2027 | Remote (US) | 2 days ago | [apply](https://jobs.smartrecruiters.com/RenesasElectronics/744000150194379) |
 | Rocket Lab USA | Systems Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Pasadena, CA | 2 days ago | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7990138003) |
 | SharkNinja | Applied AI & Analytics Co-op Opportunities 🆕 | Data/ML | Intern | ~Summer 2027 | Miami, Florida, United States; Needham, MA, United States; New York, New York, United States | 2 days ago | [apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713793006) |
-| SharkNinja | Applied AI & Analytics Intern Opportunities 🆕 | Data/ML | Intern | ~Summer 2027 | Miami, Florida, United States; Needham, MA, United States | 2 days ago | [apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713808006) |
 
-_+352 more in the full list below._
+_+353 more in the full list below._
 
 ## 📋 All open roles — newest first (3846)
 
@@ -218,6 +218,7 @@ _+352 more in the full list below._
 | Amperesand | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Reno, NV | 2 days ago | [apply](https://job-boards.greenhouse.io/amperesand/jobs/4409254009) |
 | Avis Budget Group | IT Engineering Intern - Accelerate 🆕 | Tech | Intern | ~Summer 2027 | Parsippany-Troy Hills, NJ | 2 days ago | [apply](https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---IT-Engineering-Intern-Summer-2027_R0190463) |
 | Avis Budget Group | IT Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Parsippany-Troy Hills, NJ | 2 days ago | [apply](https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---IT-Engineering-Intern_R0190464) |
+| Axiom Space | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Houston, TX | 2 days ago | [apply](https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Software-Engineering-Intern--Summer-2026-_JR100691) |
 | Bosch | AI Engineering Intern (October 2026 - August 2027) 🆕 | Data/ML | Intern | 2026 | Plymouth, MI, us | 2 days ago | [apply](https://jobs.smartrecruiters.com/BoschGroup/744000150217869) |
 | Bosch | DATA ANALYST INTERN 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, Heredia, cr | 2 days ago | [apply](https://jobs.smartrecruiters.com/BoschGroup/744000150216697) |
 | Boston Scientific | Data Science Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | Maple Grove, MN | 2 days ago | [apply](https://bostonscientific.eightfold.ai/careers/job/563602813600487) |
@@ -384,8 +385,8 @@ _+352 more in the full list below._
 | APEX Analytix | Automation Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Greensboro, NC | 4 days ago | [apply](https://ats.rippling.com/apexanalytix-careers/jobs/40e4727d-e132-4de0-89ba-b4fdbd5860a7) |
 | APEX Analytix | Data Engineering Intern - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | Greensboro, NC | 4 days ago | [apply](https://ats.rippling.com/apexanalytix-careers/jobs/52353bce-cb36-423f-ae0a-f2057ef3b5d9) |
 | APEX Analytix | Data Analyst Intern - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | Greensboro, NC | 4 days ago | [apply](https://ats.rippling.com/apexanalytix-careers/jobs/e275fd70-45a3-4a64-8688-cace8a3f87ef) |
-| Acxiom | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Conway, AR | 4 days ago | [apply](https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482) |
 | Acxiom | Product Manager Intern - Real Identity Product Team 🆕 | PM | Intern | ~Summer 2027 | Conway, AR | 4 days ago | [apply](https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Product-Management_JR014473-1) |
+| Acxiom | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Conway, AR | 4 days ago | [apply](https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482) |
 | Altar'd State | Store Operations Data Analyst Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Knoxville, TN | 4 days ago | [apply](https://standoutforgood.wd12.myworkdayjobs.com/StandOutForGood/job/Knoxville-TN/Spring-2027-Store-Operations-Intern_SOSJ12464) |
 | Ambrook | Software Engineer Co-op 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 4 days ago | [apply](https://jobs.ashbyhq.com/ambrook/29ffbcea-17c3-4488-9d57-a9f7249b49a5/application?embed=true) |
 | Analog Devices | Embedded Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA; Wilmington, MA | 4 days ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Embedded-Software-Engineer-Intern_R266132) |
@@ -449,7 +450,6 @@ _+352 more in the full list below._
 | National Information Solutions Cooperative | Software Development Intern - AI Development 🆕 | Data/ML | Intern | ~Summer 2027 | Lake St Louis, MO; Cedar Rapids, IA | 4 days ago | [apply](https://job-boards.greenhouse.io/nisc/jobs/8204086) |
 | Nelnet | Software Engineer Intern - .NET/Web 🆕 | SWE | Intern | ~Summer 2027 | Madison, WI; Centennial, CO | 4 days ago | [apply](https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Madison-WI/XMLNAME-2026-Summer-Intern---IT-Software-Engineer---NET-Web_R23106) |
 | Nelnet | Front-End Engineer Intern - UX/UI 🆕 | SWE | Intern | ~Summer 2027 | Madison, WI | 4 days ago | [apply](https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Madison-WI/Intern---UX-UI-Front-End-Engineer_R23118) |
-| Northrop Grumman | Cyber Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cincinnati, OH | 4 days ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186) |
 
 _Showing the newest 300 of 3846 — the complete, machine-readable set is in_ `listings.json`.
 
@@ -465,8 +465,8 @@ _Showing the newest 300 of 3846 — the complete, machine-readable set is in_ `l
 
 - **96.3%** of roles carry an exact posting timestamp from the source (3704/3846).
 - **14.7%** come from a company's own board rather than a community feed.
-- **2880** duplicates merged, **20** near-duplicates collapsed.
-- **119** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **2882** duplicates merged, **20** near-duplicates collapsed.
+- **120** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>11 source(s) returned 404 this run (token likely renamed)</summary>
 

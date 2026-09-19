@@ -1,23 +1,23 @@
 {
   "schema": 4,
-  "updated": "2026-09-19T06:55:30+00:00",
+  "updated": "2026-09-19T16:58:40+00:00",
   "count": 3846,
   "metrics": {
     "roles_open": 3846,
-    "roles_closed_tracked": 119,
-    "companies": 1132,
+    "roles_closed_tracked": 120,
+    "companies": 1133,
     "sources_configured": 506,
-    "sources_ok": 454,
+    "sources_ok": 461,
     "sources_dead": 11,
-    "sources_failed": 8,
+    "sources_failed": 1,
     "by_level": {
-      "intern": 3191,
-      "new_grad": 655
+      "intern": 3190,
+      "new_grad": 656
     },
     "by_category": {
-      "Software Engineering": 1999,
+      "Software Engineering": 1998,
       "Data / ML / AI": 1113,
-      "Other Technical": 545,
+      "Other Technical": 546,
       "Product Management": 189
     },
     "by_source": {
@@ -42,29 +42,29 @@
     "first_party": 565,
     "first_party_pct": 14.7,
     "dedupe": {
-      "input": 5741,
-      "merged": 2880,
+      "input": 5795,
+      "merged": 2882,
       "near_dupes": 20,
-      "output": 2841
+      "output": 2893
     },
     "lifecycle": {
-      "new": 47,
+      "new": 1,
       "returning": 0,
-      "still_open": 2794,
-      "closed": 1,
-      "reopened": 0
+      "still_open": 2891,
+      "closed": 2,
+      "reopened": 1
     },
     "filtered_out": {
-      "not_early_career": 40213,
-      "not_technical": 3953,
-      "non_us": 1137,
-      "undergrad:phd_required": 141,
-      "location_unknown": 48,
-      "undergrad:masters_required": 24,
+      "not_early_career": 42073,
+      "not_technical": 4119,
+      "non_us": 1196,
+      "undergrad:phd_required": 160,
+      "location_unknown": 53,
+      "undergrad:masters_required": 25,
       "stale_term": 14,
-      "undergrad:graduate_students_only": 2,
       "undergrad:advanced_degree_in_description": 2,
-      "undergrad:senior_role": 2
+      "undergrad:senior_role": 2,
+      "undergrad:graduate_students_only": 1
     },
     "remote_roles": 90
   },
@@ -256,7 +256,7 @@
     },
     "Stripe": {
       "status": "ok",
-      "count": 667,
+      "count": 666,
       "ats": "greenhouse"
     },
     "Databricks": {
@@ -301,7 +301,7 @@
     },
     "Anthropic": {
       "status": "ok",
-      "count": 609,
+      "count": 610,
       "ats": "greenhouse"
     },
     "Scale AI": {
@@ -349,6 +349,11 @@
       "count": 29,
       "ats": "greenhouse"
     },
+    "CockroachLabs": {
+      "status": "ok",
+      "count": 21,
+      "ats": "greenhouse"
+    },
     "Faire": {
       "status": "ok",
       "count": 73,
@@ -359,9 +364,9 @@
       "count": 32,
       "ats": "greenhouse"
     },
-    "CockroachLabs": {
+    "Gemini": {
       "status": "ok",
-      "count": 21,
+      "count": 37,
       "ats": "greenhouse"
     },
     "Affirm": {
@@ -376,22 +381,17 @@
     },
     "Gusto": {
       "status": "ok",
-      "count": 95,
+      "count": 94,
       "ats": "greenhouse"
     },
     "Samsara": {
       "status": "ok",
-      "count": 267,
+      "count": 271,
       "ats": "greenhouse"
     },
     "Flexport": {
       "status": "ok",
       "count": 198,
-      "ats": "greenhouse"
-    },
-    "Gemini": {
-      "status": "ok",
-      "count": 37,
       "ats": "greenhouse"
     },
     "Airtable": {
@@ -406,7 +406,7 @@
     },
     "Cloudflare": {
       "status": "ok",
-      "count": 380,
+      "count": 379,
       "ats": "greenhouse"
     },
     "Notion": {
@@ -424,14 +424,14 @@
       "count": 156,
       "ats": "greenhouse"
     },
-    "Linear": {
-      "status": "ok",
-      "count": 32,
-      "ats": "ashby"
-    },
     "OpenAI": {
       "status": "ok",
       "count": 818,
+      "ats": "ashby"
+    },
+    "Linear": {
+      "status": "ok",
+      "count": 32,
       "ats": "ashby"
     },
     "Pinterest": {
@@ -466,18 +466,13 @@
     },
     "Twilio": {
       "status": "ok",
-      "count": 144,
+      "count": 143,
       "ats": "greenhouse"
     },
     "Plaid": {
       "status": "ok",
       "count": 114,
       "ats": "ashby"
-    },
-    "Asana": {
-      "status": "ok",
-      "count": 104,
-      "ats": "greenhouse"
     },
     "Benchling": {
       "status": "ok",
@@ -520,27 +515,21 @@
       "ats": "greenhouse",
       "error": "HTTP 404"
     },
-    "NVIDIA": {
-      "status": "fetch_error",
-      "count": 0,
-      "ats": "workday",
-      "error": "invalid JSON (Expecting value: line 1 column 1 (char 0))"
+    "Sierra": {
+      "status": "ok",
+      "count": 210,
+      "ats": "ashby"
     },
     "Palantir": {
       "status": "ok",
       "count": 313,
       "ats": "lever"
     },
-    "Sierra": {
-      "status": "ok",
-      "count": 210,
-      "ats": "ashby"
-    },
     "Adobe": {
       "status": "fetch_error",
       "count": 0,
       "ats": "workday",
-      "error": "invalid JSON (Expecting value: line 1 column 1 (char 0))"
+      "error": "HTTP 403"
     },
     "Instabase": {
       "status": "not_found",
@@ -553,80 +542,29 @@
       "count": 98,
       "ats": "ashby"
     },
-    "Cisco": {
-      "status": "fetch_error",
-      "count": 0,
-      "ats": "workday",
-      "error": "invalid JSON (Expecting value: line 1 column 1 (char 0))"
-    },
-    "Boeing": {
-      "status": "fetch_error",
-      "count": 0,
-      "ats": "workday",
-      "error": "invalid JSON (Expecting value: line 1 column 1 (char 0))"
-    },
-    "Workday": {
-      "status": "fetch_error",
-      "count": 0,
-      "ats": "workday",
-      "error": "invalid JSON (Expecting value: line 1 column 1 (char 0))"
-    },
-    "Mastercard": {
-      "status": "fetch_error",
-      "count": 0,
-      "ats": "workday",
-      "error": "invalid JSON (Expecting value: line 1 column 1 (char 0))"
-    },
-    "Visa": {
-      "status": "fetch_error",
-      "count": 0,
-      "ats": "workday",
-      "error": "invalid JSON (Expecting value: line 1 column 1 (char 0))"
-    },
     "Character.AI": {
       "status": "ok",
       "count": 13,
       "ats": "ashby"
-    },
-    "IMC Trading": {
-      "status": "ok",
-      "count": 172,
-      "ats": "greenhouse"
-    },
-    "Samsung": {
-      "status": "fetch_error",
-      "count": 0,
-      "ats": "workday",
-      "error": "invalid JSON (Expecting value: line 1 column 1 (char 0))"
     },
     "Watershed": {
       "status": "ok",
       "count": 32,
       "ats": "ashby"
     },
-    "Jump Trading": {
-      "status": "ok",
-      "count": 110,
-      "ats": "greenhouse"
-    },
     "Harvey": {
       "status": "ok",
       "count": 299,
       "ats": "ashby"
-    },
-    "Akuna Capital": {
-      "status": "ok",
-      "count": 40,
-      "ats": "greenhouse"
     },
     "Deel": {
       "status": "ok",
       "count": 0,
       "ats": "ashby"
     },
-    "Point72": {
+    "Jane Street": {
       "status": "ok",
-      "count": 233,
+      "count": 229,
       "ats": "greenhouse"
     },
     "Supabase": {
@@ -634,14 +572,34 @@
       "count": 59,
       "ats": "ashby"
     },
+    "IMC Trading": {
+      "status": "ok",
+      "count": 172,
+      "ats": "greenhouse"
+    },
+    "Jump Trading": {
+      "status": "ok",
+      "count": 110,
+      "ats": "greenhouse"
+    },
+    "Asana": {
+      "status": "ok",
+      "count": 104,
+      "ats": "greenhouse"
+    },
+    "Akuna Capital": {
+      "status": "ok",
+      "count": 40,
+      "ats": "greenhouse"
+    },
+    "Point72": {
+      "status": "ok",
+      "count": 233,
+      "ats": "greenhouse"
+    },
     "DRW": {
       "status": "ok",
       "count": 164,
-      "ats": "greenhouse"
-    },
-    "Jane Street": {
-      "status": "ok",
-      "count": 229,
       "ats": "greenhouse"
     },
     "Virtu Financial": {
@@ -669,15 +627,15 @@
       "count": 402,
       "ats": "greenhouse"
     },
+    "Fivetran": {
+      "status": "ok",
+      "count": 197,
+      "ats": "greenhouse"
+    },
     "Grafana Labs": {
       "status": "ok",
       "count": 130,
       "ats": "greenhouse"
-    },
-    "ElevenLabs": {
-      "status": "ok",
-      "count": 235,
-      "ats": "ashby"
     },
     "ClickHouse": {
       "status": "not_found",
@@ -685,20 +643,10 @@
       "ats": "greenhouse",
       "error": "HTTP 404"
     },
-    "Baseten": {
-      "status": "ok",
-      "count": 100,
-      "ats": "ashby"
-    },
     "Carta": {
       "status": "ok",
       "count": 69,
       "ats": "greenhouse"
-    },
-    "Writer": {
-      "status": "ok",
-      "count": 51,
-      "ats": "ashby"
     },
     "Marqeta": {
       "status": "not_found",
@@ -706,15 +654,55 @@
       "ats": "greenhouse",
       "error": "HTTP 404"
     },
-    "Decagon": {
-      "status": "ok",
-      "count": 146,
-      "ats": "ashby"
-    },
     "Betterment": {
       "status": "ok",
       "count": 25,
       "ats": "greenhouse"
+    },
+    "Coursera": {
+      "status": "ok",
+      "count": 17,
+      "ats": "greenhouse"
+    },
+    "Nextdoor": {
+      "status": "ok",
+      "count": 21,
+      "ats": "greenhouse"
+    },
+    "ElevenLabs": {
+      "status": "ok",
+      "count": 235,
+      "ats": "ashby"
+    },
+    "Riot Games": {
+      "status": "ok",
+      "count": 155,
+      "ats": "greenhouse"
+    },
+    "Baseten": {
+      "status": "ok",
+      "count": 100,
+      "ats": "ashby"
+    },
+    "Scopely": {
+      "status": "ok",
+      "count": 158,
+      "ats": "greenhouse"
+    },
+    "Writer": {
+      "status": "ok",
+      "count": 51,
+      "ats": "ashby"
+    },
+    "Snorkel AI": {
+      "status": "ok",
+      "count": 39,
+      "ats": "greenhouse"
+    },
+    "Decagon": {
+      "status": "ok",
+      "count": 146,
+      "ats": "ashby"
     },
     "Ubisoft": {
       "status": "ok",
@@ -726,9 +714,9 @@
       "count": 357,
       "ats": "ashby"
     },
-    "Coursera": {
+    "Netlify": {
       "status": "ok",
-      "count": 17,
+      "count": 2,
       "ats": "greenhouse"
     },
     "Hex": {
@@ -736,14 +724,14 @@
       "count": 2,
       "ats": "ashby"
     },
-    "Nextdoor": {
+    "PlanetScale": {
       "status": "ok",
-      "count": 21,
+      "count": 13,
       "ats": "greenhouse"
     },
-    "Riot Games": {
+    "PagerDuty": {
       "status": "ok",
-      "count": 155,
+      "count": 49,
       "ats": "greenhouse"
     },
     "Astronomer": {
@@ -751,9 +739,14 @@
       "count": 22,
       "ats": "ashby"
     },
-    "Scopely": {
+    "Mastercard": {
       "status": "ok",
-      "count": 158,
+      "count": 45,
+      "ats": "workday"
+    },
+    "CircleCI": {
+      "status": "ok",
+      "count": 14,
       "ats": "greenhouse"
     },
     "Weaviate": {
@@ -761,9 +754,9 @@
       "count": 3,
       "ats": "ashby"
     },
-    "Snorkel AI": {
+    "Contentful": {
       "status": "ok",
-      "count": 39,
+      "count": 14,
       "ats": "greenhouse"
     },
     "LangChain": {
@@ -771,69 +764,14 @@
       "count": 106,
       "ats": "ashby"
     },
-    "Modal": {
-      "status": "ok",
-      "count": 34,
-      "ats": "ashby"
-    },
-    "Netlify": {
-      "status": "ok",
-      "count": 2,
-      "ats": "greenhouse"
-    },
-    "Fireworks AI": {
-      "status": "ok",
-      "count": 79,
-      "ats": "ashby"
-    },
-    "PlanetScale": {
-      "status": "ok",
-      "count": 13,
-      "ats": "greenhouse"
-    },
-    "Pinecone": {
-      "status": "ok",
-      "count": 7,
-      "ats": "ashby"
-    },
-    "PagerDuty": {
-      "status": "ok",
-      "count": 49,
-      "ats": "greenhouse"
-    },
-    "LlamaIndex": {
-      "status": "ok",
-      "count": 9,
-      "ats": "ashby"
-    },
-    "CircleCI": {
-      "status": "ok",
-      "count": 14,
-      "ats": "greenhouse"
-    },
-    "RunPod": {
-      "status": "ok",
-      "count": 21,
-      "ats": "ashby"
-    },
-    "Contentful": {
-      "status": "ok",
-      "count": 14,
-      "ats": "greenhouse"
-    },
-    "Cerebras": {
-      "status": "ok",
-      "count": 113,
-      "ats": "ashby"
-    },
     "Fastly": {
       "status": "ok",
       "count": 43,
       "ats": "greenhouse"
     },
-    "WorkOS": {
+    "Modal": {
       "status": "ok",
-      "count": 27,
+      "count": 34,
       "ats": "ashby"
     },
     "Together AI": {
@@ -841,9 +779,9 @@
       "count": 78,
       "ats": "greenhouse"
     },
-    "Neon": {
+    "Fireworks AI": {
       "status": "ok",
-      "count": 5,
+      "count": 79,
       "ats": "ashby"
     },
     "CoreWeave": {
@@ -851,9 +789,14 @@
       "count": 292,
       "ats": "greenhouse"
     },
-    "Airbyte": {
+    "Pinecone": {
       "status": "ok",
-      "count": 13,
+      "count": 7,
+      "ats": "ashby"
+    },
+    "LlamaIndex": {
+      "status": "ok",
+      "count": 9,
       "ats": "ashby"
     },
     "Temporal": {
@@ -862,19 +805,49 @@
       "ats": "greenhouse",
       "error": "HTTP 404"
     },
+    "Workday": {
+      "status": "ok",
+      "count": 4,
+      "ats": "workday"
+    },
+    "RunPod": {
+      "status": "ok",
+      "count": 21,
+      "ats": "ashby"
+    },
+    "Cerebras": {
+      "status": "ok",
+      "count": 113,
+      "ats": "ashby"
+    },
+    "WorkOS": {
+      "status": "ok",
+      "count": 27,
+      "ats": "ashby"
+    },
+    "Neon": {
+      "status": "ok",
+      "count": 5,
+      "ats": "ashby"
+    },
+    "Airbyte": {
+      "status": "ok",
+      "count": 13,
+      "ats": "ashby"
+    },
     "Prefect": {
       "status": "ok",
       "count": 8,
       "ats": "ashby"
     },
-    "LaunchDarkly": {
-      "status": "ok",
-      "count": 52,
-      "ats": "greenhouse"
-    },
     "Materialize": {
       "status": "ok",
       "count": 2,
+      "ats": "ashby"
+    },
+    "PostHog": {
+      "status": "ok",
+      "count": 9,
       "ats": "ashby"
     },
     "Tailscale": {
@@ -882,9 +855,14 @@
       "count": 55,
       "ats": "greenhouse"
     },
-    "PostHog": {
+    "Cisco": {
       "status": "ok",
-      "count": 9,
+      "count": 433,
+      "ats": "workday"
+    },
+    "Render": {
+      "status": "ok",
+      "count": 39,
       "ats": "ashby"
     },
     "Chainguard": {
@@ -892,14 +870,9 @@
       "count": 80,
       "ats": "greenhouse"
     },
-    "Render": {
+    "LaunchDarkly": {
       "status": "ok",
-      "count": 39,
-      "ats": "ashby"
-    },
-    "Mixpanel": {
-      "status": "ok",
-      "count": 87,
+      "count": 52,
       "ats": "greenhouse"
     },
     "Railway": {
@@ -907,9 +880,9 @@
       "count": 8,
       "ats": "ashby"
     },
-    "Checkr": {
+    "Mixpanel": {
       "status": "ok",
-      "count": 48,
+      "count": 87,
       "ats": "greenhouse"
     },
     "Doppler": {
@@ -917,9 +890,9 @@
       "count": 1,
       "ats": "ashby"
     },
-    "Abnormal Security": {
+    "Checkr": {
       "status": "ok",
-      "count": 78,
+      "count": 48,
       "ats": "greenhouse"
     },
     "Socket": {
@@ -927,15 +900,20 @@
       "count": 25,
       "ats": "ashby"
     },
-    "Orca Security": {
+    "Abnormal Security": {
       "status": "ok",
-      "count": 11,
+      "count": 78,
       "ats": "greenhouse"
     },
     "Semgrep": {
       "status": "ok",
       "count": 10,
       "ats": "ashby"
+    },
+    "Orca Security": {
+      "status": "ok",
+      "count": 11,
+      "ats": "greenhouse"
     },
     "Backblaze": {
       "status": "ok",
@@ -947,19 +925,14 @@
       "count": 35,
       "ats": "ashby"
     },
-    "Sauce Labs": {
-      "status": "ok",
-      "count": 10,
-      "ats": "greenhouse"
-    },
     "Secureframe": {
       "status": "ok",
       "count": 14,
       "ats": "ashby"
     },
-    "Stability AI": {
+    "Sauce Labs": {
       "status": "ok",
-      "count": 7,
+      "count": 10,
       "ats": "greenhouse"
     },
     "Drata": {
@@ -967,9 +940,9 @@
       "count": 39,
       "ats": "ashby"
     },
-    "SingleStore": {
+    "Stability AI": {
       "status": "ok",
-      "count": 40,
+      "count": 7,
       "ats": "greenhouse"
     },
     "ClickUp": {
@@ -977,9 +950,9 @@
       "count": 58,
       "ats": "ashby"
     },
-    "Yugabyte": {
+    "SingleStore": {
       "status": "ok",
-      "count": 14,
+      "count": 40,
       "ats": "greenhouse"
     },
     "Physical Intelligence": {
@@ -987,9 +960,9 @@
       "count": 36,
       "ats": "ashby"
     },
-    "Descript": {
+    "Yugabyte": {
       "status": "ok",
-      "count": 10,
+      "count": 14,
       "ats": "greenhouse"
     },
     "Suno": {
@@ -997,7 +970,7 @@
       "count": 69,
       "ats": "ashby"
     },
-    "Honeycomb": {
+    "Descript": {
       "status": "ok",
       "count": 10,
       "ats": "greenhouse"
@@ -1007,9 +980,9 @@
       "count": 8,
       "ats": "ashby"
     },
-    "Alloy": {
+    "Honeycomb": {
       "status": "ok",
-      "count": 26,
+      "count": 10,
       "ats": "greenhouse"
     },
     "Unstructured": {
@@ -1017,15 +990,9 @@
       "count": 5,
       "ats": "ashby"
     },
-    "Ledger": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "lever",
-      "error": "HTTP 404"
-    },
-    "Treasury Prime": {
+    "Alloy": {
       "status": "ok",
-      "count": 0,
+      "count": 26,
       "ats": "greenhouse"
     },
     "Ideogram": {
@@ -1033,24 +1000,25 @@
       "count": 2,
       "ats": "ashby"
     },
-    "Solaris": {
+    "Treasury Prime": {
       "status": "ok",
-      "count": 27,
+      "count": 0,
       "ats": "greenhouse"
     },
-    "Fivetran": {
-      "status": "ok",
-      "count": 197,
-      "ats": "greenhouse"
+    "Ledger": {
+      "status": "not_found",
+      "count": 0,
+      "ats": "lever",
+      "error": "HTTP 404"
     },
     "Luma AI": {
       "status": "ok",
       "count": 41,
       "ats": "ashby"
     },
-    "tastytrade": {
+    "Solaris": {
       "status": "ok",
-      "count": 17,
+      "count": 27,
       "ats": "greenhouse"
     },
     "Vanta": {
@@ -1058,10 +1026,25 @@
       "count": 93,
       "ats": "ashby"
     },
+    "tastytrade": {
+      "status": "ok",
+      "count": 17,
+      "ats": "greenhouse"
+    },
+    "Strike": {
+      "status": "ok",
+      "count": 5,
+      "ats": "greenhouse"
+    },
     "BitGo": {
       "status": "ok",
       "count": 39,
       "ats": "greenhouse"
+    },
+    "Visa": {
+      "status": "ok",
+      "count": 315,
+      "ats": "workday"
     },
     "Bitpanda": {
       "status": "ok",
@@ -1073,10 +1056,10 @@
       "count": 2,
       "ats": "greenhouse"
     },
-    "Strike": {
+    "Salesforce": {
       "status": "ok",
-      "count": 5,
-      "ats": "greenhouse"
+      "count": 523,
+      "ats": "workday"
     },
     "Tower Research Capital": {
       "status": "ok",
@@ -1145,18 +1128,13 @@
     },
     "BeyondTrust": {
       "status": "ok",
-      "count": 58,
+      "count": 57,
       "ats": "greenhouse"
     },
     "Tanium": {
       "status": "ok",
       "count": 56,
       "ats": "greenhouse"
-    },
-    "Stytch": {
-      "status": "ok",
-      "count": 0,
-      "ats": "ashby"
     },
     "Bugcrowd": {
       "status": "ok",
@@ -1167,6 +1145,11 @@
       "status": "ok",
       "count": 22,
       "ats": "greenhouse"
+    },
+    "Stytch": {
+      "status": "ok",
+      "count": 0,
+      "ats": "ashby"
     },
     "Cribl": {
       "status": "ok",
@@ -1183,14 +1166,24 @@
       "count": 8,
       "ats": "greenhouse"
     },
+    "OneTrust": {
+      "status": "ok",
+      "count": 88,
+      "ats": "greenhouse"
+    },
+    "BigID": {
+      "status": "ok",
+      "count": 7,
+      "ats": "greenhouse"
+    },
     "Rula": {
       "status": "ok",
       "count": 36,
       "ats": "ashby"
     },
-    "OneTrust": {
+    "Osano": {
       "status": "ok",
-      "count": 88,
+      "count": 8,
       "ats": "greenhouse"
     },
     "Ro": {
@@ -1198,25 +1191,10 @@
       "count": 53,
       "ats": "lever"
     },
-    "Salesforce": {
-      "status": "ok",
-      "count": 522,
-      "ats": "workday"
-    },
     "Insitro": {
       "status": "ok",
       "count": 15,
       "ats": "ashby"
-    },
-    "BigID": {
-      "status": "ok",
-      "count": 7,
-      "ats": "greenhouse"
-    },
-    "Osano": {
-      "status": "ok",
-      "count": 8,
-      "ats": "greenhouse"
     },
     "Ping Identity": {
       "status": "ok",
@@ -1238,11 +1216,6 @@
       "count": 37,
       "ats": "greenhouse"
     },
-    "Aurora Solar": {
-      "status": "ok",
-      "count": 14,
-      "ats": "ashby"
-    },
     "Zocdoc": {
       "status": "ok",
       "count": 56,
@@ -1258,6 +1231,11 @@
       "count": 29,
       "ats": "greenhouse"
     },
+    "Aurora Solar": {
+      "status": "ok",
+      "count": 14,
+      "ats": "ashby"
+    },
     "Recursion Pharmaceuticals": {
       "status": "ok",
       "count": 16,
@@ -1266,6 +1244,16 @@
     "Maven Clinic": {
       "status": "ok",
       "count": 33,
+      "ats": "greenhouse"
+    },
+    "Samsung": {
+      "status": "ok",
+      "count": 351,
+      "ats": "workday"
+    },
+    "Agility Robotics": {
+      "status": "ok",
+      "count": 69,
       "ats": "greenhouse"
     },
     "Diligent Robotics": {
@@ -1303,15 +1291,20 @@
       "count": 36,
       "ats": "greenhouse"
     },
+    "FourKites": {
+      "status": "ok",
+      "count": 13,
+      "ats": "greenhouse"
+    },
     "Merge": {
       "status": "ok",
       "count": 19,
       "ats": "ashby"
     },
-    "FourKites": {
+    "Boeing": {
       "status": "ok",
-      "count": 13,
-      "ats": "greenhouse"
+      "count": 462,
+      "ats": "workday"
     },
     "project44": {
       "status": "ok",
@@ -1328,14 +1321,14 @@
       "count": 42,
       "ats": "greenhouse"
     },
+    "NVIDIA": {
+      "status": "ok",
+      "count": 563,
+      "ats": "workday"
+    },
     "Outschool": {
       "status": "ok",
       "count": 6,
-      "ats": "greenhouse"
-    },
-    "Lattice": {
-      "status": "ok",
-      "count": 7,
       "ats": "greenhouse"
     },
     "Vori": {
@@ -1343,9 +1336,9 @@
       "count": 11,
       "ats": "ashby"
     },
-    "Agility Robotics": {
+    "Lattice": {
       "status": "ok",
-      "count": 69,
+      "count": 7,
       "ats": "greenhouse"
     },
     "Culture Amp": {
@@ -1355,7 +1348,7 @@
     },
     "Community · SimplifyJobs S2026": {
       "status": "ok",
-      "count": 4407,
+      "count": 4406,
       "ats": "community_listings"
     },
     "Attentive": {
@@ -1469,6 +1462,11 @@
       "count": 6,
       "ats": "ashby"
     },
+    "Cresta": {
+      "status": "ok",
+      "count": 96,
+      "ats": "greenhouse"
+    },
     "Fizz": {
       "status": "ok",
       "count": 6,
@@ -1504,6 +1502,11 @@
       "count": 18,
       "ats": "ashby"
     },
+    "Hermeus": {
+      "status": "ok",
+      "count": 88,
+      "ats": "lever"
+    },
     "Nirmata": {
       "status": "ok",
       "count": 2,
@@ -1513,11 +1516,6 @@
       "status": "ok",
       "count": 211,
       "ats": "ashby"
-    },
-    "Hermeus": {
-      "status": "ok",
-      "count": 88,
-      "ats": "lever"
     },
     "Haize Labs": {
       "status": "ok",
@@ -1609,6 +1607,11 @@
       "count": 22,
       "ats": "ashby"
     },
+    "Belvedere Trading": {
+      "status": "ok",
+      "count": 17,
+      "ats": "lever"
+    },
     "Freeform": {
       "status": "ok",
       "count": 76,
@@ -1618,11 +1621,6 @@
       "status": "ok",
       "count": 56,
       "ats": "ashby"
-    },
-    "Belvedere Trading": {
-      "status": "ok",
-      "count": 17,
-      "ats": "lever"
     },
     "Hightouch": {
       "status": "ok",
@@ -1664,35 +1662,30 @@
       "count": 18,
       "ats": "ashby"
     },
-    "Middesk": {
-      "status": "ok",
-      "count": 17,
-      "ats": "ashby"
-    },
     "The Nuclear Company": {
       "status": "ok",
       "count": 81,
       "ats": "greenhouse"
-    },
-    "Overjet": {
-      "status": "ok",
-      "count": 23,
-      "ats": "ashby"
     },
     "PlusAI": {
       "status": "ok",
       "count": 42,
       "ats": "lever"
     },
+    "Middesk": {
+      "status": "ok",
+      "count": 17,
+      "ats": "ashby"
+    },
+    "Overjet": {
+      "status": "ok",
+      "count": 23,
+      "ats": "ashby"
+    },
     "Rilla": {
       "status": "ok",
       "count": 30,
       "ats": "ashby"
-    },
-    "Cresta": {
-      "status": "ok",
-      "count": 96,
-      "ats": "greenhouse"
     },
     "SpreeAI": {
       "status": "ok",
@@ -1702,11 +1695,6 @@
     "Podium Automation": {
       "status": "ok",
       "count": 6,
-      "ats": "ashby"
-    },
-    "Genesis Molecular AI": {
-      "status": "ok",
-      "count": 10,
       "ats": "ashby"
     },
     "pony.ai": {
@@ -1719,9 +1707,9 @@
       "count": 7,
       "ats": "greenhouse"
     },
-    "GigaML": {
+    "Genesis Molecular AI": {
       "status": "ok",
-      "count": 32,
+      "count": 10,
       "ats": "ashby"
     },
     "Seven Research": {
@@ -1729,15 +1717,20 @@
       "count": 8,
       "ats": "greenhouse"
     },
-    "Lightspark": {
+    "GigaML": {
       "status": "ok",
-      "count": 3,
+      "count": 32,
       "ats": "ashby"
     },
     "SpaceX": {
       "status": "ok",
-      "count": 2499,
+      "count": 2500,
       "ats": "greenhouse"
+    },
+    "Lightspark": {
+      "status": "ok",
+      "count": 3,
+      "ats": "ashby"
     },
     "Mach Industries": {
       "status": "not_found",
@@ -1775,25 +1768,25 @@
       "count": 77,
       "ats": "greenhouse"
     },
-    "Rivian and Volkswagen Group Technologies": {
-      "status": "ok",
-      "count": 142,
-      "ats": "ashby"
-    },
     "Canva": {
       "status": "ok",
       "count": 247,
       "ats": "smartrecruiters"
     },
-    "Cybernetic Labs": {
+    "Rivian and Volkswagen Group Technologies": {
       "status": "ok",
-      "count": 28,
+      "count": 142,
       "ats": "ashby"
     },
     "TMEIC": {
       "status": "ok",
       "count": 43,
       "ats": "workable"
+    },
+    "Cybernetic Labs": {
+      "status": "ok",
+      "count": 28,
+      "ats": "ashby"
     },
     "Fab2": {
       "status": "ok",
@@ -1805,6 +1798,11 @@
       "count": 18,
       "ats": "ashby"
     },
+    "Diversified Automation": {
+      "status": "ok",
+      "count": 11,
+      "ats": "lever"
+    },
     "Skydio": {
       "status": "ok",
       "count": 138,
@@ -1814,11 +1812,6 @@
       "status": "ok",
       "count": 28,
       "ats": "ashby"
-    },
-    "Diversified Automation": {
-      "status": "ok",
-      "count": 11,
-      "ats": "lever"
     },
     "Etched.ai": {
       "status": "ok",
@@ -1835,6 +1828,11 @@
       "count": 8,
       "ats": "ashby"
     },
+    "Western Digital": {
+      "status": "ok",
+      "count": 338,
+      "ats": "smartrecruiters"
+    },
     "Rendezvous Robotics": {
       "status": "ok",
       "count": 23,
@@ -1846,11 +1844,6 @@
       "ats": "ashby",
       "error": "HTTP 404"
     },
-    "Western Digital": {
-      "status": "ok",
-      "count": 338,
-      "ats": "smartrecruiters"
-    },
     "Terranova": {
       "status": "ok",
       "count": 16,
@@ -1860,6 +1853,11 @@
       "status": "ok",
       "count": 9,
       "ats": "ashby"
+    },
+    "LinkedIn": {
+      "status": "ok",
+      "count": 332,
+      "ats": "smartrecruiters"
     },
     "Mobius Renewables": {
       "status": "ok",
@@ -1871,45 +1869,35 @@
       "count": 10,
       "ats": "ashby"
     },
-    "LinkedIn": {
-      "status": "ok",
-      "count": 332,
-      "ats": "smartrecruiters"
-    },
     "Voloridge": {
       "status": "ok",
       "count": 8,
       "ats": "greenhouse"
-    },
-    "Melius": {
-      "status": "ok",
-      "count": 8,
-      "ats": "ashby"
     },
     "ShyftLabs": {
       "status": "ok",
       "count": 22,
       "ats": "lever"
     },
+    "Melius": {
+      "status": "ok",
+      "count": 8,
+      "ats": "ashby"
+    },
     "Eulerity": {
       "status": "ok",
       "count": 16,
-      "ats": "greenhouse"
-    },
-    "Yotta Labs": {
-      "status": "ok",
-      "count": 4,
-      "ats": "ashby"
-    },
-    "Figure": {
-      "status": "ok",
-      "count": 104,
       "ats": "greenhouse"
     },
     "Bosch": {
       "status": "ok",
       "count": 1000,
       "ats": "smartrecruiters"
+    },
+    "Yotta Labs": {
+      "status": "ok",
+      "count": 4,
+      "ats": "ashby"
     },
     "Astera": {
       "status": "ok",
@@ -1919,6 +1907,11 @@
     "Docugami": {
       "status": "ok",
       "count": 7,
+      "ats": "greenhouse"
+    },
+    "Figure": {
+      "status": "ok",
+      "count": 104,
       "ats": "greenhouse"
     },
     "Heliux": {
@@ -1981,15 +1974,15 @@
       "count": 256,
       "ats": "greenhouse"
     },
-    "Luminance": {
-      "status": "ok",
-      "count": 53,
-      "ats": "workable"
-    },
     "impact.com": {
       "status": "ok",
       "count": 85,
       "ats": "greenhouse"
+    },
+    "Luminance": {
+      "status": "ok",
+      "count": 53,
+      "ats": "workable"
     },
     "Cirrus Logic": {
       "status": "not_found",
@@ -2012,11 +2005,6 @@
       "count": 19,
       "ats": "greenhouse"
     },
-    "Vital Lyfe": {
-      "status": "ok",
-      "count": 11,
-      "ats": "ashby"
-    },
     "NBCUniversal": {
       "status": "ok",
       "count": 369,
@@ -2027,30 +2015,40 @@
       "count": 0,
       "ats": "rippling"
     },
+    "Vital Lyfe": {
+      "status": "ok",
+      "count": 11,
+      "ats": "ashby"
+    },
     "InstaLILY": {
       "status": "ok",
       "count": 19,
       "ats": "greenhouse"
-    },
-    "Droyd Robotics": {
-      "status": "ok",
-      "count": 25,
-      "ats": "ashby"
     },
     "LightGuide, Inc.": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
     },
-    "SK Hynix Memory Solution": {
+    "Field AI": {
       "status": "ok",
-      "count": 28,
-      "ats": "greenhouse"
+      "count": 104,
+      "ats": "lever"
+    },
+    "Droyd Robotics": {
+      "status": "ok",
+      "count": 25,
+      "ats": "ashby"
     },
     "HyperLight": {
       "status": "ok",
       "count": 16,
       "ats": "workable"
+    },
+    "SK Hynix Memory Solution": {
+      "status": "ok",
+      "count": 28,
+      "ats": "greenhouse"
     },
     "Cohere": {
       "status": "ok",
@@ -2062,30 +2060,30 @@
       "count": 140,
       "ats": "greenhouse"
     },
-    "Kastle AI": {
-      "status": "ok",
-      "count": 13,
-      "ats": "ashby"
-    },
     "Moon": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
+    },
+    "Kastle AI": {
+      "status": "ok",
+      "count": 13,
+      "ats": "ashby"
     },
     "Chicago Trading Company": {
       "status": "ok",
       "count": 6,
       "ats": "greenhouse"
     },
+    "Kepler Communications": {
+      "status": "ok",
+      "count": 20,
+      "ats": "lever"
+    },
     "Tacit": {
       "status": "ok",
       "count": 13,
       "ats": "ashby"
-    },
-    "Field AI": {
-      "status": "ok",
-      "count": 104,
-      "ats": "lever"
     },
     "Prophet": {
       "status": "ok",
@@ -2096,11 +2094,6 @@
       "status": "ok",
       "count": 6,
       "ats": "ashby"
-    },
-    "Kepler Communications": {
-      "status": "ok",
-      "count": 20,
-      "ats": "lever"
     },
     "Stevens Capital Management": {
       "status": "ok",
@@ -2137,15 +2130,15 @@
       "count": 4,
       "ats": "ashby"
     },
-    "Radix Trading": {
-      "status": "ok",
-      "count": 8,
-      "ats": "greenhouse"
-    },
     "Gitar, Inc.": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
+    },
+    "Radix Trading": {
+      "status": "ok",
+      "count": 8,
+      "ats": "greenhouse"
     },
     "Bloxd": {
       "status": "ok",
@@ -2174,7 +2167,7 @@
     },
     "Dexterra Group": {
       "status": "ok",
-      "count": 615,
+      "count": 616,
       "ats": "smartrecruiters"
     },
     "Eragon": {
@@ -2227,25 +2220,25 @@
       "count": 4,
       "ats": "ashby"
     },
-    "Phonic": {
-      "status": "ok",
-      "count": 7,
-      "ats": "ashby"
-    },
-    "ConnectPrep": {
-      "status": "ok",
-      "count": 3,
-      "ats": "workable"
-    },
     "Red Bull": {
       "status": "ok",
       "count": 1000,
       "ats": "smartrecruiters"
     },
+    "Phonic": {
+      "status": "ok",
+      "count": 7,
+      "ats": "ashby"
+    },
     "Moment Energy": {
       "status": "ok",
       "count": 15,
       "ats": "greenhouse"
+    },
+    "ConnectPrep": {
+      "status": "ok",
+      "count": 3,
+      "ats": "workable"
     },
     "Veeda AI": {
       "status": "not_found",
@@ -2283,11 +2276,6 @@
       "count": 4,
       "ats": "ashby"
     },
-    "Pylon": {
-      "status": "ok",
-      "count": 20,
-      "ats": "ashby"
-    },
     "Institute of Foundation Models": {
       "status": "ok",
       "count": 51,
@@ -2297,6 +2285,11 @@
       "status": "ok",
       "count": 18,
       "ats": "greenhouse"
+    },
+    "Pylon": {
+      "status": "ok",
+      "count": 20,
+      "ats": "ashby"
     },
     "1X": {
       "status": "ok",
@@ -2348,20 +2341,25 @@
       "count": 5,
       "ats": "greenhouse"
     },
-    "Maxima": {
-      "status": "ok",
-      "count": 17,
-      "ats": "ashby"
-    },
     "Quadric": {
       "status": "ok",
       "count": 12,
       "ats": "workable"
     },
+    "Maxima": {
+      "status": "ok",
+      "count": 17,
+      "ats": "ashby"
+    },
     "Apera AI": {
       "status": "ok",
       "count": 9,
       "ats": "greenhouse"
+    },
+    "Reply": {
+      "status": "ok",
+      "count": 51,
+      "ats": "lever"
     },
     "Binance": {
       "status": "ok",
@@ -2373,9 +2371,9 @@
       "count": 4,
       "ats": "smartrecruiters"
     },
-    "Reply": {
+    "Acceldata": {
       "status": "ok",
-      "count": 51,
+      "count": 41,
       "ats": "lever"
     },
     "AfterQuery": {
@@ -2390,18 +2388,18 @@
     },
     "Lawrence Livermore National Laboratory (LLNL)": {
       "status": "ok",
-      "count": 158,
+      "count": 155,
       "ats": "smartrecruiters"
-    },
-    "Acceldata": {
-      "status": "ok",
-      "count": 41,
-      "ats": "lever"
     },
     "Hiverge": {
       "status": "ok",
       "count": 4,
       "ats": "ashby"
+    },
+    "Rainmaker": {
+      "status": "ok",
+      "count": 29,
+      "ats": "lever"
     },
     "Al Warren Oil Company": {
       "status": "ok",
@@ -2413,15 +2411,15 @@
       "count": 26,
       "ats": "ashby"
     },
-    "Rainmaker": {
-      "status": "ok",
-      "count": 29,
-      "ats": "lever"
-    },
     "Workato": {
       "status": "ok",
       "count": 77,
       "ats": "greenhouse"
+    },
+    "Cloudforce": {
+      "status": "ok",
+      "count": 4,
+      "ats": "lever"
     },
     "Sweatpals": {
       "status": "ok",
@@ -2433,20 +2431,15 @@
       "count": 0,
       "ats": "rippling"
     },
-    "Cloudforce": {
+    "SharkNinja": {
       "status": "ok",
-      "count": 4,
-      "ats": "lever"
+      "count": 208,
+      "ats": "greenhouse"
     },
     "Intuitive Surgical": {
       "status": "ok",
       "count": 727,
       "ats": "smartrecruiters"
-    },
-    "SharkNinja": {
-      "status": "ok",
-      "count": 208,
-      "ats": "greenhouse"
     },
     "Tessera Labs": {
       "status": "ok",
@@ -2483,19 +2476,14 @@
       "count": 43,
       "ats": "ashby"
     },
-    "Super": {
-      "status": "ok",
-      "count": 26,
-      "ats": "ashby"
-    },
     "Samaya": {
       "status": "ok",
       "count": 8,
       "ats": "greenhouse"
     },
-    "Homebase": {
+    "Super": {
       "status": "ok",
-      "count": 22,
+      "count": 26,
       "ats": "ashby"
     },
     "Codeage": {
@@ -2508,15 +2496,20 @@
       "count": 7,
       "ats": "greenhouse"
     },
-    "Blockhouse": {
+    "Homebase": {
       "status": "ok",
-      "count": 0,
+      "count": 22,
       "ats": "ashby"
     },
     "Barkback": {
       "status": "ok",
       "count": 6,
       "ats": "smartrecruiters"
+    },
+    "Blockhouse": {
+      "status": "ok",
+      "count": 0,
+      "ats": "ashby"
     },
     "Poshmark": {
       "status": "ok",
@@ -2543,39 +2536,44 @@
       "count": 18,
       "ats": "ashby"
     },
-    "RESPEC": {
-      "status": "ok",
-      "count": 112,
-      "ats": "smartrecruiters"
-    },
     "Waabi": {
       "status": "ok",
       "count": 85,
       "ats": "lever"
-    },
-    "Tilde Research": {
-      "status": "ok",
-      "count": 3,
-      "ats": "ashby"
-    },
-    "Community · SimplifyJobs New-Grad": {
-      "status": "ok",
-      "count": 3107,
-      "ats": "community_listings"
     },
     "Smiths Detection": {
       "status": "ok",
       "count": 517,
       "ats": "smartrecruiters"
     },
-    "Fundwell": {
+    "Community · SimplifyJobs New-Grad": {
       "status": "ok",
-      "count": 7,
+      "count": 3099,
+      "ats": "community_listings"
+    },
+    "RESPEC": {
+      "status": "ok",
+      "count": 112,
+      "ats": "smartrecruiters"
+    },
+    "Tilde Research": {
+      "status": "ok",
+      "count": 3,
       "ats": "ashby"
     },
     "Community · vanshb03 New-Grad 2026": {
       "status": "ok",
       "count": 631,
+      "ats": "community_listings"
+    },
+    "Fundwell": {
+      "status": "ok",
+      "count": 7,
+      "ats": "ashby"
+    },
+    "Community · SimplifyJobs S2027": {
+      "status": "ok",
+      "count": 4406,
       "ats": "community_listings"
     },
     "HCompany": {
@@ -2592,11 +2590,6 @@
       "status": "ok",
       "count": 12,
       "ats": "ashby"
-    },
-    "Community · SimplifyJobs S2027": {
-      "status": "ok",
-      "count": 4407,
-      "ats": "community_listings"
     },
     "Dryft": {
       "status": "ok",
@@ -4872,6 +4865,38 @@
       "location_display": "Parsippany-Troy Hills, NJ",
       "is_remote": false,
       "canonical_url": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---IT-Engineering-Intern_R0190464",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Axiom Space",
+      "title": "Software Engineer Intern",
+      "url": "https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Software-Engineering-Intern--Summer-2026-_JR100691",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Houston, TX",
+      "posted": {
+        "value": "2026-09-17",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "a2aece51-4842-47ed-ae57-24e53d89a054",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Software-Engineering-Intern--Summer-2026-_JR100691",
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Houston, TX",
+      "is_remote": false,
+      "canonical_url": "https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Software-Engineering-Intern--Summer-2026-_JR100691",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -10302,38 +10327,6 @@
     },
     {
       "company": "Acxiom",
-      "title": "Data Engineer Intern",
-      "url": "https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Conway, AR",
-      "posted": {
-        "value": "2026-09-15",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "55d98729-a0b5-4622-8c7a-597b2a0f317c",
-      "remote": null,
-      "department": "Winter 2027",
-      "is_first_party": false,
-      "category": "Data / ML / AI",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482",
-      "first_seen": "2026-09-16",
-      "last_seen": "2026-09-19",
-      "location_display": "Conway, AR",
-      "is_remote": false,
-      "canonical_url": "https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Acxiom",
       "title": "Product Manager Intern - Real Identity Product Team",
       "url": "https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Product-Management_JR014473-1",
       "source": "community",
@@ -10358,6 +10351,38 @@
       "location_display": "Conway, AR",
       "is_remote": false,
       "canonical_url": "https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Product-Management_JR014473-1",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Acxiom",
+      "title": "Data Engineer Intern",
+      "url": "https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Conway, AR",
+      "posted": {
+        "value": "2026-09-15",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "55d98729-a0b5-4622-8c7a-597b2a0f317c",
+      "remote": null,
+      "department": "Winter 2027",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-19",
+      "location_display": "Conway, AR",
+      "is_remote": false,
+      "canonical_url": "https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/RemoteHomebased/Intern---Data-Engineer_JR014482",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -16197,6 +16222,38 @@
     },
     {
       "company": "RTX",
+      "title": "Software Engineer New Grad",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-ARLINGTON-108--1100-Wilson-Blvd--ROSSLYN-HQ/Leadership-Development-Program---Engineering--Software-Discipline--Starts-June-2027-_01873618",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs New-Grad",
+      "location": "Arlington County, Arlington, VA",
+      "posted": {
+        "value": "2026-09-14",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "8aa31162-4140-4408-a6ca-0e51e890da86",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "new_grad",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-ARLINGTON-108--1100-Wilson-Blvd--ROSSLYN-HQ/Leadership-Development-Program---Engineering--Software-Discipline--Starts-June-2027-_01873618",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-19",
+      "location_display": "Arlington County, Arlington, VA",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-ARLINGTON-108--1100-Wilson-Blvd--ROSSLYN-HQ/Leadership-Development-Program---Engineering--Software-Discipline--Starts-June-2027-_01873618",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs New-Grad",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RTX",
       "title": "Software Engineer Intern - Summer 2027",
       "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IN-INDIANAPOLIS-206--3939-Priority-Way-S-Dr--PRIORITY-BLDG-6/Software-Engineering-Intern--Summer-2027-_01874145",
       "source": "community",
@@ -16288,38 +16345,6 @@
       "term_inferred": false,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "RTX",
-      "title": "Software Engineer New Grad",
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-ARLINGTON-108--1100-Wilson-Blvd--ROSSLYN-HQ/Leadership-Development-Program---Engineering--Software-Discipline--Starts-June-2027-_01873618",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs New-Grad",
-      "location": "Arlington County, Arlington, VA",
-      "posted": {
-        "value": "2026-09-14",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "8aa31162-4140-4408-a6ca-0e51e890da86",
-      "remote": null,
-      "department": "",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "new_grad",
-      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-ARLINGTON-108--1100-Wilson-Blvd--ROSSLYN-HQ/Leadership-Development-Program---Engineering--Software-Discipline--Starts-June-2027-_01873618",
-      "first_seen": "2026-09-15",
-      "last_seen": "2026-09-19",
-      "location_display": "Arlington County, Arlington, VA",
-      "is_remote": false,
-      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-ARLINGTON-108--1100-Wilson-Blvd--ROSSLYN-HQ/Leadership-Development-Program---Engineering--Software-Discipline--Starts-June-2027-_01873618",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs New-Grad",
       "misses": 0,
       "status": "open"
     },
@@ -42785,12 +42810,28 @@
           "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Product-Management-Intern_R12285"
         },
         {
+          "source": "Community · SimplifyJobs S2026",
+          "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Product-Management-Intern_R12287"
+        },
+        {
+          "source": "Community · SimplifyJobs S2026",
+          "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Product-Management-Intern_R12288"
+        },
+        {
           "source": "Community · SimplifyJobs S2027",
           "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Product-Management-Intern_R12286"
         },
         {
           "source": "Community · SimplifyJobs S2027",
           "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Product-Management-Intern_R12285"
+        },
+        {
+          "source": "Community · SimplifyJobs S2027",
+          "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Product-Management-Intern_R12287"
+        },
+        {
+          "source": "Community · SimplifyJobs S2027",
+          "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Product-Management-Intern_R12288"
         }
       ],
       "health_key": "SimplifyJobs S2026",
@@ -66125,7 +66166,7 @@
       "level": "intern",
       "identity": "url:https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-Data-AI-Solutions-Engineering/363475",
       "first_seen": "2026-09-04",
-      "last_seen": "2026-09-16",
+      "last_seen": "2026-09-19",
       "location_display": "Atlanta, GA",
       "is_remote": false,
       "canonical_url": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-Data-AI-Solutions-Engineering/363475",
@@ -66327,7 +66368,7 @@
       "level": "intern",
       "identity": "url:https://higher.gs.com/roles/171513?type=students",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-19",
       "location_display": "Dallas, TX",
       "is_remote": false,
       "canonical_url": "https://higher.gs.com/roles/171513?type=students",
@@ -80103,38 +80144,6 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs New-Grad",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Software Engineering Intern, Dynamo",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-      "source": "community",
-      "source_name": "Community · vanshb03 S2027",
-      "location": "Santa Clara, CA",
-      "posted": {
-        "value": "2026-08-06",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "8e13a875-b5b1-46d1-ada8-cdc1dfa8b485",
-      "remote": null,
-      "department": "Fall",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-      "first_seen": "2026-08-07",
-      "last_seen": "2026-09-19",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "vanshb03 S2027",
       "misses": 0,
       "status": "open"
     },
@@ -99210,7 +99219,7 @@
       "level": "intern",
       "identity": "url:https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000150",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-09-19",
       "location_display": "San Jose, CA",
       "is_remote": false,
       "canonical_url": "https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000150",
@@ -125548,6 +125557,39 @@
       "status": "open"
     },
     {
+      "company": "Boeing",
+      "title": "Entry Level ASIC/FPGA Design Engineer – Space Electronics - MTV",
+      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Mountain-View-CA/Entry-Level-ASIC-FPGA-Design-Engineer---Space-Electronics---MTV_JR2026520433-1",
+      "source": "workday",
+      "source_name": "Workday · Boeing",
+      "location": "USA - Mountain View, CA",
+      "posted": {
+        "value": "2026-09-18",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2026520433",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "new_grad",
+      "identity": "url:https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Mountain-View-CA/Entry-Level-ASIC-FPGA-Design-Engineer---Space-Electronics---MTV_JR2026520433-1",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-09-19",
+      "location_display": "USA - Mountain View, CA",
+      "is_remote": false,
+      "canonical_url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Mountain-View-CA/Entry-Level-ASIC-FPGA-Design-Engineer---Space-Electronics---MTV_JR2026520433-1",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "Boeing",
+      "misses": 0,
+      "status": "open",
+      "reopened_at": "2026-09-19"
+    },
+    {
       "company": "Mastercard",
       "title": "Platform Engineering Intern, Summer 2027 – St. Louis, MO, US",
       "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
@@ -125569,7 +125611,7 @@
       "level": "intern",
       "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "O'Fallon, Missouri",
       "is_remote": false,
       "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
@@ -125595,38 +125637,6 @@
     },
     {
       "company": "Visa",
-      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Foster City",
-      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1",
-      "source": "workday",
-      "source_name": "Workday · Visa",
-      "location": "US - Foster City, CA",
-      "posted": {
-        "value": "2026-09-18",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "REF088591W",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
-      "location_display": "US - Foster City, CA",
-      "is_remote": false,
-      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "Visa",
-      "misses": 1,
-      "status": "open"
-    },
-    {
-      "company": "Visa",
       "title": "2027 Sophomore Internship Program - Software Engineer Intern, Bellevue",
       "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W-1",
       "source": "workday",
@@ -125647,78 +125657,14 @@
       "level": "intern",
       "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W-1",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "US - Bellevue, WA",
       "is_remote": false,
       "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W-1",
       "term_inferred": false,
       "is_phd": false,
       "health_key": "Visa",
-      "misses": 1,
-      "status": "open"
-    },
-    {
-      "company": "Visa",
-      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Ashburn",
-      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1",
-      "source": "workday",
-      "source_name": "Workday · Visa",
-      "location": "US - Ashburn, VA",
-      "posted": {
-        "value": "2026-09-18",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "REF088599W",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
-      "location_display": "US - Ashburn, VA",
-      "is_remote": false,
-      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "Visa",
-      "misses": 1,
-      "status": "open"
-    },
-    {
-      "company": "Visa",
-      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch",
-      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W-1",
-      "source": "workday",
-      "source_name": "Workday · Visa",
-      "location": "US - Denver, CO",
-      "posted": {
-        "value": "2026-09-18",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "REF088597W",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W-1",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
-      "location_display": "US - Denver, CO",
-      "is_remote": false,
-      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W-1",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "Visa",
-      "misses": 1,
+      "misses": 0,
       "status": "open"
     },
     {
@@ -125743,14 +125689,110 @@
       "level": "intern",
       "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W-1",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "US - Austin, TX",
       "is_remote": false,
       "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W-1",
       "term_inferred": false,
       "is_phd": false,
       "health_key": "Visa",
-      "misses": 1,
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Foster City",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1",
+      "source": "workday",
+      "source_name": "Workday · Visa",
+      "location": "US - Foster City, CA",
+      "posted": {
+        "value": "2026-09-18",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "REF088591W",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-19",
+      "location_display": "US - Foster City, CA",
+      "is_remote": false,
+      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Visa",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Ashburn",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1",
+      "source": "workday",
+      "source_name": "Workday · Visa",
+      "location": "US - Ashburn, VA",
+      "posted": {
+        "value": "2026-09-18",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "REF088599W",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-19",
+      "location_display": "US - Ashburn, VA",
+      "is_remote": false,
+      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Visa",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W-1",
+      "source": "workday",
+      "source_name": "Workday · Visa",
+      "location": "US - Denver, CO",
+      "posted": {
+        "value": "2026-09-18",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "REF088597W",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W-1",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-19",
+      "location_display": "US - Denver, CO",
+      "is_remote": false,
+      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Visa",
+      "misses": 0,
       "status": "open"
     },
     {
@@ -125775,7 +125817,7 @@
       "level": "intern",
       "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Data-Analyst-I--Intern----United-States_2024561-1",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "San Jose, California, US; Austin, Texas, US; RTP, North Carolina, US",
       "is_remote": false,
       "canonical_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Data-Analyst-I--Intern----United-States_2024561-1",
@@ -125807,7 +125849,7 @@
       "level": "new_grad",
       "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Compiler-Engineer--New-College-Grad-2027_JR2026011",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "Santa Clara, CA; Remote (US); Seattle, WA",
       "is_remote": true,
       "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Compiler-Engineer--New-College-Grad-2027_JR2026011",
@@ -125839,141 +125881,13 @@
       "level": "new_grad",
       "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-QA-Engineer--New-College-Grad-2026_JR2025900",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "Santa Clara, CA",
       "is_remote": false,
       "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-QA-Engineer--New-College-Grad-2026_JR2025900",
       "term_inferred": false,
       "is_phd": false,
       "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Visa",
-      "title": "Associate Technical Program Analyst Intern - Summer 2027",
-      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Associate-Technical-Program-Analyst-Intern---Summer-2027_REF088637W",
-      "source": "workday",
-      "source_name": "Workday · Visa",
-      "location": "US - Foster City, CA",
-      "posted": {
-        "value": "2026-09-17",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "REF088637W",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Associate-Technical-Program-Analyst-Intern---Summer-2027_REF088637W",
-      "first_seen": "2026-09-18",
-      "last_seen": "2026-09-18",
-      "location_display": "US - Foster City, CA",
-      "is_remote": false,
-      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Associate-Technical-Program-Analyst-Intern---Summer-2027_REF088637W",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "Visa",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Visa",
-      "title": "Software Engineer, Intern - Foster City 2027",
-      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1",
-      "source": "workday",
-      "source_name": "Workday · Visa",
-      "location": "US - Foster City, CA",
-      "posted": {
-        "value": "2026-09-17",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "REF088587W",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
-      "location_display": "US - Foster City, CA",
-      "is_remote": false,
-      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "Visa",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Visa",
-      "title": "Associate Product Manager (APM) Intern - Summer 2027",
-      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Associate-Product-Manager--APM--Intern---Summer-2027_REF088603W-1",
-      "source": "workday",
-      "source_name": "Workday · Visa",
-      "location": "US - Foster City, CA",
-      "posted": {
-        "value": "2026-09-17",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "REF088603W",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Product Management",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Associate-Product-Manager--APM--Intern---Summer-2027_REF088603W-1",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
-      "location_display": "US - Foster City, CA",
-      "is_remote": false,
-      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Associate-Product-Manager--APM--Intern---Summer-2027_REF088603W-1",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "Visa",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Visa",
-      "title": "Software Engineer, New College Grad - 2027 Foster City, CA",
-      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Software-Engineer--New-College-Grad---2027-Foster-City--CA_REF088543W-1",
-      "source": "workday",
-      "source_name": "Workday · Visa",
-      "location": "US - Foster City, CA",
-      "posted": {
-        "value": "2026-09-17",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "REF088543W",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Software-Engineer--New-College-Grad---2027-Foster-City--CA_REF088543W-1",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
-      "location_display": "US - Foster City, CA",
-      "is_remote": false,
-      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Software-Engineer--New-College-Grad---2027-Foster-City--CA_REF088543W-1",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "Visa",
       "misses": 0,
       "status": "open"
     },
@@ -125999,7 +125913,7 @@
       "level": "intern",
       "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "US - Bellevue, WA",
       "is_remote": false,
       "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2",
@@ -126031,74 +125945,10 @@
       "level": "new_grad",
       "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Bellevue-WA/Software-Engineer--New-College-Grad--Bellevue---2027_REF088530W-3",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "US - Bellevue, WA",
       "is_remote": false,
       "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Bellevue-WA/Software-Engineer--New-College-Grad--Bellevue---2027_REF088530W-3",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "Visa",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Visa",
-      "title": "Software Engineer, Intern, Highlands Ranch, CO - 2027",
-      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W",
-      "source": "workday",
-      "source_name": "Workday · Visa",
-      "location": "US - Denver, CO",
-      "posted": {
-        "value": "2026-09-17",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "REF088583W",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
-      "location_display": "US - Denver, CO",
-      "is_remote": false,
-      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "Visa",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Visa",
-      "title": "Software Engineer, Intern - 2027 Ashburn, VA",
-      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF088577W-1",
-      "source": "workday",
-      "source_name": "Workday · Visa",
-      "location": "US - Ashburn, VA",
-      "posted": {
-        "value": "2026-09-17",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "REF088577W",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF088577W-1",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
-      "location_display": "US - Ashburn, VA",
-      "is_remote": false,
-      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF088577W-1",
       "term_inferred": false,
       "is_phd": false,
       "health_key": "Visa",
@@ -126127,7 +125977,7 @@
       "level": "intern",
       "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF088544W-1",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "US - Austin, TX",
       "is_remote": false,
       "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF088544W-1",
@@ -126159,7 +126009,7 @@
       "level": "intern",
       "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Austin-TX/Job-Posting-Title-Associate-Product-Manager--APM--Intern---Summer-2027_REF088604W",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "US - Austin, TX",
       "is_remote": false,
       "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Austin-TX/Job-Posting-Title-Associate-Product-Manager--APM--Intern---Summer-2027_REF088604W",
@@ -126191,10 +126041,202 @@
       "level": "new_grad",
       "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Austin-TX/Software-Engineer--New-College-Grad---2027--Austin--TX_REF088586W",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "US - Austin, TX",
       "is_remote": false,
       "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Austin-TX/Software-Engineer--New-College-Grad---2027--Austin--TX_REF088586W",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Visa",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Associate Technical Program Analyst Intern - Summer 2027",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Associate-Technical-Program-Analyst-Intern---Summer-2027_REF088637W",
+      "source": "workday",
+      "source_name": "Workday · Visa",
+      "location": "US - Foster City, CA",
+      "posted": {
+        "value": "2026-09-17",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "REF088637W",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Associate-Technical-Program-Analyst-Intern---Summer-2027_REF088637W",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
+      "location_display": "US - Foster City, CA",
+      "is_remote": false,
+      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Associate-Technical-Program-Analyst-Intern---Summer-2027_REF088637W",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Visa",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Software Engineer, Intern - Foster City 2027",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1",
+      "source": "workday",
+      "source_name": "Workday · Visa",
+      "location": "US - Foster City, CA",
+      "posted": {
+        "value": "2026-09-17",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "REF088587W",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-19",
+      "location_display": "US - Foster City, CA",
+      "is_remote": false,
+      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Visa",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Associate Product Manager (APM) Intern - Summer 2027",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Associate-Product-Manager--APM--Intern---Summer-2027_REF088603W-1",
+      "source": "workday",
+      "source_name": "Workday · Visa",
+      "location": "US - Foster City, CA",
+      "posted": {
+        "value": "2026-09-17",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "REF088603W",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Product Management",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Associate-Product-Manager--APM--Intern---Summer-2027_REF088603W-1",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-19",
+      "location_display": "US - Foster City, CA",
+      "is_remote": false,
+      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Associate-Product-Manager--APM--Intern---Summer-2027_REF088603W-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Visa",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Software Engineer, New College Grad - 2027 Foster City, CA",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Software-Engineer--New-College-Grad---2027-Foster-City--CA_REF088543W-1",
+      "source": "workday",
+      "source_name": "Workday · Visa",
+      "location": "US - Foster City, CA",
+      "posted": {
+        "value": "2026-09-17",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "REF088543W",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Software-Engineer--New-College-Grad---2027-Foster-City--CA_REF088543W-1",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-19",
+      "location_display": "US - Foster City, CA",
+      "is_remote": false,
+      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Foster-City-CA/Software-Engineer--New-College-Grad---2027-Foster-City--CA_REF088543W-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Visa",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Software Engineer, Intern - 2027 Ashburn, VA",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF088577W-1",
+      "source": "workday",
+      "source_name": "Workday · Visa",
+      "location": "US - Ashburn, VA",
+      "posted": {
+        "value": "2026-09-17",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "REF088577W",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF088577W-1",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-19",
+      "location_display": "US - Ashburn, VA",
+      "is_remote": false,
+      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF088577W-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Visa",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Software Engineer, Intern, Highlands Ranch, CO - 2027",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W",
+      "source": "workday",
+      "source_name": "Workday · Visa",
+      "location": "US - Denver, CO",
+      "posted": {
+        "value": "2026-09-17",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "REF088583W",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-19",
+      "location_display": "US - Denver, CO",
+      "is_remote": false,
+      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W",
       "term_inferred": false,
       "is_phd": false,
       "health_key": "Visa",
@@ -126223,7 +126265,7 @@
       "level": "new_grad",
       "identity": "url:https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Product-Security-Engineer--Entry-Level-or-Associate-_JR2026523936",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "USA - Berkeley, MO; USA - Saint Charles, MO",
       "is_remote": false,
       "canonical_url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Product-Security-Engineer--Entry-Level-or-Associate-_JR2026523936",
@@ -126255,7 +126297,7 @@
       "level": "intern",
       "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024535-1",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "San Jose, California, US; Austin, Texas, US; RTP, North Carolina, US",
       "is_remote": false,
       "canonical_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024535-1",
@@ -126293,7 +126335,7 @@
       "level": "intern",
       "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Security-Research-Engineer-I--Intern----United-States_2025886",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "RTP, North Carolina, US; Austin, Texas, US; Knoxville, Tennessee, US",
       "is_remote": false,
       "canonical_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Security-Research-Engineer-I--Intern----United-States_2025886",
@@ -126325,7 +126367,7 @@
       "level": "intern",
       "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "RTP, North Carolina, US",
       "is_remote": false,
       "canonical_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885",
@@ -126357,7 +126399,7 @@
       "level": "intern",
       "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Software-Engineer-I--Intern----United-States_2025890",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "RTP, North Carolina, US",
       "is_remote": false,
       "canonical_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Software-Engineer-I--Intern----United-States_2025890",
@@ -126389,7 +126431,7 @@
       "level": "new_grad",
       "identity": "url:https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Command-and-Data-Handling-Network--Autonomous-Navigation-Systems-_JR2026523750-1",
       "first_seen": "2026-09-15",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "USA - El Segundo, CA",
       "is_remote": false,
       "canonical_url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Command-and-Data-Handling-Network--Autonomous-Navigation-Systems-_JR2026523750-1",
@@ -126397,38 +126439,6 @@
       "is_phd": false,
       "health_key": "Boeing",
       "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Cisco",
-      "title": "Software Engineer Data & AI I (Intern) - United States",
-      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Data---AI-I--Intern----United-States_2024510",
-      "source": "workday",
-      "source_name": "Workday · Cisco",
-      "location": "San Jose, California, US; Austin, Texas, US; RTP, North Carolina, US",
-      "posted": {
-        "value": "2026-09-15",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "2024510",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Data---AI-I--Intern----United-States_2024510",
-      "first_seen": "2026-09-15",
-      "last_seen": "2026-09-18",
-      "location_display": "San Jose, California, US; Austin, Texas, US; RTP, North Carolina, US",
-      "is_remote": false,
-      "canonical_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Data---AI-I--Intern----United-States_2024510",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "Cisco",
-      "misses": 1,
       "status": "open"
     },
     {
@@ -126460,7 +126470,7 @@
       "term_inferred": false,
       "is_phd": false,
       "health_key": "Mastercard",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -126485,7 +126495,7 @@
       "level": "new_grad",
       "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Coding-Agent-Harness-Engineering----New-College-Grad-2026_JR2023749",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "Santa Clara, CA; Remote (US)",
       "is_remote": true,
       "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Coding-Agent-Harness-Engineering----New-College-Grad-2026_JR2023749",
@@ -126517,7 +126527,7 @@
       "level": "new_grad",
       "identity": "url:https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Entry-level-Digital-Electronics-Circuit---Unit-Hardware-Design-Engineer_JR2026523829-2",
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "USA - El Segundo, CA",
       "is_remote": false,
       "canonical_url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Entry-level-Digital-Electronics-Circuit---Unit-Hardware-Design-Engineer_JR2026523829-2",
@@ -126549,7 +126559,7 @@
       "level": "new_grad",
       "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-Power-Architect---New-College-Grad-2026_JR2017169",
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "Santa Clara, CA",
       "is_remote": false,
       "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-Power-Architect---New-College-Grad-2026_JR2017169",
@@ -126581,7 +126591,7 @@
       "level": "new_grad",
       "identity": "url:https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Entry-Level-Systems-Engineer--Digital-Comm---Networks-Sys-Engrg-_JR2026510769-1",
       "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "USA - El Segundo, CA",
       "is_remote": false,
       "canonical_url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Entry-Level-Systems-Engineer--Digital-Comm---Networks-Sys-Engrg-_JR2026510769-1",
@@ -126589,48 +126599,6 @@
       "is_phd": false,
       "health_key": "Boeing",
       "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Mastercard",
-      "title": "Platform Engineering Intern, Summer 2027 – St. Louis, MO, US",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
-      "source": "workday",
-      "source_name": "Workday · Mastercard",
-      "location": "O'Fallon, Missouri",
-      "posted": {
-        "value": "2026-09-09",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "R-284868",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
-      "first_seen": "2026-09-01",
-      "last_seen": "2026-09-18",
-      "location_display": "O'Fallon, Missouri",
-      "is_remote": false,
-      "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
-      "term_inferred": false,
-      "is_phd": false,
-      "merged_from": [
-        {
-          "source": "Workday · Mastercard",
-          "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875"
-        },
-        {
-          "source": "Workday · Mastercard",
-          "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284873"
-        }
-      ],
-      "health_key": "Mastercard",
-      "misses": 1,
       "status": "open"
     },
     {
@@ -126655,7 +126623,7 @@
       "level": "intern",
       "identity": "url:https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Software-Engineering-Artificial-Intelligence-Intern_JR2026523687",
       "first_seen": "2026-09-09",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "USA - Tukwila, WA",
       "is_remote": false,
       "canonical_url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Software-Engineering-Artificial-Intelligence-Intern_JR2026523687",
@@ -126687,7 +126655,7 @@
       "level": "intern",
       "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284869",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "O'Fallon, Missouri",
       "is_remote": false,
       "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284869",
@@ -126729,7 +126697,7 @@
       "level": "intern",
       "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Data-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284901",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "O'Fallon, Missouri",
       "is_remote": false,
       "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Data-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284901",
@@ -126761,7 +126729,7 @@
       "level": "intern",
       "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Product-Management---Technical-Intern--Summer-2027---St-Louis--MO--US_R-284711",
       "first_seen": "2026-09-02",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "O'Fallon, Missouri",
       "is_remote": false,
       "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Product-Management---Technical-Intern--Summer-2027---St-Louis--MO--US_R-284711",
@@ -126793,7 +126761,7 @@
       "level": "intern",
       "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654",
       "first_seen": "2026-09-04",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "O'Fallon, Missouri",
       "is_remote": false,
       "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654",
@@ -126825,7 +126793,7 @@
       "level": "intern",
       "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Technical-Program-Management-Intern--Summer-2027---St-Louis--MO--US_R-287652",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "O'Fallon, Missouri",
       "is_remote": false,
       "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Technical-Program-Management-Intern--Summer-2027---St-Louis--MO--US_R-287652",
@@ -126857,7 +126825,7 @@
       "level": "intern",
       "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/New-York-City-New-York/Technical-Program-Management-Intern--Summer-2027---New-York-City--NY--US_R-284859",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "New York City, New York",
       "is_remote": false,
       "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/New-York-City-New-York/Technical-Program-Management-Intern--Summer-2027---New-York-City--NY--US_R-284859",
@@ -126889,45 +126857,13 @@
       "level": "new_grad",
       "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Systems-Engineering-Rotation-Engineer---New-College-Graduate-2026_JR2024713",
       "first_seen": "2026-09-02",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "Santa Clara, CA",
       "is_remote": false,
       "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Systems-Engineering-Rotation-Engineer---New-College-Graduate-2026_JR2024713",
       "term_inferred": false,
       "is_phd": false,
       "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Salesforce",
-      "title": "Summer 2027 Intern - Software Engineer",
-      "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771-1",
-      "source": "workday",
-      "source_name": "Workday · Salesforce",
-      "location": "California - San Francisco; California - Palo Alto; New York - New York; Washington - Seattle; Massachusetts - Burlington; Washington - Bellevue; Georgia - Atlanta; Indiana - Indianapolis",
-      "posted": {
-        "value": "2026-09-01",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR340771",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771-1",
-      "first_seen": "2026-08-28",
-      "last_seen": "2026-09-19",
-      "location_display": "California - San Francisco; California - Palo Alto; New York - New York +5 more",
-      "is_remote": false,
-      "canonical_url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771-1",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "Salesforce",
       "misses": 0,
       "status": "open"
     },
@@ -126953,10 +126889,848 @@
       "level": "new_grad",
       "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Floorplan-Design-Engineer---New-College-Grad-2026_JR2024651",
       "first_seen": "2026-09-01",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "location_display": "Santa Clara, CA",
       "is_remote": false,
       "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Floorplan-Design-Engineer---New-College-Grad-2026_JR2024651",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Salesforce",
+      "title": "Summer 2027 Intern - Software Engineer",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771-1",
+      "source": "workday",
+      "source_name": "Workday · Salesforce",
+      "location": "California - San Francisco; California - Palo Alto; New York - New York; Washington - Seattle; Massachusetts - Burlington; Washington - Bellevue; Georgia - Atlanta; Indiana - Indianapolis",
+      "posted": {
+        "value": "2026-08-31",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR340771",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771-1",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-19",
+      "location_display": "California - San Francisco; California - Palo Alto; New York - New York +5 more",
+      "is_remote": false,
+      "canonical_url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Salesforce",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Boeing",
+      "title": "Entry Level or Associate Design, Analysis and Test Engineer **Sign on Bonus Potential**",
+      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Entry-Level-or-Experienced-Design--Analysis-and-Test-Engineer---Sign-on-Bonus-Potential--_JR2026510865",
+      "source": "workday",
+      "source_name": "Workday · Boeing",
+      "location": "USA - Berkeley, MO; USA - Hazelwood, MO; USA - Mascoutah, IL",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2026510865",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "new_grad",
+      "identity": "url:https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Entry-Level-or-Experienced-Design--Analysis-and-Test-Engineer---Sign-on-Bonus-Potential--_JR2026510865",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-19",
+      "location_display": "USA - Berkeley, MO; USA - Hazelwood, MO; USA - Mascoutah, IL",
+      "is_remote": false,
+      "canonical_url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Entry-Level-or-Experienced-Design--Analysis-and-Test-Engineer---Sign-on-Bonus-Potential--_JR2026510865",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "Boeing",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Applied Research Intern, NLP - Fall 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2010488",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "Fall 2026",
+      "term_priority": 2,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Software Engineering Intern, Dynamo - Fall 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2022295",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "Fall 2026",
+      "term_priority": 2,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA 2027 Internships: Hardware Verification",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2023500",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA 2027 Internships: Hardware ASIC Design",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2023486",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA 2027 Internships: Hardware Design for Test (DFT)",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2023487",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA 2027 Internships: Systems Software Engineering",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2023492",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA 2027 Internships: Autonomous Vehicles and Robotics",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR2023496",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2023496",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR2023496",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR2023496",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA 2027 Internships: Deep Learning Computer Architecture",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2023491",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA 2027 Internships: Software Engineering",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2023495",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA 2027 Internships: Deep Learning",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning_JR2023497-1",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2023497",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning_JR2023497-1",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning_JR2023497-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA 2027 Internships: Hardware Physical Design / VLSI",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2023501",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA 2027 Internships: Hardware Engineering",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2023508",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Research Scientist, Efficient Deep Learning - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2019729",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "ASIC Design Engineer - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2021534",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
+      "term_inferred": false,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Workday · NVIDIA",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2020309"
+        }
+      ],
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Backend Compiler Engineer - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2021242",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "ASIC Verification Engineer - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Verification-Engineer---New-College-Grad-2026_JR2020640",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2020640",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Verification-Engineer---New-College-Grad-2026_JR2020640",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Verification-Engineer---New-College-Grad-2026_JR2020640",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Low Power ASIC Engineer - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2017005",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2017005",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2017005",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2017005",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Research Scientist, Fundamental Generative AI - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2012698",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Research Scientist, Electronic Design Automation - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Electronic-Design-Automation---New-College-Grad-2026_JR2012979",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2012979",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Electronic-Design-Automation---New-College-Grad-2026_JR2012979",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Electronic-Design-Automation---New-College-Grad-2026_JR2012979",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Software Engineer, Hardware Tools and Methodology - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2018659",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "ASIC Physical Design and Timing Engineer - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Timing-Engineer---New-College-Grad-2026_JR2013177",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2013177",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Timing-Engineer---New-College-Grad-2026_JR2013177",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Timing-Engineer---New-College-Grad-2026_JR2013177",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Research Scientist, AI Accelerator Design and VLSI - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2011644",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Research Scientist, AI for Graphics and Gaming - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2011267",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-19",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "ASIC Design Verification Engineer - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TX-Austin/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, TX, Austin",
+      "posted": {
+        "value": "2026-08-20",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2010391",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TX-Austin/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-19",
+      "location_display": "Austin, TX",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TX-Austin/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391",
       "term_inferred": false,
       "is_phd": false,
       "health_key": "NVIDIA",
@@ -126992,780 +127766,6 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "Salesforce",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Boeing",
-      "title": "Entry Level or Associate Design, Analysis and Test Engineer **Sign on Bonus Potential**",
-      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Entry-Level-or-Experienced-Design--Analysis-and-Test-Engineer---Sign-on-Bonus-Potential--_JR2026510865",
-      "source": "workday",
-      "source_name": "Workday · Boeing",
-      "location": "USA - Berkeley, MO; USA - Hazelwood, MO; USA - Mascoutah, IL",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2026510865",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "new_grad",
-      "identity": "url:https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Entry-Level-or-Experienced-Design--Analysis-and-Test-Engineer---Sign-on-Bonus-Potential--_JR2026510865",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
-      "location_display": "USA - Berkeley, MO; USA - Hazelwood, MO; USA - Mascoutah, IL",
-      "is_remote": false,
-      "canonical_url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Entry-Level-or-Experienced-Design--Analysis-and-Test-Engineer---Sign-on-Bonus-Potential--_JR2026510865",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "Boeing",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Applied Research Intern, NLP - Fall 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2010488",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "Fall 2026",
-      "term_priority": 2,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
-      "first_seen": "2026-08-08",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "NVIDIA 2027 Internships: Hardware Verification",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2023500",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "NVIDIA 2027 Internships: Hardware ASIC Design",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2023486",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "NVIDIA 2027 Internships: Hardware Design for Test (DFT)",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2023487",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "NVIDIA 2027 Internships: Systems Software Engineering",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2023492",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "NVIDIA 2027 Internships: Autonomous Vehicles and Robotics",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR2023496",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2023496",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR2023496",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR2023496",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "NVIDIA 2027 Internships: Deep Learning Computer Architecture",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2023491",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "NVIDIA 2027 Internships: Software Engineering",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2023495",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "NVIDIA 2027 Internships: Deep Learning",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning_JR2023497-1",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2023497",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning_JR2023497-1",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning_JR2023497-1",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "NVIDIA 2027 Internships: Hardware Physical Design / VLSI",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2023501",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "NVIDIA 2027 Internships: Hardware Engineering",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2023508",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Research Scientist, Efficient Deep Learning - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2019729",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "ASIC Design Engineer - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2021534",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
-      "term_inferred": false,
-      "is_phd": false,
-      "merged_from": [
-        {
-          "source": "Workday · NVIDIA",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2020309"
-        }
-      ],
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Backend Compiler Engineer - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2021242",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "ASIC Verification Engineer - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Verification-Engineer---New-College-Grad-2026_JR2020640",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2020640",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Verification-Engineer---New-College-Grad-2026_JR2020640",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Verification-Engineer---New-College-Grad-2026_JR2020640",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Low Power ASIC Engineer - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2017005",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2017005",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2017005",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2017005",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Research Scientist, Fundamental Generative AI - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2012698",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Research Scientist, Electronic Design Automation - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Electronic-Design-Automation---New-College-Grad-2026_JR2012979",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2012979",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Electronic-Design-Automation---New-College-Grad-2026_JR2012979",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Electronic-Design-Automation---New-College-Grad-2026_JR2012979",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Software Engineer, Hardware Tools and Methodology - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2018659",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "ASIC Physical Design and Timing Engineer - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Timing-Engineer---New-College-Grad-2026_JR2013177",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2013177",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Timing-Engineer---New-College-Grad-2026_JR2013177",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Timing-Engineer---New-College-Grad-2026_JR2013177",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Research Scientist, AI Accelerator Design and VLSI - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2011644",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Research Scientist, AI for Graphics and Gaming - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2011267",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "ASIC Design Verification Engineer - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TX-Austin/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, TX, Austin",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2010391",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TX-Austin/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-18",
-      "location_display": "Austin, TX",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TX-Austin/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
       "misses": 0,
       "status": "open"
     },
@@ -129358,6 +129358,82 @@
     }
   ],
   "closed": [
+    {
+      "company": "Cisco",
+      "title": "Software Engineer Data & AI I (Intern) - United States",
+      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Data---AI-I--Intern----United-States_2024510",
+      "source": "workday",
+      "source_name": "Workday · Cisco",
+      "location": "San Jose, California, US; Austin, Texas, US; RTP, North Carolina, US",
+      "posted": {
+        "value": "2026-09-15",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "2024510",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Data---AI-I--Intern----United-States_2024510",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-18",
+      "location_display": "San Jose, California, US; Austin, Texas, US; RTP, North Carolina, US",
+      "is_remote": false,
+      "canonical_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Data---AI-I--Intern----United-States_2024510",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "Cisco",
+      "misses": 2,
+      "status": "closed",
+      "closed_at": "2026-09-19"
+    },
+    {
+      "company": "Mastercard",
+      "title": "Platform Engineering Intern, Summer 2027 – St. Louis, MO, US",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
+      "source": "workday",
+      "source_name": "Workday · Mastercard",
+      "location": "O'Fallon, Missouri",
+      "posted": {
+        "value": "2026-09-09",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "R-284868",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-18",
+      "location_display": "O'Fallon, Missouri",
+      "is_remote": false,
+      "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
+      "term_inferred": false,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Workday · Mastercard",
+          "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875"
+        },
+        {
+          "source": "Workday · Mastercard",
+          "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284873"
+        }
+      ],
+      "health_key": "Mastercard",
+      "misses": 2,
+      "status": "closed",
+      "closed_at": "2026-09-19"
+    },
     {
       "company": "Diversified Automation",
       "title": "Hardware Engineering Co-Op",
@@ -131384,39 +131460,6 @@
       "term_inferred": false,
       "is_phd": false,
       "health_key": "Hermeus",
-      "misses": 2,
-      "status": "closed",
-      "closed_at": "2026-09-03"
-    },
-    {
-      "company": "Boeing",
-      "title": "Entry Level ASIC/FPGA Design Engineer – Space Electronics - MTV",
-      "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Mountain-View-CA/Entry-Level-ASIC-FPGA-Design-Engineer---Space-Electronics---MTV_JR2026520433-1",
-      "source": "workday",
-      "source_name": "Workday · Boeing",
-      "location": "USA - Mountain View, CA",
-      "posted": {
-        "value": "2026-08-27",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2026520433",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "new_grad",
-      "identity": "url:https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Mountain-View-CA/Entry-Level-ASIC-FPGA-Design-Engineer---Space-Electronics---MTV_JR2026520433-1",
-      "first_seen": "2026-08-26",
-      "last_seen": "2026-09-02",
-      "location_display": "USA - Mountain View, CA",
-      "is_remote": false,
-      "canonical_url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Mountain-View-CA/Entry-Level-ASIC-FPGA-Design-Engineer---Space-Electronics---MTV_JR2026520433-1",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "Boeing",
       "misses": 2,
       "status": "closed",
       "closed_at": "2026-09-03"
