@@ -2,7 +2,7 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**3846 open roles** · **1133 companies** · **461/506 sources healthy** · updated 2026-09-20 07:20 UTC  
+**3846 open roles** · **1133 companies** · **461/506 sources healthy** · updated 2026-09-20 17:13 UTC  
 3190 internships · 656 new-grad · SWE 1998 · Data/ML 1113 · Tech 546 · PM 189
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
@@ -465,7 +465,7 @@ _Showing the newest 300 of 3846 — the complete, machine-readable set is in_ `l
 
 - **96.3%** of roles carry an exact posting timestamp from the source (3705/3846).
 - **14.7%** come from a company's own board rather than a community feed.
-- **2877** duplicates merged, **20** near-duplicates collapsed.
+- **2879** duplicates merged, **20** near-duplicates collapsed.
 - **114** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>11 source(s) returned 404 this run (token likely renamed)</summary>
