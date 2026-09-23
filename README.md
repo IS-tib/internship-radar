@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**4023 open roles** · **1169 companies** · **461/506 sources healthy** · updated 2026-09-23 07:07 UTC  
-3358 internships · 665 new-grad · SWE 2086 · Data/ML 1173 · Tech 566 · PM 198
+**4021 open roles** · **1169 companies** · **461/506 sources healthy** · updated 2026-09-23 18:08 UTC  
+3358 internships · 663 new-grad · SWE 2088 · Data/ML 1175 · Tech 560 · PM 198
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,14 +19,19 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (406)
+## 🆕 Just posted — last 7 days (412)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | AQR Capital Management | Machine Learning Research Associate Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Greenwich, CT | 0 days ago | [apply](https://careers.aqr.com/jobs?gh_jid=8224708&gh_jid=8224708) |
 | Amazon | Quantum Applied Science Intern - Quantum Technologies team 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA; San Francisco, CA | 0 days ago | [apply](https://amazon.jobs/en/jobs/10556930/2027-quantum-applied-science-internship-quantum-technologies-team) |
+| CACI | AI Systems Engineer Intern - Summer 2027 🆕 | SWE | Intern | Summer 2027 | Annapolis Junction, MD; Fort Meade, MD | 0 days ago | [apply](https://caci.wd1.myworkdayjobs.com/external/job/Annapolis-Junction-MD-US/AI-Systems-Engineering-Intern----Summer-2027_332506) |
+| Excellus BCBS | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Rochester, NY; De Witt, NY | 0 days ago | [apply](https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Summer-2027---Software-Engineering--Multiple-Openings-Available-_JR104022-1) |
+| Excellus BCBS | College Intern - Mobile Software Engineering Team 🆕 | SWE | Intern | ~Summer 2027 | Rochester, NY; De Witt, NY | 0 days ago | [apply](https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Summer-2027---Mobile-Software-Engineering-Team_JR104025-3) |
+| Excellus BCBS | College Intern - Data Governance & AI Governance 🆕 | Data/ML | Intern | ~Summer 2027 | Rochester, NY; De Witt, NY | 0 days ago | [apply](https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Summer-2027---Data-Governance---AI-Governance_JR104033-1) |
 | GrayMatter Robotics | Robotics Engineering Intern: Systems & Applications - IMMEDIATE START 🆕 | Tech | Intern | ~Summer 2027 | Los Angeles - HQ | 0 days ago | [apply](https://jobs.ashbyhq.com/graymatter-robotics/aa7c2419-7bb9-4080-9403-937c4db01bb6) |
 | Hermeus | Propulsion Test Engineering Intern - Spring 2027 🆕 | Tech | Intern | Spring 2027 | Jacksonville, FL | 0 days ago | [apply](https://jobs.lever.co/hermeus/d2651ecb-9aab-4d84-8e69-cbcf7cece28d) |
+| Scale AI | Software Engineer, Public Sector - New Grad 🆕 | SWE | New grad | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://job-boards.greenhouse.io/scaleai/jobs/4736426005) |
 | Vital Lyfe | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Torrance, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/vital-lyfe/c39b72aa-9ad5-43e7-a3fd-8ef2e152ee4b/application?embed=true) |
 | Allegion | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Carmel, IN | 1 day ago | [apply](https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Summer-Intern---Software-Engineer_JR37747-2) |
 | American Express | Software Engineer Intern - Enterprise Technology Services 🆕 | SWE | Intern | ~Summer 2027 | Salt Lake City, UT | 1 day ago | [apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014224) |
@@ -138,22 +143,22 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Commerce Bank | Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Kansas City, MO | 2 days ago | [apply](https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Science-Summer-2027_38483) |
 | Commerce Bank | Data Analyst Intern - Summer 2027 🆕 | Data/ML | Intern | Summer 2027 | Kansas City, MO | 2 days ago | [apply](https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Analyst-Summer-2027_38484) |
 | Cox | Entry Level Software Engineer 🆕 | SWE | New grad | ~Summer 2027 | Atlanta, GA | 2 days ago | [apply](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Entry-Level-Software-Engineer---Atlanta--GA_R202682766) |
-| Eaton | Embedded Software Engineer Intern - Research & Development Engineering 🆕 | SWE | Intern | ~Summer 2027 | Franksville, Caledonia, WI | 2 days ago | [apply](https://eaton.eightfold.ai/careers/job/687239255756) |
-| Eaton | Software Engineering Intern - Research & Development Engineering 🆕 | SWE | Intern | ~Summer 2027 | Franksville, Caledonia, WI | 2 days ago | [apply](https://eaton.eightfold.ai/careers/job/687239256127) |
-| Fidelity Investments | Quantitative Development & Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA; Jersey City, NJ | 2 days ago | [apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Development---Data-Science-Internship_2134404) |
-| Fidelity Investments | Quantitative Research Intern - Multi-Asset Systematic Research Team 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA | 2 days ago | [apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Multi-Asset-Systematic-Research-Team_2135128) |
-| Fidelity Investments | Quantitative Research Intern - Multi-Asset Research Team 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA | 2 days ago | [apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Quantitative-Research-Intern--Multi-Asset-Research-Team_2135361) |
 
-_+286 more in the full list below._
+_+292 more in the full list below._
 
-## 📋 All open roles — newest first (4023)
+## 📋 All open roles — newest first (4021)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | AQR Capital Management | Machine Learning Research Associate Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Greenwich, CT | 0 days ago | [apply](https://careers.aqr.com/jobs?gh_jid=8224708&gh_jid=8224708) |
 | Amazon | Quantum Applied Science Intern - Quantum Technologies team 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA; San Francisco, CA | 0 days ago | [apply](https://amazon.jobs/en/jobs/10556930/2027-quantum-applied-science-internship-quantum-technologies-team) |
+| CACI | AI Systems Engineer Intern - Summer 2027 🆕 | SWE | Intern | Summer 2027 | Annapolis Junction, MD; Fort Meade, MD | 0 days ago | [apply](https://caci.wd1.myworkdayjobs.com/external/job/Annapolis-Junction-MD-US/AI-Systems-Engineering-Intern----Summer-2027_332506) |
+| Excellus BCBS | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Rochester, NY; De Witt, NY | 0 days ago | [apply](https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Summer-2027---Software-Engineering--Multiple-Openings-Available-_JR104022-1) |
+| Excellus BCBS | College Intern - Mobile Software Engineering Team 🆕 | SWE | Intern | ~Summer 2027 | Rochester, NY; De Witt, NY | 0 days ago | [apply](https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Summer-2027---Mobile-Software-Engineering-Team_JR104025-3) |
+| Excellus BCBS | College Intern - Data Governance & AI Governance 🆕 | Data/ML | Intern | ~Summer 2027 | Rochester, NY; De Witt, NY | 0 days ago | [apply](https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Summer-2027---Data-Governance---AI-Governance_JR104033-1) |
 | GrayMatter Robotics | Robotics Engineering Intern: Systems & Applications - IMMEDIATE START 🆕 | Tech | Intern | ~Summer 2027 | Los Angeles - HQ | 0 days ago | [apply](https://jobs.ashbyhq.com/graymatter-robotics/aa7c2419-7bb9-4080-9403-937c4db01bb6) |
 | Hermeus | Propulsion Test Engineering Intern - Spring 2027 🆕 | Tech | Intern | Spring 2027 | Jacksonville, FL | 0 days ago | [apply](https://jobs.lever.co/hermeus/d2651ecb-9aab-4d84-8e69-cbcf7cece28d) |
+| Scale AI | Software Engineer, Public Sector - New Grad 🆕 | SWE | New grad | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://job-boards.greenhouse.io/scaleai/jobs/4736426005) |
 | Vital Lyfe | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Torrance, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/vital-lyfe/c39b72aa-9ad5-43e7-a3fd-8ef2e152ee4b/application?embed=true) |
 | Allegion | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Carmel, IN | 1 day ago | [apply](https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Summer-Intern---Software-Engineer_JR37747-2) |
 | American Express | Software Engineer Intern - Enterprise Technology Services 🆕 | SWE | Intern | ~Summer 2027 | Salt Lake City, UT | 1 day ago | [apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014224) |
@@ -273,6 +278,7 @@ _+286 more in the full list below._
 | Fidelity Investments | Quantitative Research Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA | 2 days ago | [apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Strategic-Advisers-Quantitative-Research-Intern---Undergrad_2135905) |
 | Fidelity Investments | Quantitative Research Analyst Intern - Equity Quantitative Research Team 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA | 2 days ago | [apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Equity-Quantitative-Research-Team_2135122) |
 | Fidelity Investments | Quantitative Research Intern - Strategic Advisers 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA | 2 days ago | [apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Strategic-Advisers-Quantitative-Research-Intern---Master-s-and-PhD-students_2135370) |
+| G2 | AI Agent Evaluations Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, CA | 2 days ago | [apply](https://jobs.ashbyhq.com/G2/64dcc04a-a0e7-493b-b899-dd4c56e561fd/application?embed=true) |
 | GE Aerospace | Data Science Co-op - Flight Analytics Platform 🆕 | Data/ML | Intern | ~Summer 2027 | Austin, TX | 2 days ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Austin/SaaS---Flight-Analytics-Platform---Data-Science-Co-op---Spring-2027_R5040450-2) |
 | GE Healthcare | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Salt Lake City, UT | 2 days ago | [apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Salt-Lake-City/Software-Engineering-Summer-Intern-2027_R4046481-1) |
 | General Motors | Embedded and Systems Engineering Intern - Digital Product 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX; Milford, MI | 2 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Digital-Product--Embedded-and-Systems-Engineering_JR-202620513) |
@@ -444,14 +450,8 @@ _+286 more in the full list below._
 | Renesas Electronics | Embedded Systems Intern 🆕 | Tech | Intern | ~Summer 2027 | Remote (US) | 6 days ago | [apply](https://jobs.smartrecruiters.com/RenesasElectronics/744000150194379) |
 | Rocket Lab USA | Systems Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Pasadena, CA | 6 days ago | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7990138003) |
 | SharkNinja | Applied AI & Analytics Co-op Opportunities 🆕 | Data/ML | Intern | ~Summer 2027 | Miami, Florida, United States; Needham, MA, United States; New York, New York, United States | 6 days ago | [apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713793006) |
-| SharkNinja | Applied AI & Analytics Intern Opportunities 🆕 | Data/ML | Intern | ~Summer 2027 | Miami, Florida, United States; Needham, MA, United States | 6 days ago | [apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713808006) |
-| SharkNinja | Mechanical Engineering Co-op Opportunities 🆕 | Tech | Intern | ~Summer 2027 | Needham, MA, United States | 6 days ago | [apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713783006) |
-| SharkNinja | Mechanical Engineering Intern Opportunities 🆕 | Tech | Intern | ~Summer 2027 | Needham, MA, United States | 6 days ago | [apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713812006) |
-| Skydio | Electrical Engineer Intern - Winter 2027 🆕 | Tech | Intern | Winter 2027 | San Mateo, California, United States | 6 days ago | [apply](https://jobs.ashbyhq.com/skydio/9ac944bc-89da-44bb-bf9c-3b9922e7cbee) |
-| Skydio | Hardware Product Management Intern - Fall 2026/Winter 2027 🆕 | Tech | Intern | Winter 2026 | San Mateo, California, United States | 6 days ago | [apply](https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf) |
-| Smith+Nephew | Data Science Intern - AI Center of Excellence 🆕 | Data/ML | Intern | ~Summer 2027 | Pittsburgh, PA | 6 days ago | [apply](https://smithnephew.wd5.myworkdayjobs.com/External/job/US---Pittsburgh-PA/Intern-AI-Center-of-Excellence-Data-Science_R92480-1) |
 
-_Showing the newest 300 of 4023 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 4021 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 4023 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **96.4%** of roles carry an exact posting timestamp from the source (3877/4023).
-- **14.4%** come from a company's own board rather than a community feed.
-- **3039** duplicates merged, **20** near-duplicates collapsed.
-- **115** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **96.5%** of roles carry an exact posting timestamp from the source (3879/4021).
+- **14.2%** come from a company's own board rather than a community feed.
+- **3030** duplicates merged, **20** near-duplicates collapsed.
+- **125** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>11 source(s) returned 404 this run (token likely renamed)</summary>
 
