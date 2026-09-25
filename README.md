@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**4133 open roles** · **1197 companies** · **461/506 sources healthy** · updated 2026-09-25 06:57 UTC  
-3460 internships · 673 new-grad · SWE 2136 · Data/ML 1217 · Tech 578 · PM 202
+**4135 open roles** · **1200 companies** · **461/506 sources healthy** · updated 2026-09-25 18:10 UTC  
+3465 internships · 670 new-grad · SWE 2138 · Data/ML 1219 · Tech 577 · PM 201
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,13 +19,17 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (362)
+## 🆕 Just posted — last 7 days (364)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Aevex Aerospace | Robotics Engineering Co-op 🆕 | Tech | Intern | ~Summer 2027 | Tampa, FL | 0 days ago | [apply](https://job-boards.greenhouse.io/aevexaerospace/jobs/5415815008) |
+| Bosch | Multi-modal Sensing AI Research Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Pittsburgh, PA, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/BoschGroup/744000151890105) |
 | Electronic Arts | Gameplay Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Los Angeles, CA | 0 days ago | [apply](https://jobs.ea.com/en_US/careers/JobDetail/Gameplay-Engineer-Intern/216245) |
 | Envoy | Solutions Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/envoy/f2e20a8a-0e10-48ee-a761-3cffb89a80ca/application?embed=true) |
+| First Citizens BancShares | IT Intern - Software Developer 🆕 | SWE | Intern | ~Summer 2027 | Raleigh, NC | 0 days ago | [apply](https://firstcitizens.jibeapply.com/jobs/35709?icims=1) |
+| Johns Hopkins Applied Physics Laboratory | Space Exploration Software Engineer Intern - Embedded Applications 🆕 | SWE | Intern | ~Summer 2027 | Laurel, MD | 0 days ago | [apply](https://careers.jhuapl.edu/jobs/60223?icims=1) |
+| Lutron Electronics | Software Engineering Co-op 🆕 | SWE | Intern | ~Summer 2027 | Philadelphia, PA | 0 days ago | [apply](https://careers.lutron.com/jobs/5616?icims=1) |
 | Snowflake | Software Engineer Intern - Database Engineering 🆕 | SWE | Intern | ~Summer 2027 | Menlo Park, CA; Bellevue, WA | 0 days ago | [apply](https://jobs.ashbyhq.com/snowflake/7bd393df-67d7-4009-ba4f-1cd79a82b0be/application?embed=true) |
 | Snowflake | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Menlo Park, CA; Bellevue, WA | 0 days ago | [apply](https://jobs.ashbyhq.com/snowflake/4be290ae-dd9d-488c-9d90-56fcd69101ca/application?embed=true) |
 | Snowflake | Software Engineer Intern - Core, Infrastructure & Security 🆕 | SWE | Intern | ~Summer 2027 | Menlo Park, CA; Bellevue, WA | 0 days ago | [apply](https://jobs.ashbyhq.com/snowflake/5315b6f6-2c14-4cb9-a884-c2bae69f2c69/application?embed=true) |
@@ -96,7 +100,6 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Tesla | Software Engineer Industrial Firmware Intern - Energy Engineering 🆕 | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 1 day ago | [apply](https://www.tesla.com/careers/search/job/284448) |
 | The US Oncology Network | Data Analyst Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Dallas, TX | 1 day ago | [apply](https://careers.usoncology.com/jobs/43158?icims=1) |
 | Tradeweb | Market Data Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301932) |
-| Voloridge | Quantitative Developer - University Graduate 🆕 | SWE | New grad | ~Summer 2027 | Jupiter, FL | 1 day ago | [apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4419326009) |
 | Wex | Software Engineer Intern - Enterprise Data & Systems - Salesforce & Snowflake 🆕 | SWE | Intern | ~Summer 2027 | Remote (US) | 1 day ago | [apply](https://wexinc.wd5.myworkdayjobs.com/en-US/WEXInc/job/US---Remote/Software-Engineering-Intern---Enterprise-Data---Systems--Salesforce---Snowflake---Graduate-Master-s-_R22543) |
 | Wurl | Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Remote (US) | 1 day ago | [apply](https://job-boards.greenhouse.io/wurljobs/jobs/4716249006) |
 | ZipRecruiter | Software Engineer New Grad - Multiple Teams 🆕 | SWE | New grad | ~Summer 2027 | Santa Monica, CA | 1 day ago | [apply](https://job-boards.greenhouse.io/ziprecruiter/jobs/8127108) |
@@ -134,25 +137,26 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Microsoft | Product Manager Intern 🆕 | PM | Intern | ~Summer 2027 | Mountain View, CA | 2 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393557004836) |
 | Muon Space | Applied Science Intern (Summer 2027) 🆕 | Data/ML | Intern | Summer 2027 | Woodbridge, VA | 2 days ago | [apply](https://job-boards.greenhouse.io/muonspace/jobs/5244641007) |
 | Northrop Grumman | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Woodland Hills, LA | 2 days ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359) |
-| Nuro | Software Engineer, Performance Tooling and Infrastructure New Grad 🆕 | SWE | New grad | ~Summer 2027 | Mountain View, California (HQ) | 2 days ago | [apply](https://nuro.ai/careersitem?gh_jid=8227399) |
 | Saab | Electrical Engineering Co-op 🆕 | Tech | Intern | ~Summer 2027 | East Syracuse, NY | 2 days ago | [apply](https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Aspen-Park/Electrical-Engineering-Co-Op--Summer-2027-_R-03293-1) |
 | Scale AI | Software Engineer, Public Sector - New Grad 🆕 | SWE | New grad | ~Summer 2027 | San Francisco, CA | 2 days ago | [apply](https://job-boards.greenhouse.io/scaleai/jobs/4736426005) |
 | SeatGeek | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://seatgeek.com/jobs/8227553?gh_jid=8227553) |
 | SeatGeek | Software Engineer New Grad 🆕 | SWE | New grad | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://seatgeek.com/jobs/8227548?gh_jid=8227548) |
 | Sonos | Software Engineering Co-op - Signal Processing 🆕 | SWE | Intern | ~Summer 2027 | Boston, MA | 2 days ago | [apply](https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Engineering-Co-op--Signal-Processing-_R2821-2) |
 | State Farm | Software Developer Intern - HR&D 🆕 | SWE | Intern | ~Summer 2027 | Tempe, AZ; Dunwoody, GA | 2 days ago | [apply](https://jobs.statefarm.com/jobs/45689?icims=1) |
-| Symbotic | Software Engineer Co-op 🆕 | SWE | Intern | ~Summer 2027 | Wilmington, MA | 2 days ago | [apply](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Co-op---Software-Engineer_R8111) |
-| Vertiv | Product Management Intern - Summer 2027 🆕 | PM | Intern | Summer 2027 | Lincoln, NE | 2 days ago | [apply](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278558) |
 
-_+242 more in the full list below._
+_+244 more in the full list below._
 
-## 📋 All open roles — newest first (4133)
+## 📋 All open roles — newest first (4135)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Aevex Aerospace | Robotics Engineering Co-op 🆕 | Tech | Intern | ~Summer 2027 | Tampa, FL | 0 days ago | [apply](https://job-boards.greenhouse.io/aevexaerospace/jobs/5415815008) |
+| Bosch | Multi-modal Sensing AI Research Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Pittsburgh, PA, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/BoschGroup/744000151890105) |
 | Electronic Arts | Gameplay Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Los Angeles, CA | 0 days ago | [apply](https://jobs.ea.com/en_US/careers/JobDetail/Gameplay-Engineer-Intern/216245) |
 | Envoy | Solutions Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/envoy/f2e20a8a-0e10-48ee-a761-3cffb89a80ca/application?embed=true) |
+| First Citizens BancShares | IT Intern - Software Developer 🆕 | SWE | Intern | ~Summer 2027 | Raleigh, NC | 0 days ago | [apply](https://firstcitizens.jibeapply.com/jobs/35709?icims=1) |
+| Johns Hopkins Applied Physics Laboratory | Space Exploration Software Engineer Intern - Embedded Applications 🆕 | SWE | Intern | ~Summer 2027 | Laurel, MD | 0 days ago | [apply](https://careers.jhuapl.edu/jobs/60223?icims=1) |
+| Lutron Electronics | Software Engineering Co-op 🆕 | SWE | Intern | ~Summer 2027 | Philadelphia, PA | 0 days ago | [apply](https://careers.lutron.com/jobs/5616?icims=1) |
 | Snowflake | Software Engineer Intern - Database Engineering 🆕 | SWE | Intern | ~Summer 2027 | Menlo Park, CA; Bellevue, WA | 0 days ago | [apply](https://jobs.ashbyhq.com/snowflake/7bd393df-67d7-4009-ba4f-1cd79a82b0be/application?embed=true) |
 | Snowflake | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Menlo Park, CA; Bellevue, WA | 0 days ago | [apply](https://jobs.ashbyhq.com/snowflake/4be290ae-dd9d-488c-9d90-56fcd69101ca/application?embed=true) |
 | Snowflake | Software Engineer Intern - Core, Infrastructure & Security 🆕 | SWE | Intern | ~Summer 2027 | Menlo Park, CA; Bellevue, WA | 0 days ago | [apply](https://jobs.ashbyhq.com/snowflake/5315b6f6-2c14-4cb9-a884-c2bae69f2c69/application?embed=true) |
@@ -223,7 +227,6 @@ _+242 more in the full list below._
 | Tesla | Software Engineer Industrial Firmware Intern - Energy Engineering 🆕 | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 1 day ago | [apply](https://www.tesla.com/careers/search/job/284448) |
 | The US Oncology Network | Data Analyst Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Dallas, TX | 1 day ago | [apply](https://careers.usoncology.com/jobs/43158?icims=1) |
 | Tradeweb | Market Data Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301932) |
-| Voloridge | Quantitative Developer - University Graduate 🆕 | SWE | New grad | ~Summer 2027 | Jupiter, FL | 1 day ago | [apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4419326009) |
 | Wex | Software Engineer Intern - Enterprise Data & Systems - Salesforce & Snowflake 🆕 | SWE | Intern | ~Summer 2027 | Remote (US) | 1 day ago | [apply](https://wexinc.wd5.myworkdayjobs.com/en-US/WEXInc/job/US---Remote/Software-Engineering-Intern---Enterprise-Data---Systems--Salesforce---Snowflake---Graduate-Master-s-_R22543) |
 | Wurl | Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Remote (US) | 1 day ago | [apply](https://job-boards.greenhouse.io/wurljobs/jobs/4716249006) |
 | ZipRecruiter | Software Engineer New Grad - Multiple Teams 🆕 | SWE | New grad | ~Summer 2027 | Santa Monica, CA | 1 day ago | [apply](https://job-boards.greenhouse.io/ziprecruiter/jobs/8127108) |
@@ -261,7 +264,6 @@ _+242 more in the full list below._
 | Microsoft | Product Manager Intern 🆕 | PM | Intern | ~Summer 2027 | Mountain View, CA | 2 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393557004836) |
 | Muon Space | Applied Science Intern (Summer 2027) 🆕 | Data/ML | Intern | Summer 2027 | Woodbridge, VA | 2 days ago | [apply](https://job-boards.greenhouse.io/muonspace/jobs/5244641007) |
 | Northrop Grumman | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Woodland Hills, LA | 2 days ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359) |
-| Nuro | Software Engineer, Performance Tooling and Infrastructure New Grad 🆕 | SWE | New grad | ~Summer 2027 | Mountain View, California (HQ) | 2 days ago | [apply](https://nuro.ai/careersitem?gh_jid=8227399) |
 | Saab | Electrical Engineering Co-op 🆕 | Tech | Intern | ~Summer 2027 | East Syracuse, NY | 2 days ago | [apply](https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Aspen-Park/Electrical-Engineering-Co-Op--Summer-2027-_R-03293-1) |
 | Scale AI | Software Engineer, Public Sector - New Grad 🆕 | SWE | New grad | ~Summer 2027 | San Francisco, CA | 2 days ago | [apply](https://job-boards.greenhouse.io/scaleai/jobs/4736426005) |
 | SeatGeek | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://seatgeek.com/jobs/8227553?gh_jid=8227553) |
@@ -370,10 +372,10 @@ _+242 more in the full list below._
 | Blue Cross and Blue Shield of Kansas | Application Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Topeka, KS | 4 days ago | [apply](https://bcbsks.wd1.myworkdayjobs.com/External/job/Topeka/Application-Developer---Intern_R2026355) |
 | Booz Allen | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Diego, CA | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0249799) |
 | Booz Allen | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | McLean, VA | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---2027-Summer-Games-Data-Scientist-Intern---McLean--VA_R0249838) |
-| Booz Allen | Systems Engineer Intern - Summer Games 🆕 | SWE | Intern | ~Summer 2027 | El Segundo, CA | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/University---2027-Summer-Games-Systems-Engineer-Intern---El-Segundo--CA_R0249869) |
 | Booz Allen | Systems Engineer Intern - Summer Games 🆕 | SWE | Intern | ~Summer 2027 | Annapolis Junction, MD | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Systems-Engineer-Intern---Annapolis-Junction--MD_R0249871) |
 | Booz Allen | Software Developer Intern - Summer Games 🆕 | SWE | Intern | ~Summer 2027 | Annapolis Junction, MD | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0249873) |
 | Booz Allen | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Annapolis Junction, MD | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Data-Scientist-Intern---Annapolis-Junction--MD_R0249874) |
+| Booz Allen | Systems Engineer Intern - Summer Games 🆕 | SWE | Intern | ~Summer 2027 | El Segundo, CA | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/University---2027-Summer-Games-Systems-Engineer-Intern---El-Segundo--CA_R0249869) |
 | Booz Allen | Software Developer Intern - Summer Games 🆕 | SWE | Intern | ~Summer 2027 | McLean, VA | 4 days ago | [apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249818) |
 | Boston Scientific | AI Software Development Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Arden Hills, MN | 4 days ago | [apply](https://bostonscientific.eightfold.ai/careers/job/563602813600585) |
 | Boston Scientific | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Maple Grove, MN | 4 days ago | [apply](https://bostonscientific.eightfold.ai/careers/job/563602813501949) |
@@ -448,10 +450,8 @@ _+242 more in the full list below._
 | Nordson | Electrical Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Minneapolis, MN | 5 days ago | [apply](https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Minnesota---Minneapolis---5900-Golden-Hills-Drive/Electrical-Engineering-Intern_REQ52913) |
 | Astranis | Environmental Test Engineer Intern (Winter 2027) 🆕 | Tech | Intern | Winter 2027 | San Francisco, CA | 6 days ago | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705652006) |
 | Microsoft | Hardware Engineering Intern 🆕 | Tech | Intern | ~Summer 2027 | Redmond, WA | 6 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393557002608) |
-| RTX | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cambridge, MA | 6 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-CAMBRIDGE-BBN06--10--50-Moulton-St--MOULTON-B6/Software-Engineer-Intern--Summer-2027----Onsite_01873017) |
-| Study.com | Software Engineer New Grad - AI-Native 🆕 | SWE | New grad | ~Summer 2027 | Mountain View, CA | 6 days ago | [apply](https://study.com/pages/jobApplication.html/?gh_jid=5429313008) |
 
-_Showing the newest 300 of 4133 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 4135 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 4133 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **96.7%** of roles carry an exact posting timestamp from the source (3996/4133).
-- **14.0%** come from a company's own board rather than a community feed.
-- **3093** duplicates merged, **20** near-duplicates collapsed.
-- **134** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **96.8%** of roles carry an exact posting timestamp from the source (4001/4135).
+- **13.9%** come from a company's own board rather than a community feed.
+- **3056** duplicates merged, **20** near-duplicates collapsed.
+- **140** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>11 source(s) returned 404 this run (token likely renamed)</summary>
 
