@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**4187 open roles** · **1212 companies** · **454/506 sources healthy** · updated 2026-09-26 06:57 UTC  
-3515 internships · 672 new-grad · SWE 2166 · Data/ML 1232 · Tech 586 · PM 203
+**4172 open roles** · **1212 companies** · **461/506 sources healthy** · updated 2026-09-26 17:33 UTC  
+3503 internships · 669 new-grad · SWE 2154 · Data/ML 1231 · Tech 585 · PM 202
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,7 +19,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (352)
+## 🆕 Just posted — last 7 days (350)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -106,9 +106,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Enterprise Holdings | Data Engineer Intern - IT 🆕 | Data/ML | Intern | ~Summer 2027 | St. Louis, MO | 2 days ago | [apply](https://us-erac.icims.com/jobs/567651/job?mobile=true&needsRedirect=false) |
 | Fortune Brands | Product Manager Intern - Retail 🆕 | PM | Intern | ~Summer 2027 | Deerfield, IL | 2 days ago | [apply](https://jobs.smartrecruiters.com/FortuneBrands/744000151692989) |
 | GM financial | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Arlington, TX | 2 days ago | [apply](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260821) |
-| Genesis Molecular AI | Software Engineer Intern - 2027 🆕 | SWE | Intern | 2027 | San Mateo, CA | 2 days ago | [apply](https://jobs.ashbyhq.com/genesis-molecular-ai/44e3cbdc-949c-426e-a80a-b41c73ad6a99) |
 | Genesis Molecular AI | Machine Learning Research Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, CA; New York, NY | 2 days ago | [apply](https://jobs.ashbyhq.com/genesis-molecular-ai/42fc0631-3f81-481a-b496-daa875c9e92e/application?embed=true) |
-| Genesis Molecular AI | ML Research Intern – BS/MS (Summer 2027) 🆕 | Data/ML | Intern | Summer 2027 | New York, NY; San Francisco Bay Area, CA | 2 days ago | [apply](https://jobs.ashbyhq.com/genesis-molecular-ai/42fc0631-3f81-481a-b496-daa875c9e92e) |
 | Geospatial Consulting Group International | Application Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote (US) | 2 days ago | [apply](https://job-boards.greenhouse.io/geocgi/jobs/4420076009) |
 | Graphcore | Systems Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 2 days ago | [apply](https://job-boards.greenhouse.io/graphcore/jobs/8841978002) |
 | Graphcore | Hardware Platform Development Intern 🆕 | Tech | Intern | ~Summer 2027 | Austin, TX | 2 days ago | [apply](https://job-boards.greenhouse.io/graphcore/jobs/8841941002) |
@@ -143,10 +141,12 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Ramp | Software Engineer Intern - Backend 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://jobs.ashbyhq.com/ramp/acf6b28d-767f-483f-8ff2-114620cd7e04/application?embed=true) |
 | Revantage Corporate Services | Quantitative Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote (US); Illinois | 2 days ago | [apply](https://revantage.wd1.myworkdayjobs.com/Revantage/job/Remote---Illinois/Quantitative-Developer-Intern_JR104315) |
 | Samsara | Firmware Engineer Co-Op 🆕 | Tech | Intern | ~Summer 2027 | San Francisco - SF9 | 2 days ago | [apply](https://www.samsara.com/company/careers/roles/8226602?gh_jid=8226602) |
+| State Farm | Data Science Intern - Magnet Program 🆕 | Data/ML | Intern | ~Summer 2027 | Tempe, AZ | 2 days ago | [apply](https://jobs.statefarm.com/jobs/46353?icims=1) |
+| Susquehanna International Group | Machine Learning Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Bala Cynwyd, PA | 2 days ago | [apply](https://careers-sig.icims.com/jobs/11555/job?mobile=true&needsRedirect=false) |
 
-_+232 more in the full list below._
+_+230 more in the full list below._
 
-## 📋 All open roles — newest first (4187)
+## 📋 All open roles — newest first (4172)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -233,9 +233,7 @@ _+232 more in the full list below._
 | Enterprise Holdings | Data Engineer Intern - IT 🆕 | Data/ML | Intern | ~Summer 2027 | St. Louis, MO | 2 days ago | [apply](https://us-erac.icims.com/jobs/567651/job?mobile=true&needsRedirect=false) |
 | Fortune Brands | Product Manager Intern - Retail 🆕 | PM | Intern | ~Summer 2027 | Deerfield, IL | 2 days ago | [apply](https://jobs.smartrecruiters.com/FortuneBrands/744000151692989) |
 | GM financial | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Arlington, TX | 2 days ago | [apply](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260821) |
-| Genesis Molecular AI | Software Engineer Intern - 2027 🆕 | SWE | Intern | 2027 | San Mateo, CA | 2 days ago | [apply](https://jobs.ashbyhq.com/genesis-molecular-ai/44e3cbdc-949c-426e-a80a-b41c73ad6a99) |
 | Genesis Molecular AI | Machine Learning Research Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, CA; New York, NY | 2 days ago | [apply](https://jobs.ashbyhq.com/genesis-molecular-ai/42fc0631-3f81-481a-b496-daa875c9e92e/application?embed=true) |
-| Genesis Molecular AI | ML Research Intern – BS/MS (Summer 2027) 🆕 | Data/ML | Intern | Summer 2027 | New York, NY; San Francisco Bay Area, CA | 2 days ago | [apply](https://jobs.ashbyhq.com/genesis-molecular-ai/42fc0631-3f81-481a-b496-daa875c9e92e) |
 | Geospatial Consulting Group International | Application Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote (US) | 2 days ago | [apply](https://job-boards.greenhouse.io/geocgi/jobs/4420076009) |
 | Graphcore | Systems Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 2 days ago | [apply](https://job-boards.greenhouse.io/graphcore/jobs/8841978002) |
 | Graphcore | Hardware Platform Development Intern 🆕 | Tech | Intern | ~Summer 2027 | Austin, TX | 2 days ago | [apply](https://job-boards.greenhouse.io/graphcore/jobs/8841941002) |
@@ -450,8 +448,10 @@ _+232 more in the full list below._
 | G2 | AI Agent Evaluations Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, CA | 5 days ago | [apply](https://jobs.ashbyhq.com/G2/64dcc04a-a0e7-493b-b899-dd4c56e561fd/application?embed=true) |
 | GE Aerospace | Data Science Co-op - Flight Analytics Platform 🆕 | Data/ML | Intern | ~Summer 2027 | Austin, TX | 5 days ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Austin/SaaS---Flight-Analytics-Platform---Data-Science-Co-op---Spring-2027_R5040450-2) |
 | GE Healthcare | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Salt Lake City, UT | 5 days ago | [apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Salt-Lake-City/Software-Engineering-Summer-Intern-2027_R4046481-1) |
+| General Motors | Embedded and Systems Engineering Intern - Digital Product 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX; Milford, MI | 5 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Digital-Product--Embedded-and-Systems-Engineering_JR-202620513) |
+| General Motors | Software Engineer Intern - Digital Product: Software Engineering 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX; Milford, MI | 5 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Digital-Product--Software-Engineering_JR-202620546) |
 
-_Showing the newest 300 of 4187 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 4172 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 4187 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **96.8%** of roles carry an exact posting timestamp from the source (4053/4187).
-- **13.7%** come from a company's own board rather than a community feed.
-- **3061** duplicates merged, **19** near-duplicates collapsed.
-- **134** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **97.1%** of roles carry an exact posting timestamp from the source (4049/4172).
+- **13.4%** come from a company's own board rather than a community feed.
+- **3053** duplicates merged, **19** near-duplicates collapsed.
+- **149** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>11 source(s) returned 404 this run (token likely renamed)</summary>
 
