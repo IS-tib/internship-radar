@@ -1,31 +1,31 @@
 {
   "schema": 4,
-  "updated": "2026-09-29T07:45:28+00:00",
-  "count": 4192,
+  "updated": "2026-09-29T19:03:06+00:00",
+  "count": 4218,
   "metrics": {
-    "roles_open": 4192,
+    "roles_open": 4218,
     "roles_closed_tracked": 145,
-    "companies": 1214,
+    "companies": 1216,
     "sources_configured": 506,
     "sources_ok": 459,
     "sources_dead": 13,
     "sources_failed": 1,
     "by_level": {
-      "intern": 3524,
+      "intern": 3550,
       "new_grad": 668
     },
     "by_category": {
-      "Software Engineering": 2169,
-      "Data / ML / AI": 1236,
-      "Other Technical": 586,
-      "Product Management": 201
+      "Software Engineering": 2178,
+      "Data / ML / AI": 1244,
+      "Other Technical": 593,
+      "Product Management": 203
     },
     "by_source": {
-      "community": 3604,
-      "greenhouse": 261,
+      "community": 3629,
+      "greenhouse": 260,
       "ashby": 132,
       "lever": 52,
-      "workday": 49,
+      "workday": 51,
       "Community (Summer 2027)": 30,
       "Greenhouse": 30,
       "smartrecruiters": 19,
@@ -33,33 +33,33 @@
       "Lever": 6,
       "Ashby": 3
     },
-    "dates_trusted": 4071,
+    "dates_trusted": 4095,
     "dates_trusted_pct": 97.1,
-    "dates_known": 4189,
+    "dates_known": 4215,
     "dates_known_pct": 99.9,
     "dates_unknown": 3,
-    "terms_inferred": 3539,
-    "first_party": 558,
+    "terms_inferred": 3564,
+    "first_party": 559,
     "first_party_pct": 13.3,
     "dedupe": {
-      "input": 5963,
-      "merged": 2974,
+      "input": 5924,
+      "merged": 2951,
       "near_dupes": 19,
-      "output": 2970
+      "output": 2954
     },
     "lifecycle": {
-      "new": 20,
+      "new": 26,
       "returning": 0,
-      "still_open": 2948,
-      "closed": 6,
-      "reopened": 2
+      "still_open": 2927,
+      "closed": 1,
+      "reopened": 1
     },
     "filtered_out": {
-      "not_early_career": 42037,
-      "not_technical": 4157,
-      "non_us": 1032,
-      "undergrad:phd_required": 188,
-      "location_unknown": 56,
+      "not_early_career": 42051,
+      "not_technical": 4059,
+      "non_us": 1033,
+      "undergrad:phd_required": 185,
+      "location_unknown": 53,
       "undergrad:masters_required": 21,
       "stale_term": 12,
       "undergrad:graduate_students_only": 2,
@@ -96,7 +96,7 @@
     },
     "Mistral AI": {
       "status": "ok",
-      "count": 211,
+      "count": 210,
       "ats": "ashby"
     },
     "Sentry": {
@@ -254,29 +254,24 @@
       "count": 0,
       "ats": "greenhouse"
     },
-    "Stripe": {
-      "status": "ok",
-      "count": 704,
-      "ats": "greenhouse"
-    },
     "Databricks": {
       "status": "ok",
-      "count": 881,
+      "count": 877,
       "ats": "greenhouse"
     },
     "Coinbase": {
       "status": "ok",
-      "count": 209,
+      "count": 208,
       "ats": "greenhouse"
     },
     "Robinhood": {
       "status": "ok",
-      "count": 159,
+      "count": 162,
       "ats": "greenhouse"
     },
     "Airbnb": {
       "status": "ok",
-      "count": 156,
+      "count": 155,
       "ats": "greenhouse"
     },
     "Lyft": {
@@ -286,7 +281,7 @@
     },
     "Figma": {
       "status": "ok",
-      "count": 165,
+      "count": 162,
       "ats": "greenhouse"
     },
     "Datadog": {
@@ -296,32 +291,27 @@
     },
     "Roblox": {
       "status": "ok",
-      "count": 261,
+      "count": 262,
       "ats": "greenhouse"
     },
     "Anthropic": {
       "status": "ok",
-      "count": 629,
+      "count": 632,
+      "ats": "greenhouse"
+    },
+    "Stripe": {
+      "status": "ok",
+      "count": 713,
       "ats": "greenhouse"
     },
     "Scale AI": {
       "status": "ok",
-      "count": 200,
+      "count": 198,
       "ats": "greenhouse"
     },
     "Block": {
       "status": "ok",
-      "count": 211,
-      "ats": "greenhouse"
-    },
-    "Anduril": {
-      "status": "ok",
-      "count": 2380,
-      "ats": "greenhouse"
-    },
-    "Verkada": {
-      "status": "ok",
-      "count": 304,
+      "count": 210,
       "ats": "greenhouse"
     },
     "Duolingo": {
@@ -331,12 +321,12 @@
     },
     "Elastic": {
       "status": "ok",
-      "count": 386,
+      "count": 388,
       "ats": "greenhouse"
     },
     "Peloton": {
       "status": "ok",
-      "count": 53,
+      "count": 54,
       "ats": "greenhouse"
     },
     "Amplitude": {
@@ -350,14 +340,14 @@
       "count": 27,
       "ats": "greenhouse"
     },
-    "CockroachLabs": {
-      "status": "ok",
-      "count": 19,
-      "ats": "greenhouse"
-    },
     "Faire": {
       "status": "ok",
       "count": 74,
+      "ats": "greenhouse"
+    },
+    "CockroachLabs": {
+      "status": "ok",
+      "count": 19,
       "ats": "greenhouse"
     },
     "Squarespace": {
@@ -377,7 +367,7 @@
     },
     "Brex": {
       "status": "ok",
-      "count": 263,
+      "count": 264,
       "ats": "greenhouse"
     },
     "Gusto": {
@@ -387,72 +377,42 @@
     },
     "Samsara": {
       "status": "ok",
-      "count": 233,
+      "count": 234,
       "ats": "greenhouse"
     },
     "Flexport": {
       "status": "ok",
-      "count": 203,
+      "count": 207,
       "ats": "greenhouse"
     },
     "Airtable": {
       "status": "ok",
-      "count": 3,
+      "count": 4,
       "ats": "greenhouse"
-    },
-    "Ramp": {
-      "status": "ok",
-      "count": 156,
-      "ats": "ashby"
     },
     "Cloudflare": {
       "status": "ok",
-      "count": 399,
+      "count": 404,
       "ats": "greenhouse"
-    },
-    "Notion": {
-      "status": "ok",
-      "count": 130,
-      "ats": "ashby"
-    },
-    "Discord": {
-      "status": "ok",
-      "count": 48,
-      "ats": "greenhouse"
-    },
-    "Reddit": {
-      "status": "ok",
-      "count": 145,
-      "ats": "greenhouse"
-    },
-    "OpenAI": {
-      "status": "ok",
-      "count": 841,
-      "ats": "ashby"
-    },
-    "Linear": {
-      "status": "ok",
-      "count": 30,
-      "ats": "ashby"
     },
     "Pinterest": {
       "status": "ok",
       "count": 149,
       "ats": "greenhouse"
     },
-    "Vercel": {
+    "Ramp": {
       "status": "ok",
-      "count": 90,
-      "ats": "greenhouse"
+      "count": 155,
+      "ats": "ashby"
     },
     "Instacart": {
       "status": "ok",
-      "count": 125,
+      "count": 126,
       "ats": "greenhouse"
     },
-    "Mercury": {
+    "Notion": {
       "status": "ok",
-      "count": 0,
+      "count": 128,
       "ats": "ashby"
     },
     "Dropbox": {
@@ -460,14 +420,54 @@
       "count": 37,
       "ats": "greenhouse"
     },
+    "Linear": {
+      "status": "ok",
+      "count": 30,
+      "ats": "ashby"
+    },
+    "OpenAI": {
+      "status": "ok",
+      "count": 834,
+      "ats": "ashby"
+    },
+    "Twilio": {
+      "status": "ok",
+      "count": 131,
+      "ats": "greenhouse"
+    },
+    "Asana": {
+      "status": "ok",
+      "count": 95,
+      "ats": "greenhouse"
+    },
+    "Vercel": {
+      "status": "ok",
+      "count": 91,
+      "ats": "greenhouse"
+    },
+    "GitLab": {
+      "status": "ok",
+      "count": 197,
+      "ats": "greenhouse"
+    },
+    "Mercury": {
+      "status": "ok",
+      "count": 0,
+      "ats": "ashby"
+    },
     "Replit": {
       "status": "ok",
       "count": 74,
       "ats": "ashby"
     },
-    "Twilio": {
+    "SoFi": {
       "status": "ok",
-      "count": 134,
+      "count": 57,
+      "ats": "greenhouse"
+    },
+    "Chime": {
+      "status": "ok",
+      "count": 63,
       "ats": "greenhouse"
     },
     "Plaid": {
@@ -475,44 +475,24 @@
       "count": 122,
       "ats": "ashby"
     },
-    "Asana": {
-      "status": "ok",
-      "count": 97,
-      "ats": "greenhouse"
-    },
     "Benchling": {
       "status": "ok",
       "count": 58,
       "ats": "ashby"
-    },
-    "GitLab": {
-      "status": "ok",
-      "count": 199,
-      "ats": "greenhouse"
     },
     "NerdWallet": {
       "status": "ok",
       "count": 21,
       "ats": "ashby"
     },
-    "SoFi": {
-      "status": "ok",
-      "count": 55,
-      "ats": "greenhouse"
-    },
     "Cursor": {
       "status": "ok",
-      "count": 131,
+      "count": 132,
       "ats": "ashby"
-    },
-    "Chime": {
-      "status": "ok",
-      "count": 61,
-      "ats": "greenhouse"
     },
     "Perplexity": {
       "status": "ok",
-      "count": 123,
+      "count": 124,
       "ats": "ashby"
     },
     "Postman": {
@@ -520,12 +500,6 @@
       "count": 0,
       "ats": "greenhouse",
       "error": "HTTP 404"
-    },
-    "Adobe": {
-      "status": "fetch_error",
-      "count": 0,
-      "ats": "workday",
-      "error": "HTTP 403"
     },
     "Sierra": {
       "status": "ok",
@@ -543,19 +517,45 @@
       "count": 103,
       "ats": "ashby"
     },
-    "Palantir": {
-      "status": "ok",
-      "count": 321,
-      "ats": "lever"
-    },
     "Character.AI": {
       "status": "ok",
       "count": 13,
       "ats": "ashby"
     },
+    "Adobe": {
+      "status": "fetch_error",
+      "count": 0,
+      "ats": "workday",
+      "error": "HTTP 403"
+    },
     "Watershed": {
       "status": "ok",
       "count": 39,
+      "ats": "ashby"
+    },
+    "Harvey": {
+      "status": "ok",
+      "count": 296,
+      "ats": "ashby"
+    },
+    "Palantir": {
+      "status": "ok",
+      "count": 318,
+      "ats": "lever"
+    },
+    "Deel": {
+      "status": "ok",
+      "count": 0,
+      "ats": "ashby"
+    },
+    "Reddit": {
+      "status": "ok",
+      "count": 143,
+      "ats": "greenhouse"
+    },
+    "Supabase": {
+      "status": "ok",
+      "count": 51,
       "ats": "ashby"
     },
     "Jane Street": {
@@ -565,32 +565,22 @@
     },
     "IMC Trading": {
       "status": "ok",
-      "count": 171,
+      "count": 172,
       "ats": "greenhouse"
     },
-    "Harvey": {
+    "Jump Trading": {
       "status": "ok",
-      "count": 297,
-      "ats": "ashby"
-    },
-    "Deel": {
-      "status": "ok",
-      "count": 0,
-      "ats": "ashby"
-    },
-    "Supabase": {
-      "status": "ok",
-      "count": 55,
-      "ats": "ashby"
+      "count": 111,
+      "ats": "greenhouse"
     },
     "Akuna Capital": {
       "status": "ok",
-      "count": 41,
+      "count": 40,
       "ats": "greenhouse"
     },
     "Point72": {
       "status": "ok",
-      "count": 216,
+      "count": 218,
       "ats": "greenhouse"
     },
     "DRW": {
@@ -603,14 +593,19 @@
       "count": 50,
       "ats": "greenhouse"
     },
+    "Verkada": {
+      "status": "ok",
+      "count": 303,
+      "ats": "greenhouse"
+    },
     "Flow Traders": {
       "status": "ok",
-      "count": 46,
+      "count": 47,
       "ats": "greenhouse"
     },
     "Waymo": {
       "status": "ok",
-      "count": 359,
+      "count": 353,
       "ats": "greenhouse"
     },
     "Nuro": {
@@ -620,22 +615,17 @@
     },
     "MongoDB": {
       "status": "ok",
-      "count": 397,
+      "count": 401,
       "ats": "greenhouse"
     },
     "Fivetran": {
       "status": "ok",
-      "count": 189,
+      "count": 190,
       "ats": "greenhouse"
     },
     "Grafana Labs": {
       "status": "ok",
-      "count": 135,
-      "ats": "greenhouse"
-    },
-    "Jump Trading": {
-      "status": "ok",
-      "count": 111,
+      "count": 119,
       "ats": "greenhouse"
     },
     "ClickHouse": {
@@ -657,12 +647,12 @@
     },
     "Betterment": {
       "status": "ok",
-      "count": 27,
+      "count": 29,
       "ats": "greenhouse"
     },
     "Coursera": {
       "status": "ok",
-      "count": 17,
+      "count": 18,
       "ats": "greenhouse"
     },
     "Nextdoor": {
@@ -670,49 +660,44 @@
       "count": 22,
       "ats": "greenhouse"
     },
-    "ElevenLabs": {
-      "status": "ok",
-      "count": 197,
-      "ats": "ashby"
-    },
     "Riot Games": {
       "status": "ok",
       "count": 169,
       "ats": "greenhouse"
     },
-    "Baseten": {
-      "status": "ok",
-      "count": 100,
-      "ats": "ashby"
-    },
     "Scopely": {
       "status": "ok",
-      "count": 170,
+      "count": 174,
       "ats": "greenhouse"
     },
-    "Writer": {
+    "ElevenLabs": {
       "status": "ok",
-      "count": 51,
+      "count": 183,
       "ats": "ashby"
     },
     "Snorkel AI": {
       "status": "ok",
-      "count": 37,
+      "count": 39,
       "ats": "greenhouse"
+    },
+    "Baseten": {
+      "status": "ok",
+      "count": 101,
+      "ats": "ashby"
+    },
+    "Writer": {
+      "status": "ok",
+      "count": 48,
+      "ats": "ashby"
     },
     "Decagon": {
       "status": "ok",
       "count": 147,
       "ats": "ashby"
     },
-    "Ubisoft": {
-      "status": "ok",
-      "count": 0,
-      "ats": "smartrecruiters"
-    },
     "Crusoe": {
       "status": "ok",
-      "count": 356,
+      "count": 357,
       "ats": "ashby"
     },
     "Hex": {
@@ -720,19 +705,34 @@
       "count": 3,
       "ats": "ashby"
     },
+    "Ubisoft": {
+      "status": "ok",
+      "count": 0,
+      "ats": "smartrecruiters"
+    },
     "Netlify": {
       "status": "ok",
       "count": 4,
       "ats": "greenhouse"
     },
+    "Discord": {
+      "status": "ok",
+      "count": 48,
+      "ats": "greenhouse"
+    },
     "PlanetScale": {
       "status": "ok",
-      "count": 11,
+      "count": 12,
       "ats": "greenhouse"
     },
     "PagerDuty": {
       "status": "ok",
-      "count": 52,
+      "count": 53,
+      "ats": "greenhouse"
+    },
+    "CircleCI": {
+      "status": "ok",
+      "count": 13,
       "ats": "greenhouse"
     },
     "Astronomer": {
@@ -740,9 +740,9 @@
       "count": 21,
       "ats": "ashby"
     },
-    "CircleCI": {
+    "Contentful": {
       "status": "ok",
-      "count": 13,
+      "count": 20,
       "ats": "greenhouse"
     },
     "Weaviate": {
@@ -750,60 +750,55 @@
       "count": 3,
       "ats": "ashby"
     },
-    "Contentful": {
-      "status": "ok",
-      "count": 20,
-      "ats": "greenhouse"
-    },
     "LangChain": {
       "status": "ok",
       "count": 101,
       "ats": "ashby"
-    },
-    "Fastly": {
-      "status": "ok",
-      "count": 43,
-      "ats": "greenhouse"
     },
     "Modal": {
       "status": "ok",
       "count": 39,
       "ats": "ashby"
     },
-    "Together AI": {
-      "status": "ok",
-      "count": 78,
-      "ats": "greenhouse"
-    },
     "Fireworks AI": {
       "status": "ok",
       "count": 84,
       "ats": "ashby"
     },
-    "CoreWeave": {
-      "status": "ok",
-      "count": 307,
-      "ats": "greenhouse"
-    },
     "Pinecone": {
       "status": "ok",
-      "count": 7,
+      "count": 5,
       "ats": "ashby"
+    },
+    "Together AI": {
+      "status": "ok",
+      "count": 77,
+      "ats": "greenhouse"
     },
     "LlamaIndex": {
       "status": "ok",
       "count": 9,
       "ats": "ashby"
     },
+    "CoreWeave": {
+      "status": "ok",
+      "count": 311,
+      "ats": "greenhouse"
+    },
     "RunPod": {
       "status": "ok",
       "count": 26,
       "ats": "ashby"
     },
-    "Mastercard": {
+    "Cerebras": {
       "status": "ok",
-      "count": 60,
-      "ats": "workday"
+      "count": 113,
+      "ats": "ashby"
+    },
+    "WorkOS": {
+      "status": "ok",
+      "count": 30,
+      "ats": "ashby"
     },
     "Temporal": {
       "status": "not_found",
@@ -811,15 +806,10 @@
       "ats": "greenhouse",
       "error": "HTTP 404"
     },
-    "Cerebras": {
+    "Mastercard": {
       "status": "ok",
-      "count": 112,
-      "ats": "ashby"
-    },
-    "WorkOS": {
-      "status": "ok",
-      "count": 30,
-      "ats": "ashby"
+      "count": 64,
+      "ats": "workday"
     },
     "Neon": {
       "status": "ok",
@@ -836,10 +826,20 @@
       "count": 8,
       "ats": "ashby"
     },
+    "Workday": {
+      "status": "ok",
+      "count": 2,
+      "ats": "workday"
+    },
     "Materialize": {
       "status": "ok",
       "count": 2,
       "ats": "ashby"
+    },
+    "Fastly": {
+      "status": "ok",
+      "count": 44,
+      "ats": "greenhouse"
     },
     "PostHog": {
       "status": "ok",
@@ -848,7 +848,7 @@
     },
     "LaunchDarkly": {
       "status": "ok",
-      "count": 56,
+      "count": 55,
       "ats": "greenhouse"
     },
     "Render": {
@@ -868,7 +868,7 @@
     },
     "Chainguard": {
       "status": "ok",
-      "count": 83,
+      "count": 84,
       "ats": "greenhouse"
     },
     "Doppler": {
@@ -888,7 +888,7 @@
     },
     "Checkr": {
       "status": "ok",
-      "count": 47,
+      "count": 49,
       "ats": "greenhouse"
     },
     "Semgrep": {
@@ -898,7 +898,7 @@
     },
     "Abnormal Security": {
       "status": "ok",
-      "count": 83,
+      "count": 81,
       "ats": "greenhouse"
     },
     "Orca Security": {
@@ -908,7 +908,7 @@
     },
     "n8n": {
       "status": "ok",
-      "count": 36,
+      "count": 35,
       "ats": "ashby"
     },
     "Secureframe": {
@@ -946,14 +946,9 @@
       "count": 35,
       "ats": "ashby"
     },
-    "SingleStore": {
-      "status": "ok",
-      "count": 43,
-      "ats": "greenhouse"
-    },
     "Suno": {
       "status": "ok",
-      "count": 61,
+      "count": 65,
       "ats": "ashby"
     },
     "Yugabyte": {
@@ -976,15 +971,15 @@
       "count": 5,
       "ats": "ashby"
     },
+    "SingleStore": {
+      "status": "ok",
+      "count": 42,
+      "ats": "greenhouse"
+    },
     "Honeycomb": {
       "status": "ok",
       "count": 15,
       "ats": "greenhouse"
-    },
-    "Cisco": {
-      "status": "ok",
-      "count": 436,
-      "ats": "workday"
     },
     "Ideogram": {
       "status": "ok",
@@ -1006,36 +1001,31 @@
       "count": 0,
       "ats": "greenhouse"
     },
-    "Ledger": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "lever",
-      "error": "HTTP 404"
-    },
     "Vanta": {
       "status": "ok",
       "count": 88,
       "ats": "ashby"
-    },
-    "Solaris": {
-      "status": "ok",
-      "count": 24,
-      "ats": "greenhouse"
     },
     "tastytrade": {
       "status": "ok",
       "count": 14,
       "ats": "greenhouse"
     },
-    "Strike": {
-      "status": "ok",
-      "count": 6,
-      "ats": "greenhouse"
+    "Ledger": {
+      "status": "not_found",
+      "count": 0,
+      "ats": "lever",
+      "error": "HTTP 404"
     },
     "BitGo": {
       "status": "ok",
       "count": 40,
       "ats": "greenhouse"
+    },
+    "Cisco": {
+      "status": "ok",
+      "count": 430,
+      "ats": "workday"
     },
     "Bitpanda": {
       "status": "ok",
@@ -1047,20 +1037,25 @@
       "count": 1,
       "ats": "greenhouse"
     },
-    "Tower Research Capital": {
-      "status": "ok",
-      "count": 92,
-      "ats": "greenhouse"
-    },
-    "Optiver": {
-      "status": "ok",
-      "count": 168,
-      "ats": "greenhouse"
-    },
     "Old Mission": {
       "status": "ok",
       "count": 37,
       "ats": "greenhouse"
+    },
+    "Optiver": {
+      "status": "ok",
+      "count": 171,
+      "ats": "greenhouse"
+    },
+    "Man Group": {
+      "status": "ok",
+      "count": 59,
+      "ats": "greenhouse"
+    },
+    "Visa": {
+      "status": "ok",
+      "count": 310,
+      "ats": "workday"
     },
     "ExodusPoint Capital": {
       "status": "ok",
@@ -1072,35 +1067,30 @@
       "count": 8,
       "ats": "greenhouse"
     },
-    "Man Group": {
-      "status": "ok",
-      "count": 61,
-      "ats": "greenhouse"
-    },
     "Geneva Trading": {
       "status": "ok",
       "count": 15,
-      "ats": "greenhouse"
-    },
-    "Engineers Gate": {
-      "status": "ok",
-      "count": 9,
-      "ats": "greenhouse"
-    },
-    "Salesforce": {
-      "status": "ok",
-      "count": 527,
-      "ats": "workday"
-    },
-    "DV Trading": {
-      "status": "ok",
-      "count": 73,
       "ats": "greenhouse"
     },
     "GSA Capital": {
       "status": "ok",
       "count": 12,
       "ats": "greenhouse"
+    },
+    "Oscar Health": {
+      "status": "ok",
+      "count": 262,
+      "ats": "greenhouse"
+    },
+    "DV Trading": {
+      "status": "ok",
+      "count": 73,
+      "ats": "greenhouse"
+    },
+    "Salesforce": {
+      "status": "ok",
+      "count": 524,
+      "ats": "workday"
     },
     "Pie Insurance": {
       "status": "ok",
@@ -1109,17 +1099,12 @@
     },
     "Wiz": {
       "status": "ok",
-      "count": 133,
-      "ats": "greenhouse"
-    },
-    "Oscar Health": {
-      "status": "ok",
-      "count": 257,
+      "count": 135,
       "ats": "greenhouse"
     },
     "BeyondTrust": {
       "status": "ok",
-      "count": 50,
+      "count": 49,
       "ats": "greenhouse"
     },
     "Tanium": {
@@ -1127,19 +1112,34 @@
       "count": 60,
       "ats": "greenhouse"
     },
+    "Engineers Gate": {
+      "status": "ok",
+      "count": 9,
+      "ats": "greenhouse"
+    },
     "Bugcrowd": {
       "status": "ok",
       "count": 8,
       "ats": "greenhouse"
     },
+    "Solaris": {
+      "status": "ok",
+      "count": 23,
+      "ats": "greenhouse"
+    },
     "Axonius": {
       "status": "ok",
-      "count": 18,
+      "count": 20,
+      "ats": "greenhouse"
+    },
+    "Strike": {
+      "status": "ok",
+      "count": 6,
       "ats": "greenhouse"
     },
     "Cribl": {
       "status": "ok",
-      "count": 57,
+      "count": 59,
       "ats": "greenhouse"
     },
     "Salt Security": {
@@ -1152,24 +1152,24 @@
       "count": 0,
       "ats": "ashby"
     },
-    "Expel": {
+    "Samsung": {
       "status": "ok",
-      "count": 12,
-      "ats": "greenhouse"
+      "count": 357,
+      "ats": "workday"
     },
     "OneTrust": {
       "status": "ok",
       "count": 89,
       "ats": "greenhouse"
     },
-    "Workday": {
+    "Expel": {
       "status": "ok",
-      "count": 2,
-      "ats": "workday"
+      "count": 12,
+      "ats": "greenhouse"
     },
     "BigID": {
       "status": "ok",
-      "count": 7,
+      "count": 6,
       "ats": "greenhouse"
     },
     "Osano": {
@@ -1179,12 +1179,12 @@
     },
     "Rula": {
       "status": "ok",
-      "count": 36,
+      "count": 35,
       "ats": "ashby"
     },
     "Ping Identity": {
       "status": "ok",
-      "count": 75,
+      "count": 74,
       "ats": "greenhouse"
     },
     "Transmit Security": {
@@ -1194,32 +1194,32 @@
     },
     "Insitro": {
       "status": "ok",
-      "count": 15,
+      "count": 13,
       "ats": "ashby"
-    },
-    "Ro": {
-      "status": "ok",
-      "count": 53,
-      "ats": "lever"
     },
     "Veriff": {
       "status": "ok",
       "count": 10,
       "ats": "greenhouse"
     },
-    "Samsung": {
+    "Ro": {
       "status": "ok",
-      "count": 361,
-      "ats": "workday"
+      "count": 54,
+      "ats": "lever"
     },
     "Sword Health": {
       "status": "ok",
-      "count": 40,
+      "count": 45,
+      "ats": "greenhouse"
+    },
+    "Tower Research Capital": {
+      "status": "ok",
+      "count": 90,
       "ats": "greenhouse"
     },
     "Zocdoc": {
       "status": "ok",
-      "count": 56,
+      "count": 58,
       "ats": "greenhouse"
     },
     "Elation Health": {
@@ -1242,19 +1242,9 @@
       "count": 16,
       "ats": "greenhouse"
     },
-    "Maven Clinic": {
-      "status": "ok",
-      "count": 36,
-      "ats": "greenhouse"
-    },
-    "Boeing": {
-      "status": "ok",
-      "count": 458,
-      "ats": "workday"
-    },
     "Agility Robotics": {
       "status": "ok",
-      "count": 71,
+      "count": 72,
       "ats": "greenhouse"
     },
     "Diligent Robotics": {
@@ -1264,7 +1254,7 @@
     },
     "Formlabs": {
       "status": "ok",
-      "count": 208,
+      "count": 207,
       "ats": "greenhouse"
     },
     "Astranis": {
@@ -1277,9 +1267,14 @@
       "count": 88,
       "ats": "greenhouse"
     },
+    "Maven Clinic": {
+      "status": "ok",
+      "count": 36,
+      "ats": "greenhouse"
+    },
     "Toast": {
       "status": "ok",
-      "count": 339,
+      "count": 333,
       "ats": "greenhouse"
     },
     "ClassPass": {
@@ -1287,14 +1282,19 @@
       "count": 35,
       "ats": "greenhouse"
     },
-    "StockX": {
+    "Anduril": {
       "status": "ok",
-      "count": 36,
+      "count": 2397,
       "ats": "greenhouse"
     },
     "FourKites": {
       "status": "ok",
-      "count": 14,
+      "count": 13,
+      "ats": "greenhouse"
+    },
+    "Motive": {
+      "status": "ok",
+      "count": 162,
       "ats": "greenhouse"
     },
     "Merge": {
@@ -1304,12 +1304,7 @@
     },
     "project44": {
       "status": "ok",
-      "count": 34,
-      "ats": "greenhouse"
-    },
-    "Motive": {
-      "status": "ok",
-      "count": 163,
+      "count": 35,
       "ats": "greenhouse"
     },
     "Everlaw": {
@@ -1325,7 +1320,7 @@
     },
     "Lattice": {
       "status": "ok",
-      "count": 10,
+      "count": 12,
       "ats": "greenhouse"
     },
     "Culture Amp": {
@@ -1333,29 +1328,34 @@
       "count": 45,
       "ats": "greenhouse"
     },
+    "Attentive": {
+      "status": "ok",
+      "count": 32,
+      "ats": "greenhouse"
+    },
     "Vori": {
       "status": "ok",
       "count": 11,
       "ats": "ashby"
     },
-    "Visa": {
+    "Braze": {
       "status": "ok",
-      "count": 310,
-      "ats": "workday"
+      "count": 342,
+      "ats": "greenhouse"
     },
-    "Attentive": {
+    "Iterable": {
       "status": "ok",
-      "count": 31,
+      "count": 14,
       "ats": "greenhouse"
     },
     "Community · SimplifyJobs S2026": {
       "status": "ok",
-      "count": 4404,
+      "count": 4340,
       "ats": "community_listings"
     },
-    "Braze": {
+    "Ginkgo Bioworks": {
       "status": "ok",
-      "count": 341,
+      "count": 20,
       "ats": "greenhouse"
     },
     "Community · vanshb03 S2027": {
@@ -1363,14 +1363,14 @@
       "count": 371,
       "ats": "community_listings"
     },
-    "Iterable": {
+    "HomeLight": {
       "status": "ok",
-      "count": 14,
+      "count": 18,
       "ats": "greenhouse"
     },
-    "Ginkgo Bioworks": {
+    "Epirus": {
       "status": "ok",
-      "count": 20,
+      "count": 40,
       "ats": "greenhouse"
     },
     "Creatify": {
@@ -1378,34 +1378,14 @@
       "count": 5,
       "ats": "ashby"
     },
-    "HomeLight": {
+    "Vannevar Labs": {
       "status": "ok",
-      "count": 18,
+      "count": 29,
       "ats": "greenhouse"
     },
     "Espa Labs": {
       "status": "ok",
       "count": 2,
-      "ats": "ashby"
-    },
-    "Epirus": {
-      "status": "ok",
-      "count": 40,
-      "ats": "greenhouse"
-    },
-    "Simular": {
-      "status": "ok",
-      "count": 22,
-      "ats": "ashby"
-    },
-    "Vannevar Labs": {
-      "status": "ok",
-      "count": 31,
-      "ats": "greenhouse"
-    },
-    "Serval": {
-      "status": "ok",
-      "count": 56,
       "ats": "ashby"
     },
     "Singularity 6": {
@@ -1414,24 +1394,44 @@
       "ats": "greenhouse",
       "error": "HTTP 404"
     },
+    "Simular": {
+      "status": "ok",
+      "count": 22,
+      "ats": "ashby"
+    },
+    "CS Disco": {
+      "status": "ok",
+      "count": 36,
+      "ats": "greenhouse"
+    },
+    "Serval": {
+      "status": "ok",
+      "count": 57,
+      "ats": "ashby"
+    },
     "Northwood Space": {
       "status": "ok",
       "count": 76,
       "ats": "ashby"
+    },
+    "Butterfly Network": {
+      "status": "ok",
+      "count": 24,
+      "ats": "greenhouse"
+    },
+    "PathAI": {
+      "status": "ok",
+      "count": 16,
+      "ats": "greenhouse"
     },
     "Collective": {
       "status": "ok",
       "count": 16,
       "ats": "ashby"
     },
-    "CS Disco": {
+    "Cresta": {
       "status": "ok",
-      "count": 35,
-      "ats": "greenhouse"
-    },
-    "Butterfly Network": {
-      "status": "ok",
-      "count": 24,
+      "count": 92,
       "ats": "greenhouse"
     },
     "Kognitos": {
@@ -1444,19 +1444,19 @@
       "count": 13,
       "ats": "lever"
     },
-    "PathAI": {
+    "Apptronik": {
       "status": "ok",
-      "count": 16,
+      "count": 77,
       "ats": "greenhouse"
     },
     "Junior AI": {
       "status": "ok",
-      "count": 20,
+      "count": 19,
       "ats": "ashby"
     },
-    "Cresta": {
+    "True Anomaly": {
       "status": "ok",
-      "count": 95,
+      "count": 186,
       "ats": "greenhouse"
     },
     "Spacial AI": {
@@ -1464,9 +1464,9 @@
       "count": 6,
       "ats": "ashby"
     },
-    "Apptronik": {
+    "Aquatic Capital Management": {
       "status": "ok",
-      "count": 77,
+      "count": 7,
       "ats": "greenhouse"
     },
     "Fizz": {
@@ -1474,9 +1474,9 @@
       "count": 6,
       "ats": "ashby"
     },
-    "True Anomaly": {
+    "Nirmata": {
       "status": "ok",
-      "count": 185,
+      "count": 2,
       "ats": "greenhouse"
     },
     "Zettabyte Space": {
@@ -1484,9 +1484,9 @@
       "count": 9,
       "ats": "ashby"
     },
-    "Aquatic Capital Management": {
+    "Haize Labs": {
       "status": "ok",
-      "count": 7,
+      "count": 6,
       "ats": "greenhouse"
     },
     "Mercor": {
@@ -1494,9 +1494,9 @@
       "count": 114,
       "ats": "ashby"
     },
-    "Nirmata": {
+    "Muon Space": {
       "status": "ok",
-      "count": 2,
+      "count": 125,
       "ats": "greenhouse"
     },
     "Column": {
@@ -1504,34 +1504,14 @@
       "count": 18,
       "ats": "ashby"
     },
-    "Haize Labs": {
-      "status": "ok",
-      "count": 6,
-      "ats": "greenhouse"
-    },
-    "Saronic": {
-      "status": "ok",
-      "count": 202,
-      "ats": "ashby"
-    },
-    "Muon Space": {
-      "status": "ok",
-      "count": 125,
-      "ats": "greenhouse"
-    },
-    "Hadrian": {
-      "status": "ok",
-      "count": 142,
-      "ats": "ashby"
-    },
     "Gelber Group": {
       "status": "ok",
       "count": 9,
       "ats": "greenhouse"
     },
-    "Span": {
+    "Saronic": {
       "status": "ok",
-      "count": 36,
+      "count": 203,
       "ats": "ashby"
     },
     "Metronome": {
@@ -1539,9 +1519,9 @@
       "count": 0,
       "ats": "greenhouse"
     },
-    "Base Power": {
+    "Hadrian": {
       "status": "ok",
-      "count": 192,
+      "count": 148,
       "ats": "ashby"
     },
     "K2 Space": {
@@ -1549,19 +1529,49 @@
       "count": 246,
       "ats": "greenhouse"
     },
-    "Talos Trading": {
-      "status": "ok",
-      "count": 19,
-      "ats": "ashby"
-    },
     "Hermeus": {
       "status": "ok",
       "count": 86,
       "ats": "lever"
     },
+    "Boeing": {
+      "status": "ok",
+      "count": 466,
+      "ats": "workday"
+    },
+    "Span": {
+      "status": "ok",
+      "count": 36,
+      "ats": "ashby"
+    },
     "Ursa Major": {
       "status": "ok",
-      "count": 104,
+      "count": 106,
+      "ats": "greenhouse"
+    },
+    "Base Power": {
+      "status": "ok",
+      "count": 190,
+      "ats": "ashby"
+    },
+    "Oklo": {
+      "status": "ok",
+      "count": 78,
+      "ats": "greenhouse"
+    },
+    "Talos Trading": {
+      "status": "ok",
+      "count": 19,
+      "ats": "ashby"
+    },
+    "NVIDIA": {
+      "status": "ok",
+      "count": 566,
+      "ats": "workday"
+    },
+    "Antora Energy": {
+      "status": "ok",
+      "count": 40,
       "ats": "greenhouse"
     },
     "Togal.AI": {
@@ -1569,9 +1579,9 @@
       "count": 4,
       "ats": "ashby"
     },
-    "Oklo": {
+    "Incident IQ": {
       "status": "ok",
-      "count": 79,
+      "count": 10,
       "ats": "greenhouse"
     },
     "Clay": {
@@ -1579,9 +1589,9 @@
       "count": 58,
       "ats": "ashby"
     },
-    "Antora Energy": {
+    "Freeform": {
       "status": "ok",
-      "count": 40,
+      "count": 79,
       "ats": "greenhouse"
     },
     "Northslope Technologies": {
@@ -1589,9 +1599,9 @@
       "count": 10,
       "ats": "ashby"
     },
-    "Incident IQ": {
+    "Hightouch": {
       "status": "ok",
-      "count": 10,
+      "count": 82,
       "ats": "greenhouse"
     },
     "Compa": {
@@ -1599,9 +1609,14 @@
       "count": 5,
       "ats": "ashby"
     },
-    "Freeform": {
+    "StockX": {
       "status": "ok",
-      "count": 79,
+      "count": 36,
+      "ats": "greenhouse"
+    },
+    "PDT Partners": {
+      "status": "ok",
+      "count": 10,
       "ats": "greenhouse"
     },
     "Sunday Robotics": {
@@ -1609,35 +1624,25 @@
       "count": 24,
       "ats": "ashby"
     },
-    "Hightouch": {
-      "status": "ok",
-      "count": 81,
-      "ats": "greenhouse"
-    },
     "Reliable Robotics": {
       "status": "ok",
       "count": 56,
-      "ats": "ashby"
-    },
-    "PDT Partners": {
-      "status": "ok",
-      "count": 10,
-      "ats": "greenhouse"
-    },
-    "Belvedere Trading": {
-      "status": "ok",
-      "count": 21,
-      "ats": "lever"
-    },
-    "GrayMatter Robotics": {
-      "status": "ok",
-      "count": 17,
       "ats": "ashby"
     },
     "Enterpret": {
       "status": "ok",
       "count": 14,
       "ats": "greenhouse"
+    },
+    "GrayMatter Robotics": {
+      "status": "ok",
+      "count": 17,
+      "ats": "ashby"
+    },
+    "Belvedere Trading": {
+      "status": "ok",
+      "count": 21,
+      "ats": "lever"
     },
     "Charge Robotics": {
       "status": "ok",
@@ -1659,24 +1664,19 @@
       "count": 16,
       "ats": "ashby"
     },
-    "Middesk": {
-      "status": "ok",
-      "count": 17,
-      "ats": "ashby"
-    },
     "The Nuclear Company": {
       "status": "ok",
       "count": 74,
       "ats": "greenhouse"
     },
-    "Overjet": {
+    "Middesk": {
       "status": "ok",
-      "count": 23,
+      "count": 17,
       "ats": "ashby"
     },
-    "Rilla": {
+    "Overjet": {
       "status": "ok",
-      "count": 30,
+      "count": 21,
       "ats": "ashby"
     },
     "PlusAI": {
@@ -1684,9 +1684,9 @@
       "count": 38,
       "ats": "lever"
     },
-    "Podium Automation": {
+    "Rilla": {
       "status": "ok",
-      "count": 8,
+      "count": 30,
       "ats": "ashby"
     },
     "SpreeAI": {
@@ -1694,9 +1694,9 @@
       "count": 0,
       "ats": "rippling"
     },
-    "Genesis Molecular AI": {
+    "Podium Automation": {
       "status": "ok",
-      "count": 11,
+      "count": 8,
       "ats": "ashby"
     },
     "pony.ai": {
@@ -1706,12 +1706,12 @@
     },
     "Tenstorrent": {
       "status": "ok",
-      "count": 6,
+      "count": 4,
       "ats": "greenhouse"
     },
-    "GigaML": {
+    "Genesis Molecular AI": {
       "status": "ok",
-      "count": 33,
+      "count": 11,
       "ats": "ashby"
     },
     "Seven Research": {
@@ -1719,15 +1719,20 @@
       "count": 8,
       "ats": "greenhouse"
     },
-    "Lightspark": {
+    "GigaML": {
       "status": "ok",
-      "count": 2,
+      "count": 33,
       "ats": "ashby"
     },
     "SpaceX": {
       "status": "ok",
-      "count": 2596,
+      "count": 2612,
       "ats": "greenhouse"
+    },
+    "Lightspark": {
+      "status": "ok",
+      "count": 3,
+      "ats": "ashby"
     },
     "Mach Industries": {
       "status": "not_found",
@@ -1735,22 +1740,17 @@
       "ats": "ashby",
       "error": "HTTP 404"
     },
-    "Mercator": {
+    "Appian": {
       "status": "ok",
-      "count": 5,
-      "ats": "ashby"
+      "count": 172,
+      "ats": "greenhouse"
     },
     "Canva": {
       "status": "ok",
-      "count": 150,
+      "count": 151,
       "ats": "smartrecruiters"
     },
-    "Appian": {
-      "status": "ok",
-      "count": 173,
-      "ats": "greenhouse"
-    },
-    "kos.ai": {
+    "Mercator": {
       "status": "ok",
       "count": 5,
       "ats": "ashby"
@@ -1760,9 +1760,9 @@
       "count": 5,
       "ats": "greenhouse"
     },
-    "Rivian and Volkswagen Group Technologies": {
+    "kos.ai": {
       "status": "ok",
-      "count": 146,
+      "count": 5,
       "ats": "ashby"
     },
     "Neuralink": {
@@ -1770,25 +1770,30 @@
       "count": 81,
       "ats": "greenhouse"
     },
+    "Rivian and Volkswagen Group Technologies": {
+      "status": "ok",
+      "count": 147,
+      "ats": "ashby"
+    },
     "Cybernetic Labs": {
       "status": "ok",
       "count": 28,
       "ats": "ashby"
     },
-    "Xsolla": {
-      "status": "ok",
-      "count": 176,
-      "ats": "lever"
-    },
     "TMEIC": {
       "status": "ok",
-      "count": 40,
+      "count": 38,
       "ats": "workable"
     },
     "Fab2": {
       "status": "ok",
       "count": 61,
       "ats": "ashby"
+    },
+    "Xsolla": {
+      "status": "ok",
+      "count": 174,
+      "ats": "lever"
     },
     "Centerfield": {
       "status": "ok",
@@ -1797,12 +1802,7 @@
     },
     "Skydio": {
       "status": "ok",
-      "count": 136,
-      "ats": "ashby"
-    },
-    "Persona AI": {
-      "status": "ok",
-      "count": 28,
+      "count": 137,
       "ats": "ashby"
     },
     "Diversified Automation": {
@@ -1810,14 +1810,14 @@
       "count": 10,
       "ats": "lever"
     },
+    "Persona AI": {
+      "status": "ok",
+      "count": 28,
+      "ats": "ashby"
+    },
     "Etched.ai": {
       "status": "ok",
       "count": 109,
-      "ats": "ashby"
-    },
-    "Melotech": {
-      "status": "ok",
-      "count": 8,
       "ats": "ashby"
     },
     "HPR (Hyannis Port Research)": {
@@ -1825,26 +1825,26 @@
       "count": 10,
       "ats": "greenhouse"
     },
+    "Melotech": {
+      "status": "ok",
+      "count": 8,
+      "ats": "ashby"
+    },
     "Western Digital": {
       "status": "ok",
-      "count": 336,
+      "count": 334,
       "ats": "smartrecruiters"
-    },
-    "Atomic Semi": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "ashby",
-      "error": "HTTP 404"
     },
     "Rendezvous Robotics": {
       "status": "ok",
       "count": 24,
       "ats": "greenhouse"
     },
-    "NVIDIA": {
-      "status": "ok",
-      "count": 566,
-      "ats": "workday"
+    "Atomic Semi": {
+      "status": "not_found",
+      "count": 0,
+      "ats": "ashby",
+      "error": "HTTP 404"
     },
     "Terranova": {
       "status": "ok",
@@ -1856,6 +1856,11 @@
       "count": 9,
       "ats": "ashby"
     },
+    "LinkedIn": {
+      "status": "ok",
+      "count": 338,
+      "ats": "smartrecruiters"
+    },
     "Mobius Renewables": {
       "status": "ok",
       "count": 0,
@@ -1866,35 +1871,20 @@
       "count": 10,
       "ats": "ashby"
     },
-    "LinkedIn": {
-      "status": "ok",
-      "count": 340,
-      "ats": "smartrecruiters"
-    },
     "Voloridge": {
       "status": "ok",
       "count": 11,
       "ats": "greenhouse"
-    },
-    "Melius": {
-      "status": "ok",
-      "count": 8,
-      "ats": "ashby"
     },
     "Bosch": {
       "status": "ok",
       "count": 1000,
       "ats": "smartrecruiters"
     },
-    "ShyftLabs": {
+    "Melius": {
       "status": "ok",
-      "count": 22,
-      "ats": "lever"
-    },
-    "Eulerity": {
-      "status": "ok",
-      "count": 15,
-      "ats": "greenhouse"
+      "count": 8,
+      "ats": "ashby"
     },
     "Yotta Labs": {
       "status": "ok",
@@ -1906,15 +1896,15 @@
       "count": 98,
       "ats": "greenhouse"
     },
+    "ShyftLabs": {
+      "status": "ok",
+      "count": 22,
+      "ats": "lever"
+    },
     "Astera": {
       "status": "ok",
       "count": 42,
       "ats": "ashby"
-    },
-    "Docugami": {
-      "status": "ok",
-      "count": 7,
-      "ats": "greenhouse"
     },
     "Heliux": {
       "status": "ok",
@@ -1923,23 +1913,13 @@
     },
     "Veeam Software": {
       "status": "ok",
-      "count": 240,
+      "count": 238,
       "ats": "greenhouse"
     },
     "Anthelion Capital": {
       "status": "ok",
       "count": 3,
       "ats": "ashby"
-    },
-    "Magnet Forensics": {
-      "status": "ok",
-      "count": 41,
-      "ats": "lever"
-    },
-    "ProNexus": {
-      "status": "ok",
-      "count": 0,
-      "ats": "workable"
     },
     "Axiomatic AI": {
       "status": "ok",
@@ -1951,9 +1931,19 @@
       "count": 8,
       "ats": "ashby"
     },
-    "Multiply Labs": {
+    "Integra FEC": {
       "status": "ok",
-      "count": 5,
+      "count": 11,
+      "ats": "greenhouse"
+    },
+    "ProNexus": {
+      "status": "ok",
+      "count": 0,
+      "ats": "workable"
+    },
+    "Magnet Forensics": {
+      "status": "ok",
+      "count": 41,
       "ats": "lever"
     },
     "Turabify": {
@@ -1961,9 +1951,19 @@
       "count": 0,
       "ats": "workable"
     },
-    "Integra FEC": {
+    "Multiply Labs": {
       "status": "ok",
-      "count": 11,
+      "count": 5,
+      "ats": "lever"
+    },
+    "Atoms": {
+      "status": "ok",
+      "count": 285,
+      "ats": "greenhouse"
+    },
+    "Docugami": {
+      "status": "ok",
+      "count": 7,
       "ats": "greenhouse"
     },
     "WallStreetQuants": {
@@ -1971,25 +1971,40 @@
       "count": 31,
       "ats": "workable"
     },
-    "Atoms": {
+    "impact.com": {
       "status": "ok",
-      "count": 286,
+      "count": 78,
       "ats": "greenhouse"
+    },
+    "Phonely": {
+      "status": "ok",
+      "count": 20,
+      "ats": "ashby"
     },
     "Luminance": {
       "status": "ok",
       "count": 53,
       "ats": "workable"
     },
+    "Bot Auto": {
+      "status": "ok",
+      "count": 23,
+      "ats": "greenhouse"
+    },
+    "Vital Lyfe": {
+      "status": "ok",
+      "count": 12,
+      "ats": "ashby"
+    },
     "StudyFetch": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
     },
-    "Phonely": {
+    "Brio Water Technology": {
       "status": "ok",
-      "count": 20,
-      "ats": "ashby"
+      "count": 0,
+      "ats": "rippling"
     },
     "Cirrus Logic": {
       "status": "not_found",
@@ -1997,30 +2012,10 @@
       "ats": "lever",
       "error": "HTTP 404"
     },
-    "Bot Auto": {
-      "status": "ok",
-      "count": 23,
-      "ats": "greenhouse"
-    },
-    "Brio Water Technology": {
-      "status": "ok",
-      "count": 0,
-      "ats": "rippling"
-    },
-    "Vital Lyfe": {
-      "status": "ok",
-      "count": 12,
-      "ats": "ashby"
-    },
     "NBCUniversal": {
       "status": "ok",
       "count": 388,
       "ats": "smartrecruiters"
-    },
-    "LightGuide, Inc.": {
-      "status": "ok",
-      "count": 0,
-      "ats": "rippling"
     },
     "InstaLILY": {
       "status": "ok",
@@ -2032,44 +2027,34 @@
       "count": 25,
       "ats": "ashby"
     },
+    "LightGuide, Inc.": {
+      "status": "ok",
+      "count": 0,
+      "ats": "rippling"
+    },
     "HyperLight": {
       "status": "ok",
       "count": 17,
       "ats": "workable"
     },
-    "SK Hynix Memory Solution": {
-      "status": "ok",
-      "count": 26,
-      "ats": "greenhouse"
-    },
     "Cohere": {
       "status": "ok",
-      "count": 145,
+      "count": 144,
       "ats": "ashby"
-    },
-    "Redwood Materials": {
-      "status": "ok",
-      "count": 137,
-      "ats": "greenhouse"
-    },
-    "impact.com": {
-      "status": "ok",
-      "count": 78,
-      "ats": "greenhouse"
     },
     "Kastle AI": {
       "status": "ok",
       "count": 14,
       "ats": "ashby"
     },
-    "Moon": {
-      "status": "ok",
-      "count": 0,
-      "ats": "rippling"
-    },
     "Chicago Trading Company": {
       "status": "ok",
       "count": 6,
+      "ats": "greenhouse"
+    },
+    "Redwood Materials": {
+      "status": "ok",
+      "count": 137,
       "ats": "greenhouse"
     },
     "Tacit": {
@@ -2077,9 +2062,19 @@
       "count": 14,
       "ats": "ashby"
     },
+    "Field AI": {
+      "status": "ok",
+      "count": 96,
+      "ats": "lever"
+    },
+    "Moon": {
+      "status": "ok",
+      "count": 0,
+      "ats": "rippling"
+    },
     "Prophet": {
       "status": "ok",
-      "count": 19,
+      "count": 13,
       "ats": "greenhouse"
     },
     "NTT DATA AIVista": {
@@ -2092,35 +2087,35 @@
       "count": 29,
       "ats": "greenhouse"
     },
-    "Kepler Communications": {
-      "status": "ok",
-      "count": 19,
-      "ats": "lever"
-    },
     "GRITT ROBOTICS INC": {
       "status": "ok",
       "count": 22,
       "ats": "ashby"
-    },
-    "Denari": {
-      "status": "ok",
-      "count": 0,
-      "ats": "rippling"
     },
     "BlackEdge Capital": {
       "status": "ok",
       "count": 7,
       "ats": "greenhouse"
     },
-    "Field AI": {
-      "status": "ok",
-      "count": 95,
-      "ats": "lever"
-    },
     "OpusClip": {
       "status": "ok",
       "count": 9,
       "ats": "ashby"
+    },
+    "Kepler Communications": {
+      "status": "ok",
+      "count": 19,
+      "ats": "lever"
+    },
+    "Denari": {
+      "status": "ok",
+      "count": 0,
+      "ats": "rippling"
+    },
+    "Five Rings": {
+      "status": "ok",
+      "count": 16,
+      "ats": "greenhouse"
     },
     "Bild AI": {
       "status": "ok",
@@ -2132,15 +2127,15 @@
       "count": 8,
       "ats": "greenhouse"
     },
-    "Dexterra Group": {
-      "status": "ok",
-      "count": 597,
-      "ats": "smartrecruiters"
-    },
     "Bloxd": {
       "status": "ok",
       "count": 1,
       "ats": "ashby"
+    },
+    "Dexterra Group": {
+      "status": "ok",
+      "count": 596,
+      "ats": "smartrecruiters"
     },
     "Gitar, Inc.": {
       "status": "ok",
@@ -2152,17 +2147,12 @@
       "count": 36,
       "ats": "ashby"
     },
-    "Onware": {
-      "status": "ok",
-      "count": 0,
-      "ats": "rippling"
-    },
     "Egra": {
       "status": "ok",
       "count": 0,
       "ats": "ashby"
     },
-    "Pendulum Intelligence": {
+    "Onware": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
@@ -2172,10 +2162,10 @@
       "count": 4,
       "ats": "ashby"
     },
-    "Five Rings": {
+    "Pendulum Intelligence": {
       "status": "ok",
-      "count": 16,
-      "ats": "greenhouse"
+      "count": 0,
+      "ats": "rippling"
     },
     "Frontier Health": {
       "status": "ok",
@@ -2192,9 +2182,19 @@
       "count": 2,
       "ats": "ashby"
     },
+    "Eulerity": {
+      "status": "ok",
+      "count": 14,
+      "ats": "greenhouse"
+    },
     "Hubs.is": {
       "status": "ok",
       "count": 9,
+      "ats": "ashby"
+    },
+    "Kirin": {
+      "status": "ok",
+      "count": 27,
       "ats": "ashby"
     },
     "Argmax": {
@@ -2202,9 +2202,9 @@
       "count": 3,
       "ats": "greenhouse"
     },
-    "Kirin": {
+    "NationGraph": {
       "status": "ok",
-      "count": 27,
+      "count": 3,
       "ats": "ashby"
     },
     "Hone Health": {
@@ -2212,14 +2212,14 @@
       "count": 8,
       "ats": "greenhouse"
     },
-    "NationGraph": {
-      "status": "ok",
-      "count": 3,
-      "ats": "ashby"
-    },
     "Oligo Space": {
       "status": "ok",
       "count": 4,
+      "ats": "ashby"
+    },
+    "Phonic": {
+      "status": "ok",
+      "count": 7,
       "ats": "ashby"
     },
     "Red Bull": {
@@ -2237,11 +2237,6 @@
       "count": 19,
       "ats": "greenhouse"
     },
-    "Phonic": {
-      "status": "ok",
-      "count": 7,
-      "ats": "ashby"
-    },
     "Veeda AI": {
       "status": "not_found",
       "count": 0,
@@ -2250,7 +2245,7 @@
     },
     "Zuru": {
       "status": "ok",
-      "count": 86,
+      "count": 85,
       "ats": "ashby"
     },
     "k-ID": {
@@ -2268,19 +2263,24 @@
       "count": 11,
       "ats": "ashby"
     },
-    "VetsEZ": {
-      "status": "ok",
-      "count": 55,
-      "ats": "breezy"
-    },
     "Constellation Space": {
       "status": "ok",
       "count": 4,
       "ats": "ashby"
     },
+    "VetsEZ": {
+      "status": "ok",
+      "count": 55,
+      "ats": "breezy"
+    },
     "Pylon": {
       "status": "ok",
       "count": 20,
+      "ats": "ashby"
+    },
+    "1X": {
+      "status": "ok",
+      "count": 92,
       "ats": "ashby"
     },
     "Evolver": {
@@ -2288,29 +2288,19 @@
       "count": 18,
       "ats": "greenhouse"
     },
-    "1X": {
-      "status": "ok",
-      "count": 92,
-      "ats": "ashby"
-    },
     "WindBorne Systems": {
       "status": "ok",
       "count": 19,
       "ats": "ashby"
-    },
-    "TribalScale": {
-      "status": "ok",
-      "count": 9,
-      "ats": "greenhouse"
     },
     "CTGT": {
       "status": "ok",
       "count": 3,
       "ats": "ashby"
     },
-    "XPENG Motors": {
+    "TribalScale": {
       "status": "ok",
-      "count": 25,
+      "count": 9,
       "ats": "greenhouse"
     },
     "Human Computer Lab": {
@@ -2323,14 +2313,19 @@
       "count": 51,
       "ats": "greenhouse"
     },
+    "Maxima": {
+      "status": "ok",
+      "count": 17,
+      "ats": "ashby"
+    },
     "Instead": {
       "status": "ok",
       "count": 11,
       "ats": "greenhouse"
     },
-    "Maxima": {
+    "Binance": {
       "status": "ok",
-      "count": 17,
+      "count": 9,
       "ats": "ashby"
     },
     "Astera Labs": {
@@ -2338,19 +2333,9 @@
       "count": 4,
       "ats": "greenhouse"
     },
-    "Fluxergy": {
+    "AfterQuery": {
       "status": "ok",
-      "count": 6,
-      "ats": "lever"
-    },
-    "Quadric": {
-      "status": "ok",
-      "count": 15,
-      "ats": "workable"
-    },
-    "Binance": {
-      "status": "ok",
-      "count": 9,
+      "count": 38,
       "ats": "ashby"
     },
     "Apera AI": {
@@ -2358,35 +2343,15 @@
       "count": 9,
       "ats": "greenhouse"
     },
-    "AfterQuery": {
+    "Quadric": {
       "status": "ok",
-      "count": 38,
-      "ats": "ashby"
-    },
-    "Lawrence Livermore National Laboratory (LLNL)": {
-      "status": "ok",
-      "count": 166,
-      "ats": "smartrecruiters"
-    },
-    "Reply": {
-      "status": "ok",
-      "count": 46,
-      "ats": "lever"
+      "count": 15,
+      "ats": "workable"
     },
     "Hiverge": {
       "status": "ok",
       "count": 4,
       "ats": "ashby"
-    },
-    "Eluvio": {
-      "status": "ok",
-      "count": 2,
-      "ats": "workable"
-    },
-    "Institute of Foundation Models": {
-      "status": "ok",
-      "count": 48,
-      "ats": "lever"
     },
     "InfiniteQuant": {
       "status": "ok",
@@ -2398,19 +2363,54 @@
       "count": 27,
       "ats": "ashby"
     },
+    "Sweatpals": {
+      "status": "ok",
+      "count": 5,
+      "ats": "ashby"
+    },
+    "Intuitive Surgical": {
+      "status": "ok",
+      "count": 744,
+      "ats": "smartrecruiters"
+    },
+    "Lawrence Livermore National Laboratory (LLNL)": {
+      "status": "ok",
+      "count": 165,
+      "ats": "smartrecruiters"
+    },
+    "Eluvio": {
+      "status": "ok",
+      "count": 2,
+      "ats": "workable"
+    },
+    "Institute of Foundation Models": {
+      "status": "ok",
+      "count": 45,
+      "ats": "lever"
+    },
+    "Tessera Labs": {
+      "status": "ok",
+      "count": 20,
+      "ats": "ashby"
+    },
     "Al Warren Oil Company": {
       "status": "ok",
       "count": 23,
       "ats": "workable"
     },
-    "Intuitive Surgical": {
+    "Nuclear Promise X": {
       "status": "ok",
-      "count": 739,
-      "ats": "smartrecruiters"
+      "count": 15,
+      "ats": "ashby"
     },
-    "Sweatpals": {
+    "Acceldata": {
       "status": "ok",
-      "count": 5,
+      "count": 39,
+      "ats": "lever"
+    },
+    "Apex Technology, Inc.": {
+      "status": "ok",
+      "count": 126,
       "ats": "ashby"
     },
     "Workato": {
@@ -2428,59 +2428,24 @@
       "count": 0,
       "ats": "rippling"
     },
-    "Tessera Labs": {
-      "status": "ok",
-      "count": 20,
-      "ats": "ashby"
-    },
-    "SharkNinja": {
-      "status": "ok",
-      "count": 169,
-      "ats": "greenhouse"
-    },
-    "Nuclear Promise X": {
-      "status": "ok",
-      "count": 15,
-      "ats": "ashby"
-    },
-    "Doctors Without Borders": {
-      "status": "ok",
-      "count": 5,
-      "ats": "greenhouse"
-    },
-    "Apex Technology, Inc.": {
-      "status": "ok",
-      "count": 126,
-      "ats": "ashby"
-    },
-    "Digs": {
-      "status": "ok",
-      "count": 2,
-      "ats": "greenhouse"
-    },
     "Heron Power": {
       "status": "ok",
       "count": 37,
       "ats": "ashby"
     },
-    "AXQ Capital": {
+    "SharkNinja": {
       "status": "ok",
-      "count": 21,
+      "count": 165,
       "ats": "greenhouse"
-    },
-    "Cloudforce": {
-      "status": "ok",
-      "count": 3,
-      "ats": "lever"
     },
     "Super": {
       "status": "ok",
       "count": 28,
       "ats": "ashby"
     },
-    "Samaya": {
+    "Doctors Without Borders": {
       "status": "ok",
-      "count": 8,
+      "count": 6,
       "ats": "greenhouse"
     },
     "Homebase": {
@@ -2488,9 +2453,39 @@
       "count": 22,
       "ats": "ashby"
     },
+    "Digs": {
+      "status": "ok",
+      "count": 2,
+      "ats": "greenhouse"
+    },
     "Blockhouse": {
       "status": "ok",
       "count": 0,
+      "ats": "ashby"
+    },
+    "AXQ Capital": {
+      "status": "ok",
+      "count": 21,
+      "ats": "greenhouse"
+    },
+    "Poshmark": {
+      "status": "ok",
+      "count": 32,
+      "ats": "ashby"
+    },
+    "Samaya": {
+      "status": "ok",
+      "count": 8,
+      "ats": "greenhouse"
+    },
+    "Output Biosciences": {
+      "status": "ok",
+      "count": 9,
+      "ats": "ashby"
+    },
+    "Uncountable": {
+      "status": "ok",
+      "count": 31,
       "ats": "ashby"
     },
     "Codeage": {
@@ -2503,14 +2498,14 @@
       "count": 7,
       "ats": "greenhouse"
     },
-    "Acceldata": {
+    "Internship": {
       "status": "ok",
-      "count": 39,
-      "ats": "lever"
+      "count": 18,
+      "ats": "ashby"
     },
-    "Poshmark": {
+    "Tilde Research": {
       "status": "ok",
-      "count": 32,
+      "count": 3,
       "ats": "ashby"
     },
     "Barkback": {
@@ -2518,9 +2513,14 @@
       "count": 6,
       "ats": "smartrecruiters"
     },
-    "Output Biosciences": {
+    "Fundwell": {
       "status": "ok",
-      "count": 9,
+      "count": 7,
+      "ats": "ashby"
+    },
+    "HCompany": {
+      "status": "ok",
+      "count": 21,
       "ats": "ashby"
     },
     "MCG Health": {
@@ -2528,44 +2528,34 @@
       "count": 8,
       "ats": "greenhouse"
     },
-    "Uncountable": {
-      "status": "ok",
-      "count": 31,
-      "ats": "ashby"
-    },
-    "Internship": {
-      "status": "ok",
-      "count": 18,
-      "ats": "ashby"
-    },
-    "RESPEC": {
-      "status": "ok",
-      "count": 139,
-      "ats": "smartrecruiters"
-    },
-    "Tilde Research": {
+    "Cloudforce": {
       "status": "ok",
       "count": 3,
-      "ats": "ashby"
-    },
-    "Community · SimplifyJobs New-Grad": {
-      "status": "ok",
-      "count": 2995,
-      "ats": "community_listings"
-    },
-    "Waabi": {
-      "status": "ok",
-      "count": 87,
       "ats": "lever"
     },
-    "Fundwell": {
+    "Bree": {
       "status": "ok",
-      "count": 7,
+      "count": 13,
       "ats": "ashby"
     },
     "Smiths Detection": {
       "status": "ok",
-      "count": 518,
+      "count": 512,
+      "ats": "smartrecruiters"
+    },
+    "Community · SimplifyJobs New-Grad": {
+      "status": "ok",
+      "count": 2992,
+      "ats": "community_listings"
+    },
+    "Auctor": {
+      "status": "ok",
+      "count": 12,
+      "ats": "ashby"
+    },
+    "RESPEC": {
+      "status": "ok",
+      "count": 143,
       "ats": "smartrecruiters"
     },
     "Community · vanshb03 New-Grad 2026": {
@@ -2573,48 +2563,90 @@
       "count": 631,
       "ats": "community_listings"
     },
-    "HCompany": {
-      "status": "ok",
-      "count": 21,
-      "ats": "ashby"
-    },
-    "Community · SimplifyJobs S2027": {
-      "status": "ok",
-      "count": 4404,
-      "ats": "community_listings"
-    },
-    "Bree": {
-      "status": "ok",
-      "count": 13,
-      "ats": "ashby"
-    },
-    "Auctor": {
-      "status": "ok",
-      "count": 12,
-      "ats": "ashby"
-    },
     "Dryft": {
       "status": "ok",
       "count": 5,
       "ats": "ashby"
+    },
+    "Community · SimplifyJobs S2027": {
+      "status": "ok",
+      "count": 4340,
+      "ats": "community_listings"
     },
     "Prior Labs": {
       "status": "ok",
       "count": 24,
       "ats": "ashby"
     },
+    "Waabi": {
+      "status": "ok",
+      "count": 87,
+      "ats": "lever"
+    },
     "The Exploration Company": {
       "status": "ok",
-      "count": 105,
+      "count": 104,
       "ats": "ashby"
     },
     "ETHGlobal": {
       "status": "ok",
       "count": 0,
       "ats": "ashby"
+    },
+    "XPENG Motors": {
+      "status": "ok",
+      "count": 25,
+      "ats": "greenhouse"
+    },
+    "Fluxergy": {
+      "status": "ok",
+      "count": 6,
+      "ats": "lever"
+    },
+    "SK Hynix Memory Solution": {
+      "status": "ok",
+      "count": 26,
+      "ats": "greenhouse"
+    },
+    "Reply": {
+      "status": "ok",
+      "count": 46,
+      "ats": "lever"
     }
   },
   "listings": [
+    {
+      "company": "Altice USA",
+      "title": "Mobile Device Product Management Intern",
+      "url": "https://www.optimumcareers.com/job/Bethpage-Intern-Mobile-Device-Product-Management-NY-11714/1434760800/?ats=successfactors",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Bethpage, NY",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "5a537b13-411e-49f8-a1f4-631a90f3d9d6",
+      "remote": null,
+      "department": "Winter 2026",
+      "is_first_party": false,
+      "category": "Product Management",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://www.optimumcareers.com/job/Bethpage-Intern-Mobile-Device-Product-Management-NY-11714/1434760800?ats=successfactors",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Bethpage, NY",
+      "is_remote": false,
+      "canonical_url": "https://www.optimumcareers.com/job/Bethpage-Intern-Mobile-Device-Product-Management-NY-11714/1434760800?ats=successfactors",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
     {
       "company": "Boston Scientific",
       "title": "Software Engineer Intern - Interns/Graduates",
@@ -2673,6 +2705,70 @@
       "location_display": "Arden Hills, MN",
       "is_remote": false,
       "canonical_url": "https://bostonscientific.eightfold.ai/careers/job/563602813547669",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "CACI",
+      "title": "Software Engineer Intern",
+      "url": "https://caci.wd1.myworkdayjobs.com/external/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Omaha, NE",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "02f8a929-c160-48c2-818b-cebd23779a18",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://caci.wd1.myworkdayjobs.com/external/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Omaha, NE",
+      "is_remote": false,
+      "canonical_url": "https://caci.wd1.myworkdayjobs.com/external/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Cigna Group",
+      "title": "AI/ML Engineer Intern",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Austin-TX/AI-ML-Engineer-Intern_26010877",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Austin, TX; Morris Plains, NJ",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "2dda6a1e-68a5-41f2-ac16-746b5bf4d7ec",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Austin-TX/AI-ML-Engineer-Intern_26010877",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Austin, TX; Morris Plains, NJ",
+      "is_remote": false,
+      "canonical_url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Austin-TX/AI-ML-Engineer-Intern_26010877",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -2882,6 +2978,198 @@
       "status": "open"
     },
     {
+      "company": "Perchwell",
+      "title": "Software Engineer Intern",
+      "url": "https://jobs.ashbyhq.com/Perchwell/194eec78-26db-4d8e-850f-a99ea2733e9f/application?embed=true",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "NYC",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "1ee79857-d633-45a7-8e77-d969ec16837d",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.ashbyhq.com/Perchwell/194eec78-26db-4d8e-850f-a99ea2733e9f/application?embed=true",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "New York, NY",
+      "is_remote": false,
+      "canonical_url": "https://jobs.ashbyhq.com/Perchwell/194eec78-26db-4d8e-850f-a99ea2733e9f/application?embed=true",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Perchwell",
+      "title": "Data Analytics Engineering Intern",
+      "url": "https://jobs.ashbyhq.com/Perchwell/9d34fc9d-e235-44fc-bdf9-42e75223839a/application?embed=true",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "NYC",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "70276fbb-025b-4544-b0c0-db8dc7259234",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.ashbyhq.com/Perchwell/9d34fc9d-e235-44fc-bdf9-42e75223839a/application?embed=true",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "New York, NY",
+      "is_remote": false,
+      "canonical_url": "https://jobs.ashbyhq.com/Perchwell/9d34fc9d-e235-44fc-bdf9-42e75223839a/application?embed=true",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Plot Technologies",
+      "title": "Applied AI Co-op",
+      "url": "https://jobs.ashbyhq.com/plot/5f8cfeaa-c368-480f-aaa5-de52452a63d0/application?embed=true",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "NYC",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "194c1282-a037-4d14-bf94-a6afc60a58f5",
+      "remote": null,
+      "department": "Winter 2026",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.ashbyhq.com/plot/5f8cfeaa-c368-480f-aaa5-de52452a63d0/application?embed=true",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "New York, NY",
+      "is_remote": false,
+      "canonical_url": "https://jobs.ashbyhq.com/plot/5f8cfeaa-c368-480f-aaa5-de52452a63d0/application?embed=true",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Q2",
+      "title": "Software Engineer Intern",
+      "url": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Cary, NC",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "d27ce4c9-b5bf-4de0-a7f5-2e540532f643",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Cary, NC",
+      "is_remote": false,
+      "canonical_url": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Q2",
+      "title": "Data Science Intern",
+      "url": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12799",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Cary, NC",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "01769f39-4af0-402c-a217-88c13dd5d513",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12799",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Cary, NC",
+      "is_remote": false,
+      "canonical_url": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12799",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Q2",
+      "title": "Machine Learning Engineer Intern",
+      "url": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Cary, NC",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "4b9d78b3-d750-42ee-97cc-51f50e53e928",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Cary, NC",
+      "is_remote": false,
+      "canonical_url": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
       "company": "RTX",
       "title": "Display Systems Engineering Co-op",
       "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Display-Systems-Engineering-Co-Op--Summer-Fall-2027----Onsite_01868917",
@@ -2907,6 +3195,38 @@
       "location_display": "Cedar Rapids, IA",
       "is_remote": false,
       "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Display-Systems-Engineering-Co-Op--Summer-Fall-2027----Onsite_01868917",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RTX",
+      "title": "Software Engineer Intern",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineering--Intern--Summer-2027-_01877561",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Woburn, MA",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "51b8b3e7-e7d0-4727-9f90-91917bc88230",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineering--Intern--Summer-2027-_01877561",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Woburn, MA",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineering--Intern--Summer-2027-_01877561",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -3067,6 +3387,38 @@
       "location_display": "Irving, TX",
       "is_remote": false,
       "canonical_url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Irving-Texas/Verizon-Network-and-Technology--Data-Science-Summer-2027-Internship_R-1101384",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Wabtec",
+      "title": "Firmware Engineer Co-op",
+      "url": "https://jobs.smartrecruiters.com/Wabtec/3743990015763486",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Waltham, MA",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "c0e0b469-db4a-4519-953a-6872667b451d",
+      "remote": null,
+      "department": "Winter 2027",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.smartrecruiters.com/Wabtec/3743990015763486",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Waltham, MA",
+      "is_remote": false,
+      "canonical_url": "https://jobs.smartrecruiters.com/Wabtec/3743990015763486",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -3269,6 +3621,38 @@
       "location_display": "Chantilly, VA; El Segundo, CA",
       "is_remote": false,
       "canonical_url": "https://aero.wd5.myworkdayjobs.com/external/job/Chantilly-VA/XMLNAME-2027-Software-Engineering-Grad-Intern_R016759",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Waymo",
+      "title": "Machine Learning Research Intern - Planning/Prediction",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=8237997",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Mountain View, CA",
+      "posted": {
+        "value": "2026-09-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "6acc24ca-3ff2-4d56-a40c-e531d2a57522",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://careers.withwaymo.com/jobs?gh_jid=8237997",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Mountain View, CA",
+      "is_remote": false,
+      "canonical_url": "https://careers.withwaymo.com/jobs?gh_jid=8237997",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -3693,38 +4077,6 @@
     },
     {
       "company": "Cencora",
-      "title": "Software Intern",
-      "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Remote-USA/Software-Intern_R2613763",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Remote in USA",
-      "posted": {
-        "value": "2026-09-25",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "85ec94f8-b794-406d-b74b-06e49b725a08",
-      "remote": null,
-      "department": "Summer 2027",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://myhrabc.wd5.myworkdayjobs.com/Global/job/Remote-USA/Software-Intern_R2613763",
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-29",
-      "location_display": "Remote (US)",
-      "is_remote": true,
-      "canonical_url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Remote-USA/Software-Intern_R2613763",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Cencora",
       "title": "Software Developer Intern - EDI IT",
       "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Conshohocken-PA/EDI-IT-Software-Developer-Intern_R2612376",
       "source": "community",
@@ -3749,6 +4101,38 @@
       "location_display": "Conshohocken, PA",
       "is_remote": false,
       "canonical_url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Conshohocken-PA/EDI-IT-Software-Developer-Intern_R2612376",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Cencora",
+      "title": "Software Intern",
+      "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Remote-USA/Software-Intern_R2613763",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Remote in USA",
+      "posted": {
+        "value": "2026-09-25",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "85ec94f8-b794-406d-b74b-06e49b725a08",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://myhrabc.wd5.myworkdayjobs.com/Global/job/Remote-USA/Software-Intern_R2613763",
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-29",
+      "location_display": "Remote (US)",
+      "is_remote": true,
+      "canonical_url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Remote-USA/Software-Intern_R2613763",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -7811,38 +8195,6 @@
     },
     {
       "company": "CACI",
-      "title": "AI Systems Engineer Intern - Summer 2027",
-      "url": "https://caci.wd1.myworkdayjobs.com/external/job/Annapolis-Junction-MD-US/AI-Systems-Engineering-Intern----Summer-2027_332506",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Annapolis Junction, MD; Fort Meade, MD",
-      "posted": {
-        "value": "2026-09-23",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "2afb885b-d426-47bd-9dc0-80b026d499f5",
-      "remote": null,
-      "department": "Summer 2027",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://caci.wd1.myworkdayjobs.com/external/job/Annapolis-Junction-MD-US/AI-Systems-Engineering-Intern----Summer-2027_332506",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-29",
-      "location_display": "Annapolis Junction, MD; Fort Meade, MD",
-      "is_remote": false,
-      "canonical_url": "https://caci.wd1.myworkdayjobs.com/external/job/Annapolis-Junction-MD-US/AI-Systems-Engineering-Intern----Summer-2027_332506",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "CACI",
       "title": "Software Engineer Intern",
       "url": "https://caci.wd1.myworkdayjobs.com/external/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
       "source": "community",
@@ -7868,6 +8220,38 @@
       "is_remote": false,
       "canonical_url": "https://caci.wd1.myworkdayjobs.com/external/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
       "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "CACI",
+      "title": "AI Systems Engineer Intern - Summer 2027",
+      "url": "https://caci.wd1.myworkdayjobs.com/external/job/Annapolis-Junction-MD-US/AI-Systems-Engineering-Intern----Summer-2027_332506",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Annapolis Junction, MD; Fort Meade, MD",
+      "posted": {
+        "value": "2026-09-23",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "2afb885b-d426-47bd-9dc0-80b026d499f5",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://caci.wd1.myworkdayjobs.com/external/job/Annapolis-Junction-MD-US/AI-Systems-Engineering-Intern----Summer-2027_332506",
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-29",
+      "location_display": "Annapolis Junction, MD; Fort Meade, MD",
+      "is_remote": false,
+      "canonical_url": "https://caci.wd1.myworkdayjobs.com/external/job/Annapolis-Junction-MD-US/AI-Systems-Engineering-Intern----Summer-2027_332506",
+      "term_inferred": false,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
@@ -8575,8 +8959,7 @@
       "is_phd": false,
       "health_key": "Nuro",
       "misses": 0,
-      "status": "open",
-      "reopened_at": "2026-09-29"
+      "status": "open"
     },
     {
       "company": "Saab",
@@ -13360,16 +13743,6 @@
       "canonical_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Commercial-Data-Science---AI-Co-op_R-099258",
       "term_inferred": true,
       "is_phd": false,
-      "merged_from": [
-        {
-          "source": "Community · SimplifyJobs S2026",
-          "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Commercial-Data-Science---AI-Co-op_R-099381"
-        },
-        {
-          "source": "Community · SimplifyJobs S2027",
-          "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Commercial-Data-Science---AI-Co-op_R-099381"
-        }
-      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -14083,6 +14456,38 @@
       "is_remote": false,
       "canonical_url": "https://rsm.wd1.myworkdayjobs.com/RSMCareers/job/Charlotte/Tax-Digital-Services-Intern---AI-Engineering---Summer-2027_JR121297",
       "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RTX",
+      "title": "Systems Engineer Co-op - Spring/Summer 2027",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineer-Co-Op--Spring-Summer-2027----Onsite_01873686",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Cedar Rapids, IA",
+      "posted": {
+        "value": "2026-09-21",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "159f82a2-c7ed-4eee-8157-6d300f593c83",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineer-Co-Op--Spring-Summer-2027----Onsite_01873686",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Cedar Rapids, IA",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineer-Co-Op--Spring-Summer-2027----Onsite_01873686",
+      "term_inferred": false,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
@@ -18986,38 +19391,6 @@
     },
     {
       "company": "Visa",
-      "title": "Research Scientist Intern - Quantum",
-      "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Staff-Research-Scientist--Intern---PhD-Quantum_REF088578W-2",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Foster City, CA",
-      "posted": {
-        "value": "2026-09-17",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "5f405c1a-fcc4-4c61-996b-826be17bfb30",
-      "remote": null,
-      "department": "Winter 2026",
-      "is_first_party": false,
-      "category": "Data / ML / AI",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Staff-Research-Scientist--Intern---PhD-Quantum_REF088578W-2",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-29",
-      "location_display": "Foster City, CA",
-      "is_remote": false,
-      "canonical_url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Staff-Research-Scientist--Intern---PhD-Quantum_REF088578W-2",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Visa",
       "title": "Staff Research Scientist Intern - Agentic AI",
       "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Staff-Research-Scientist--Intern---PhD-Agentic-AI_REF088582W-1",
       "source": "community",
@@ -19042,6 +19415,38 @@
       "location_display": "Austin, TX",
       "is_remote": false,
       "canonical_url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Staff-Research-Scientist--Intern---PhD-Agentic-AI_REF088582W-1",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Research Scientist Intern - Quantum",
+      "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Staff-Research-Scientist--Intern---PhD-Quantum_REF088578W-2",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Foster City, CA",
+      "posted": {
+        "value": "2026-09-17",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "5f405c1a-fcc4-4c61-996b-826be17bfb30",
+      "remote": null,
+      "department": "Winter 2026",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Staff-Research-Scientist--Intern---PhD-Quantum_REF088578W-2",
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-29",
+      "location_display": "Foster City, CA",
+      "is_remote": false,
+      "canonical_url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Staff-Research-Scientist--Intern---PhD-Quantum_REF088578W-2",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -19666,20 +20071,20 @@
     },
     {
       "company": "Waymo",
-      "title": "2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech",
+      "title": "Software Engineering Intern - Maneuvering Tech",
       "url": "https://careers.withwaymo.com/jobs?gh_jid=8203200",
-      "source": "greenhouse",
-      "source_name": "Greenhouse · Waymo",
-      "location": "San Francisco, California",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "SF",
       "posted": {
         "value": "2026-09-17",
         "precision": "exact",
-        "field": "first_published"
+        "field": "date_posted"
       },
-      "ats_job_id": "8203200",
+      "ats_job_id": "ad26d172-59a3-4f93-9750-94d260cfb4e5",
       "remote": null,
-      "department": "",
-      "is_first_party": true,
+      "department": "Summer 2027",
+      "is_first_party": false,
       "category": "Software Engineering",
       "term": "Summer 2027",
       "term_priority": 0,
@@ -19687,12 +20092,12 @@
       "identity": "url:https://careers.withwaymo.com/jobs?gh_jid=8203200",
       "first_seen": "2026-09-17",
       "last_seen": "2026-09-29",
-      "location_display": "San Francisco, California",
+      "location_display": "San Francisco, CA",
       "is_remote": false,
       "canonical_url": "https://careers.withwaymo.com/jobs?gh_jid=8203200",
-      "term_inferred": false,
+      "term_inferred": true,
       "is_phd": false,
-      "health_key": "Waymo",
+      "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
     },
@@ -21756,6 +22161,38 @@
     },
     {
       "company": "RTX",
+      "title": "Electrical Engineer Intern",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Electrical-Engineer-Intern_01874283",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Tucson, AZ",
+      "posted": {
+        "value": "2026-09-16",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "ec00eac5-4585-4280-840e-de9a25fe6595",
+      "remote": null,
+      "department": "Winter 2026",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Electrical-Engineer-Intern_01874283",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Tucson, AZ",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Electrical-Engineer-Intern_01874283",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RTX",
       "title": "Software Engineer Intern - Receiver Exciter and Processing Architecture",
       "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Receiver--Exciter----Processing-Architecture-Software-Engineer-Intern--Summer-2027-_01873484",
       "source": "community",
@@ -22346,6 +22783,38 @@
           "url": "https://wellington.wd5.myworkdayjobs.com/Campus/job/Boston-MA-United-States/Portfolio-Reference-Data-Analyst-Co-op_R94829-1"
         }
       ],
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Zurn Elkay Water Solutions",
+      "title": "Product Management Intern - Summer 2027",
+      "url": "https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Erie-PA/Product-Management-Intern---Summer-2027_REQ-020103-1",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Erie, PA",
+      "posted": {
+        "value": "2026-09-16",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "c15b6c17-1727-4aaf-8fe1-537a96872d7b",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Product Management",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Erie-PA/Product-Management-Intern---Summer-2027_REQ-020103-1",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Erie, PA",
+      "is_remote": false,
+      "canonical_url": "https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Erie-PA/Product-Management-Intern---Summer-2027_REQ-020103-1",
+      "term_inferred": false,
+      "is_phd": false,
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -24958,6 +25427,38 @@
     },
     {
       "company": "RTX",
+      "title": "Test Engineering Intern",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MN-BURNSVILLE-WEST--14300-Judicial-Rd--WEST-BLDG/Test-Engineering-Intern--Summer-2027-_01872154",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Burnsville, MN",
+      "posted": {
+        "value": "2026-09-15",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "139c5ee4-482e-40f4-9946-3027f84308e3",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MN-BURNSVILLE-WEST--14300-Judicial-Rd--WEST-BLDG/Test-Engineering-Intern--Summer-2027-_01872154",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Burnsville, MN",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MN-BURNSVILLE-WEST--14300-Judicial-Rd--WEST-BLDG/Test-Engineering-Intern--Summer-2027-_01872154",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RTX",
       "title": "Software Engineer Intern",
       "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-905--2551-Riva-Rd--BLDG-905/Software-Engineer-Intern--Summer-2027-_01873556",
       "source": "community",
@@ -27507,38 +28008,6 @@
     },
     {
       "company": "Intuit",
-      "title": "Product Manager Intern",
-      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Mountain View, CA; San Diego, CA",
-      "posted": {
-        "value": "2026-09-14",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "ef9f0f9b-5794-4b38-a0c7-b641999f1c49",
-      "remote": null,
-      "department": "Summer 2027",
-      "is_first_party": false,
-      "category": "Product Management",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632",
-      "first_seen": "2026-09-15",
-      "last_seen": "2026-09-29",
-      "location_display": "Mountain View, CA; San Diego, CA",
-      "is_remote": false,
-      "canonical_url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Intuit",
       "title": "Software Engineer Intern - Cybersecurity",
       "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-cybersecurity/27595/100620927616",
       "source": "community",
@@ -27627,6 +28096,38 @@
       "location_display": "New York, NY; Mountain View, CA",
       "is_remote": false,
       "canonical_url": "https://jobs.intuit.com/job/mountain-view/summer-2027-ai-science-intern/27595/100620927536",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Intuit",
+      "title": "Product Manager Intern",
+      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Mountain View, CA; San Diego, CA",
+      "posted": {
+        "value": "2026-09-14",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "ef9f0f9b-5794-4b38-a0c7-b641999f1c49",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Product Management",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632",
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-29",
+      "location_display": "Mountain View, CA; San Diego, CA",
+      "is_remote": false,
+      "canonical_url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -29432,7 +29933,7 @@
       "term_inferred": false,
       "is_phd": false,
       "health_key": "Waymo",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -31833,38 +32334,6 @@
     },
     {
       "company": "Fidelity Investments",
-      "title": "Software Engineer Co-op - Fidelity Center for Applied Technology",
-      "url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Engineer_2135200",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Boston, MA",
-      "posted": {
-        "value": "2026-09-11",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "fdf294f1-8d5f-4fc0-9d6b-3c418d70afc8",
-      "remote": null,
-      "department": "Winter 2026",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Engineer_2135200",
-      "first_seen": "2026-09-12",
-      "last_seen": "2026-09-29",
-      "location_display": "Boston, MA",
-      "is_remote": false,
-      "canonical_url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Engineer_2135200",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Fidelity Investments",
       "title": "Machine Learning Co-op - Graph Technology Team",
       "url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Co-op--Machine-Learning_2135237",
       "source": "community",
@@ -31889,6 +32358,38 @@
       "location_display": "Boston, MA",
       "is_remote": false,
       "canonical_url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Co-op--Machine-Learning_2135237",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Fidelity Investments",
+      "title": "Software Engineer Co-op - Fidelity Center for Applied Technology",
+      "url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Engineer_2135200",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Boston, MA",
+      "posted": {
+        "value": "2026-09-11",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "fdf294f1-8d5f-4fc0-9d6b-3c418d70afc8",
+      "remote": null,
+      "department": "Winter 2026",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Engineer_2135200",
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-29",
+      "location_display": "Boston, MA",
+      "is_remote": false,
+      "canonical_url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Engineer_2135200",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -32441,6 +32942,38 @@
     },
     {
       "company": "Microsoft",
+      "title": "Software Engineer Intern",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556983221",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Redmond, WA",
+      "posted": {
+        "value": "2026-09-11",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "ebc7d1a1-b5b8-4837-b209-d99b4aa18795",
+      "remote": null,
+      "department": "Winter 2026",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://apply.careers.microsoft.com/careers/job/1970393556983221",
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-29",
+      "location_display": "Redmond, WA",
+      "is_remote": false,
+      "canonical_url": "https://apply.careers.microsoft.com/careers/job/1970393556983221",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Microsoft",
       "title": "Product Manager Intern - Specialized Cloud",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556983226",
       "source": "community",
@@ -32497,38 +33030,6 @@
       "location_display": "Reston, VA",
       "is_remote": false,
       "canonical_url": "https://apply.careers.microsoft.com/careers/job/1970393556983223",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Software Engineer Intern",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556983221",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Redmond, WA",
-      "posted": {
-        "value": "2026-09-11",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "ebc7d1a1-b5b8-4837-b209-d99b4aa18795",
-      "remote": null,
-      "department": "Winter 2026",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://apply.careers.microsoft.com/careers/job/1970393556983221",
-      "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17",
-      "location_display": "Redmond, WA",
-      "is_remote": false,
-      "canonical_url": "https://apply.careers.microsoft.com/careers/job/1970393556983221",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -34851,38 +35352,6 @@
     },
     {
       "company": "Insulet",
-      "title": "Electrical Engineering Co-op - R&D",
-      "url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Electrical-Engineering--January---June-2027--Hybrid-_REQ-2026-18076",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Acton, MA",
-      "posted": {
-        "value": "2026-09-10",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "502dd44b-9ee1-4d08-b39c-a54f98a1aa2d",
-      "remote": null,
-      "department": "Winter 2027",
-      "is_first_party": false,
-      "category": "Other Technical",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Electrical-Engineering--January---June-2027--Hybrid-_REQ-2026-18076",
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-09-29",
-      "location_display": "Acton, MA",
-      "is_remote": false,
-      "canonical_url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Electrical-Engineering--January---June-2027--Hybrid-_REQ-2026-18076",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Insulet",
       "title": "Embedded Software Engineering Co-op",
       "url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Embedded-Software-Engineering--January-June-2027--Onsite-_REQ-2026-17966",
       "source": "community",
@@ -34907,6 +35376,38 @@
       "location_display": "Acton, MA",
       "is_remote": false,
       "canonical_url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Embedded-Software-Engineering--January-June-2027--Onsite-_REQ-2026-17966",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Insulet",
+      "title": "Electrical Engineering Co-op - R&D",
+      "url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Electrical-Engineering--January---June-2027--Hybrid-_REQ-2026-18076",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Acton, MA",
+      "posted": {
+        "value": "2026-09-10",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "502dd44b-9ee1-4d08-b39c-a54f98a1aa2d",
+      "remote": null,
+      "department": "Winter 2027",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Electrical-Engineering--January---June-2027--Hybrid-_REQ-2026-18076",
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-29",
+      "location_display": "Acton, MA",
+      "is_remote": false,
+      "canonical_url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Electrical-Engineering--January---June-2027--Hybrid-_REQ-2026-18076",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -42292,6 +42793,38 @@
       "status": "open"
     },
     {
+      "company": "L3Harris Technologies",
+      "title": "Software Engineer Intern",
+      "url": "https://jobs.l3harris.com/job/Richardson-Intern,-Software-Engineer-TX-75080/1427668600/?ats=successfactors",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Richardson, TX",
+      "posted": {
+        "value": "2026-09-08",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "51f06e64-b653-4363-a586-495a2ba7ea3f",
+      "remote": null,
+      "department": "Winter 2026",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.l3harris.com/job/Richardson-Intern,-Software-Engineer-TX-75080/1427668600?ats=successfactors",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Richardson, TX",
+      "is_remote": false,
+      "canonical_url": "https://jobs.l3harris.com/job/Richardson-Intern,-Software-Engineer-TX-75080/1427668600?ats=successfactors",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
       "company": "Lawrence Livermore National Laboratory (LLNL)",
       "title": "Laser and Experimental Systems Engineering Undergraduate Intern - Summer 2027",
       "url": "https://jobs.smartrecruiters.com/LLNL/3743990015113316",
@@ -42895,16 +43428,6 @@
       "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613",
       "term_inferred": true,
       "is_phd": false,
-      "merged_from": [
-        {
-          "source": "Community · SimplifyJobs S2026",
-          "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Intern--Summer-2027-_01873687"
-        },
-        {
-          "source": "Community · SimplifyJobs S2027",
-          "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Intern--Summer-2027-_01873687"
-        }
-      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -43013,6 +43536,70 @@
           "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645"
         }
       ],
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RTX",
+      "title": "Systems Engineer Co-op - Aviation Military Foreign Military Sales",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Spring-Summer-Co-Op---Systems-Engineer---AVI-MIL-FMS--Onsite-_01872234",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Cedar Rapids, IA",
+      "posted": {
+        "value": "2026-09-08",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "fd622461-8da2-4fdb-b3c4-cf2537907d70",
+      "remote": null,
+      "department": "Spring 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Spring-Summer-Co-Op---Systems-Engineer---AVI-MIL-FMS--Onsite-_01872234",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Cedar Rapids, IA",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Spring-Summer-Co-Op---Systems-Engineer---AVI-MIL-FMS--Onsite-_01872234",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RTX",
+      "title": "Systems Engineer Co-op - Avi MIL Fms/Das",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Summer-Fall-Co-Op---Systems-Engineer---AVI-MIL-FMS-DAS--Onsite-_01872240",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Cedar Rapids, IA",
+      "posted": {
+        "value": "2026-09-08",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "adc7d58d-45c9-4d40-9767-800a3c274f01",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Summer-Fall-Co-Op---Systems-Engineer---AVI-MIL-FMS-DAS--Onsite-_01872240",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Cedar Rapids, IA",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Summer-Fall-Co-Op---Systems-Engineer---AVI-MIL-FMS-DAS--Onsite-_01872240",
+      "term_inferred": true,
+      "is_phd": false,
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -48898,6 +49485,38 @@
     },
     {
       "company": "RTX",
+      "title": "Production Hardware Electrical Engineer Intern",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/Production-Hardware-Electrical-Engineer-Intern--Summer-2027--Onsite-_01872221",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Tucson, AZ",
+      "posted": {
+        "value": "2026-09-03",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "e2be6625-d7ef-4d57-849c-79d9b8f382c0",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/Production-Hardware-Electrical-Engineer-Intern--Summer-2027--Onsite-_01872221",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Tucson, AZ",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/Production-Hardware-Electrical-Engineer-Intern--Summer-2027--Onsite-_01872221",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RTX",
       "title": "Electrical Engineer Intern - Summer 2027",
       "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Electrical-Engineer-Intern--Summer-2027-_01864998",
       "source": "community",
@@ -50748,38 +51367,6 @@
     },
     {
       "company": "Waymo",
-      "title": "2027 Summer Intern, BS, SysEng Software Engineer",
-      "url": "https://careers.withwaymo.com/jobs?gh_jid=8174099",
-      "source": "greenhouse",
-      "source_name": "Greenhouse · Waymo",
-      "location": "Mountain View, California, USA",
-      "posted": {
-        "value": "2026-09-03",
-        "precision": "exact",
-        "field": "first_published"
-      },
-      "ats_job_id": "8174099",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://careers.withwaymo.com/jobs?gh_jid=8174099",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-09-29",
-      "location_display": "Mountain View, California, USA",
-      "is_remote": false,
-      "canonical_url": "https://careers.withwaymo.com/jobs?gh_jid=8174099",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "Waymo",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Waymo",
       "title": "2027 Summer Intern, MS, Software Engineering, Behavior Test",
       "url": "https://careers.withwaymo.com/jobs?gh_jid=8174504",
       "source": "greenhouse",
@@ -50808,6 +51395,38 @@
       "is_phd": false,
       "health_key": "Waymo",
       "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Waymo",
+      "title": "2027 Summer Intern, BS, SysEng Software Engineer",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=8174099",
+      "source": "greenhouse",
+      "source_name": "Greenhouse · Waymo",
+      "location": "Mountain View, California, USA",
+      "posted": {
+        "value": "2026-09-03",
+        "precision": "exact",
+        "field": "first_published"
+      },
+      "ats_job_id": "8174099",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://careers.withwaymo.com/jobs?gh_jid=8174099",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-29",
+      "location_display": "Mountain View, California, USA",
+      "is_remote": false,
+      "canonical_url": "https://careers.withwaymo.com/jobs?gh_jid=8174099",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Waymo",
+      "misses": 1,
       "status": "open"
     },
     {
@@ -52400,6 +53019,38 @@
       "location_display": "Southfield, MI",
       "is_remote": false,
       "canonical_url": "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Southfield-Michigan-US/Intern---Engineering-Software_R00258617",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Mastercard",
+      "title": "Data Scientist Intern",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284877",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "O'Fallon, MO",
+      "posted": {
+        "value": "2026-09-02",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "56d4093a-fc88-43f6-aab0-ae355a913f58",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284877",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "O'Fallon, MO",
+      "is_remote": false,
+      "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284877",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -54624,16 +55275,6 @@
       "canonical_url": "https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Embedded-Software-Engineering-Co-Op---Fall-2027_331393",
       "term_inferred": false,
       "is_phd": false,
-      "merged_from": [
-        {
-          "source": "Community · SimplifyJobs S2026",
-          "url": "https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Embedded-Software-Engineering-Co-op---Spring-2027_331368"
-        },
-        {
-          "source": "Community · SimplifyJobs S2027",
-          "url": "https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Embedded-Software-Engineering-Co-op---Spring-2027_331368"
-        }
-      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -58270,32 +58911,42 @@
     },
     {
       "company": "RTX",
-      "title": "Technical Publications Technical Developer Intern - Artificial Intelligence/Machine Learning",
-      "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Technical-Publications-AI-ML-Technical-Developer-Intern--Summer-2027---Onsite-_01866027",
+      "title": "Systems Engineer Intern",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Intern--Systems-Engineer--Onsite-_01868477",
       "source": "community",
       "source_name": "Community · SimplifyJobs S2026",
-      "location": "East Hartford, CT",
+      "location": "Cedar Rapids, IA",
       "posted": {
         "value": "2026-09-01",
         "precision": "exact",
         "field": "date_posted"
       },
-      "ats_job_id": "ffd397b2-8311-43d4-b913-acf01647f231",
+      "ats_job_id": "9ab13260-bac2-4bc2-9334-a6f0d248d8be",
       "remote": null,
-      "department": "Summer 2027",
+      "department": "Winter 2026",
       "is_first_party": false,
       "category": "Software Engineering",
       "term": "Summer 2027",
       "term_priority": 0,
       "level": "intern",
-      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Technical-Publications-AI-ML-Technical-Developer-Intern--Summer-2027---Onsite-_01866027",
-      "first_seen": "2026-09-02",
-      "last_seen": "2026-09-08",
-      "location_display": "East Hartford, CT",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Intern--Systems-Engineer--Onsite-_01868477",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Cedar Rapids, IA",
       "is_remote": false,
-      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Technical-Publications-AI-ML-Technical-Developer-Intern--Summer-2027---Onsite-_01866027",
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Intern--Systems-Engineer--Onsite-_01868477",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · SimplifyJobs S2026",
+          "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Intern--Systems-Engineer--Onsite-_01869114"
+        },
+        {
+          "source": "Community · SimplifyJobs S2027",
+          "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Intern--Systems-Engineer--Onsite-_01869114"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -58322,11 +58973,43 @@
       "level": "intern",
       "identity": "url:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Electrical-Engineering-Intern--Summer-2027-_01868034",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-08",
+      "last_seen": "2026-09-29",
       "location_display": "El Segundo, CA",
       "is_remote": false,
       "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Electrical-Engineering-Intern--Summer-2027-_01868034",
       "term_inferred": false,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RTX",
+      "title": "Technical Publications Technical Developer Intern - Artificial Intelligence/Machine Learning",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Technical-Publications-AI-ML-Technical-Developer-Intern--Summer-2027---Onsite-_01866027",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "East Hartford, CT",
+      "posted": {
+        "value": "2026-09-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "ffd397b2-8311-43d4-b913-acf01647f231",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Technical-Publications-AI-ML-Technical-Developer-Intern--Summer-2027---Onsite-_01866027",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-08",
+      "location_display": "East Hartford, CT",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Technical-Publications-AI-ML-Technical-Developer-Intern--Summer-2027---Onsite-_01866027",
+      "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
@@ -69838,38 +70521,6 @@
     },
     {
       "company": "Brunswick",
-      "title": "Advanced Manufacturing/Operations Analytics Engineering Co-op - Global Operations Excellence",
-      "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine--Advanced-Manufacturing-Operations-Analytics-Engineering-Co-op_JR-051238",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Fond du Lac, WI",
-      "posted": {
-        "value": "2026-08-25",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "45a90628-8af8-4195-9f94-89cb5bbfe029",
-      "remote": null,
-      "department": "Summer 2027",
-      "is_first_party": false,
-      "category": "Data / ML / AI",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine--Advanced-Manufacturing-Operations-Analytics-Engineering-Co-op_JR-051238",
-      "first_seen": "2026-08-26",
-      "last_seen": "2026-09-29",
-      "location_display": "Fond du Lac, WI",
-      "is_remote": false,
-      "canonical_url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine--Advanced-Manufacturing-Operations-Analytics-Engineering-Co-op_JR-051238",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Brunswick",
       "title": "Systems Engineer Co-op - Software Engineering",
       "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine---Systems-Software-Engineering-Co-op_JR-051212",
       "source": "community",
@@ -69922,10 +70573,42 @@
       "level": "intern",
       "identity": "url:https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Menomonee-Falls-WI/Electrical-Engineering-Intern_JR-051233",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-09-29",
       "location_display": "Menomonee Falls, WI",
       "is_remote": false,
       "canonical_url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Menomonee-Falls-WI/Electrical-Engineering-Intern_JR-051233",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Brunswick",
+      "title": "Advanced Manufacturing/Operations Analytics Engineering Co-op - Global Operations Excellence",
+      "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine--Advanced-Manufacturing-Operations-Analytics-Engineering-Co-op_JR-051238",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Fond du Lac, WI",
+      "posted": {
+        "value": "2026-08-25",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "45a90628-8af8-4195-9f94-89cb5bbfe029",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine--Advanced-Manufacturing-Operations-Analytics-Engineering-Co-op_JR-051238",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-09-29",
+      "location_display": "Fond du Lac, WI",
+      "is_remote": false,
+      "canonical_url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine--Advanced-Manufacturing-Operations-Analytics-Engineering-Co-op_JR-051238",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -73290,7 +73973,7 @@
       "level": "intern",
       "identity": "url:https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/Operations-Research-Undersea-Systems-Analyst_REQ_0000081646-1",
       "first_seen": "2026-08-25",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-29",
       "location_display": "State College, PA",
       "is_remote": false,
       "canonical_url": "https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/Operations-Research-Undersea-Systems-Analyst_REQ_0000081646-1",
@@ -78726,38 +79409,6 @@
     },
     {
       "company": "NVIDIA",
-      "title": "Hardware ASIC Design Intern - Hardware",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Santa Clara, CA",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "03f5f454-515c-41f5-b670-e30a0e59a27e",
-      "remote": null,
-      "department": "Summer 2027",
-      "is_first_party": false,
-      "category": "Other Technical",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-09-29",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
       "title": "Systems Software Engineering Intern",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
       "source": "community",
@@ -78918,38 +79569,6 @@
     },
     {
       "company": "NVIDIA",
-      "title": "Deep Learning Computer Architecture Intern",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Santa Clara, CA",
-      "posted": {
-        "value": "2026-08-19",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "3affcaac-d7f9-45d1-8139-19defc762e13",
-      "remote": null,
-      "department": "Summer 2027",
-      "is_first_party": false,
-      "category": "Data / ML / AI",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-09-29",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
       "title": "Hardware Design for Test Intern - DFT",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
       "source": "community",
@@ -78974,6 +79593,70 @@
       "location_display": "Santa Clara, CA",
       "is_remote": false,
       "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Hardware ASIC Design Intern - Hardware",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Santa Clara, CA",
+      "posted": {
+        "value": "2026-08-19",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "03f5f454-515c-41f5-b670-e30a0e59a27e",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-29",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Deep Learning Computer Architecture Intern",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Santa Clara, CA",
+      "posted": {
+        "value": "2026-08-19",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "3affcaac-d7f9-45d1-8139-19defc762e13",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-29",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -81982,6 +82665,38 @@
     },
     {
       "company": "RTX",
+      "title": "Systems Engineering and Test Capabilities Intern",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Systems-Engineering-and-Test-Capabilities-Intern---Summer-2027_01866497",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Tucson, AZ",
+      "posted": {
+        "value": "2026-08-17",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "dfaeed53-4c68-4e34-86db-39fd4d4aad68",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Systems-Engineering-and-Test-Capabilities-Intern---Summer-2027_01866497",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Tucson, AZ",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Systems-Engineering-and-Test-Capabilities-Intern---Summer-2027_01866497",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RTX",
       "title": "Conversion Systems Engineer 1 Intern",
       "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion-Systems-Engineer-I--Onsite-_01866833",
       "source": "community",
@@ -82594,16 +83309,6 @@
       "canonical_url": "https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883/application?embed=true",
       "term_inferred": true,
       "is_phd": false,
-      "merged_from": [
-        {
-          "source": "Community · SimplifyJobs S2026",
-          "url": "https://jobs.ashbyhq.com/abridge/6569d8f7-bd0b-4bb0-a3af-37f83e19ec5e/application?embed=true"
-        },
-        {
-          "source": "Community · SimplifyJobs S2027",
-          "url": "https://jobs.ashbyhq.com/abridge/6569d8f7-bd0b-4bb0-a3af-37f83e19ec5e/application?embed=true"
-        }
-      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -86877,7 +87582,7 @@
       "term_inferred": false,
       "is_phd": false,
       "health_key": "TMEIC",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -108940,6 +109645,38 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "Palantir",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Peak Energy",
+      "title": "Test Engineer Intern",
+      "url": "https://peakenergy.com/get-in-touch/careers/jobs?job_id=5178781007&gh_jid=5178781007",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Burlingame, CA",
+      "posted": {
+        "value": "2026-07-10",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "08264811-d767-497d-b0da-835dff66cf7b",
+      "remote": null,
+      "department": "Winter 2027",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://peakenergy.com/get-in-touch/careers/jobs?gh_jid=5178781007&job_id=5178781007",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Burlingame, CA",
+      "is_remote": false,
+      "canonical_url": "https://peakenergy.com/get-in-touch/careers/jobs?gh_jid=5178781007&job_id=5178781007",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
     },
@@ -137585,6 +138322,70 @@
       "status": "open"
     },
     {
+      "company": "Cisco",
+      "title": "Firmware Engineer II (Co-op) - United States",
+      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Maynard-Massachusetts-US/Firmware-Engineer-II--Co-op----United-States_2026913",
+      "source": "workday",
+      "source_name": "Workday · Cisco",
+      "location": "Maynard, Massachusetts, US",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "2026913",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Maynard-Massachusetts-US/Firmware-Engineer-II--Co-op----United-States_2026913",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Maynard, Massachusetts, US",
+      "is_remote": false,
+      "canonical_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Maynard-Massachusetts-US/Firmware-Engineer-II--Co-op----United-States_2026913",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "Cisco",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Cisco",
+      "title": "Mechanical Engineer II (Co-op) - United States",
+      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Maynard-Massachusetts-US/Mechanical-Engineer-II--Co-op----United-States_2026912",
+      "source": "workday",
+      "source_name": "Workday · Cisco",
+      "location": "Maynard, Massachusetts, US",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "2026912",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Maynard-Massachusetts-US/Mechanical-Engineer-II--Co-op----United-States_2026912",
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "location_display": "Maynard, Massachusetts, US",
+      "is_remote": false,
+      "canonical_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Maynard-Massachusetts-US/Mechanical-Engineer-II--Co-op----United-States_2026912",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "Cisco",
+      "misses": 0,
+      "status": "open"
+    },
+    {
       "company": "Boeing",
       "title": "Entry Level Spacecraft Integration and Test Engineer - Millennium Space Systems",
       "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/ATLO--Assembly--Test----Launch-Operations--Engineer---Millennium-Space-Systems_JR2026511990-1",
@@ -138037,44 +138838,6 @@
       "status": "open"
     },
     {
-      "company": "Mastercard",
-      "title": "Platform Engineering Intern, Summer 2027 – St. Louis, MO, US",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
-      "source": "workday",
-      "source_name": "Workday · Mastercard",
-      "location": "O'Fallon, Missouri",
-      "posted": {
-        "value": "2026-09-18",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "R-284876",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
-      "first_seen": "2026-09-18",
-      "last_seen": "2026-09-28",
-      "location_display": "O'Fallon, Missouri",
-      "is_remote": false,
-      "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
-      "term_inferred": false,
-      "is_phd": false,
-      "merged_from": [
-        {
-          "source": "Workday · Mastercard",
-          "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875"
-        }
-      ],
-      "health_key": "Mastercard",
-      "misses": 1,
-      "status": "open"
-    },
-    {
       "company": "Cisco",
       "title": "Data Analyst I (Intern) - United States",
       "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Data-Analyst-I--Intern----United-States_2024561-1",
@@ -138232,6 +138995,38 @@
       "is_phd": false,
       "health_key": "Mastercard",
       "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Mastercard",
+      "title": "Data Scientist Intern, Summer 2027 – St. Louis, MO, US",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284877",
+      "source": "workday",
+      "source_name": "Workday · Mastercard",
+      "location": "O'Fallon, Missouri",
+      "posted": {
+        "value": "2026-09-08",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "R-284877",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284877",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-29",
+      "location_display": "O'Fallon, Missouri",
+      "is_remote": false,
+      "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284877",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Mastercard",
+      "misses": 0,
       "status": "open",
       "reopened_at": "2026-09-29"
     },
@@ -138270,7 +139065,7 @@
         }
       ],
       "health_key": "Mastercard",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -138302,7 +139097,7 @@
       "term_inferred": false,
       "is_phd": false,
       "health_key": "Mastercard",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -138494,7 +139289,7 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "Boeing",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -138851,38 +139646,6 @@
     },
     {
       "company": "NVIDIA",
-      "title": "Research Scientist, Efficient Deep Learning - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-30",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2019729",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-29",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
       "title": "ASIC Design Engineer - New College Grad 2026",
       "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
       "source": "workday",
@@ -138981,38 +139744,6 @@
       "location_display": "Santa Clara, CA",
       "is_remote": false,
       "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2017005",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Research Scientist, Fundamental Generative AI - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-08-30",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2012698",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-09-29",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
       "term_inferred": false,
       "is_phd": false,
       "health_key": "NVIDIA",
@@ -139209,6 +139940,70 @@
       "is_phd": false,
       "health_key": "NVIDIA",
       "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Research Scientist, Efficient Deep Learning - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-30",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2019729",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-29",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 1,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Research Scientist, Fundamental Generative AI - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-08-30",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2012698",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-29",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 1,
       "status": "open"
     },
     {
@@ -140758,6 +141553,45 @@
     }
   ],
   "closed": [
+    {
+      "company": "Mastercard",
+      "title": "Platform Engineering Intern, Summer 2027 – St. Louis, MO, US",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
+      "source": "workday",
+      "source_name": "Workday · Mastercard",
+      "location": "O'Fallon, Missouri",
+      "posted": {
+        "value": "2026-09-18",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "R-284876",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-28",
+      "location_display": "O'Fallon, Missouri",
+      "is_remote": false,
+      "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
+      "term_inferred": false,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Workday · Mastercard",
+          "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875"
+        }
+      ],
+      "health_key": "Mastercard",
+      "misses": 2,
+      "status": "closed",
+      "closed_at": "2026-09-29"
+    },
     {
       "company": "Bosch",
       "title": "Multi-modal Sensing AI Research Intern",
@@ -144543,49 +145377,6 @@
         }
       ],
       "health_key": "Datadog",
-      "misses": 2,
-      "status": "closed",
-      "closed_at": "2026-09-09"
-    },
-    {
-      "company": "Mastercard",
-      "title": "Data Scientist Intern, Summer 2027 – St. Louis, MO, US",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284877",
-      "source": "workday",
-      "source_name": "Workday · Mastercard",
-      "location": "O'Fallon, Missouri",
-      "posted": {
-        "value": "2026-09-03",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "R-284877",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284877",
-      "first_seen": "2026-09-02",
-      "last_seen": "2026-09-08",
-      "location_display": "O'Fallon, Missouri",
-      "is_remote": false,
-      "canonical_url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284877",
-      "term_inferred": false,
-      "is_phd": false,
-      "merged_from": [
-        {
-          "source": "Workday · Mastercard",
-          "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284869"
-        },
-        {
-          "source": "Workday · Mastercard",
-          "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284879"
-        }
-      ],
-      "health_key": "Mastercard",
       "misses": 2,
       "status": "closed",
       "closed_at": "2026-09-09"
