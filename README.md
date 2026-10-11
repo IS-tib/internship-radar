@@ -2,7 +2,7 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**4898 open roles** · **1339 companies** · **456/506 sources healthy** · updated 2026-10-11 08:06 UTC  
+**4898 open roles** · **1339 companies** · **456/506 sources healthy** · updated 2026-10-11 18:34 UTC  
 4171 internships · 727 new-grad · SWE 2474 · Data/ML 1456 · Tech 731 · PM 237
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
@@ -55,9 +55,9 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | GCM Grosvenor | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Chicago, IL | 2 days ago | [apply](https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015792003) |
 | GE Aerospace | Entry Level FPGA Design/Verification Engineer 🆕 | Tech | New grad | ~Summer 2027 | Grand Rapids, MI | 2 days ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Grand-Rapids/Entry-Level---FPGA-Design-Verification-Engineer_R5041307-1) |
 | General Motors | AI Research Intern - Embodied AI 🆕 | Data/ML | Intern | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146) |
+| General Motors | Seam Intern - Embodied AI 🆕 | Data/ML | Intern | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143) |
 | General Motors | Summer Intern - Onboard Autonomy - Embodied AI 🆕 | Data/ML | Intern | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135) |
 | General Motors | Data Scaling Intern - Data Scaling - Embodied AI 🆕 | Data/ML | Intern | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132) |
-| General Motors | Seam Intern - Embodied AI 🆕 | Data/ML | Intern | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143) |
 | GlobalFoundries | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX; Santa Clara, CA | 2 days ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Software-Engineering-Intern--Summer-2027-_JR-2604039) |
 | GlobalFoundries | Software Engineer New Grad 🆕 | SWE | New grad | ~Summer 2027 | Austin, TX; Santa Clara, CA | 2 days ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Software-Engineer--2027-New-College-Graduate-_JR-2604100) |
 | Harbinger Motors | Test Engineering Intern 🆕 | Tech | Intern | ~Summer 2027 | Garden Grove, CA | 2 days ago | [apply](https://job-boards.greenhouse.io/harbingermotors/jobs/5255968007) |
@@ -182,9 +182,9 @@ _+257 more in the full list below._
 | GCM Grosvenor | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Chicago, IL | 2 days ago | [apply](https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015792003) |
 | GE Aerospace | Entry Level FPGA Design/Verification Engineer 🆕 | Tech | New grad | ~Summer 2027 | Grand Rapids, MI | 2 days ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Grand-Rapids/Entry-Level---FPGA-Design-Verification-Engineer_R5041307-1) |
 | General Motors | AI Research Intern - Embodied AI 🆕 | Data/ML | Intern | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146) |
+| General Motors | Seam Intern - Embodied AI 🆕 | Data/ML | Intern | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143) |
 | General Motors | Summer Intern - Onboard Autonomy - Embodied AI 🆕 | Data/ML | Intern | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135) |
 | General Motors | Data Scaling Intern - Data Scaling - Embodied AI 🆕 | Data/ML | Intern | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132) |
-| General Motors | Seam Intern - Embodied AI 🆕 | Data/ML | Intern | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143) |
 | GlobalFoundries | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX; Santa Clara, CA | 2 days ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Software-Engineering-Intern--Summer-2027-_JR-2604039) |
 | GlobalFoundries | Software Engineer New Grad 🆕 | SWE | New grad | ~Summer 2027 | Austin, TX; Santa Clara, CA | 2 days ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Software-Engineer--2027-New-College-Graduate-_JR-2604100) |
 | Harbinger Motors | Test Engineering Intern 🆕 | Tech | Intern | ~Summer 2027 | Garden Grove, CA | 2 days ago | [apply](https://job-boards.greenhouse.io/harbingermotors/jobs/5255968007) |
@@ -278,9 +278,9 @@ _+257 more in the full list below._
 | SoloPulse | Software Engineer Intern/Co-op - Spring 2027 🆕 | SWE | Intern | Spring 2027 | Peachtree Corners, GA | 3 days ago | [apply](https://jobs.lever.co/solopulseco/1b36afea-e8eb-4cea-a6e9-0afc384d06ef) |
 | Symbotic | Machine Learning Operations Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Wilmington, MA | 3 days ago | [apply](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Machine-Learning-Ops_R8202) |
 | Tesla | Data Analyst Intern - People Products 🆕 | Data/ML | Intern | ~Summer 2027 | Palo Alto, CA; Austin, TX | 3 days ago | [apply](https://www.tesla.com/careers/search/job/286085) |
-| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Video 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 3 days ago | [apply](https://lifeattiktok.com/search/7694040502082521397) |
 | TikTok | Machine Learning Engineer Intern - Monetization Technology - Ads Core Global 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 3 days ago | [apply](https://lifeattiktok.com/search/7687630614472149301) |
 | TikTok | Machine Learning Engineer New Grad - E-Commerce User Growth 🆕 | Data/ML | New grad | ~Summer 2027 | San Jose, CA | 3 days ago | [apply](https://lifeattiktok.com/search/7694352871949682997) |
+| TikTok | Machine Learning Engineer Intern - E-Commerce Recommendation Video 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 3 days ago | [apply](https://lifeattiktok.com/search/7694040502082521397) |
 | USAA | Product Management Advisor Intern 🆕 | PM | Intern | ~Summer 2027 | San Antonio, TX | 3 days ago | [apply](https://usaa.wd1.myworkdayjobs.com/en-US/USAAJOBSWD/job/San-Antonio-Home-Office-I/Product-Management-Advisor-Intern_R0121653) |
 | Viget | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Boulder, CO | 3 days ago | [apply](https://jobs.lever.co/viget/b18cc87d-fca2-485a-a0f2-ad6197db63f2/apply) |
 | WSFS Bank | Product Intern 🆕 | PM | Intern | ~Summer 2027 | Wilmington, DE | 3 days ago | [apply](https://wsfsbank.wd1.myworkdayjobs.com/wsfscareers/job/Wilmington-DE/XMLNAME-2027-Summer-Internship---Product_R-104113-2) |
@@ -426,8 +426,8 @@ _+257 more in the full list below._
 | Northrop Grumman | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Wright-Patterson AFB, OH | 5 days ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Wright-Patterson-AFB/Software-Engineer---CLOUDworks--SkillBridge-Conversion-_R10254680) |
 | Pure Storage | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Santa Clara, CA | 5 days ago | [apply](https://job-boards.greenhouse.io/purestorage/jobs/8249749) |
 | Pure Storage | Software Engineer New Grad 🆕 | SWE | New grad | ~Summer 2027 | Santa Clara, CA | 5 days ago | [apply](https://job-boards.greenhouse.io/purestorage/jobs/8249851) |
-| RTX | FPGA Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | McKinney, TX | 5 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/FPGA-Engineering-Intern--Summer-2027--Onsite-_01880037) |
 | RTX | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Morrisville, NC | 5 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-NC-MORRISVILLE-907--951-Aviation-Pkwy--907-BLDG/Software-Engineering-Intern--Summer-2027-_01879721) |
+| RTX | FPGA Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | McKinney, TX | 5 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/FPGA-Engineering-Intern--Summer-2027--Onsite-_01880037) |
 | RTX | Software Engineer Co-op 🆕 | SWE | Intern | ~Summer 2027 | Marlborough, MA; Tewksbury, MA | 5 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Co-op--January-2027-_01878330) |
 | RTX | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cedar Rapids, IA | 5 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01871884) |
 | RTX | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | McKinney, TX | 5 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WC--2501-W-University-Dr--WING-C-BLDG/Software-Engineering-Intern--Summer-2027-_01879520) |
@@ -465,7 +465,7 @@ _Showing the newest 300 of 4898 — the complete, machine-readable set is in_ `l
 
 - **97.3%** of roles carry an exact posting timestamp from the source (4768/4898).
 - **12.4%** come from a company's own board rather than a community feed.
-- **3159** duplicates merged, **21** near-duplicates collapsed.
+- **3144** duplicates merged, **21** near-duplicates collapsed.
 - **140** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>16 source(s) returned 404 this run (token likely renamed)</summary>
