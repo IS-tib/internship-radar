@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**5167 open roles** · **1376 companies** · **448/506 sources healthy** · updated 2026-10-17 06:27 UTC  
-4417 internships · 750 new-grad · SWE 2586 · Data/ML 1554 · Tech 778 · PM 249
+**5168 open roles** · **1376 companies** · **456/506 sources healthy** · updated 2026-10-17 16:47 UTC  
+4416 internships · 752 new-grad · SWE 2587 · Data/ML 1553 · Tech 779 · PM 249
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,7 +19,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (275)
+## 🆕 Just posted — last 7 days (276)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -144,9 +144,9 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | National Life | Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Montpelier, VT; Addison, TX | 3 days ago | [apply](https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4449670009) |
 | Nissan Global | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Santa Clara, CA | 3 days ago | [apply](https://alliance.wd3.myworkdayjobs.com/en-US/nissanjobs/job/Santa-Clara-California---United-States-of-America/Software-Engineer-Intern---Spring-2027---Santa-Clara--CA_R00214269) |
 
-_+155 more in the full list below._
+_+156 more in the full list below._
 
-## 📋 All open roles — newest first (5167)
+## 📋 All open roles — newest first (5168)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -308,6 +308,7 @@ _+155 more in the full list below._
 | Astera Labs | Analog/Mixed Signal System Test Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | San Jose, CA | 4 days ago | [apply](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4739769005) |
 | Azul Systems | IT Intern – AI and Operations 🆕 | Data/ML | Intern | ~Summer 2027 | Sunnyvale, CA | 4 days ago | [apply](https://jobs.lever.co/azul/8f41ceaf-8835-4fc7-ba57-9384487d59db/apply) |
 | Boeing | Entry-Level Software Engineer Developer 🆕 | SWE | New grad | ~Summer 2027 | Richardson, TX | 4 days ago | [apply](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Richardson-TX/Entry-Level-Software-Engineer-Developer_JR2026523382-1) |
+| Boeing | Entry Level ASIC/FPGA Design Verification Engineer 🆕 | Tech | New grad | ~Summer 2027 | El Segundo, CA | 4 days ago | [apply](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Entry-Level-ASIC-FPGA-Design-Verification-Engineer_JR2026524660-2) |
 | Boeing | Entry Level ASIC/FPGA Design Verification Engineer 🆕 | Tech | New grad | ~Summer 2027 | El Segundo, CA | 4 days ago | [apply](https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---El-Segundo-CA/Entry-Level-ASIC-FPGA-Design-Verification-Engineer_JR2026524660-1) |
 | Bose | Audio Machine Learning Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | Framingham, MA | 4 days ago | [apply](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Audio-Machine-Learning-Co-op_R29274) |
 | Bose | Embedded Audio Machine Learning Engineer Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | Framingham, MA | 4 days ago | [apply](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Audio-Machine-Learning-Engineer-Co-op_R28719) |
@@ -449,9 +450,8 @@ _+155 more in the full list below._
 | DocuSign | Software Engineer Intern | SWE | Intern | ~Summer 2027 | Chicago, IL | 8 days ago | [apply](https://careers.docusign.com/jobs/30497?icims=1) |
 | Elanco | Pet Health Sales Excellence Intern - AI Innovation & Enablement | Data/ML | Intern | ~Summer 2027 | Indianapolis, IN | 8 days ago | [apply](https://elanco.wd5.myworkdayjobs.com/en-US/External_Career/job/Indianapolis-IN/US-Pet-Health-Sales-Excellence-Intern---AI-Innovation---Enablement--Summer-2027-_R0027467) |
 | Faire | Applied AI/ML Scientist Intern | Data/ML | Intern | ~Summer 2027 | San Francisco, CA | 8 days ago | [apply](https://boards.greenhouse.io/faire/jobs/8870975002) |
-| GCM Grosvenor | Software Engineer Intern | SWE | Intern | ~Summer 2027 | Chicago, IL | 8 days ago | [apply](https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015792003) |
 
-_Showing the newest 300 of 5167 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 5168 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 5167 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **97.5%** of roles carry an exact posting timestamp from the source (5038/5167).
+- **97.5%** of roles carry an exact posting timestamp from the source (5038/5168).
 - **11.8%** come from a company's own board rather than a community feed.
-- **3234** duplicates merged, **22** near-duplicates collapsed.
-- **166** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **3232** duplicates merged, **22** near-duplicates collapsed.
+- **167** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>16 source(s) returned 404 this run (token likely renamed)</summary>
 
