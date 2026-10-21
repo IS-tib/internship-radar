@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**5382 open roles** · **1409 companies** · **456/506 sources healthy** · updated 2026-10-21 06:53 UTC  
-4616 internships · 766 new-grad · SWE 2683 · Data/ML 1630 · Tech 815 · PM 254
+**5386 open roles** · **1410 companies** · **455/506 sources healthy** · updated 2026-10-21 18:20 UTC  
+4620 internships · 766 new-grad · SWE 2684 · Data/ML 1633 · Tech 815 · PM 254
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,14 +19,18 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (345)
+## 🆕 Just posted — last 7 days (350)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Brain Co. | Machine Learning Engineer New Grad 🆕 | Data/ML | New grad | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/brainco/4c9f8f00-0caf-4927-80da-02a3e53cb0cd/application?embed=true) |
 | Brain Co. | AI Platform Engineer New Grad 🆕 | SWE | New grad | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/brainco/4d39773e-f4c3-49c1-87c3-812a9804fb15/application?embed=true) |
 | Brain Co. | AI Product Engineer New Grad 🆕 | Data/ML | New grad | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/brainco/c1788246-305f-4e4f-8b03-8444c76a466e/application?embed=true) |
+| Expedia Group | Software Developer 1 Intern 🆕 | SWE | Intern | ~Summer 2027 | Springfield, MO | 0 days ago | [apply](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Missouri---Springfield/Software-Developer-I_R-110635) |
+| Fidelity Investments | Machine Learning Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA | 0 days ago | [apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/Co-op--Machine-Learning_2135960) |
 | Meta | Research Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Menlo Park, CA | 0 days ago | [apply](https://www.metacareers.com/jobs/1510576574212840) |
+| Northrop Grumman | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Roy, UT | 0 days ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10257053) |
+| RTX | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Tewksbury, MA | 0 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-Intern--Summer-2027-_01880127) |
 | Rhoda AI | Software Engineer Intern - Inference 🆕 | SWE | Intern | ~Summer 2027 | Mountain View, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/rhoda-ai/2de33083-782f-489e-9b91-f40761a36bf4/application?embed=true) |
 | Shield AI | Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Diego, CA | 0 days ago | [apply](https://jobs.lever.co/shieldai/aa71c28a-be00-43ca-8aa7-b764b2143797/apply) |
 | Uber | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA; San Francisco, CA | 0 days ago | [apply](https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/303922) |
@@ -69,6 +73,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Micron Technology | SMAI Probe AI Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Boise, ID | 1 day ago | [apply](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---SMAI-Probe-AI-Engineer_JR114094) |
 | Micron Technology | SSD Firmware Intern 🆕 | Tech | Intern | ~Summer 2027 | San Jose, CA; Boise, ID | 1 day ago | [apply](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---SSD-Firmware_JR115210) |
 | Micron Technology | Machine Learning Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Richardson, TX | 1 day ago | [apply](https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750) |
+| NVIDIA | Systems Software Intern - Aerial PHY 🆕 | SWE | Intern | ~Summer 2027 | Santa Clara, CA | 1 day ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530) |
 | NVIDIA | Software Engineer New Grad - Agent Performance Modeling 🆕 | SWE | New grad | ~Summer 2027 | Santa Clara, CA | 1 day ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Agent-Performance-Modeling---New-College-Grad-2026_JR2028350) |
 | Northrop Grumman | Cyber Systems Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Tampa, FL | 1 day ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196) |
 | OpenAI | Backend Software Engineer Intern, Cooperative AI (Evals) 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA | 1 day ago | [apply](https://jobs.ashbyhq.com/openai/3d064454-c0c3-4225-bc2c-6d8c0f8735b2/application) |
@@ -138,22 +143,21 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Inversion Space | Vehicle Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Playa Vista, LA | 2 days ago | [apply](https://job-boards.greenhouse.io/inversionspace/jobs/4745083005) |
 | Jain Global | Quantitative Research Intern - Equity Arbitrage 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quantitative-Research-Intern---Equity-Arbitrage_JR100617-1) |
 | Johns Hopkins Applied Physics Laboratory | Cybersecurity Software Engineer New Grad - Cyber Concepts 🆕 | SWE | New grad | ~Summer 2027 | Laurel, MD | 2 days ago | [apply](https://careers.jhuapl.edu/jobs/60116?icims=1) |
-| Johnson & Johnson | Quality Data Science Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | Cincinnati, OH | 2 days ago | [apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Quality-Data-Science-Co-Op---Summer-2027_R-103629) |
-| Johnson & Johnson | Quality Data Science Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | Cincinnati, OH | 2 days ago | [apply](https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Cincinnati-Ohio-United-States-of-America/Quality-Data-Science-Co-Op---Summer-2027_R-103629) |
-| Keysight Technologies | R&D Hardware Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Santa Clara, CA | 2 days ago | [apply](https://jobs.keysight.com/jobs/54804?icims=1) |
-| Keysight Technologies | R&D Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Santa Clara, CA | 2 days ago | [apply](https://jobs.keysight.com/jobs/54805?icims=1) |
-| L3Harris Technologies | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Salt Lake City, UT | 2 days ago | [apply](https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1413790400/?ats=successfactors) |
 
-_+225 more in the full list below._
+_+230 more in the full list below._
 
-## 📋 All open roles — newest first (5382)
+## 📋 All open roles — newest first (5386)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Brain Co. | Machine Learning Engineer New Grad 🆕 | Data/ML | New grad | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/brainco/4c9f8f00-0caf-4927-80da-02a3e53cb0cd/application?embed=true) |
 | Brain Co. | AI Platform Engineer New Grad 🆕 | SWE | New grad | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/brainco/4d39773e-f4c3-49c1-87c3-812a9804fb15/application?embed=true) |
 | Brain Co. | AI Product Engineer New Grad 🆕 | Data/ML | New grad | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/brainco/c1788246-305f-4e4f-8b03-8444c76a466e/application?embed=true) |
+| Expedia Group | Software Developer 1 Intern 🆕 | SWE | Intern | ~Summer 2027 | Springfield, MO | 0 days ago | [apply](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Missouri---Springfield/Software-Developer-I_R-110635) |
+| Fidelity Investments | Machine Learning Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA | 0 days ago | [apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/Co-op--Machine-Learning_2135960) |
 | Meta | Research Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Menlo Park, CA | 0 days ago | [apply](https://www.metacareers.com/jobs/1510576574212840) |
+| Northrop Grumman | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Roy, UT | 0 days ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10257053) |
+| RTX | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Tewksbury, MA | 0 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-Intern--Summer-2027-_01880127) |
 | Rhoda AI | Software Engineer Intern - Inference 🆕 | SWE | Intern | ~Summer 2027 | Mountain View, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/rhoda-ai/2de33083-782f-489e-9b91-f40761a36bf4/application?embed=true) |
 | Shield AI | Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Diego, CA | 0 days ago | [apply](https://jobs.lever.co/shieldai/aa71c28a-be00-43ca-8aa7-b764b2143797/apply) |
 | Uber | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA; San Francisco, CA | 0 days ago | [apply](https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/303922) |
@@ -196,6 +200,7 @@ _+225 more in the full list below._
 | Micron Technology | SMAI Probe AI Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Boise, ID | 1 day ago | [apply](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---SMAI-Probe-AI-Engineer_JR114094) |
 | Micron Technology | SSD Firmware Intern 🆕 | Tech | Intern | ~Summer 2027 | San Jose, CA; Boise, ID | 1 day ago | [apply](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---SSD-Firmware_JR115210) |
 | Micron Technology | Machine Learning Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Richardson, TX | 1 day ago | [apply](https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750) |
+| NVIDIA | Systems Software Intern - Aerial PHY 🆕 | SWE | Intern | ~Summer 2027 | Santa Clara, CA | 1 day ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530) |
 | NVIDIA | Software Engineer New Grad - Agent Performance Modeling 🆕 | SWE | New grad | ~Summer 2027 | Santa Clara, CA | 1 day ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Agent-Performance-Modeling---New-College-Grad-2026_JR2028350) |
 | Northrop Grumman | Cyber Systems Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Tampa, FL | 1 day ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196) |
 | OpenAI | Backend Software Engineer Intern, Cooperative AI (Evals) 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA | 1 day ago | [apply](https://jobs.ashbyhq.com/openai/3d064454-c0c3-4225-bc2c-6d8c0f8735b2/application) |
@@ -445,13 +450,8 @@ _+225 more in the full list below._
 | General Motors | AI/ML Engineer Intern - Autonomous Vehicle ML Infrastructure 🆕 | SWE | Intern | ~Summer 2027 | Sunnyvale, CA | 7 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer--Autonomous-Vehicle-ML-Infrastructure_JR-202622410) |
 | Hitachi | Research Intern - Knowledge Engineering & Generative AI 🆕 | Data/ML | Intern | ~Summer 2027 | Santa Clara, CA | 7 days ago | [apply](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Santa-Clara-California-United-States/Research-Intern--Knowledge-Engineering---Generative-AI_R0148396) |
 | ICF International | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Reston, VA | 7 days ago | [apply](https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Engineer--Reston--VA-_R2603522) |
-| ICF International | AI Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Reston, VA | 7 days ago | [apply](https://icf.wd5.myworkdayjobs.com/en-US/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603518) |
-| ICF International | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Reston, VA | 7 days ago | [apply](https://icf.wd5.myworkdayjobs.com/en-US/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Engineer--Reston--VA-_R2603522) |
-| JPMorganChase | AI Research Associate Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 7 days ago | [apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354) |
-| Johnson & Johnson | AI/ML/Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA; Barcelona, Spain | 7 days ago | [apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Zug-Switzerland/AI-ML-Data-Science-Intern_R-104697) |
-| KION Group | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Grand Rapids, MI; Wauwatosa, WI | 7 days ago | [apply](https://kiongroup.wd3.myworkdayjobs.com/en-US/KION_SCS/job/Grand-Rapids-MI-United-States/Software-Engineering-Intern_JR-0097732) |
 
-_Showing the newest 300 of 5382 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 5386 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,12 +463,12 @@ _Showing the newest 300 of 5382 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **97.6%** of roles carry an exact posting timestamp from the source (5253/5382).
-- **11.4%** come from a company's own board rather than a community feed.
-- **3319** duplicates merged, **22** near-duplicates collapsed.
-- **173** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **97.6%** of roles carry an exact posting timestamp from the source (5257/5386).
+- **11.3%** come from a company's own board rather than a community feed.
+- **3297** duplicates merged, **22** near-duplicates collapsed.
+- **179** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
-<details><summary>16 source(s) returned 404 this run (token likely renamed)</summary>
+<details><summary>17 source(s) returned 404 this run (token likely renamed)</summary>
 
 - Amplitude
 - Atomic Semi
@@ -481,6 +481,7 @@ _Showing the newest 300 of 5382 — the complete, machine-readable set is in_ `l
 - Ledger
 - Mach Industries
 - Marqeta
+- Old Mission
 - Outschool
 - Postman
 - Singularity 6
