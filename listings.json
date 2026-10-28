@@ -1,66 +1,66 @@
 {
   "schema": 4,
-  "updated": "2026-10-28T07:49:06+00:00",
-  "count": 6583,
+  "updated": "2026-10-28T19:13:54+00:00",
+  "count": 6623,
   "metrics": {
-    "roles_open": 6583,
-    "roles_closed_tracked": 168,
-    "companies": 1546,
+    "roles_open": 6623,
+    "roles_closed_tracked": 172,
+    "companies": 1552,
     "sources_configured": 506,
-    "sources_ok": 455,
-    "sources_dead": 17,
+    "sources_ok": 454,
+    "sources_dead": 18,
     "sources_failed": 1,
     "by_level": {
-      "intern": 5543,
-      "new_grad": 1040
+      "intern": 5582,
+      "new_grad": 1041
     },
     "by_category": {
-      "Software Engineering": 3326,
-      "Data / ML / AI": 1972,
-      "Other Technical": 1000,
-      "Product Management": 285
+      "Software Engineering": 3348,
+      "Data / ML / AI": 1975,
+      "Other Technical": 1013,
+      "Product Management": 287
     },
     "by_source": {
-      "community": 5942,
-      "greenhouse": 284,
+      "community": 5979,
+      "greenhouse": 287,
       "ashby": 138,
-      "workday": 67,
+      "workday": 64,
       "lever": 57,
+      "smartrecruiters": 30,
       "Greenhouse": 29,
-      "smartrecruiters": 27,
       "Community (Summer 2027)": 27,
       "Lever": 6,
       "workable": 3,
       "Ashby": 3
     },
-    "dates_trusted": 6448,
-    "dates_trusted_pct": 97.9,
-    "dates_known": 6580,
+    "dates_trusted": 6491,
+    "dates_trusted_pct": 98.0,
+    "dates_known": 6620,
     "dates_known_pct": 100.0,
     "dates_unknown": 3,
-    "terms_inferred": 5671,
-    "first_party": 614,
+    "terms_inferred": 5707,
+    "first_party": 617,
     "first_party_pct": 9.3,
     "dedupe": {
-      "input": 7290,
-      "merged": 3619,
+      "input": 7251,
+      "merged": 3592,
       "near_dupes": 25,
-      "output": 3646
+      "output": 3634
     },
     "lifecycle": {
-      "new": 126,
+      "new": 44,
       "returning": 0,
-      "still_open": 3518,
-      "closed": 6,
-      "reopened": 2
+      "still_open": 3590,
+      "closed": 4,
+      "reopened": 0
     },
     "filtered_out": {
-      "not_early_career": 42100,
-      "not_technical": 5239,
-      "non_us": 1446,
-      "undergrad:phd_required": 293,
+      "not_early_career": 42085,
+      "not_technical": 5238,
+      "non_us": 1433,
+      "undergrad:phd_required": 285,
       "location_unknown": 76,
-      "undergrad:masters_required": 63,
+      "undergrad:masters_required": 64,
       "stale_term": 5,
       "undergrad:graduate_students_only": 2,
       "undergrad:advanced_degree_in_description": 2
@@ -80,7 +80,7 @@
     },
     "Applied Intuition": {
       "status": "ok",
-      "count": 329,
+      "count": 326,
       "ats": "ashby"
     },
     "Shield AI": {
@@ -95,7 +95,7 @@
     },
     "Mistral AI": {
       "status": "ok",
-      "count": 226,
+      "count": 227,
       "ats": "ashby"
     },
     "Sentry": {
@@ -255,42 +255,42 @@
     },
     "Stripe": {
       "status": "ok",
-      "count": 714,
+      "count": 721,
       "ats": "greenhouse"
     },
     "Databricks": {
       "status": "ok",
-      "count": 893,
+      "count": 896,
       "ats": "greenhouse"
     },
     "Coinbase": {
       "status": "ok",
-      "count": 227,
+      "count": 228,
       "ats": "greenhouse"
     },
     "Robinhood": {
       "status": "ok",
-      "count": 159,
+      "count": 161,
       "ats": "greenhouse"
     },
     "Airbnb": {
       "status": "ok",
-      "count": 195,
+      "count": 194,
       "ats": "greenhouse"
     },
     "Lyft": {
       "status": "ok",
-      "count": 178,
+      "count": 179,
       "ats": "greenhouse"
     },
     "Figma": {
       "status": "ok",
-      "count": 142,
+      "count": 140,
       "ats": "greenhouse"
     },
     "Datadog": {
       "status": "ok",
-      "count": 424,
+      "count": 393,
       "ats": "greenhouse"
     },
     "Roblox": {
@@ -305,17 +305,12 @@
     },
     "Scale AI": {
       "status": "ok",
-      "count": 169,
+      "count": 170,
       "ats": "greenhouse"
     },
     "Block": {
       "status": "ok",
-      "count": 202,
-      "ats": "greenhouse"
-    },
-    "Anduril": {
-      "status": "ok",
-      "count": 2526,
+      "count": 203,
       "ats": "greenhouse"
     },
     "Verkada": {
@@ -325,17 +320,17 @@
     },
     "Duolingo": {
       "status": "ok",
-      "count": 58,
+      "count": 59,
       "ats": "greenhouse"
     },
     "Elastic": {
       "status": "ok",
-      "count": 405,
+      "count": 408,
       "ats": "greenhouse"
     },
     "Peloton": {
       "status": "ok",
-      "count": 57,
+      "count": 54,
       "ats": "greenhouse"
     },
     "Amplitude": {
@@ -351,12 +346,12 @@
     },
     "CockroachLabs": {
       "status": "ok",
-      "count": 15,
+      "count": 14,
       "ats": "greenhouse"
     },
     "Faire": {
       "status": "ok",
-      "count": 67,
+      "count": 66,
       "ats": "greenhouse"
     },
     "Squarespace": {
@@ -371,22 +366,22 @@
     },
     "Affirm": {
       "status": "ok",
-      "count": 240,
+      "count": 243,
       "ats": "greenhouse"
     },
     "Brex": {
       "status": "ok",
-      "count": 261,
+      "count": 262,
       "ats": "greenhouse"
     },
     "Gusto": {
       "status": "ok",
-      "count": 93,
+      "count": 89,
       "ats": "greenhouse"
     },
     "Samsara": {
       "status": "ok",
-      "count": 320,
+      "count": 321,
       "ats": "greenhouse"
     },
     "Flexport": {
@@ -396,22 +391,17 @@
     },
     "Airtable": {
       "status": "ok",
-      "count": 4,
+      "count": 5,
+      "ats": "greenhouse"
+    },
+    "Cloudflare": {
+      "status": "ok",
+      "count": 459,
       "ats": "greenhouse"
     },
     "Ramp": {
       "status": "ok",
-      "count": 172,
-      "ats": "ashby"
-    },
-    "Cloudflare": {
-      "status": "ok",
-      "count": 461,
-      "ats": "greenhouse"
-    },
-    "Notion": {
-      "status": "ok",
-      "count": 139,
+      "count": 168,
       "ats": "ashby"
     },
     "Discord": {
@@ -419,24 +409,34 @@
       "count": 46,
       "ats": "greenhouse"
     },
+    "Notion": {
+      "status": "ok",
+      "count": 141,
+      "ats": "ashby"
+    },
     "Reddit": {
       "status": "ok",
-      "count": 160,
+      "count": 162,
       "ats": "greenhouse"
     },
-    "OpenAI": {
+    "Pinterest": {
       "status": "ok",
-      "count": 805,
-      "ats": "ashby"
+      "count": 161,
+      "ats": "greenhouse"
     },
     "Linear": {
       "status": "ok",
       "count": 32,
       "ats": "ashby"
     },
-    "Pinterest": {
+    "OpenAI": {
       "status": "ok",
-      "count": 159,
+      "count": 807,
+      "ats": "ashby"
+    },
+    "Instacart": {
+      "status": "ok",
+      "count": 93,
       "ats": "greenhouse"
     },
     "Vercel": {
@@ -444,9 +444,9 @@
       "count": 93,
       "ats": "greenhouse"
     },
-    "Instacart": {
+    "Dropbox": {
       "status": "ok",
-      "count": 94,
+      "count": 19,
       "ats": "greenhouse"
     },
     "Mercury": {
@@ -454,19 +454,19 @@
       "count": 0,
       "ats": "ashby"
     },
-    "Dropbox": {
+    "Twilio": {
       "status": "ok",
-      "count": 21,
+      "count": 132,
       "ats": "greenhouse"
     },
     "Replit": {
       "status": "ok",
-      "count": 32,
+      "count": 33,
       "ats": "ashby"
     },
-    "Twilio": {
+    "Asana": {
       "status": "ok",
-      "count": 131,
+      "count": 111,
       "ats": "greenhouse"
     },
     "Plaid": {
@@ -474,34 +474,24 @@
       "count": 129,
       "ats": "ashby"
     },
-    "Asana": {
+    "GitLab": {
       "status": "ok",
-      "count": 113,
+      "count": 235,
       "ats": "greenhouse"
     },
     "Benchling": {
       "status": "ok",
-      "count": 58,
-      "ats": "ashby"
-    },
-    "GitLab": {
-      "status": "ok",
-      "count": 236,
-      "ats": "greenhouse"
-    },
-    "NerdWallet": {
-      "status": "ok",
-      "count": 22,
+      "count": 56,
       "ats": "ashby"
     },
     "SoFi": {
       "status": "ok",
-      "count": 62,
+      "count": 63,
       "ats": "greenhouse"
     },
-    "Cursor": {
+    "NerdWallet": {
       "status": "ok",
-      "count": 122,
+      "count": 23,
       "ats": "ashby"
     },
     "Chime": {
@@ -509,9 +499,9 @@
       "count": 72,
       "ats": "greenhouse"
     },
-    "Perplexity": {
+    "Cursor": {
       "status": "ok",
-      "count": 134,
+      "count": 123,
       "ats": "ashby"
     },
     "Postman": {
@@ -520,21 +510,10 @@
       "ats": "greenhouse",
       "error": "HTTP 404"
     },
-    "Sierra": {
+    "Perplexity": {
       "status": "ok",
-      "count": 214,
+      "count": 133,
       "ats": "ashby"
-    },
-    "Palantir": {
-      "status": "ok",
-      "count": 306,
-      "ats": "lever"
-    },
-    "Adobe": {
-      "status": "fetch_error",
-      "count": 0,
-      "ats": "workday",
-      "error": "HTTP 403"
     },
     "Instabase": {
       "status": "not_found",
@@ -542,10 +521,26 @@
       "ats": "greenhouse",
       "error": "HTTP 404"
     },
+    "Adobe": {
+      "status": "fetch_error",
+      "count": 0,
+      "ats": "workday",
+      "error": "HTTP 403"
+    },
+    "Sierra": {
+      "status": "ok",
+      "count": 213,
+      "ats": "ashby"
+    },
     "Cognition": {
       "status": "ok",
-      "count": 105,
+      "count": 107,
       "ats": "ashby"
+    },
+    "Palantir": {
+      "status": "ok",
+      "count": 303,
+      "ats": "lever"
     },
     "Character.AI": {
       "status": "ok",
@@ -557,29 +552,24 @@
       "count": 39,
       "ats": "ashby"
     },
-    "Jane Street": {
-      "status": "ok",
-      "count": 220,
-      "ats": "greenhouse"
-    },
-    "IMC Trading": {
-      "status": "ok",
-      "count": 169,
-      "ats": "greenhouse"
-    },
     "Harvey": {
       "status": "ok",
-      "count": 368,
+      "count": 369,
       "ats": "ashby"
+    },
+    "Jane Street": {
+      "status": "ok",
+      "count": 221,
+      "ats": "greenhouse"
     },
     "Deel": {
       "status": "ok",
       "count": 0,
       "ats": "ashby"
     },
-    "Jump Trading": {
+    "IMC Trading": {
       "status": "ok",
-      "count": 96,
+      "count": 168,
       "ats": "greenhouse"
     },
     "Supabase": {
@@ -587,9 +577,14 @@
       "count": 64,
       "ats": "ashby"
     },
+    "Jump Trading": {
+      "status": "ok",
+      "count": 96,
+      "ats": "greenhouse"
+    },
     "Akuna Capital": {
       "status": "ok",
-      "count": 34,
+      "count": 31,
       "ats": "greenhouse"
     },
     "Point72": {
@@ -599,12 +594,12 @@
     },
     "DRW": {
       "status": "ok",
-      "count": 162,
+      "count": 163,
       "ats": "greenhouse"
     },
     "Virtu Financial": {
       "status": "ok",
-      "count": 46,
+      "count": 47,
       "ats": "greenhouse"
     },
     "Flow Traders": {
@@ -614,7 +609,7 @@
     },
     "Waymo": {
       "status": "ok",
-      "count": 369,
+      "count": 370,
       "ats": "greenhouse"
     },
     "Nuro": {
@@ -624,17 +619,17 @@
     },
     "MongoDB": {
       "status": "ok",
-      "count": 363,
+      "count": 368,
       "ats": "greenhouse"
     },
     "Fivetran": {
       "status": "ok",
-      "count": 160,
+      "count": 162,
       "ats": "greenhouse"
     },
     "Grafana Labs": {
       "status": "ok",
-      "count": 133,
+      "count": 131,
       "ats": "greenhouse"
     },
     "ClickHouse": {
@@ -645,7 +640,7 @@
     },
     "Carta": {
       "status": "ok",
-      "count": 74,
+      "count": 75,
       "ats": "greenhouse"
     },
     "Marqeta": {
@@ -656,27 +651,37 @@
     },
     "Betterment": {
       "status": "ok",
-      "count": 26,
+      "count": 24,
       "ats": "greenhouse"
     },
     "Coursera": {
       "status": "ok",
-      "count": 26,
+      "count": 29,
       "ats": "greenhouse"
     },
     "Nextdoor": {
       "status": "ok",
-      "count": 23,
+      "count": 21,
       "ats": "greenhouse"
-    },
-    "ElevenLabs": {
-      "status": "ok",
-      "count": 155,
-      "ats": "ashby"
     },
     "Riot Games": {
       "status": "ok",
       "count": 184,
+      "ats": "greenhouse"
+    },
+    "ElevenLabs": {
+      "status": "ok",
+      "count": 156,
+      "ats": "ashby"
+    },
+    "Mastercard": {
+      "status": "ok",
+      "count": 40,
+      "ats": "workday"
+    },
+    "Scopely": {
+      "status": "ok",
+      "count": 181,
       "ats": "greenhouse"
     },
     "Baseten": {
@@ -684,9 +689,9 @@
       "count": 105,
       "ats": "ashby"
     },
-    "Scopely": {
+    "Snorkel AI": {
       "status": "ok",
-      "count": 180,
+      "count": 43,
       "ats": "greenhouse"
     },
     "Writer": {
@@ -694,35 +699,25 @@
       "count": 46,
       "ats": "ashby"
     },
-    "Snorkel AI": {
-      "status": "ok",
-      "count": 43,
-      "ats": "greenhouse"
-    },
     "Decagon": {
       "status": "ok",
-      "count": 132,
+      "count": 133,
       "ats": "ashby"
-    },
-    "Mastercard": {
-      "status": "ok",
-      "count": 39,
-      "ats": "workday"
     },
     "Ubisoft": {
       "status": "ok",
       "count": 0,
       "ats": "smartrecruiters"
     },
-    "Crusoe": {
-      "status": "ok",
-      "count": 355,
-      "ats": "ashby"
-    },
     "Netlify": {
       "status": "ok",
       "count": 4,
       "ats": "greenhouse"
+    },
+    "Crusoe": {
+      "status": "ok",
+      "count": 356,
+      "ats": "ashby"
     },
     "Hex": {
       "status": "ok",
@@ -734,19 +729,14 @@
       "count": 11,
       "ats": "greenhouse"
     },
-    "Astronomer": {
-      "status": "ok",
-      "count": 19,
-      "ats": "ashby"
-    },
     "PagerDuty": {
       "status": "ok",
       "count": 48,
       "ats": "greenhouse"
     },
-    "Weaviate": {
+    "Astronomer": {
       "status": "ok",
-      "count": 2,
+      "count": 19,
       "ats": "ashby"
     },
     "CircleCI": {
@@ -754,29 +744,29 @@
       "count": 14,
       "ats": "greenhouse"
     },
-    "LangChain": {
+    "Weaviate": {
       "status": "ok",
-      "count": 101,
-      "ats": "ashby"
-    },
-    "Modal": {
-      "status": "ok",
-      "count": 43,
+      "count": 2,
       "ats": "ashby"
     },
     "Contentful": {
       "status": "ok",
-      "count": 26,
+      "count": 29,
       "ats": "greenhouse"
+    },
+    "LangChain": {
+      "status": "ok",
+      "count": 100,
+      "ats": "ashby"
     },
     "Fastly": {
       "status": "ok",
-      "count": 53,
+      "count": 54,
       "ats": "greenhouse"
     },
-    "Fireworks AI": {
+    "Modal": {
       "status": "ok",
-      "count": 90,
+      "count": 43,
       "ats": "ashby"
     },
     "Together AI": {
@@ -784,9 +774,9 @@
       "count": 87,
       "ats": "greenhouse"
     },
-    "Pinecone": {
+    "Fireworks AI": {
       "status": "ok",
-      "count": 8,
+      "count": 88,
       "ats": "ashby"
     },
     "CoreWeave": {
@@ -794,9 +784,19 @@
       "count": 311,
       "ats": "greenhouse"
     },
+    "Pinecone": {
+      "status": "ok",
+      "count": 8,
+      "ats": "ashby"
+    },
     "LlamaIndex": {
       "status": "ok",
       "count": 4,
+      "ats": "ashby"
+    },
+    "RunPod": {
+      "status": "ok",
+      "count": 28,
       "ats": "ashby"
     },
     "Temporal": {
@@ -804,11 +804,6 @@
       "count": 0,
       "ats": "greenhouse",
       "error": "HTTP 404"
-    },
-    "RunPod": {
-      "status": "ok",
-      "count": 28,
-      "ats": "ashby"
     },
     "Cerebras": {
       "status": "ok",
@@ -819,6 +814,11 @@
       "status": "ok",
       "count": 28,
       "ats": "ashby"
+    },
+    "Anduril": {
+      "status": "ok",
+      "count": 2541,
+      "ats": "greenhouse"
     },
     "Neon": {
       "status": "ok",
@@ -842,7 +842,7 @@
     },
     "PostHog": {
       "status": "ok",
-      "count": 11,
+      "count": 12,
       "ats": "ashby"
     },
     "LaunchDarkly": {
@@ -867,7 +867,7 @@
     },
     "Chainguard": {
       "status": "ok",
-      "count": 91,
+      "count": 92,
       "ats": "greenhouse"
     },
     "Doppler": {
@@ -882,7 +882,7 @@
     },
     "Socket": {
       "status": "ok",
-      "count": 28,
+      "count": 27,
       "ats": "ashby"
     },
     "Checkr": {
@@ -897,12 +897,17 @@
     },
     "Abnormal Security": {
       "status": "ok",
-      "count": 89,
+      "count": 91,
       "ats": "greenhouse"
+    },
+    "Workday": {
+      "status": "ok",
+      "count": 12,
+      "ats": "workday"
     },
     "n8n": {
       "status": "ok",
-      "count": 38,
+      "count": 40,
       "ats": "ashby"
     },
     "Orca Security": {
@@ -920,11 +925,6 @@
       "count": 33,
       "ats": "greenhouse"
     },
-    "Workday": {
-      "status": "ok",
-      "count": 12,
-      "ats": "workday"
-    },
     "Drata": {
       "status": "ok",
       "count": 29,
@@ -937,7 +937,7 @@
     },
     "ClickUp": {
       "status": "ok",
-      "count": 50,
+      "count": 49,
       "ats": "ashby"
     },
     "Stability AI": {
@@ -952,7 +952,7 @@
     },
     "SingleStore": {
       "status": "ok",
-      "count": 41,
+      "count": 40,
       "ats": "greenhouse"
     },
     "Suno": {
@@ -962,18 +962,13 @@
     },
     "Yugabyte": {
       "status": "ok",
-      "count": 14,
+      "count": 13,
       "ats": "greenhouse"
     },
     "Poolside": {
       "status": "ok",
       "count": 2,
       "ats": "ashby"
-    },
-    "Cisco": {
-      "status": "ok",
-      "count": 492,
-      "ats": "workday"
     },
     "Descript": {
       "status": "ok",
@@ -987,7 +982,7 @@
     },
     "Honeycomb": {
       "status": "ok",
-      "count": 25,
+      "count": 24,
       "ats": "greenhouse"
     },
     "Ideogram": {
@@ -1000,25 +995,19 @@
       "count": 29,
       "ats": "greenhouse"
     },
+    "Luma AI": {
+      "status": "ok",
+      "count": 30,
+      "ats": "ashby"
+    },
     "Treasury Prime": {
       "status": "ok",
       "count": 2,
       "ats": "greenhouse"
     },
-    "Ledger": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "lever",
-      "error": "HTTP 404"
-    },
     "Vanta": {
       "status": "ok",
       "count": 79,
-      "ats": "ashby"
-    },
-    "Luma AI": {
-      "status": "ok",
-      "count": 30,
       "ats": "ashby"
     },
     "Solaris": {
@@ -1036,6 +1025,12 @@
       "count": 6,
       "ats": "greenhouse"
     },
+    "Ledger": {
+      "status": "not_found",
+      "count": 0,
+      "ats": "lever",
+      "error": "HTTP 404"
+    },
     "BitGo": {
       "status": "ok",
       "count": 56,
@@ -1043,7 +1038,7 @@
     },
     "Bitpanda": {
       "status": "ok",
-      "count": 33,
+      "count": 34,
       "ats": "greenhouse"
     },
     "Luno": {
@@ -1058,7 +1053,7 @@
     },
     "Optiver": {
       "status": "ok",
-      "count": 158,
+      "count": 157,
       "ats": "greenhouse"
     },
     "Old Mission": {
@@ -1079,12 +1074,12 @@
     },
     "3Red Partners": {
       "status": "ok",
-      "count": 8,
+      "count": 7,
       "ats": "greenhouse"
     },
-    "Visa": {
+    "Cisco": {
       "status": "ok",
-      "count": 319,
+      "count": 500,
       "ats": "workday"
     },
     "Geneva Trading": {
@@ -1102,6 +1097,11 @@
       "count": 75,
       "ats": "greenhouse"
     },
+    "Visa": {
+      "status": "ok",
+      "count": 322,
+      "ats": "workday"
+    },
     "GSA Capital": {
       "status": "ok",
       "count": 13,
@@ -1109,28 +1109,33 @@
     },
     "Oscar Health": {
       "status": "ok",
-      "count": 232,
+      "count": 220,
       "ats": "greenhouse"
     },
     "Pie Insurance": {
       "status": "ok",
-      "count": 29,
+      "count": 30,
       "ats": "greenhouse"
     },
     "Wiz": {
       "status": "ok",
-      "count": 124,
+      "count": 123,
       "ats": "greenhouse"
     },
     "BeyondTrust": {
       "status": "ok",
-      "count": 44,
+      "count": 43,
       "ats": "greenhouse"
     },
     "Tanium": {
       "status": "ok",
-      "count": 70,
+      "count": 69,
       "ats": "greenhouse"
+    },
+    "Samsung": {
+      "status": "ok",
+      "count": 346,
+      "ats": "workday"
     },
     "Bugcrowd": {
       "status": "ok",
@@ -1139,18 +1144,18 @@
     },
     "Axonius": {
       "status": "ok",
-      "count": 21,
-      "ats": "greenhouse"
-    },
-    "Cribl": {
-      "status": "ok",
-      "count": 77,
+      "count": 22,
       "ats": "greenhouse"
     },
     "Stytch": {
       "status": "ok",
       "count": 0,
       "ats": "ashby"
+    },
+    "Cribl": {
+      "status": "ok",
+      "count": 77,
+      "ats": "greenhouse"
     },
     "Salt Security": {
       "status": "ok",
@@ -1164,17 +1169,12 @@
     },
     "OneTrust": {
       "status": "ok",
-      "count": 78,
+      "count": 79,
       "ats": "greenhouse"
     },
     "BigID": {
       "status": "ok",
-      "count": 8,
-      "ats": "greenhouse"
-    },
-    "Osano": {
-      "status": "ok",
-      "count": 10,
+      "count": 9,
       "ats": "greenhouse"
     },
     "Rula": {
@@ -1184,12 +1184,12 @@
     },
     "Salesforce": {
       "status": "ok",
-      "count": 568,
+      "count": 563,
       "ats": "workday"
     },
-    "Ping Identity": {
+    "Osano": {
       "status": "ok",
-      "count": 69,
+      "count": 10,
       "ats": "greenhouse"
     },
     "Insitro": {
@@ -1197,15 +1197,10 @@
       "count": 14,
       "ats": "ashby"
     },
-    "Ro": {
+    "Ping Identity": {
       "status": "ok",
-      "count": 50,
-      "ats": "lever"
-    },
-    "Boeing": {
-      "status": "ok",
-      "count": 460,
-      "ats": "workday"
+      "count": 73,
+      "ats": "greenhouse"
     },
     "Transmit Security": {
       "status": "ok",
@@ -1219,7 +1214,7 @@
     },
     "Sword Health": {
       "status": "ok",
-      "count": 59,
+      "count": 58,
       "ats": "greenhouse"
     },
     "Zocdoc": {
@@ -1232,34 +1227,39 @@
       "count": 17,
       "ats": "greenhouse"
     },
-    "Aurora Solar": {
-      "status": "ok",
-      "count": 12,
-      "ats": "ashby"
-    },
     "Komodo Health": {
       "status": "ok",
-      "count": 25,
+      "count": 24,
       "ats": "greenhouse"
+    },
+    "Aurora Solar": {
+      "status": "ok",
+      "count": 11,
+      "ats": "ashby"
     },
     "Recursion Pharmaceuticals": {
       "status": "ok",
-      "count": 13,
+      "count": 12,
       "ats": "greenhouse"
     },
     "Maven Clinic": {
       "status": "ok",
-      "count": 30,
+      "count": 29,
       "ats": "greenhouse"
     },
-    "Samsung": {
+    "Boeing": {
       "status": "ok",
-      "count": 342,
+      "count": 463,
       "ats": "workday"
+    },
+    "Ro": {
+      "status": "ok",
+      "count": 51,
+      "ats": "lever"
     },
     "Agility Robotics": {
       "status": "ok",
-      "count": 71,
+      "count": 69,
       "ats": "greenhouse"
     },
     "Diligent Robotics": {
@@ -1269,7 +1269,7 @@
     },
     "Formlabs": {
       "status": "ok",
-      "count": 239,
+      "count": 241,
       "ats": "greenhouse"
     },
     "Astranis": {
@@ -1284,12 +1284,12 @@
     },
     "Toast": {
       "status": "ok",
-      "count": 338,
+      "count": 344,
       "ats": "greenhouse"
     },
     "ClassPass": {
       "status": "ok",
-      "count": 34,
+      "count": 33,
       "ats": "greenhouse"
     },
     "StockX": {
@@ -1299,7 +1299,7 @@
     },
     "Merge": {
       "status": "ok",
-      "count": 15,
+      "count": 14,
       "ats": "ashby"
     },
     "FourKites": {
@@ -1319,7 +1319,7 @@
     },
     "Everlaw": {
       "status": "ok",
-      "count": 33,
+      "count": 34,
       "ats": "greenhouse"
     },
     "Outschool": {
@@ -1345,22 +1345,22 @@
     },
     "Attentive": {
       "status": "ok",
-      "count": 28,
+      "count": 30,
       "ats": "greenhouse"
     },
     "Community · SimplifyJobs S2026": {
       "status": "ok",
-      "count": 4988,
+      "count": 4966,
       "ats": "community_listings"
     },
     "Community · vanshb03 S2027": {
       "status": "ok",
-      "count": 1566,
+      "count": 1558,
       "ats": "community_listings"
     },
     "Braze": {
       "status": "ok",
-      "count": 340,
+      "count": 341,
       "ats": "greenhouse"
     },
     "Iterable": {
@@ -1378,15 +1378,15 @@
       "count": 7,
       "ats": "ashby"
     },
-    "HomeLight": {
-      "status": "ok",
-      "count": 9,
-      "ats": "greenhouse"
-    },
     "Espa Labs": {
       "status": "ok",
       "count": 2,
       "ats": "ashby"
+    },
+    "HomeLight": {
+      "status": "ok",
+      "count": 9,
+      "ats": "greenhouse"
     },
     "Epirus": {
       "status": "ok",
@@ -1421,7 +1421,7 @@
     },
     "CS Disco": {
       "status": "ok",
-      "count": 40,
+      "count": 39,
       "ats": "greenhouse"
     },
     "Collective": {
@@ -1431,13 +1431,8 @@
     },
     "Butterfly Network": {
       "status": "ok",
-      "count": 20,
+      "count": 18,
       "ats": "greenhouse"
-    },
-    "SoloPulse": {
-      "status": "ok",
-      "count": 10,
-      "ats": "lever"
     },
     "Kognitos": {
       "status": "ok",
@@ -1446,27 +1441,32 @@
     },
     "PathAI": {
       "status": "ok",
-      "count": 15,
+      "count": 10,
       "ats": "greenhouse"
+    },
+    "SoloPulse": {
+      "status": "ok",
+      "count": 10,
+      "ats": "lever"
     },
     "Junior AI": {
       "status": "ok",
-      "count": 8,
+      "count": 9,
       "ats": "ashby"
-    },
-    "Cresta": {
-      "status": "ok",
-      "count": 88,
-      "ats": "greenhouse"
     },
     "Spacial AI": {
       "status": "ok",
       "count": 6,
       "ats": "ashby"
     },
+    "Cresta": {
+      "status": "ok",
+      "count": 87,
+      "ats": "greenhouse"
+    },
     "Apptronik": {
       "status": "ok",
-      "count": 86,
+      "count": 87,
       "ats": "greenhouse"
     },
     "Fizz": {
@@ -1484,15 +1484,15 @@
       "count": 9,
       "ats": "ashby"
     },
+    "Mercor": {
+      "status": "ok",
+      "count": 108,
+      "ats": "ashby"
+    },
     "Aquatic Capital Management": {
       "status": "ok",
       "count": 12,
       "ats": "greenhouse"
-    },
-    "Mercor": {
-      "status": "ok",
-      "count": 107,
-      "ats": "ashby"
     },
     "Nirmata": {
       "status": "ok",
@@ -1514,11 +1514,6 @@
       "count": 246,
       "ats": "ashby"
     },
-    "Hermeus": {
-      "status": "ok",
-      "count": 78,
-      "ats": "lever"
-    },
     "Muon Space": {
       "status": "ok",
       "count": 144,
@@ -1526,8 +1521,13 @@
     },
     "Hadrian": {
       "status": "ok",
-      "count": 152,
+      "count": 151,
       "ats": "ashby"
+    },
+    "Hermeus": {
+      "status": "ok",
+      "count": 78,
+      "ats": "lever"
     },
     "Gelber Group": {
       "status": "ok",
@@ -1546,7 +1546,7 @@
     },
     "Base Power": {
       "status": "ok",
-      "count": 186,
+      "count": 184,
       "ats": "ashby"
     },
     "K2 Space": {
@@ -1556,23 +1556,18 @@
     },
     "Talos Trading": {
       "status": "ok",
-      "count": 18,
+      "count": 19,
       "ats": "ashby"
     },
     "Ursa Major": {
       "status": "ok",
-      "count": 133,
+      "count": 130,
       "ats": "greenhouse"
     },
     "Togal.AI": {
       "status": "ok",
       "count": 2,
       "ats": "ashby"
-    },
-    "NVIDIA": {
-      "status": "ok",
-      "count": 576,
-      "ats": "workday"
     },
     "Oklo": {
       "status": "ok",
@@ -1586,7 +1581,7 @@
     },
     "Antora Energy": {
       "status": "ok",
-      "count": 38,
+      "count": 39,
       "ats": "greenhouse"
     },
     "Northslope Technologies": {
@@ -1604,15 +1599,15 @@
       "count": 5,
       "ats": "ashby"
     },
-    "Freeform": {
-      "status": "ok",
-      "count": 78,
-      "ats": "greenhouse"
-    },
     "Sunday Robotics": {
       "status": "ok",
       "count": 22,
       "ats": "ashby"
+    },
+    "Freeform": {
+      "status": "ok",
+      "count": 78,
+      "ats": "greenhouse"
     },
     "Hightouch": {
       "status": "not_found",
@@ -1625,11 +1620,6 @@
       "count": 62,
       "ats": "ashby"
     },
-    "Belvedere Trading": {
-      "status": "ok",
-      "count": 17,
-      "ats": "lever"
-    },
     "PDT Partners": {
       "status": "ok",
       "count": 11,
@@ -1639,6 +1629,16 @@
       "status": "ok",
       "count": 14,
       "ats": "ashby"
+    },
+    "Belvedere Trading": {
+      "status": "ok",
+      "count": 17,
+      "ats": "lever"
+    },
+    "NVIDIA": {
+      "status": "ok",
+      "count": 577,
+      "ats": "workday"
     },
     "Enterpret": {
       "status": "ok",
@@ -1667,23 +1667,23 @@
     },
     "The Nuclear Company": {
       "status": "ok",
-      "count": 64,
+      "count": 65,
       "ats": "greenhouse"
     },
     "Middesk": {
       "status": "ok",
-      "count": 16,
+      "count": 17,
+      "ats": "ashby"
+    },
+    "Overjet": {
+      "status": "ok",
+      "count": 28,
       "ats": "ashby"
     },
     "PlusAI": {
       "status": "ok",
       "count": 46,
       "ats": "lever"
-    },
-    "Overjet": {
-      "status": "ok",
-      "count": 28,
-      "ats": "ashby"
     },
     "Rilla": {
       "status": "ok",
@@ -1697,7 +1697,7 @@
     },
     "Podium Automation": {
       "status": "ok",
-      "count": 7,
+      "count": 6,
       "ats": "ashby"
     },
     "pony.ai": {
@@ -1707,18 +1707,13 @@
     },
     "Tenstorrent": {
       "status": "ok",
-      "count": 14,
+      "count": 15,
       "ats": "greenhouse"
     },
     "Genesis Molecular AI": {
       "status": "ok",
-      "count": 10,
+      "count": 11,
       "ats": "ashby"
-    },
-    "Canva": {
-      "status": "ok",
-      "count": 74,
-      "ats": "smartrecruiters"
     },
     "Seven Research": {
       "status": "ok",
@@ -1730,9 +1725,14 @@
       "count": 33,
       "ats": "ashby"
     },
+    "Canva": {
+      "status": "ok",
+      "count": 73,
+      "ats": "smartrecruiters"
+    },
     "SpaceX": {
       "status": "ok",
-      "count": 2834,
+      "count": 2845,
       "ats": "greenhouse"
     },
     "Lightspark": {
@@ -1742,7 +1742,7 @@
     },
     "Appian": {
       "status": "ok",
-      "count": 165,
+      "count": 162,
       "ats": "greenhouse"
     },
     "Mach Industries": {
@@ -1761,35 +1761,30 @@
       "count": 5,
       "ats": "ashby"
     },
-    "Xsolla": {
-      "status": "ok",
-      "count": 187,
-      "ats": "lever"
-    },
-    "Neuralink": {
-      "status": "ok",
-      "count": 79,
-      "ats": "greenhouse"
-    },
     "kos.ai": {
       "status": "ok",
       "count": 5,
       "ats": "ashby"
     },
+    "Neuralink": {
+      "status": "ok",
+      "count": 80,
+      "ats": "greenhouse"
+    },
     "Rivian and Volkswagen Group Technologies": {
       "status": "ok",
-      "count": 159,
+      "count": 161,
+      "ats": "ashby"
+    },
+    "Cybernetic Labs": {
+      "status": "ok",
+      "count": 36,
       "ats": "ashby"
     },
     "TMEIC": {
       "status": "ok",
       "count": 50,
       "ats": "workable"
-    },
-    "Cybernetic Labs": {
-      "status": "ok",
-      "count": 36,
-      "ats": "ashby"
     },
     "Fab2": {
       "status": "ok",
@@ -1798,17 +1793,22 @@
     },
     "Centerfield": {
       "status": "ok",
-      "count": 19,
+      "count": 20,
       "ats": "ashby"
+    },
+    "Western Digital": {
+      "status": "ok",
+      "count": 350,
+      "ats": "smartrecruiters"
     },
     "Skydio": {
       "status": "ok",
       "count": 174,
       "ats": "ashby"
     },
-    "Diversified Automation": {
+    "Xsolla": {
       "status": "ok",
-      "count": 9,
+      "count": 190,
       "ats": "lever"
     },
     "Persona AI": {
@@ -1816,19 +1816,19 @@
       "count": 26,
       "ats": "ashby"
     },
-    "Western Digital": {
+    "Diversified Automation": {
       "status": "ok",
-      "count": 348,
-      "ats": "smartrecruiters"
+      "count": 9,
+      "ats": "lever"
     },
     "HPR (Hyannis Port Research)": {
       "status": "ok",
-      "count": 12,
+      "count": 13,
       "ats": "greenhouse"
     },
     "Etched.ai": {
       "status": "ok",
-      "count": 117,
+      "count": 119,
       "ats": "ashby"
     },
     "Rendezvous Robotics": {
@@ -1843,7 +1843,7 @@
     },
     "LinkedIn": {
       "status": "ok",
-      "count": 209,
+      "count": 205,
       "ats": "smartrecruiters"
     },
     "Atomic Semi": {
@@ -1857,11 +1857,6 @@
       "count": 11,
       "ats": "ashby"
     },
-    "Bosch": {
-      "status": "ok",
-      "count": 1000,
-      "ats": "smartrecruiters"
-    },
     "Mobius Renewables": {
       "status": "ok",
       "count": 0,
@@ -1872,6 +1867,11 @@
       "count": 7,
       "ats": "ashby"
     },
+    "Bosch": {
+      "status": "ok",
+      "count": 1000,
+      "ats": "smartrecruiters"
+    },
     "Voloridge": {
       "status": "ok",
       "count": 11,
@@ -1881,11 +1881,6 @@
       "status": "ok",
       "count": 10,
       "ats": "ashby"
-    },
-    "ShyftLabs": {
-      "status": "ok",
-      "count": 27,
-      "ats": "lever"
     },
     "Melius": {
       "status": "ok",
@@ -1917,6 +1912,11 @@
       "count": 7,
       "ats": "greenhouse"
     },
+    "ShyftLabs": {
+      "status": "ok",
+      "count": 29,
+      "ats": "lever"
+    },
     "Heliux": {
       "status": "ok",
       "count": 11,
@@ -1924,13 +1924,8 @@
     },
     "Veeam Software": {
       "status": "ok",
-      "count": 215,
+      "count": 210,
       "ats": "greenhouse"
-    },
-    "Magnet Forensics": {
-      "status": "ok",
-      "count": 42,
-      "ats": "lever"
     },
     "Anthelion Capital": {
       "status": "ok",
@@ -1947,6 +1942,11 @@
       "count": 0,
       "ats": "workable"
     },
+    "Magnet Forensics": {
+      "status": "ok",
+      "count": 41,
+      "ats": "lever"
+    },
     "Quadrillion": {
       "status": "ok",
       "count": 6,
@@ -1962,9 +1962,14 @@
       "count": 0,
       "ats": "workable"
     },
+    "Multiply Labs": {
+      "status": "ok",
+      "count": 11,
+      "ats": "lever"
+    },
     "Atoms": {
       "status": "ok",
-      "count": 343,
+      "count": 344,
       "ats": "greenhouse"
     },
     "WallStreetQuants": {
@@ -1997,12 +2002,6 @@
       "count": 25,
       "ats": "greenhouse"
     },
-    "Cirrus Logic": {
-      "status": "not_found",
-      "count": 0,
-      "ats": "lever",
-      "error": "HTTP 404"
-    },
     "Brio Water Technology": {
       "status": "ok",
       "count": 0,
@@ -2018,9 +2017,15 @@
       "count": 22,
       "ats": "greenhouse"
     },
+    "Cirrus Logic": {
+      "status": "not_found",
+      "count": 0,
+      "ats": "lever",
+      "error": "HTTP 404"
+    },
     "NBCUniversal": {
       "status": "ok",
-      "count": 431,
+      "count": 436,
       "ats": "smartrecruiters"
     },
     "LightGuide, Inc.": {
@@ -2043,6 +2048,11 @@
       "count": 14,
       "ats": "workable"
     },
+    "Redwood Materials": {
+      "status": "ok",
+      "count": 135,
+      "ats": "greenhouse"
+    },
     "Cohere": {
       "status": "ok",
       "count": 118,
@@ -2053,24 +2063,19 @@
       "count": 109,
       "ats": "lever"
     },
-    "Redwood Materials": {
+    "Moon": {
       "status": "ok",
-      "count": 134,
-      "ats": "greenhouse"
+      "count": 0,
+      "ats": "rippling"
     },
     "Kastle AI": {
       "status": "ok",
       "count": 19,
       "ats": "ashby"
     },
-    "Moon": {
-      "status": "ok",
-      "count": 0,
-      "ats": "rippling"
-    },
     "Chicago Trading Company": {
       "status": "ok",
-      "count": 6,
+      "count": 5,
       "ats": "greenhouse"
     },
     "Tacit": {
@@ -2080,7 +2085,7 @@
     },
     "Prophet": {
       "status": "ok",
-      "count": 16,
+      "count": 17,
       "ats": "greenhouse"
     },
     "NTT DATA AIVista": {
@@ -2093,20 +2098,15 @@
       "count": 29,
       "ats": "greenhouse"
     },
-    "Kepler Communications": {
+    "Denari": {
       "status": "ok",
-      "count": 27,
-      "ats": "lever"
+      "count": 0,
+      "ats": "rippling"
     },
     "GRITT ROBOTICS INC": {
       "status": "ok",
       "count": 18,
       "ats": "ashby"
-    },
-    "Denari": {
-      "status": "ok",
-      "count": 0,
-      "ats": "rippling"
     },
     "BlackEdge Capital": {
       "status": "ok",
@@ -2115,7 +2115,7 @@
     },
     "OpusClip": {
       "status": "ok",
-      "count": 9,
+      "count": 8,
       "ats": "ashby"
     },
     "Five Rings": {
@@ -2146,7 +2146,7 @@
     },
     "Dexterra Group": {
       "status": "ok",
-      "count": 482,
+      "count": 485,
       "ats": "smartrecruiters"
     },
     "Dexmate": {
@@ -2154,13 +2154,18 @@
       "count": 38,
       "ats": "ashby"
     },
+    "Onware": {
+      "status": "ok",
+      "count": 0,
+      "ats": "rippling"
+    },
     "Egra": {
       "status": "not_found",
       "count": 0,
       "ats": "ashby",
       "error": "HTTP 404"
     },
-    "Onware": {
+    "Pendulum Intelligence": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
@@ -2169,11 +2174,6 @@
       "status": "ok",
       "count": 6,
       "ats": "ashby"
-    },
-    "Pendulum Intelligence": {
-      "status": "ok",
-      "count": 0,
-      "ats": "rippling"
     },
     "Frontier Health": {
       "status": "ok",
@@ -2212,7 +2212,7 @@
     },
     "Hone Health": {
       "status": "ok",
-      "count": 7,
+      "count": 8,
       "ats": "greenhouse"
     },
     "Red Bull": {
@@ -2248,7 +2248,7 @@
     },
     "Zuru": {
       "status": "ok",
-      "count": 97,
+      "count": 98,
       "ats": "ashby"
     },
     "k-ID": {
@@ -2257,9 +2257,10 @@
       "ats": "ashby"
     },
     "Beacon Software": {
-      "status": "ok",
-      "count": 43,
-      "ats": "ashby"
+      "status": "not_found",
+      "count": 0,
+      "ats": "ashby",
+      "error": "HTTP 404"
     },
     "Circleback": {
       "status": "ok",
@@ -2273,7 +2274,7 @@
     },
     "VetsEZ": {
       "status": "ok",
-      "count": 64,
+      "count": 65,
       "ats": "breezy"
     },
     "Pylon": {
@@ -2283,7 +2284,7 @@
     },
     "1X": {
       "status": "ok",
-      "count": 104,
+      "count": 103,
       "ats": "ashby"
     },
     "Evolver": {
@@ -2291,15 +2292,15 @@
       "count": 18,
       "ats": "greenhouse"
     },
-    "Institute of Foundation Models": {
-      "status": "ok",
-      "count": 42,
-      "ats": "lever"
-    },
     "WindBorne Systems": {
       "status": "ok",
       "count": 14,
       "ats": "ashby"
+    },
+    "Institute of Foundation Models": {
+      "status": "ok",
+      "count": 42,
+      "ats": "lever"
     },
     "TribalScale": {
       "status": "ok",
@@ -2366,19 +2367,9 @@
       "count": 40,
       "ats": "ashby"
     },
-    "Lawrence Livermore National Laboratory (LLNL)": {
-      "status": "ok",
-      "count": 179,
-      "ats": "smartrecruiters"
-    },
     "Hiverge": {
       "status": "ok",
       "count": 4,
-      "ats": "ashby"
-    },
-    "Meshy": {
-      "status": "ok",
-      "count": 20,
       "ats": "ashby"
     },
     "InfiniteQuant": {
@@ -2386,25 +2377,25 @@
       "count": 3,
       "ats": "smartrecruiters"
     },
+    "Lawrence Livermore National Laboratory (LLNL)": {
+      "status": "ok",
+      "count": 177,
+      "ats": "smartrecruiters"
+    },
     "Eluvio": {
       "status": "ok",
       "count": 2,
       "ats": "workable"
     },
-    "Acceldata": {
+    "Meshy": {
       "status": "ok",
-      "count": 34,
-      "ats": "lever"
+      "count": 20,
+      "ats": "ashby"
     },
     "Sweatpals": {
       "status": "ok",
       "count": 1,
       "ats": "ashby"
-    },
-    "Rainmaker": {
-      "status": "ok",
-      "count": 19,
-      "ats": "lever"
     },
     "Al Warren Oil Company": {
       "status": "ok",
@@ -2413,52 +2404,67 @@
     },
     "Tessera Labs": {
       "status": "ok",
-      "count": 29,
+      "count": 27,
       "ats": "ashby"
+    },
+    "Rainmaker": {
+      "status": "ok",
+      "count": 19,
+      "ats": "lever"
+    },
+    "Reply": {
+      "status": "ok",
+      "count": 51,
+      "ats": "lever"
     },
     "Workato": {
       "status": "ok",
-      "count": 55,
+      "count": 54,
       "ats": "greenhouse"
+    },
+    "Acceldata": {
+      "status": "ok",
+      "count": 34,
+      "ats": "lever"
     },
     "Intuitive Surgical": {
       "status": "ok",
-      "count": 781,
+      "count": 795,
       "ats": "smartrecruiters"
-    },
-    "Cloudforce": {
-      "status": "ok",
-      "count": 1,
-      "ats": "lever"
     },
     "Nuclear Promise X": {
       "status": "ok",
-      "count": 15,
+      "count": 16,
       "ats": "ashby"
+    },
+    "SharkNinja": {
+      "status": "ok",
+      "count": 143,
+      "ats": "greenhouse"
     },
     "Omnis": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
     },
-    "SharkNinja": {
+    "Cloudforce": {
       "status": "ok",
-      "count": 142,
-      "ats": "greenhouse"
+      "count": 1,
+      "ats": "lever"
+    },
+    "Apex Technology, Inc.": {
+      "status": "ok",
+      "count": 132,
+      "ats": "ashby"
     },
     "Doctors Without Borders": {
       "status": "ok",
       "count": 5,
       "ats": "greenhouse"
     },
-    "Apex Technology, Inc.": {
-      "status": "ok",
-      "count": 131,
-      "ats": "ashby"
-    },
     "Heron Power": {
       "status": "ok",
-      "count": 49,
+      "count": 48,
       "ats": "ashby"
     },
     "Digs": {
@@ -2468,8 +2474,13 @@
     },
     "Super": {
       "status": "ok",
-      "count": 19,
+      "count": 18,
       "ats": "ashby"
+    },
+    "Kepler Communications": {
+      "status": "ok",
+      "count": 27,
+      "ats": "lever"
     },
     "AXQ Capital": {
       "status": "ok",
@@ -2486,15 +2497,15 @@
       "count": 7,
       "ats": "greenhouse"
     },
-    "Multiply Labs": {
-      "status": "ok",
-      "count": 11,
-      "ats": "lever"
-    },
     "Blockhouse": {
       "status": "ok",
       "count": 1,
       "ats": "ashby"
+    },
+    "Codeage": {
+      "status": "ok",
+      "count": 3,
+      "ats": "smartrecruiters"
     },
     "Octaura": {
       "status": "ok",
@@ -2506,9 +2517,9 @@
       "count": 29,
       "ats": "ashby"
     },
-    "Codeage": {
+    "Barkback": {
       "status": "ok",
-      "count": 3,
+      "count": 6,
       "ats": "smartrecruiters"
     },
     "Output Biosciences": {
@@ -2516,24 +2527,19 @@
       "count": 8,
       "ats": "ashby"
     },
-    "Barkback": {
+    "MCG Health": {
       "status": "ok",
-      "count": 6,
-      "ats": "smartrecruiters"
+      "count": 9,
+      "ats": "greenhouse"
     },
     "Uncountable": {
       "status": "ok",
       "count": 32,
       "ats": "ashby"
     },
-    "MCG Health": {
-      "status": "ok",
-      "count": 9,
-      "ats": "greenhouse"
-    },
     "Internship": {
       "status": "ok",
-      "count": 17,
+      "count": 16,
       "ats": "ashby"
     },
     "Tilde Research": {
@@ -2541,45 +2547,50 @@
       "count": 3,
       "ats": "ashby"
     },
-    "Fundwell": {
+    "Community · SimplifyJobs New-Grad": {
       "status": "ok",
-      "count": 4,
-      "ats": "ashby"
+      "count": 2994,
+      "ats": "community_listings"
     },
     "RESPEC": {
       "status": "ok",
       "count": 160,
       "ats": "smartrecruiters"
     },
-    "Community · SimplifyJobs New-Grad": {
+    "Waabi": {
       "status": "ok",
-      "count": 3029,
+      "count": 94,
+      "ats": "lever"
+    },
+    "Community · vanshb03 New-Grad 2026": {
+      "status": "ok",
+      "count": 698,
       "ats": "community_listings"
+    },
+    "Fundwell": {
+      "status": "ok",
+      "count": 4,
+      "ats": "ashby"
     },
     "Smiths Detection": {
       "status": "ok",
-      "count": 537,
+      "count": 536,
       "ats": "smartrecruiters"
     },
     "HCompany": {
       "status": "ok",
-      "count": 35,
+      "count": 36,
       "ats": "ashby"
     },
-    "Community · vanshb03 New-Grad 2026": {
+    "Community · SimplifyJobs S2027": {
       "status": "ok",
-      "count": 687,
+      "count": 4966,
       "ats": "community_listings"
     },
     "Bree": {
       "status": "ok",
       "count": 13,
       "ats": "ashby"
-    },
-    "Community · SimplifyJobs S2027": {
-      "status": "ok",
-      "count": 4988,
-      "ats": "community_listings"
     },
     "Auctor": {
       "status": "ok",
@@ -2596,28 +2607,126 @@
       "count": 22,
       "ats": "ashby"
     },
-    "Reply": {
-      "status": "ok",
-      "count": 49,
-      "ats": "lever"
-    },
     "The Exploration Company": {
       "status": "ok",
-      "count": 109,
+      "count": 112,
       "ats": "ashby"
     },
     "ETHGlobal": {
       "status": "ok",
       "count": 0,
       "ats": "ashby"
-    },
-    "Waabi": {
-      "status": "ok",
-      "count": 94,
-      "ats": "lever"
     }
   },
   "listings": [
+    {
+      "company": "Ace Hardware",
+      "title": "IT Associate Software Engineer Intern",
+      "url": "https://acehardware.wd1.myworkdayjobs.com/External/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Oak Brook, IL",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "bff9a492-ed06-4a94-8f0d-75a782dcefd8",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://acehardware.wd1.myworkdayjobs.com/External/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Oak Brook, IL",
+      "is_remote": false,
+      "canonical_url": "https://acehardware.wd1.myworkdayjobs.com/External/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797",
+      "term_inferred": true,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/Xx"
+        }
+      ],
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Allegion",
+      "title": "Software Systems Engineering Intern",
+      "url": "https://allegion.wd5.myworkdayjobs.com/careers/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Golden, CO",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "5d11caab-2ae8-4dbf-9d64-b3e5984a4d30",
+      "remote": null,
+      "department": "N/A",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://allegion.wd5.myworkdayjobs.com/careers/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Golden, CO",
+      "is_remote": false,
+      "canonical_url": "https://allegion.wd5.myworkdayjobs.com/careers/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1",
+      "term_inferred": true,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/Xv"
+        }
+      ],
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Allegion",
+      "title": "Software Engineering Intern, Quality Assurance",
+      "url": "https://go.vansh.nyc/Xt",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Golden, CO",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "34c528f8-854f-47f6-a542-98288d7250d4",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/Xt",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Golden, CO",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/Xt",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
     {
       "company": "CAMS",
       "title": "Application Performance Monitoring Predictive Analytics Engineer Intern",
@@ -2785,6 +2894,276 @@
       "status": "open"
     },
     {
+      "company": "Infleqtion",
+      "title": "Quantum Software Intern - Quantum Software",
+      "url": "https://apply.workable.com/coldquanta/j/EB77DE8198/apply",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Chicago, IL",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "b8ebd7b8-bd94-4af7-8d80-9bdd6cfa8c52",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://apply.workable.com/coldquanta/j/EB77DE8198/apply",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Chicago, IL",
+      "is_remote": false,
+      "canonical_url": "https://apply.workable.com/coldquanta/j/EB77DE8198/apply",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Infleqtion",
+      "title": "Quantum Software Intern",
+      "url": "https://go.vansh.nyc/Xz",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Chicago, IL",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "3f178600-999b-4d23-8264-65108f950e20",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/Xz",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Chicago, IL",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/Xz",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Intuitive Surgical",
+      "title": "AI Research Intern",
+      "url": "https://jobs.smartrecruiters.com/Intuitive/744000158312151",
+      "source": "smartrecruiters",
+      "source_name": "SmartRecruiters · Intuitive Surgical",
+      "location": "Sunnyvale, CA, us",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "releasedDate"
+      },
+      "ats_job_id": "744000158312151",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.smartrecruiters.com/Intuitive/744000158312151",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Sunnyvale, CA, us",
+      "is_remote": false,
+      "canonical_url": "https://jobs.smartrecruiters.com/Intuitive/744000158312151",
+      "term_inferred": true,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "SmartRecruiters · Intuitive Surgical",
+          "url": "https://jobs.smartrecruiters.com/Intuitive/744000151714759"
+        },
+        {
+          "source": "Community · SimplifyJobs S2026",
+          "url": "https://jobs.smartrecruiters.com/Intuitive/744000151714759"
+        },
+        {
+          "source": "Community · SimplifyJobs S2027",
+          "url": "https://jobs.smartrecruiters.com/Intuitive/744000151714759"
+        }
+      ],
+      "health_key": "Intuitive Surgical",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Intuitive Surgical",
+      "title": "Manufacturing Software Engineering Intern",
+      "url": "https://jobs.smartrecruiters.com/Intuitive/744000158313919",
+      "source": "smartrecruiters",
+      "source_name": "SmartRecruiters · Intuitive Surgical",
+      "location": "Sunnyvale, CA, us",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "releasedDate"
+      },
+      "ats_job_id": "744000158313919",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.smartrecruiters.com/Intuitive/744000158313919",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Sunnyvale, CA, us",
+      "is_remote": false,
+      "canonical_url": "https://jobs.smartrecruiters.com/Intuitive/744000158313919",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "Intuitive Surgical",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Intuitive Surgical",
+      "title": "Robotics Engineering Intern",
+      "url": "https://jobs.smartrecruiters.com/Intuitive/744000158313717",
+      "source": "smartrecruiters",
+      "source_name": "SmartRecruiters · Intuitive Surgical",
+      "location": "Sunnyvale, CA, us",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "releasedDate"
+      },
+      "ats_job_id": "744000158313717",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.smartrecruiters.com/Intuitive/744000158313717",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Sunnyvale, CA, us",
+      "is_remote": false,
+      "canonical_url": "https://jobs.smartrecruiters.com/Intuitive/744000158313717",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "Intuitive Surgical",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "L3Harris Technologies",
+      "title": "Information Security Systems Engineer Intern",
+      "url": "https://go.vansh.nyc/XU",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Salt Lake City, UT",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "1839d642-6be7-46e2-b16a-7055bd0c2271",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/XU",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Salt Lake City, UT",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/XU",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Lockheed Martin",
+      "title": "Software Engineer Intern",
+      "url": "https://go.vansh.nyc/Xr",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Sunnyvale, CA",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "12457784-c81a-4877-9db8-ecccb9c9d098",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/Xr",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Sunnyvale, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/Xr",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Lockheed Martin",
+      "title": "Software Engineer Intern",
+      "url": "https://go.vansh.nyc/XV",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Littleton, CO",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "d3403517-9a3f-4fa3-bfe0-6f836a0bacd7",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/XV",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Littleton, CO",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/XV",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
       "company": "Meta",
       "title": "Research Scientist Intern - Ads Recommendations",
       "url": "https://www.metacareers.com/jobs/1691709792593561",
@@ -2813,6 +3192,70 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Micron Technology",
+      "title": "Data Science Intern",
+      "url": "https://go.vansh.nyc/XF",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA; Folsom, CA",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "664c456f-0e7e-4fea-b482-3eee6c7d2dd6",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/XF",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "San Jose, CA; Folsom, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/XF",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Northrop Grumman",
+      "title": "New Grad 2027: Associate Software Engineer / Software Engineer",
+      "url": "https://go.vansh.nyc/Xs",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Huntsville, AL",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "a4526c80-2764-4474-a61d-fadb6ea90da5",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/Xs",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Huntsville, AL",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/Xs",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
       "misses": 0,
       "status": "open"
     },
@@ -2893,6 +3336,184 @@
       "status": "open"
     },
     {
+      "company": "RTX",
+      "title": "Hardware Electrical Engineer Intern",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Hardware-Electrical-Engineering-Intern--Summer-2027-_01883831",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Cambridge, MA",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "14c2c82f-b0c3-4560-b9aa-f0b3f1161bab",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Hardware-Electrical-Engineering-Intern--Summer-2027-_01883831",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Cambridge, MA",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Hardware-Electrical-Engineering-Intern--Summer-2027-_01883831",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RTX",
+      "title": "Hardware Electrical Engineering Co-op",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Hardware-Electrical-Engineering-Co-Op--Spring-2027-_01883598",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Cambridge, MA",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "0c109763-7f92-446e-847b-f3410ae8c02a",
+      "remote": null,
+      "department": "Spring 2027",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Hardware-Electrical-Engineering-Co-Op--Spring-2027-_01883598",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Cambridge, MA",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Hardware-Electrical-Engineering-Co-Op--Spring-2027-_01883598",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RTX",
+      "title": "Software Engineer Co-op",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Co-op--January-2027-_01885371",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Marlborough, MA; Tewksbury, MA",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "e20b7038-01d7-4798-a53d-313f94bd9e80",
+      "remote": null,
+      "department": "Winter 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Co-op--January-2027-_01885371",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Marlborough, MA; Tewksbury, MA",
+      "is_remote": false,
+      "canonical_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Co-op--January-2027-_01885371",
+      "term_inferred": true,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/Xu"
+        }
+      ],
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RosaicLabs",
+      "title": "AI Accelerator Design Verification Engineer Intern",
+      "url": "https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab/apply",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Austin, TX; Santa Clara, CA",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "3fc2cdd1-4ad2-454e-bd39-424e1347ddef",
+      "remote": null,
+      "department": "N/A",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab/apply",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Austin, TX; Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab/apply",
+      "term_inferred": true,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/Xp"
+        }
+      ],
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "RosaicLabs",
+      "title": "Software Engineering Intern",
+      "url": "https://jobs.lever.co/rosaiclabs/740b53d3-dd36-41fb-b49c-ab7f97505aa8/apply",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Austin, TX; Santa Clara, CA",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "4df74a84-8306-470c-a342-936bd9335db1",
+      "remote": null,
+      "department": "N/A",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.lever.co/rosaiclabs/740b53d3-dd36-41fb-b49c-ab7f97505aa8/apply",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Austin, TX; Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://jobs.lever.co/rosaiclabs/740b53d3-dd36-41fb-b49c-ab7f97505aa8/apply",
+      "term_inferred": true,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/Xo"
+        }
+      ],
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
       "company": "Samsung",
       "title": "Power-Thermal Simulation Software Engineer Intern",
       "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046795003",
@@ -2925,6 +3546,140 @@
       "status": "open"
     },
     {
+      "company": "Sonos",
+      "title": "Software Product Management Intern",
+      "url": "https://sonos.wd1.myworkdayjobs.com/Sonos/job/Seattle-WA/Software-Product-Management-Intern--Seattle-_R2866-1",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "67c38e84-2904-4f41-b7d9-11a2d287366b",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Product Management",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://sonos.wd1.myworkdayjobs.com/Sonos/job/Seattle-WA/Software-Product-Management-Intern--Seattle-_R2866-1",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://sonos.wd1.myworkdayjobs.com/Sonos/job/Seattle-WA/Software-Product-Management-Intern--Seattle-_R2866-1",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Sonos",
+      "title": "Software Engineering Intern",
+      "url": "https://go.vansh.nyc/XB",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Boston, MA",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "13514f71-f31f-453f-be8b-dfa2ce705626",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/XB",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Boston, MA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/XB",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Tenstorrent",
+      "title": "GTM (FAE & Customer Success) and Product Intern",
+      "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5274249007",
+      "source": "greenhouse",
+      "source_name": "Greenhouse · Tenstorrent",
+      "location": "Santa Clara, California, United States; Toronto, Ontario, Canada",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "first_published"
+      },
+      "ats_job_id": "5274249007",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Product Management",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5274249007",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Santa Clara, California, United States; Toronto, Ontario, Canada",
+      "is_remote": false,
+      "canonical_url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5274249007",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "Tenstorrent",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "The Nuclear Company",
+      "title": "Spring 2027 Security Engineer Intern",
+      "url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5466153008",
+      "source": "greenhouse",
+      "source_name": "Greenhouse · The Nuclear Company",
+      "location": "Washington, D.C.",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "first_published"
+      },
+      "ats_job_id": "5466153008",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "Spring 2027",
+      "term_priority": 1,
+      "level": "intern",
+      "identity": "url:https://job-boards.greenhouse.io/thenuclearcompany/jobs/5466153008",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Washington, D.C.",
+      "is_remote": false,
+      "canonical_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5466153008",
+      "term_inferred": false,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/XL"
+        }
+      ],
+      "health_key": "The Nuclear Company",
+      "misses": 0,
+      "status": "open"
+    },
+    {
       "company": "VSP Vision",
       "title": "Software Engineer Intern",
       "url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10068",
@@ -2952,6 +3707,24 @@
       "canonical_url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10068",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · SimplifyJobs S2026",
+          "url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10071"
+        },
+        {
+          "source": "Community · SimplifyJobs S2026",
+          "url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10046"
+        },
+        {
+          "source": "Community · SimplifyJobs S2027",
+          "url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10071"
+        },
+        {
+          "source": "Community · SimplifyJobs S2027",
+          "url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10046"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -3087,6 +3860,70 @@
         }
       ],
       "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "WorldEngine AI",
+      "title": "Research Intern - Robotics Data - Real-to-Sim",
+      "url": "https://jobs.ashbyhq.com/worldengine/ba22a6ae-9b75-4078-83c4-d908a29ccdd9/application?embed=true",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "SF",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "8a663ec7-fe0a-4e60-a261-2a2d6db4b95b",
+      "remote": null,
+      "department": "N/A",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.ashbyhq.com/worldengine/ba22a6ae-9b75-4078-83c4-d908a29ccdd9/application?embed=true",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "San Francisco, CA",
+      "is_remote": false,
+      "canonical_url": "https://jobs.ashbyhq.com/worldengine/ba22a6ae-9b75-4078-83c4-d908a29ccdd9/application?embed=true",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "WorldEngine AI",
+      "title": "Research Intern, Robotics Data - Real-to-Sim",
+      "url": "https://go.vansh.nyc/Xy",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Francisco, CA",
+      "posted": {
+        "value": "2026-10-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "a3b2e74c-da8f-4bf1-a39b-5a58a70704b8",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/Xy",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "San Francisco, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/Xy",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
       "misses": 0,
       "status": "open"
     },
@@ -4270,38 +5107,6 @@
     },
     {
       "company": "HP IQ",
-      "title": "Wireless Automation and Test Engineer Intern - Wireless Automation and Test",
-      "url": "https://job-boards.greenhouse.io/hpiq/jobs/6114741004",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "SF",
-      "posted": {
-        "value": "2026-10-27",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "d6d3b025-0991-4f92-ba7a-a3fb13c696fd",
-      "remote": null,
-      "department": "Summer 2027",
-      "is_first_party": false,
-      "category": "Other Technical",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://job-boards.greenhouse.io/hpiq/jobs/6114741004",
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-10-28",
-      "location_display": "San Francisco, CA",
-      "is_remote": false,
-      "canonical_url": "https://job-boards.greenhouse.io/hpiq/jobs/6114741004",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "HP IQ",
       "title": "Electrical Engineer Intern - Hardware",
       "url": "https://job-boards.greenhouse.io/hpiq/jobs/6116396004",
       "source": "community",
@@ -4326,6 +5131,38 @@
       "location_display": "San Francisco, CA",
       "is_remote": false,
       "canonical_url": "https://job-boards.greenhouse.io/hpiq/jobs/6116396004",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "HP IQ",
+      "title": "Wireless Automation and Test Engineer Intern - Wireless Automation and Test",
+      "url": "https://job-boards.greenhouse.io/hpiq/jobs/6114741004",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "SF",
+      "posted": {
+        "value": "2026-10-27",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "d6d3b025-0991-4f92-ba7a-a3fb13c696fd",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://job-boards.greenhouse.io/hpiq/jobs/6114741004",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
+      "location_display": "San Francisco, CA",
+      "is_remote": false,
+      "canonical_url": "https://job-boards.greenhouse.io/hpiq/jobs/6114741004",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -5056,38 +5893,6 @@
     },
     {
       "company": "Micron Technology",
-      "title": "AI Engineer Intern, Platform",
-      "url": "https://go.vansh.nyc/VX",
-      "source": "community",
-      "source_name": "Community · vanshb03 S2027",
-      "location": "Boise, ID",
-      "posted": {
-        "value": "2026-10-27",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "387c364e-62ab-46b7-ab00-e4ab73cfdb92",
-      "remote": null,
-      "department": "Summer",
-      "is_first_party": false,
-      "category": "Data / ML / AI",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://go.vansh.nyc/VX",
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-10-28",
-      "location_display": "Boise, ID",
-      "is_remote": false,
-      "canonical_url": "https://go.vansh.nyc/VX",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "vanshb03 S2027",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Micron Technology",
       "title": "AI & Product Management Intern - Mobile Memory - Lpdram",
       "url": "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---AI---Product-Management--Mobile-Memory--LPDRAM-_JR115839",
       "source": "community",
@@ -5185,6 +5990,38 @@
         }
       ],
       "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Micron Technology",
+      "title": "AI Engineer Intern, Platform",
+      "url": "https://go.vansh.nyc/VX",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Boise, ID",
+      "posted": {
+        "value": "2026-10-27",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "387c364e-62ab-46b7-ab00-e4ab73cfdb92",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/VX",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
+      "location_display": "Boise, ID",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/VX",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
       "misses": 0,
       "status": "open"
     },
@@ -5814,6 +6651,38 @@
       "location_display": "San Diego, CA",
       "is_remote": false,
       "canonical_url": "https://go.vansh.nyc/W2",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Philips",
+      "title": "Embedded Test Engineer Co-op",
+      "url": "https://go.vansh.nyc/Xl",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Murrysville, PA",
+      "posted": {
+        "value": "2026-10-27",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "180a83ed-b7b0-4a01-97e7-461fb225068d",
+      "remote": null,
+      "department": "Spring",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/Xl",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Murrysville, PA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/Xl",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "vanshb03 S2027",
@@ -6576,8 +7445,7 @@
       "is_phd": false,
       "health_key": "Tessera Labs",
       "misses": 0,
-      "status": "open",
-      "reopened_at": "2026-10-28"
+      "status": "open"
     },
     {
       "company": "Toyota Research Institute",
@@ -6748,7 +7616,7 @@
         },
         {
           "source": "Community · vanshb03 S2027",
-          "url": "https://go.vansh.nyc/Vy"
+          "url": "https://go.vansh.nyc/Xe"
         },
         {
           "source": "Community · SimplifyJobs S2027",
@@ -6764,6 +7632,38 @@
         }
       ],
       "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Sophomore Program Software Engineer Intern",
+      "url": "https://go.vansh.nyc/Vy",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Foster City, CA",
+      "posted": {
+        "value": "2026-10-27",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "cb3be6bb-b78a-496a-b038-04c0ce4dfc64",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/Vy",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Foster City, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/Vy",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
       "misses": 0,
       "status": "open"
     },
@@ -6810,7 +7710,7 @@
         },
         {
           "source": "Community · vanshb03 S2027",
-          "url": "https://go.vansh.nyc/VC"
+          "url": "https://go.vansh.nyc/Xf"
         },
         {
           "source": "Community · SimplifyJobs S2027",
@@ -6826,6 +7726,38 @@
         }
       ],
       "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Sophomore Program Software Engineer Intern",
+      "url": "https://go.vansh.nyc/VC",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Austin, TX",
+      "posted": {
+        "value": "2026-10-27",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "5a9b3dfd-9fb8-41b2-a1a3-cc7cb93c7254",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/VC",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Austin, TX",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/VC",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
       "misses": 0,
       "status": "open"
     },
@@ -6863,15 +7795,75 @@
           "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W-1"
         },
         {
-          "source": "Community · vanshb03 S2027",
-          "url": "https://go.vansh.nyc/VB"
-        },
-        {
           "source": "Community · SimplifyJobs S2027",
           "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W-1"
         }
       ],
       "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Sophomore Program Software Engineer Intern",
+      "url": "https://go.vansh.nyc/VB",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Denver, CO",
+      "posted": {
+        "value": "2026-10-27",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "1dd4eb0e-f23e-45c8-9832-0f9ca763ae14",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/VB",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Denver, CO",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/VB",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Network and Security Engineering Intern",
+      "url": "https://go.vansh.nyc/Xh",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Denver, CO",
+      "posted": {
+        "value": "2026-10-27",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "26f0ccfb-9363-4c81-a22e-8d629edf32a9",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/Xh",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Denver, CO",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/Xh",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
       "misses": 0,
       "status": "open"
     },
@@ -6909,15 +7901,43 @@
           "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF089920W-2"
         },
         {
-          "source": "Community · vanshb03 S2027",
-          "url": "https://go.vansh.nyc/Vx"
-        },
-        {
           "source": "Community · SimplifyJobs S2027",
           "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF089920W-2"
         }
       ],
       "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Sophomore Program Software Engineer Intern",
+      "url": "https://go.vansh.nyc/Vx",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Bellevue, WA",
+      "posted": {
+        "value": "2026-10-27",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "6ff3b44c-5a15-4442-8d13-69b75b7648e9",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/Vx",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Bellevue, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/Vx",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
       "misses": 0,
       "status": "open"
     },
@@ -7010,6 +8030,38 @@
         }
       ],
       "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Visa",
+      "title": "Network and Security Engineering Intern",
+      "url": "https://go.vansh.nyc/Xg",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Ashburn, VA",
+      "posted": {
+        "value": "2026-10-27",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "619ba166-8582-433e-827f-f8f689e24e29",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/Xg",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Ashburn, VA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/Xg",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
       "misses": 0,
       "status": "open"
     },
@@ -13884,6 +14936,38 @@
     {
       "company": "Paccar",
       "title": "Aftersales Data Analyst Intern",
+      "url": "https://go.vansh.nyc/gB",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Kirkland, WA",
+      "posted": {
+        "value": "2026-10-23",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "66ee29ce-a887-4e7d-bbe2-dba57fef1dbd",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/gB",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Kirkland, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/gB",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Paccar",
+      "title": "Aftersales Data Analyst Intern",
       "url": "https://jobs.paccar.com/job/Kirkland-Summer-2027-AfterSales-Data-Analyst-Intern-WA-98033/1450518033/?ats=successfactors",
       "source": "community",
       "source_name": "Community · SimplifyJobs S2026",
@@ -15943,102 +17027,6 @@
     },
     {
       "company": "CVS Health",
-      "title": "Software Engineer Intern - Platform & Applications",
-      "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation-Technology-Internship-Software-Engineering--Platform---Applications-Summer-2027-Undergrad_R1081193",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Dallas, TX; Scottsdale, AZ",
-      "posted": {
-        "value": "2026-10-22",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "4da3ddc6-8559-489a-b239-8d419ece6bad",
-      "remote": null,
-      "department": "Summer 2027",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation-Technology-Internship-Software-Engineering--Platform---Applications-Summer-2027-Undergrad_R1081193",
-      "first_seen": "2026-10-23",
-      "last_seen": "2026-10-28",
-      "location_display": "Dallas, TX; Scottsdale, AZ",
-      "is_remote": false,
-      "canonical_url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation-Technology-Internship-Software-Engineering--Platform---Applications-Summer-2027-Undergrad_R1081193",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "CVS Health",
-      "title": "Innovation & Technology Software Engineering: Platform & Applications Intern",
-      "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation---Technology-Internship-Software-Engineering--Platform---Applications--Summer-2027-Grad_R1081216",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Dallas, TX; Scottsdale, AZ",
-      "posted": {
-        "value": "2026-10-22",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "63e6ac11-18af-4a74-b78e-fb596834ab90",
-      "remote": null,
-      "department": "Summer 2027",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation---Technology-Internship-Software-Engineering--Platform---Applications--Summer-2027-Grad_R1081216",
-      "first_seen": "2026-10-23",
-      "last_seen": "2026-10-28",
-      "location_display": "Dallas, TX; Scottsdale, AZ",
-      "is_remote": false,
-      "canonical_url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation---Technology-Internship-Software-Engineering--Platform---Applications--Summer-2027-Grad_R1081216",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "CVS Health",
-      "title": "Software Engineer Intern, Platform & Applications",
-      "url": "https://go.vansh.nyc/fj",
-      "source": "community",
-      "source_name": "Community · vanshb03 S2027",
-      "location": "Scottsdale, AZ; Dallas, TX",
-      "posted": {
-        "value": "2026-10-22",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "0ecc9f49-c549-4324-a02a-2604ae100bac",
-      "remote": null,
-      "department": "Summer",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://go.vansh.nyc/fj",
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-10-28",
-      "location_display": "Scottsdale, AZ; Dallas, TX",
-      "is_remote": false,
-      "canonical_url": "https://go.vansh.nyc/fj",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "vanshb03 S2027",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "CVS Health",
       "title": "Data Engineering Intern, Innovation & Technology",
       "url": "https://go.vansh.nyc/fk",
       "source": "community",
@@ -16127,6 +17115,102 @@
       "location_display": "New York, NY",
       "is_remote": false,
       "canonical_url": "https://go.vansh.nyc/fn",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "CVS Health",
+      "title": "Software Engineer Intern - Platform & Applications",
+      "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation-Technology-Internship-Software-Engineering--Platform---Applications-Summer-2027-Undergrad_R1081193",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Dallas, TX; Scottsdale, AZ",
+      "posted": {
+        "value": "2026-10-22",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "4da3ddc6-8559-489a-b239-8d419ece6bad",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation-Technology-Internship-Software-Engineering--Platform---Applications-Summer-2027-Undergrad_R1081193",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-28",
+      "location_display": "Dallas, TX; Scottsdale, AZ",
+      "is_remote": false,
+      "canonical_url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation-Technology-Internship-Software-Engineering--Platform---Applications-Summer-2027-Undergrad_R1081193",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "CVS Health",
+      "title": "Innovation & Technology Software Engineering: Platform & Applications Intern",
+      "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation---Technology-Internship-Software-Engineering--Platform---Applications--Summer-2027-Grad_R1081216",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Dallas, TX; Scottsdale, AZ",
+      "posted": {
+        "value": "2026-10-22",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "63e6ac11-18af-4a74-b78e-fb596834ab90",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation---Technology-Internship-Software-Engineering--Platform---Applications--Summer-2027-Grad_R1081216",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-28",
+      "location_display": "Dallas, TX; Scottsdale, AZ",
+      "is_remote": false,
+      "canonical_url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation---Technology-Internship-Software-Engineering--Platform---Applications--Summer-2027-Grad_R1081216",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "CVS Health",
+      "title": "Software Engineer Intern, Platform & Applications",
+      "url": "https://go.vansh.nyc/fj",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Scottsdale, AZ; Dallas, TX",
+      "posted": {
+        "value": "2026-10-22",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "0ecc9f49-c549-4324-a02a-2604ae100bac",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/fj",
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-28",
+      "location_display": "Scottsdale, AZ; Dallas, TX",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/fj",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "vanshb03 S2027",
@@ -17879,38 +18963,6 @@
     },
     {
       "company": "Meta",
-      "title": "Research Scientist Intern - Fair - Video Generation",
-      "url": "https://www.metacareers.com/jobs/3549654831867862",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Seattle, WA; Menlo Park, CA",
-      "posted": {
-        "value": "2026-10-22",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "b997ca1f-399c-40bb-88af-2a86fe6e7f98",
-      "remote": null,
-      "department": "N/A",
-      "is_first_party": false,
-      "category": "Data / ML / AI",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://www.metacareers.com/jobs/3549654831867862",
-      "first_seen": "2026-10-23",
-      "last_seen": "2026-10-28",
-      "location_display": "Seattle, WA; Menlo Park, CA",
-      "is_remote": false,
-      "canonical_url": "https://www.metacareers.com/jobs/3549654831867862",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Meta",
       "title": "Research Scientist Intern - Multi-Agent Systems and Memory",
       "url": "https://www.metacareers.com/jobs/2615214025585454",
       "source": "community",
@@ -18127,6 +19179,38 @@
       "location_display": "San Francisco, CA",
       "is_remote": false,
       "canonical_url": "https://www.metacareers.com/jobs/2162858564439476",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Meta",
+      "title": "Research Scientist Intern - Fair - Video Generation",
+      "url": "https://www.metacareers.com/jobs/3549654831867862",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Seattle, WA; Menlo Park, CA",
+      "posted": {
+        "value": "2026-10-22",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "b997ca1f-399c-40bb-88af-2a86fe6e7f98",
+      "remote": null,
+      "department": "N/A",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://www.metacareers.com/jobs/3549654831867862",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-28",
+      "location_display": "Seattle, WA; Menlo Park, CA",
+      "is_remote": false,
+      "canonical_url": "https://www.metacareers.com/jobs/3549654831867862",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -19723,6 +20807,38 @@
     },
     {
       "company": "Ursa Major",
+      "title": "Embedded Flight Software Intern",
+      "url": "https://go.vansh.nyc/fq",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Longmont, CO",
+      "posted": {
+        "value": "2026-10-22",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "b23d5037-e119-4591-8e7f-d30fae18191b",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/fq",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Longmont, CO",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/fq",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Ursa Major",
       "title": "2027 Summer IT Infrastructure & Automation Intern",
       "url": "https://ursamajor.com/careers/?gh_jid=4746884005",
       "source": "greenhouse",
@@ -19788,7 +20904,7 @@
         }
       ],
       "health_key": "Ursa Major",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -20250,16 +21366,16 @@
       "title": "Data Engineer Intern",
       "url": "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675",
       "source": "community",
-      "source_name": "Community · vanshb03 S2027",
+      "source_name": "Community · SimplifyJobs S2026",
       "location": "Madison, WI",
       "posted": {
         "value": "2026-10-21",
         "precision": "exact",
         "field": "date_posted"
       },
-      "ats_job_id": "159b620e-0b38-44bd-ace6-d1c4bc58be64",
+      "ats_job_id": "22e0e398-2efa-4443-a503-6e3431e6d5a4",
       "remote": null,
-      "department": "Summer",
+      "department": "Summer 2027",
       "is_first_party": false,
       "category": "Data / ML / AI",
       "term": "Summer 2027",
@@ -20267,7 +21383,7 @@
       "level": "intern",
       "identity": "url:https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675",
       "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-28",
       "location_display": "Madison, WI",
       "is_remote": false,
       "canonical_url": "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675",
@@ -20275,15 +21391,11 @@
       "is_phd": false,
       "merged_from": [
         {
-          "source": "Community · SimplifyJobs S2026",
-          "url": "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Intern---Data-Engineering_R39426"
-        },
-        {
-          "source": "Community · SimplifyJobs S2027",
-          "url": "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Intern---Data-Engineering_R39426"
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/dJ"
         }
       ],
-      "health_key": "vanshb03 S2027",
+      "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
     },
@@ -21619,38 +22731,6 @@
     },
     {
       "company": "Meta",
-      "title": "Research Scientist Intern - Foundational Models for Robotics Research",
-      "url": "https://www.metacareers.com/jobs/1078644001656413",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Menlo Park, CA",
-      "posted": {
-        "value": "2026-10-21",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "cfaefc82-5787-4e0b-8091-f6b29bce3bda",
-      "remote": null,
-      "department": "N/A",
-      "is_first_party": false,
-      "category": "Data / ML / AI",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://www.metacareers.com/jobs/1078644001656413",
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-28",
-      "location_display": "Menlo Park, CA",
-      "is_remote": false,
-      "canonical_url": "https://www.metacareers.com/jobs/1078644001656413",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Meta",
       "title": "Research Scientist Intern - Low-Power Scene Reconstruction for AR/VR",
       "url": "https://www.metacareers.com/jobs/1075160338670575",
       "source": "community",
@@ -21707,6 +22787,38 @@
       "location_display": "Redmond, WA",
       "is_remote": false,
       "canonical_url": "https://www.metacareers.com/jobs/1445807477756644",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Meta",
+      "title": "Research Scientist Intern - Foundational Models for Robotics Research",
+      "url": "https://www.metacareers.com/jobs/1078644001656413",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Menlo Park, CA",
+      "posted": {
+        "value": "2026-10-21",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "cfaefc82-5787-4e0b-8091-f6b29bce3bda",
+      "remote": null,
+      "department": "N/A",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://www.metacareers.com/jobs/1078644001656413",
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-28",
+      "location_display": "Menlo Park, CA",
+      "is_remote": false,
+      "canonical_url": "https://www.metacareers.com/jobs/1078644001656413",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -22579,38 +23691,6 @@
     },
     {
       "company": "Stifel",
-      "title": "Technology Product Development Developer Intern",
-      "url": "https://go.vansh.nyc/D5",
-      "source": "community",
-      "source_name": "Community · vanshb03 S2027",
-      "location": "Saint Louis, MO",
-      "posted": {
-        "value": "2026-10-21",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "5a0b5b23-5f4e-4192-87e8-2617a375d61a",
-      "remote": null,
-      "department": "Summer",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://go.vansh.nyc/D5",
-      "first_seen": "2026-10-26",
-      "last_seen": "2026-10-28",
-      "location_display": "Saint Louis, MO",
-      "is_remote": false,
-      "canonical_url": "https://go.vansh.nyc/D5",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "vanshb03 S2027",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Stifel",
       "title": "Data Analyst Intern",
       "url": "https://go.vansh.nyc/D6",
       "source": "community",
@@ -22635,6 +23715,38 @@
       "location_display": "Saint Louis, MO",
       "is_remote": false,
       "canonical_url": "https://go.vansh.nyc/D6",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Stifel",
+      "title": "Technology Product Development Developer Intern",
+      "url": "https://go.vansh.nyc/D5",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Saint Louis, MO",
+      "posted": {
+        "value": "2026-10-21",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "5a0b5b23-5f4e-4192-87e8-2617a375d61a",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/D5",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-28",
+      "location_display": "Saint Louis, MO",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/D5",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "vanshb03 S2027",
@@ -25019,6 +26131,38 @@
       "location_display": "San Francisco, CA",
       "is_remote": false,
       "canonical_url": "https://jobs.ashbyhq.com/openai/3d064454-c0c3-4225-bc2c-6d8c0f8735b2/application",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Paccar",
+      "title": "Field Service Data Analyst Intern",
+      "url": "https://go.vansh.nyc/dd",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Kirkland, WA",
+      "posted": {
+        "value": "2026-10-20",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "ff2f4c73-9fe0-485e-be4b-27306ca702e4",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/dd",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Kirkland, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/dd",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "vanshb03 S2027",
@@ -29204,6 +30348,38 @@
     {
       "company": "Paccar",
       "title": "Warranty Data Analyst Intern",
+      "url": "https://go.vansh.nyc/cf",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Kirkland, WA",
+      "posted": {
+        "value": "2026-10-19",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "51a085f0-91b8-4fd4-8121-9439fa95f65e",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/cf",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Kirkland, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/cf",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Paccar",
+      "title": "Warranty Data Analyst Intern",
       "url": "https://jobs.paccar.com/job/Kirkland-Summer-2027-Warranty-Data-Analyst-Intern-WA-98033/1449176033/?ats=successfactors",
       "source": "community",
       "source_name": "Community · SimplifyJobs S2026",
@@ -30157,7 +31333,7 @@
       "term_inferred": false,
       "is_phd": false,
       "health_key": "Ursa Major",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -30189,7 +31365,7 @@
       "term_inferred": false,
       "is_phd": false,
       "health_key": "Ursa Major",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -38378,7 +39554,7 @@
       "level": "intern",
       "identity": "url:https://jj.wd5.myworkdayjobs.com/JJ/job/Zug-Switzerland/AI-ML-Data-Science-Intern_R-104697",
       "first_seen": "2026-10-14",
-      "last_seen": "2026-10-26",
+      "last_seen": "2026-10-28",
       "location_display": "Boston, MA; Barcelona, Spain",
       "is_remote": false,
       "canonical_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Zug-Switzerland/AI-ML-Data-Science-Intern_R-104697",
@@ -40346,12 +41522,6 @@
       "canonical_url": "https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/ServiceNow-Intern_R26_6017",
       "term_inferred": true,
       "is_phd": false,
-      "merged_from": [
-        {
-          "source": "Community · vanshb03 S2027",
-          "url": "https://go.vansh.nyc/C6"
-        }
-      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -65376,6 +66546,38 @@
       "status": "open"
     },
     {
+      "company": "Ricoh",
+      "title": "Robotics Engineer Intern",
+      "url": "https://go.vansh.nyc/Xq",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Boulder, CO",
+      "posted": {
+        "value": "2026-10-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "58f2a330-ef75-479f-a686-0b7f6e930255",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/Xq",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Boulder, CO",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/Xq",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
       "company": "Riot Games",
       "title": "Software Engineering Intern - Summer 2027 (Remote)",
       "url": "https://www.riotgames.com/en/work-with-us/job/8222014?gh_jid=8222014",
@@ -66767,6 +67969,64 @@
       "canonical_url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525",
       "term_inferred": true,
       "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "KLA",
+      "title": "Software Engineer Intern",
+      "url": "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineering-Intern_2641581-1",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Milpitas, CA",
+      "posted": {
+        "value": "2026-09-30",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "a81d9b15-5ceb-436d-bbb3-c8bb2fe509ea",
+      "remote": null,
+      "department": "Summer 2026",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineering-Intern_2641581-1",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Milpitas, CA",
+      "is_remote": false,
+      "canonical_url": "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineering-Intern_2641581-1",
+      "term_inferred": true,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · SimplifyJobs S2026",
+          "url": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineering-Intern_2641581"
+        },
+        {
+          "source": "Community · SimplifyJobs S2026",
+          "url": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineering-Intern_2642189"
+        },
+        {
+          "source": "Community · SimplifyJobs S2026",
+          "url": "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineering-Intern_2642189-1"
+        },
+        {
+          "source": "Community · SimplifyJobs S2027",
+          "url": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineering-Intern_2641581"
+        },
+        {
+          "source": "Community · SimplifyJobs S2027",
+          "url": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineering-Intern_2642189"
+        },
+        {
+          "source": "Community · SimplifyJobs S2027",
+          "url": "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Engineering-Intern_2642189-1"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -71389,6 +72649,70 @@
     },
     {
       "company": "NVIDIA",
+      "title": "New Grad 2027: ASIC Design Engineer",
+      "url": "https://go.vansh.nyc/XR",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Santa Clara, CA",
+      "posted": {
+        "value": "2026-09-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "860e2332-7765-492f-9ba0-4f6c7cceec99",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/XR",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/XR",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "New Grad 2027: ASIC Verification Engineer",
+      "url": "https://go.vansh.nyc/XT",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Austin, TX; Santa Clara, CA",
+      "posted": {
+        "value": "2026-09-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "96c47b6e-9456-4ac5-84a2-2ec6230327c7",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/XT",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Austin, TX; Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/XT",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
       "title": "ASIC Verification Engineer New Grad - Memory Management",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Durham/ASIC-Verification-Engineer--Memory-Management---New-College-Grad-2027_JR2026341",
       "source": "community",
@@ -71416,6 +72740,38 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs New-Grad",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "New Grad 2027: ASIC Verification Engineer, Memory Management",
+      "url": "https://go.vansh.nyc/XS",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Durham, NC; Madison, AL",
+      "posted": {
+        "value": "2026-09-28",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "76f3bf99-7b1a-404a-847b-07a1e695264d",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/XS",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Durham, NC; Madison, AL",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/XS",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
       "misses": 0,
       "status": "open"
     },
@@ -75187,6 +76543,38 @@
     },
     {
       "company": "Genesis Molecular AI",
+      "title": "Software Engineer Intern - 2027",
+      "url": "https://jobs.ashbyhq.com/genesis-molecular-ai/44e3cbdc-949c-426e-a80a-b41c73ad6a99",
+      "source": "ashby",
+      "source_name": "Ashby · Genesis Molecular AI",
+      "location": "San Mateo, CA",
+      "posted": {
+        "value": "2026-09-24",
+        "precision": "exact",
+        "field": "publishedAt"
+      },
+      "ats_job_id": "44e3cbdc-949c-426e-a80a-b41c73ad6a99",
+      "remote": null,
+      "department": "AI",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://jobs.ashbyhq.com/genesis-molecular-ai/44e3cbdc-949c-426e-a80a-b41c73ad6a99",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "San Mateo, CA",
+      "is_remote": false,
+      "canonical_url": "https://jobs.ashbyhq.com/genesis-molecular-ai/44e3cbdc-949c-426e-a80a-b41c73ad6a99",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Genesis Molecular AI",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Genesis Molecular AI",
       "title": "Machine Learning Research Intern",
       "url": "https://jobs.ashbyhq.com/genesis-molecular-ai/42fc0631-3f81-481a-b496-daa875c9e92e/application?embed=true",
       "source": "community",
@@ -75406,7 +76794,7 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "Intuitive Surgical",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -91047,7 +92435,7 @@
       "level": "intern",
       "identity": "url:https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011003",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-28",
       "location_display": "Rockford, IL; Elyria, OH",
       "is_remote": false,
       "canonical_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011003",
@@ -91079,7 +92467,7 @@
       "level": "intern",
       "identity": "url:https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010996",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-28",
       "location_display": "Rockford, IL; Elyria, OH",
       "is_remote": false,
       "canonical_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010996",
@@ -100531,6 +101919,38 @@
       "status": "open"
     },
     {
+      "company": "WebFX",
+      "title": "Web Developer Intern",
+      "url": "https://jobs.ashbyhq.com/webfx/3851a96a-34d2-41df-8da2-0f12ab5c396d/application?embed=true",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Harrisburg, PA",
+      "posted": {
+        "value": "2026-09-14",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "0b8c6fb2-17bf-4a14-9cb9-90b1c075aec5",
+      "remote": null,
+      "department": "N/A",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.ashbyhq.com/webfx/3851a96a-34d2-41df-8da2-0f12ab5c396d/application?embed=true",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "Harrisburg, PA",
+      "is_remote": false,
+      "canonical_url": "https://jobs.ashbyhq.com/webfx/3851a96a-34d2-41df-8da2-0f12ab5c396d/application?embed=true",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
       "company": "Wells Fargo",
       "title": "Software Engineer Intern - Early Careers - Software Engineering",
       "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Technology-Summer-Internship---Early-Careers--Software-Engineering-_R-574285",
@@ -101472,38 +102892,6 @@
     },
     {
       "company": "Amgen",
-      "title": "Machine Learning Engineer Intern",
-      "url": "https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Remote in USA",
-      "posted": {
-        "value": "2026-09-11",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "97071ed7-a906-402b-b755-8a9a9f9968c7",
-      "remote": null,
-      "department": "Summer 2027",
-      "is_first_party": false,
-      "category": "Data / ML / AI",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
-      "first_seen": "2026-09-12",
-      "last_seen": "2026-10-28",
-      "location_display": "Remote (US)",
-      "is_remote": true,
-      "canonical_url": "https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Amgen",
       "title": "Machine Learning Engineer Intern - Technology & Medical Organizations",
       "url": "https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
       "source": "community",
@@ -101528,6 +102916,38 @@
       "location_display": "Remote (US)",
       "is_remote": true,
       "canonical_url": "https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Amgen",
+      "title": "Machine Learning Engineer Intern",
+      "url": "https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Remote in USA",
+      "posted": {
+        "value": "2026-09-11",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "97071ed7-a906-402b-b755-8a9a9f9968c7",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-10-28",
+      "location_display": "Remote (US)",
+      "is_remote": true,
+      "canonical_url": "https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -167541,38 +168961,6 @@
     },
     {
       "company": "ByteDance",
-      "title": "AI Network Automation Engineer Intern - Global Physical Network Infrastructure",
-      "url": "https://jobs.bytedance.com/en/position/7670690923748870405/detail",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "San Jose, CA",
-      "posted": {
-        "value": "2026-08-06",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "ca012a00-87e1-40b7-ac6f-1464ce5ad2f1",
-      "remote": null,
-      "department": "Summer 2027",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://jobs.bytedance.com/en/position/7670690923748870405/detail",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-10-28",
-      "location_display": "San Jose, CA",
-      "is_remote": false,
-      "canonical_url": "https://jobs.bytedance.com/en/position/7670690923748870405/detail",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "ByteDance",
       "title": "Backend Developer Intern - Infrastructure Platform Delivery",
       "url": "https://jobs.bytedance.com/en/position/7668489218234157365/detail",
       "source": "community",
@@ -167885,6 +169273,38 @@
       "location_display": "San Diego, CA",
       "is_remote": false,
       "canonical_url": "https://jobs.bytedance.com/en/position/7670354329765464373/detail",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "ByteDance",
+      "title": "AI Network Automation Engineer Intern - Global Physical Network Infrastructure",
+      "url": "https://jobs.bytedance.com/en/position/7670690923748870405/detail",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-08-06",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "ca012a00-87e1-40b7-ac6f-1464ce5ad2f1",
+      "remote": null,
+      "department": "Summer 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.bytedance.com/en/position/7670690923748870405/detail",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-10-28",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://jobs.bytedance.com/en/position/7670690923748870405/detail",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -178886,38 +180306,6 @@
       "status": "open"
     },
     {
-      "company": "Virtu Financial",
-      "title": "Frontend & User Experience Intern",
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
-      "source": "community",
-      "source_name": "Community · vanshb03 S2027",
-      "location": "New York, NY",
-      "posted": {
-        "value": "2026-07-30",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "4b39cb32-9528-407a-a747-cd099b419e7f",
-      "remote": null,
-      "department": "Summer",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://job-boards.greenhouse.io/virtu/jobs/8657500002",
-      "first_seen": "2026-08-06",
-      "last_seen": "2026-10-17",
-      "location_display": "New York, NY",
-      "is_remote": false,
-      "canonical_url": "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "vanshb03 S2027",
-      "misses": 0,
-      "status": "open"
-    },
-    {
       "company": "Bosch Home Comfort",
       "title": "Product Management Intern",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000140457960",
@@ -179042,6 +180430,38 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Virtu Financial",
+      "title": "2027 Internship - Frontend Engineer (UI)",
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
+      "source": "greenhouse",
+      "source_name": "Greenhouse · Virtu Financial",
+      "location": "New York",
+      "posted": {
+        "value": "2026-07-29",
+        "precision": "exact",
+        "field": "first_published"
+      },
+      "ats_job_id": "8657500002",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "intern",
+      "identity": "url:https://job-boards.greenhouse.io/virtu/jobs/8657500002",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-10-28",
+      "location_display": "New York, NY",
+      "is_remote": false,
+      "canonical_url": "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Virtu Financial",
       "misses": 0,
       "status": "open"
     },
@@ -185577,7 +186997,7 @@
         }
       ],
       "health_key": "Akuna Capital",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -185615,7 +187035,7 @@
         }
       ],
       "health_key": "Akuna Capital",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -185653,7 +187073,7 @@
         }
       ],
       "health_key": "Akuna Capital",
-      "misses": 0,
+      "misses": 1,
       "status": "open"
     },
     {
@@ -186098,6 +187518,38 @@
       "location_display": "Houston, TX; Pensacola, FL",
       "is_remote": false,
       "canonical_url": "https://jobs.ashbyhq.com/persona.ai/6078fafd-ba34-4c89-b260-7eb15be3cb9c/application",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Serval",
+      "title": "Software Engineer Intern",
+      "url": "https://jobs.ashbyhq.com/serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b/application?embed=true",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "SF",
+      "posted": {
+        "value": "2026-07-13",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "e86150cf-386f-4eac-99a4-224ea7eacfc3",
+      "remote": null,
+      "department": "N/A",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.ashbyhq.com/serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b/application?embed=true",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "San Francisco, CA",
+      "is_remote": false,
+      "canonical_url": "https://jobs.ashbyhq.com/serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b/application?embed=true",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -188834,7 +190286,7 @@
     },
     {
       "company": "Notion",
-      "title": "Software Engineer, Early Career",
+      "title": "Software Engineer, Growth (Early Career)",
       "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f",
       "source": "ashby",
       "source_name": "Ashby · Notion",
@@ -196617,38 +198069,6 @@
       "status": "open"
     },
     {
-      "company": "Eragon",
-      "title": "Applied AI Intern",
-      "url": "https://jobs.ashbyhq.com/eragon/0b90ea4a-8684-4ae1-a7cc-c998db6e862e",
-      "source": "ashby",
-      "source_name": "Ashby · Eragon",
-      "location": "San Francisco",
-      "posted": {
-        "value": "2026-06-02",
-        "precision": "exact",
-        "field": "publishedAt"
-      },
-      "ats_job_id": "0b90ea4a-8684-4ae1-a7cc-c998db6e862e",
-      "remote": false,
-      "department": "Engineering",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://jobs.ashbyhq.com/eragon/0b90ea4a-8684-4ae1-a7cc-c998db6e862e",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-10-27",
-      "location_display": "San Francisco, CA",
-      "is_remote": false,
-      "canonical_url": "https://jobs.ashbyhq.com/eragon/0b90ea4a-8684-4ae1-a7cc-c998db6e862e",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "Eragon",
-      "misses": 1,
-      "status": "open"
-    },
-    {
       "company": "NVIDIA",
       "title": "Low Power ASIC Engineer New Grad",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2017005",
@@ -203012,6 +204432,38 @@
       "location_display": "Remote (US)",
       "is_remote": true,
       "canonical_url": "https://careers-cotiviti.icims.com/jobs/18929/job?mobile=true&needsRedirect=false",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Latent Defense",
+      "title": "Software Engineer Intern",
+      "url": "https://jobs.ashbyhq.com/latent%20defense/54841e7d-d80a-4c2f-8c44-d492fe8eb487/application?embed=true",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "NYC",
+      "posted": {
+        "value": "2026-04-15",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "41346207-66b3-4202-87c1-e27c8ad4e155",
+      "remote": null,
+      "department": "N/A",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.ashbyhq.com/latent%20defense/54841e7d-d80a-4c2f-8c44-d492fe8eb487/application?embed=true",
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "location_display": "New York, NY",
+      "is_remote": false,
+      "canonical_url": "https://jobs.ashbyhq.com/latent%20defense/54841e7d-d80a-4c2f-8c44-d492fe8eb487/application?embed=true",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
@@ -219527,38 +220979,6 @@
     },
     {
       "company": "NVIDIA",
-      "title": "High-Performance LLM Training Engineer - New College Grad 2027",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2027_JR2028237",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-10-21",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2028237",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "2027",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2027_JR2028237",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-27",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2027_JR2028237",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 1,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
       "title": "Systems Software Intern, Aerial PHY- Summer 2027",
       "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530",
       "source": "workday",
@@ -219587,38 +221007,6 @@
       "is_phd": false,
       "health_key": "NVIDIA",
       "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Software Engineer, Agent Performance Modeling - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Agent-Performance-Modeling---New-College-Grad-2026_JR2028350",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-10-20",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2028350",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Software Engineering",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Agent-Performance-Modeling---New-College-Grad-2026_JR2028350",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-27",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Agent-Performance-Modeling---New-College-Grad-2026_JR2028350",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 1,
       "status": "open"
     },
     {
@@ -220195,8 +221583,7 @@
       "is_phd": false,
       "health_key": "NVIDIA",
       "misses": 0,
-      "status": "open",
-      "reopened_at": "2026-10-28"
+      "status": "open"
     },
     {
       "company": "Cisco",
@@ -220362,44 +221749,6 @@
       "is_phd": false,
       "health_key": "NVIDIA",
       "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Research Scientist, Fundamental Generative AI - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2026739",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-09-29",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2026739",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2026739",
-      "first_seen": "2026-09-30",
-      "last_seen": "2026-10-27",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2026739",
-      "term_inferred": false,
-      "is_phd": false,
-      "merged_from": [
-        {
-          "source": "Workday · NVIDIA",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698"
-        }
-      ],
-      "health_key": "NVIDIA",
-      "misses": 1,
       "status": "open"
     },
     {
@@ -220676,38 +222025,6 @@
     },
     {
       "company": "NVIDIA",
-      "title": "Research Scientist, AI Accelerator Design and VLSI - New College Grad 2026",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
-      "source": "workday",
-      "source_name": "Workday · NVIDIA",
-      "location": "US, CA, Santa Clara",
-      "posted": {
-        "value": "2026-09-28",
-        "precision": "at_least",
-        "field": "postedOn"
-      },
-      "ats_job_id": "JR2011644",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "2026",
-      "term_priority": 4,
-      "level": "new_grad",
-      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-10-28",
-      "location_display": "Santa Clara, CA",
-      "is_remote": false,
-      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "NVIDIA",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "NVIDIA",
       "title": "Research Scientist, AI for Graphics and Gaming - New College Grad 2026",
       "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267",
       "source": "workday",
@@ -220768,6 +222085,38 @@
       "is_phd": false,
       "health_key": "NVIDIA",
       "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Research Scientist, AI Accelerator Design and VLSI - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-09-28",
+        "precision": "at_least",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2011644",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-10-28",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 1,
       "status": "open"
     },
     {
@@ -222271,6 +223620,144 @@
     }
   ],
   "closed": [
+    {
+      "company": "Eragon",
+      "title": "Applied AI Intern",
+      "url": "https://jobs.ashbyhq.com/eragon/0b90ea4a-8684-4ae1-a7cc-c998db6e862e",
+      "source": "ashby",
+      "source_name": "Ashby · Eragon",
+      "location": "San Francisco",
+      "posted": {
+        "value": "2026-06-02",
+        "precision": "exact",
+        "field": "publishedAt"
+      },
+      "ats_job_id": "0b90ea4a-8684-4ae1-a7cc-c998db6e862e",
+      "remote": false,
+      "department": "Engineering",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.ashbyhq.com/eragon/0b90ea4a-8684-4ae1-a7cc-c998db6e862e",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-10-27",
+      "location_display": "San Francisco, CA",
+      "is_remote": false,
+      "canonical_url": "https://jobs.ashbyhq.com/eragon/0b90ea4a-8684-4ae1-a7cc-c998db6e862e",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "Eragon",
+      "misses": 2,
+      "status": "closed",
+      "closed_at": "2026-10-28"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "High-Performance LLM Training Engineer - New College Grad 2027",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2027_JR2028237",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-10-21",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2028237",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2027_JR2028237",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-27",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2027_JR2028237",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 2,
+      "status": "closed",
+      "closed_at": "2026-10-28"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Software Engineer, Agent Performance Modeling - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Agent-Performance-Modeling---New-College-Grad-2026_JR2028350",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-10-20",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2028350",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Software Engineering",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Agent-Performance-Modeling---New-College-Grad-2026_JR2028350",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-27",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Agent-Performance-Modeling---New-College-Grad-2026_JR2028350",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "NVIDIA",
+      "misses": 2,
+      "status": "closed",
+      "closed_at": "2026-10-28"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Research Scientist, Fundamental Generative AI - New College Grad 2026",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2026739",
+      "source": "workday",
+      "source_name": "Workday · NVIDIA",
+      "location": "US, CA, Santa Clara",
+      "posted": {
+        "value": "2026-09-29",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "JR2026739",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "2026",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2026739",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-10-27",
+      "location_display": "Santa Clara, CA",
+      "is_remote": false,
+      "canonical_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2026739",
+      "term_inferred": false,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Workday · NVIDIA",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698"
+        }
+      ],
+      "health_key": "NVIDIA",
+      "misses": 2,
+      "status": "closed",
+      "closed_at": "2026-10-28"
+    },
     {
       "company": "Anduril",
       "title": "Early Career Software Engineer, Battlespace Awareness",
