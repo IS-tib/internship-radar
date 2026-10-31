@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**7274 open roles** · **1632 companies** · **453/506 sources healthy** · updated 2026-10-31 07:51 UTC  
-6211 internships · 1063 new-grad · SWE 3673 · Data/ML 2194 · Tech 1090 · PM 317
+**7276 open roles** · **1631 companies** · **453/506 sources healthy** · updated 2026-10-31 18:06 UTC  
+6214 internships · 1062 new-grad · SWE 3671 · Data/ML 2196 · Tech 1093 · PM 316
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,12 +19,15 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (554)
+## 🆕 Just posted — last 7 days (559)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Firework | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Mateo, CA | 0 days ago | [apply](https://jobs.lever.co/fireworkhq/36722fbd-2705-4beb-83aa-1884068eaa09/apply) |
 | Meta | Research Scientist Intern - Video Recsys 🆕 | Data/ML | Intern | ~Summer 2027 | Menlo Park, CA | 0 days ago | [apply](https://www.metacareers.com/jobs/1553890293163197) |
+| NVIDIA | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Santa Clara, CA | 0 days ago | [apply](https://go.vansh.nyc/12g) |
+| NVIDIA | Autonomous Vehicles and Robotics Intern 🆕 | Tech | Intern | ~Summer 2027 | Santa Clara, CA | 0 days ago | [apply](https://go.vansh.nyc/12h) |
+| NVIDIA | Deep Learning Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Santa Clara, CA | 0 days ago | [apply](https://go.vansh.nyc/12j) |
 | NVIDIA | Research Scientist New Grad - AI for Graphics and Gaming 🆕 | Data/ML | New grad | ~Summer 2027 | Canada; Santa Clara, CA | 0 days ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267) |
 | NVIDIA | Research Scientist New Grad - ML Systems 🆕 | Data/ML | New grad | ~Summer 2027 | Seattle, WA; Austin, TX | 0 days ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--ML-Systems---New-College-Grad-2026_JR2010161) |
 | Northrop Grumman | Data Scientist Intern, Product Support 🆕 | Data/ML | Intern | ~Summer 2027 | San Diego, CA | 0 days ago | [apply](https://go.vansh.nyc/125) |
@@ -61,6 +64,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | NVIDIA | New Grad 2027: ASIC Verification Engineer, Memory Management 🆕 | Tech | New grad | 2027 | Durham, NC; Madison, AL | 1 day ago | [apply](https://go.vansh.nyc/11l) |
 | Nintendo | Software Engineer Intern, Graphics 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA | 1 day ago | [apply](https://go.vansh.nyc/121) |
 | Nokia | Software Engineer Co-op 🆕 | SWE | Intern | ~Summer 2027 | United States | 1 day ago | [apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41339) |
+| Northrop Grumman | Data Scientist Intern - Product Support 🆕 | Data/ML | Intern | ~Summer 2027 | San Diego, CA | 1 day ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Product-Support---Data-Scientist_R10258679) |
 | OTTO Engineering | Embedded Software Intern, Communications 🆕 | SWE | Intern | ~Summer 2027 | Carpentersville, IL | 1 day ago | [apply](https://go.vansh.nyc/122) |
 | Obsidian Entertainment | Gameplay Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Irvine, CA | 1 day ago | [apply](https://obsidian.applytojob.com/apply/zxhj1ePGcR/Gameplay-Engineer-2027-Summer-Internship) |
 | Pyrotek | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Spokane, WA | 1 day ago | [apply](https://jobs.smartrecruiters.com/Pyrotek3/744000158830479) |
@@ -139,19 +143,18 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Meta | Research Scientist Intern - Scam and Trust 🆕 | Data/ML | Intern | ~Summer 2027 | Menlo Park, CA | 2 days ago | [apply](https://www.metacareers.com/jobs/2355649268510104) |
 | Meta | Research Scientist Intern - AI Infra 🆕 | Data/ML | Intern | ~Summer 2027 | Menlo Park, CA | 2 days ago | [apply](https://www.metacareers.com/jobs/4603165899971826) |
 | Meta | Research Scientist Intern - Multiple Teams 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA; Bellevue, WA | 2 days ago | [apply](https://www.metacareers.com/jobs/1105933535765181) |
-| Metova Federal | AI Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Orlando, FL | 2 days ago | [apply](https://go.vansh.nyc/ZU) |
-| Micron Technology | ASIC Digital Design Intern 🆕 | Tech | Intern | ~Summer 2027 | Minneapolis, MN | 2 days ago | [apply](https://go.vansh.nyc/Z8) |
-| Microsoft | Applied Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Redmond, WA | 2 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393557050150) |
-| Microsoft | Applied Scientist Intern, Turing 🆕 | Data/ML | Intern | ~Summer 2027 | Redmond, WA | 2 days ago | [apply](https://go.vansh.nyc/Z4) |
 
-_+434 more in the full list below._
+_+439 more in the full list below._
 
-## 📋 All open roles — newest first (7274)
+## 📋 All open roles — newest first (7276)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Firework | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Mateo, CA | 0 days ago | [apply](https://jobs.lever.co/fireworkhq/36722fbd-2705-4beb-83aa-1884068eaa09/apply) |
 | Meta | Research Scientist Intern - Video Recsys 🆕 | Data/ML | Intern | ~Summer 2027 | Menlo Park, CA | 0 days ago | [apply](https://www.metacareers.com/jobs/1553890293163197) |
+| NVIDIA | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Santa Clara, CA | 0 days ago | [apply](https://go.vansh.nyc/12g) |
+| NVIDIA | Autonomous Vehicles and Robotics Intern 🆕 | Tech | Intern | ~Summer 2027 | Santa Clara, CA | 0 days ago | [apply](https://go.vansh.nyc/12h) |
+| NVIDIA | Deep Learning Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Santa Clara, CA | 0 days ago | [apply](https://go.vansh.nyc/12j) |
 | NVIDIA | Research Scientist New Grad - AI for Graphics and Gaming 🆕 | Data/ML | New grad | ~Summer 2027 | Canada; Santa Clara, CA | 0 days ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267) |
 | NVIDIA | Research Scientist New Grad - ML Systems 🆕 | Data/ML | New grad | ~Summer 2027 | Seattle, WA; Austin, TX | 0 days ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--ML-Systems---New-College-Grad-2026_JR2010161) |
 | Northrop Grumman | Data Scientist Intern, Product Support 🆕 | Data/ML | Intern | ~Summer 2027 | San Diego, CA | 0 days ago | [apply](https://go.vansh.nyc/125) |
@@ -188,6 +191,7 @@ _+434 more in the full list below._
 | NVIDIA | New Grad 2027: ASIC Verification Engineer, Memory Management 🆕 | Tech | New grad | 2027 | Durham, NC; Madison, AL | 1 day ago | [apply](https://go.vansh.nyc/11l) |
 | Nintendo | Software Engineer Intern, Graphics 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA | 1 day ago | [apply](https://go.vansh.nyc/121) |
 | Nokia | Software Engineer Co-op 🆕 | SWE | Intern | ~Summer 2027 | United States | 1 day ago | [apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41339) |
+| Northrop Grumman | Data Scientist Intern - Product Support 🆕 | Data/ML | Intern | ~Summer 2027 | San Diego, CA | 1 day ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Product-Support---Data-Scientist_R10258679) |
 | OTTO Engineering | Embedded Software Intern, Communications 🆕 | SWE | Intern | ~Summer 2027 | Carpentersville, IL | 1 day ago | [apply](https://go.vansh.nyc/122) |
 | Obsidian Entertainment | Gameplay Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Irvine, CA | 1 day ago | [apply](https://obsidian.applytojob.com/apply/zxhj1ePGcR/Gameplay-Engineer-2027-Summer-Internship) |
 | Pyrotek | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Spokane, WA | 1 day ago | [apply](https://jobs.smartrecruiters.com/Pyrotek3/744000158830479) |
@@ -277,8 +281,8 @@ _+434 more in the full list below._
 | National Interstate Insurance | Content Publishing Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cincinnati, OH | 2 days ago | [apply](https://go.vansh.nyc/Ze) |
 | National Interstate Insurance | DevOps Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cincinnati, OH | 2 days ago | [apply](https://go.vansh.nyc/Zr) |
 | Noble Machines | Electrical Engineer – Early Career - Embedded Systems & Tools 🆕 | Tech | New grad | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://job-boards.greenhouse.io/undercontrolroboticsinc/jobs/4473572009) |
-| Northrop Grumman | Systems Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Woodland Hills, LA | 2 days ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Woodland-Hills/XMLNAME-2027-Systems-Engineer-Intern---Woodland-Hills-CA_R10249319-1) |
 | Northrop Grumman | New Grad 2027: Associate Cyber Software Engineer 🆕 | SWE | New grad | 2027 | Aurora, CO | 2 days ago | [apply](https://go.vansh.nyc/Zv) |
+| Northrop Grumman | Systems Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Woodland Hills, LA | 2 days ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Woodland-Hills/XMLNAME-2027-Systems-Engineer-Intern---Woodland-Hills-CA_R10249319-1) |
 | Northwood Space | Software Engineer, Platform (Early Career) 🆕 | SWE | New grad | ~Summer 2027 | Torrance, CA | 2 days ago | [apply](https://jobs.ashbyhq.com/NorthwoodSpace/f7b9e8d5-7368-4a54-b445-ff647f12b1b6) |
 | Overland AI | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 2 days ago | [apply](https://ats.rippling.com/overland-ai/jobs/37dd9f44-cdb1-4e2e-98c5-800b9b8cb40e) |
 | Path Robotics | Machine Learning & Robotics Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Columbus, OH | 2 days ago | [apply](https://boards.greenhouse.io/pathrobotics/jobs/8924241002) |
@@ -388,6 +392,7 @@ _+434 more in the full list below._
 | RTX | Hardware Electrical Engineering Co-op 🆕 | Tech | Intern | ~Summer 2027 | Cambridge, MA | 3 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Hardware-Electrical-Engineering-Co-Op--Spring-2027-_01883598) |
 | RTX | Software Engineer Co-op 🆕 | SWE | Intern | ~Summer 2027 | Marlborough, MA; Tewksbury, MA | 3 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Co-op--January-2027-_01885371) |
 | RTX | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Sterling, VA | 3 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--Summer-2027-_01885169) |
+| RTX | Electrical Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | El Segundo, CA | 3 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Electrical-Engineering-Intern--Summer-2027-_01883292) |
 | Regeneron Pharmaceuticals | Genomics, Computational Biology & Translational Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Tarrytown, NY; Sleepy Hollow, NY | 3 days ago | [apply](https://go.vansh.nyc/Zj) |
 | Regeneron Pharmaceuticals | Data Science & Digital Innovation Intern - Industrial Operations and Product Supply 🆕 | Data/ML | Intern | ~Summer 2027 | Rensselaer, NY | 3 days ago | [apply](https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/RENSSELAER/XMLNAME-2027-Summer-Intern-Data-Science---Digital-Innovation--IOPS-_R51821-1) |
 | Regeneron Pharmaceuticals | AI/ML & Data Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Cambridge, MA; Armonk, NY | 3 days ago | [apply](https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-AI-ML---Data-Engineering_R52560-1) |
@@ -445,13 +450,8 @@ _+434 more in the full list below._
 | chathamfinancial | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Kennett Square, PA | 3 days ago | [apply](https://go.vansh.nyc/X6) |
 | ACLU Kentucky | Undergraduate Software Engineer Intern - Technology and Analytics Department-Educate Pod 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 4 days ago | [apply](https://job-boards.greenhouse.io/acluinternships/jobs/8919540002) |
 | ASML | Frontend Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 4 days ago | [apply](https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852) |
-| ASML | Frontend Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 4 days ago | [apply](https://go.vansh.nyc/Wr) |
-| AeroVironment | Test Engineer Intern - Space Technologies 🆕 | Tech | Intern | ~Summer 2027 | Albuquerque, NM | 4 days ago | [apply](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Albuquerque-NM/Test-Engineering-Intern---Space-Technologies_9253) |
-| Agave | Full-Stack Software Engineer New Grad 🆕 | SWE | New grad | ~Summer 2027 | San Francisco, CA | 4 days ago | [apply](https://jobs.ashbyhq.com/agave/73bd2c98-bf87-4eaa-aea8-35e7b6131d0e/application?embed=true) |
-| Agave | New Grad: Full-Stack Software Engineer 🆕 | SWE | New grad | ~Summer 2027 | San Francisco, CA | 4 days ago | [apply](https://go.vansh.nyc/Xc) |
-| Assurant | AI and Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Atlanta, GA | 4 days ago | [apply](https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/Georgia-Virtual/Summer-2027--AI-and-Data-Science-Internship_R-116105) |
 
-_Showing the newest 300 of 7274 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 7276 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 7274 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **98.2%** of roles carry an exact posting timestamp from the source (7140/7274).
-- **8.5%** come from a company's own board rather than a community feed.
-- **3730** duplicates merged, **25** near-duplicates collapsed.
-- **174** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **98.2%** of roles carry an exact posting timestamp from the source (7144/7276).
+- **8.4%** come from a company's own board rather than a community feed.
+- **3708** duplicates merged, **25** near-duplicates collapsed.
+- **178** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>19 source(s) returned 404 this run (token likely renamed)</summary>
 
