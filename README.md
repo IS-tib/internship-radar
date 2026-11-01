@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**7407 open roles** · **1639 companies** · **453/506 sources healthy** · updated 2026-11-01 08:31 UTC  
-6292 internships · 1115 new-grad · SWE 3754 · Data/ML 2234 · Tech 1102 · PM 317
+**7527 open roles** · **1643 companies** · **453/506 sources healthy** · updated 2026-11-01 18:43 UTC  
+6329 internships · 1198 new-grad · SWE 3816 · Data/ML 2289 · Tech 1105 · PM 317
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,10 +19,11 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (683)
+## 🆕 Just posted — last 7 days (798)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Amazon | New Grad 2027: ASIC Engineer I, Annapurna Labs 🆕 | Tech | New grad | 2027 | Cupertino, CA | 0 days ago | [apply](https://go.vansh.nyc/17n) |
 | ByteDance | Student Researcher Intern, Seed Model - AI Foundation Model Infrastructure 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/140) |
 | ByteDance | Student Researcher Intern, Seed Model - LLM 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/142) |
 | ByteDance | Machine Learning Engineer Intern, AML-Engine-Orchestration 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/144) |
@@ -40,6 +41,8 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | ByteDance | Network Security Software Engineer Intern, Security Engineering 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/14v) |
 | ByteDance | Machine Learning Engineer Project Intern, Security-Data 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/14A) |
 | ByteDance | Security Software Engineer Project Intern, Network Security 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/14B) |
+| ByteDance | Security Engineering Project Intern, Watermark 🆕 | Tech | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15F) |
+| ByteDance | Backend Development Engineer Intern, Infrastructure Platform Delivery 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17L) |
 | ByteDance | New Grad 2027: Research Scientist, Seed Model-Alignment&Preparedness 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/14H) |
 | ByteDance | New Grad 2027: Research Scientist, Seed Model - AI Foundation Model Infrastructure 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/14J) |
 | ByteDance | New Grad 2027: Research Scientist (Seed Model - LLM) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/14M) |
@@ -86,6 +89,8 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | ByteDance | AI Infrastructure Engineer Intern, Compute Efficiency & Scheduling 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/14o) |
 | ByteDance | Multi-Cloud CDN Scheduling Platform Engineer Intern, CDN Platform 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/14q) |
 | ByteDance | Student Researcher Intern, Seed Model - AI Foundation Model Infrastructure 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/14s) |
+| ByteDance | Student Researcher Intern, Seed Model - AI Foundation Models Infrastructure 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/15E) |
+| ByteDance | Machine Learning Engineer Intern, AML-Engine-Orchestration 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/17K) |
 | ByteDance | New Grad 2027: Research Scientist, Seed Model - AI Foundation Model Infrastructure 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/14I) |
 | ByteDance | New Grad 2027: Machine Learning Engineer, AML-Engine-Orchestration 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/14N) |
 | ByteDance | New Grad 2027: Multi-Cloud CDN Data Platform Engineer, CDN Platform 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/14P) |
@@ -97,59 +102,55 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | ByteDance | New Grad 2027: Agent Evaluation & Evolution Machine Learning Engineer 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/15i) |
 | ByteDance | New Grad 2027: Software Engineer (AI Infrastructure-Compute Efficiency & Scheduling) 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/15l) |
 | ByteDance | Production System Engineer Project Intern, Server DevOps 🆕 | Tech | Intern | ~Summer 2027 | New York, NY | 0 days ago | [apply](https://go.vansh.nyc/14j) |
-| Arcesium | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://go.vansh.nyc/12z) |
-| Arista Networks | Software Engineer Intern, C/C++ 🆕 | SWE | Intern | ~Summer 2027 | Remote; United States | 1 day ago | [apply](https://go.vansh.nyc/12B) |
-| Braze | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://go.vansh.nyc/12D) |
-| Datacor | AI Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Remote; United States | 1 day ago | [apply](https://go.vansh.nyc/12N) |
-| DriveWealth | Engineering Intern, AI Consulting Associate Program (AI CAP) 🆕 | Data/ML | Intern | ~Summer 2027 | Chicago, IL | 1 day ago | [apply](https://go.vansh.nyc/12O) |
-| DriveWealth | Product Owner Intern, AI Consulting Associate Program (AI CAP) 🆕 | Data/ML | Intern | ~Summer 2027 | Chicago, IL | 1 day ago | [apply](https://go.vansh.nyc/12P) |
-| Ema | AI Resident Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, CA | 1 day ago | [apply](https://go.vansh.nyc/13C) |
-| Firework | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Mateo, CA | 1 day ago | [apply](https://jobs.lever.co/fireworkhq/36722fbd-2705-4beb-83aa-1884068eaa09/apply) |
-| GITAI | Field-Deployed Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Los Angeles, CA | 1 day ago | [apply](https://go.vansh.nyc/13I) |
-| General Dynamics Mission Systems | DevOps Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Pittsburgh, PA | 1 day ago | [apply](https://go.vansh.nyc/12S) |
-| Hyphenate | New Grad: Software Engineer 🆕 | SWE | New grad | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://go.vansh.nyc/13Q) |
-| IDEMIA | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote; United States | 1 day ago | [apply](https://go.vansh.nyc/12W) |
-| IDEMIA | Software Engineering Intern, Enrollment and Credentialing Services 🆕 | SWE | Intern | ~Summer 2027 | Brentwood, TN | 1 day ago | [apply](https://go.vansh.nyc/12X) |
-| Intercontinental Exchange | Software Engineering Intern, Java 🆕 | SWE | Intern | ~Summer 2027 | Jacksonville, FL | 1 day ago | [apply](https://go.vansh.nyc/131) |
-| Intercontinental Exchange | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Jacksonville, FL | 1 day ago | [apply](https://go.vansh.nyc/133) |
-| Intercontinental Exchange | Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://go.vansh.nyc/12Z) |
-| Intercontinental Exchange | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://go.vansh.nyc/130) |
-| Iridium Communications | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | McLean, VA; Tempe, AZ | 1 day ago | [apply](https://go.vansh.nyc/137) |
-| Ixian Robotics | Software Intern 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA | 1 day ago | [apply](https://go.vansh.nyc/138) |
-| KLA | Software Engineering Intern, C++ and Unix 🆕 | SWE | Intern | ~Summer 2027 | Milpitas, CA | 1 day ago | [apply](https://go.vansh.nyc/13b) |
-| Keenfinity | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Lincoln, NE | 1 day ago | [apply](https://go.vansh.nyc/139) |
-| LiveFlow | Graduate Engineer - AI Agents 🆕 | Data/ML | New grad | ~Summer 2027 | San Francisco, CA | 1 day ago | [apply](https://go.vansh.nyc/13R) |
-| Meta | Research Scientist Intern - Video Recsys 🆕 | Data/ML | Intern | ~Summer 2027 | Menlo Park, CA | 1 day ago | [apply](https://www.metacareers.com/jobs/1553890293163197) |
-| Modernizing Medicine | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Boca Raton, FL | 1 day ago | [apply](https://go.vansh.nyc/13e) |
-| NVIDIA | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Santa Clara, CA | 1 day ago | [apply](https://go.vansh.nyc/12g) |
-| NVIDIA | Autonomous Vehicles and Robotics Intern 🆕 | Tech | Intern | ~Summer 2027 | Santa Clara, CA | 1 day ago | [apply](https://go.vansh.nyc/12h) |
-| NVIDIA | Deep Learning Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Santa Clara, CA | 1 day ago | [apply](https://go.vansh.nyc/12j) |
-| NVIDIA | Research Scientist New Grad - AI for Graphics and Gaming 🆕 | Data/ML | New grad | ~Summer 2027 | Canada; Santa Clara, CA | 1 day ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267) |
-| NVIDIA | Research Scientist New Grad - ML Systems 🆕 | Data/ML | New grad | ~Summer 2027 | Seattle, WA; Austin, TX | 1 day ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Scientist--ML-Systems---New-College-Grad-2026_JR2010161) |
-| New York ISO | Software Engineering Co-op, IT 🆕 | SWE | Intern | ~Summer 2027 | Rensselaer, NY | 1 day ago | [apply](https://go.vansh.nyc/13J) |
-| Nordson | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | East Providence, RI | 1 day ago | [apply](https://go.vansh.nyc/13g) |
-| Northrop Grumman | Data Scientist Intern, Product Support 🆕 | Data/ML | Intern | ~Summer 2027 | San Diego, CA | 1 day ago | [apply](https://go.vansh.nyc/125) |
-| One Robot | Machine Learning Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, CA | 1 day ago | [apply](https://go.vansh.nyc/13h) |
-| Parallel Systems | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Los Angeles, CA | 1 day ago | [apply](https://go.vansh.nyc/13i) |
-| Patreon | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://go.vansh.nyc/13j) |
-| Range | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | McLean, VA | 1 day ago | [apply](https://go.vansh.nyc/13l) |
-| Relling | Robotics Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA | 1 day ago | [apply](https://go.vansh.nyc/13m) |
-| Relling | New Grad: Robotics Software Engineer 🆕 | SWE | New grad | ~Summer 2027 | San Francisco, CA | 1 day ago | [apply](https://go.vansh.nyc/13S) |
-| Rhoda AI | Software Engineer Intern, Rhoda Platform 🆕 | SWE | Intern | ~Summer 2027 | Mountain View, CA | 1 day ago | [apply](https://go.vansh.nyc/13n) |
-| ShopBack | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA | 1 day ago | [apply](https://go.vansh.nyc/13o) |
-| ShopBack | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://go.vansh.nyc/13p) |
-| SuperApp | New Grad 2027: Software Engineer 🆕 | SWE | New grad | 2027 | San Francisco, CA | 1 day ago | [apply](https://go.vansh.nyc/13T) |
-| TensorWave | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Las Vegas, NV | 1 day ago | [apply](https://go.vansh.nyc/13q) |
-| USAFacts | AI & Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Bellevue, WA | 1 day ago | [apply](https://go.vansh.nyc/13s) |
-| Vantor | AI Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Remote; United States | 1 day ago | [apply](https://go.vansh.nyc/13t) |
-| West Bend Insurance | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | West Bend, WI | 1 day ago | [apply](https://go.vansh.nyc/13w) |
+| DivcoWest | AI Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://go.vansh.nyc/18L) |
+| Insomniac Games | Undergraduate Gameplay Programming Intern 🆕 | SWE | Intern | ~Summer 2027 | Burbank, CA; Remote | 0 days ago | [apply](https://go.vansh.nyc/18P) |
+| TRG | Full Stack Application Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Dallas, TX | 0 days ago | [apply](https://secure7.saashr.com/ta/6203759.careers?ShowJob=638057422&lang=en-US) |
+| TikTok | AI Engineer Intern, TikTok-Client Arch 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17P) |
+| TikTok | Data Science Intern, TikTok Integrity and Safety 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17R) |
+| TikTok | Machine Learning MLOps Intern, Global SRE 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17S) |
+| TikTok | ML Infra Engineer Intern, Ads Infra 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17V) |
+| TikTok | Software Engineer Intern, TikTok AI Search & Visual Search Infra Team 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/183) |
+| TikTok | Data Engineering Project Intern, Ads Targeting 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/186) |
+| TikTok | Machine Learning Engineer Intern, TikTok-Data-Search-Local Service 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/189) |
+| TikTok | Data Scientist Project Intern, TikTok Integrity and Safety 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18b) |
+| TikTok | Machine Learning Engineer Intern, TikTok-Data-Search-Basic Ranking 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18c) |
+| TikTok | Recommendation Architecture AI/ML Infrastructure Engineer Intern, Data-Arch-TikTok Live 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18h) |
+| TikTok | Machine Learning Engineer Intern, Visual Search 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18j) |
+| TikTok | Data Science Project Intern, Advertisement 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18k) |
+| TikTok | Software Engineer Intern, Ads Infrastructure 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18m) |
+| TikTok | Software Engineer Intern, Search Data Infra 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18n) |
+| TikTok | Software Engineer Intern, Search Architecture 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18q) |
+| TikTok | AI Software Engineer Project Intern, Transaction Platform 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18t) |
+| TikTok | Frontend Engineer Project Intern, Multimedia Arch 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18z) |
+| TikTok | Software Engineer Project Intern, Recommendation Infrastructure, Video Social 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18F) |
+| TikTok | New Grad 2027: Backend Software Engineer, Business Governance 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15K) |
+| TikTok | New Grad 2027: Backend Software Engineer, Emerging Products & AI Safety 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15M) |
+| TikTok | New Grad 2027: Backend Software Engineer (TikTok-PGC-Digital Content Center) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15N) |
+| TikTok | New Grad 2027: Frontend Software Engineer (Global CRM) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15O) |
+| TikTok | New Grad 2027: AI Software Engineer (TikTok-PGC-OGC&Creator Strategy) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15P) |
+| TikTok | New Grad 2027: Software Engineer, Ads Infrastructure 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15S) |
+| TikTok | New Grad 2027: Site Reliability Engineer (Global SRE) 🆕 | Tech | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15T) |
+| TikTok | New Grad 2027: Machine Learning Engineer (Ads Signal & Measurement) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15U) |
+| TikTok | New Grad 2027: Research Scientist, TikTok Recommendation 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15V) |
+| TikTok | New Grad 2027: Software Engineer, Transaction Platform 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15W) |
+| TikTok | New Grad 2027: Machine Learning Engineer, TikTok Recommendation 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15X) |
+| TikTok | New Grad 2027: Software Engineer/Mobile Engineer (Ads Core Demonstration) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15Y) |
+| TikTok | New Grad 2027: Data Engineer, Monetization Data 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/160) |
+| TikTok | New Grad 2027: Machine Learning Engineer, Commerce Ads 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/162) |
+| TikTok | New Grad 2027: Machine Learning Engineer (E-Commerce Recommendation Mall) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/163) |
+| TikTok | New Grad 2027: Machine Learning Engineer (E-Commerce Recommendation/Search Alliance) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/164) |
+| TikTok | New Grad 2027: ML Infra Engineer, Ads Infra 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/168) |
+| TikTok | New Grad 2027: Software Engineer (AI Agent & Global Revenue Platform) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/169) |
+| TikTok | New Grad 2027: Machine Learning Engineer (E-Commerce Supply Chain & Logistics) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16a) |
+| TikTok | New Grad 2027: Machine Learning Engineer, E-Commerce Recommendation Foundation 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16b) |
 
-_+563 more in the full list below._
+_+678 more in the full list below._
 
-## 📋 All open roles — newest first (7407)
+## 📋 All open roles — newest first (7527)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Amazon | New Grad 2027: ASIC Engineer I, Annapurna Labs 🆕 | Tech | New grad | 2027 | Cupertino, CA | 0 days ago | [apply](https://go.vansh.nyc/17n) |
 | ByteDance | Student Researcher Intern, Seed Model - AI Foundation Model Infrastructure 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/140) |
 | ByteDance | Student Researcher Intern, Seed Model - LLM 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/142) |
 | ByteDance | Machine Learning Engineer Intern, AML-Engine-Orchestration 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/144) |
@@ -167,6 +168,8 @@ _+563 more in the full list below._
 | ByteDance | Network Security Software Engineer Intern, Security Engineering 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/14v) |
 | ByteDance | Machine Learning Engineer Project Intern, Security-Data 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/14A) |
 | ByteDance | Security Software Engineer Project Intern, Network Security 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/14B) |
+| ByteDance | Security Engineering Project Intern, Watermark 🆕 | Tech | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15F) |
+| ByteDance | Backend Development Engineer Intern, Infrastructure Platform Delivery 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17L) |
 | ByteDance | New Grad 2027: Research Scientist, Seed Model-Alignment&Preparedness 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/14H) |
 | ByteDance | New Grad 2027: Research Scientist, Seed Model - AI Foundation Model Infrastructure 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/14J) |
 | ByteDance | New Grad 2027: Research Scientist (Seed Model - LLM) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/14M) |
@@ -213,6 +216,8 @@ _+563 more in the full list below._
 | ByteDance | AI Infrastructure Engineer Intern, Compute Efficiency & Scheduling 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/14o) |
 | ByteDance | Multi-Cloud CDN Scheduling Platform Engineer Intern, CDN Platform 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/14q) |
 | ByteDance | Student Researcher Intern, Seed Model - AI Foundation Model Infrastructure 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/14s) |
+| ByteDance | Student Researcher Intern, Seed Model - AI Foundation Models Infrastructure 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/15E) |
+| ByteDance | Machine Learning Engineer Intern, AML-Engine-Orchestration 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/17K) |
 | ByteDance | New Grad 2027: Research Scientist, Seed Model - AI Foundation Model Infrastructure 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/14I) |
 | ByteDance | New Grad 2027: Machine Learning Engineer, AML-Engine-Orchestration 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/14N) |
 | ByteDance | New Grad 2027: Multi-Cloud CDN Data Platform Engineer, CDN Platform 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/14P) |
@@ -224,6 +229,113 @@ _+563 more in the full list below._
 | ByteDance | New Grad 2027: Agent Evaluation & Evolution Machine Learning Engineer 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/15i) |
 | ByteDance | New Grad 2027: Software Engineer (AI Infrastructure-Compute Efficiency & Scheduling) 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/15l) |
 | ByteDance | Production System Engineer Project Intern, Server DevOps 🆕 | Tech | Intern | ~Summer 2027 | New York, NY | 0 days ago | [apply](https://go.vansh.nyc/14j) |
+| DivcoWest | AI Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, CA | 0 days ago | [apply](https://go.vansh.nyc/18L) |
+| Insomniac Games | Undergraduate Gameplay Programming Intern 🆕 | SWE | Intern | ~Summer 2027 | Burbank, CA; Remote | 0 days ago | [apply](https://go.vansh.nyc/18P) |
+| TRG | Full Stack Application Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Dallas, TX | 0 days ago | [apply](https://secure7.saashr.com/ta/6203759.careers?ShowJob=638057422&lang=en-US) |
+| TikTok | AI Engineer Intern, TikTok-Client Arch 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17P) |
+| TikTok | Data Science Intern, TikTok Integrity and Safety 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17R) |
+| TikTok | Machine Learning MLOps Intern, Global SRE 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17S) |
+| TikTok | ML Infra Engineer Intern, Ads Infra 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17V) |
+| TikTok | Software Engineer Intern, TikTok AI Search & Visual Search Infra Team 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/183) |
+| TikTok | Data Engineering Project Intern, Ads Targeting 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/186) |
+| TikTok | Machine Learning Engineer Intern, TikTok-Data-Search-Local Service 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/189) |
+| TikTok | Data Scientist Project Intern, TikTok Integrity and Safety 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18b) |
+| TikTok | Machine Learning Engineer Intern, TikTok-Data-Search-Basic Ranking 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18c) |
+| TikTok | Recommendation Architecture AI/ML Infrastructure Engineer Intern, Data-Arch-TikTok Live 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18h) |
+| TikTok | Machine Learning Engineer Intern, Visual Search 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18j) |
+| TikTok | Data Science Project Intern, Advertisement 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18k) |
+| TikTok | Software Engineer Intern, Ads Infrastructure 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18m) |
+| TikTok | Software Engineer Intern, Search Data Infra 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18n) |
+| TikTok | Software Engineer Intern, Search Architecture 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18q) |
+| TikTok | AI Software Engineer Project Intern, Transaction Platform 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18t) |
+| TikTok | Frontend Engineer Project Intern, Multimedia Arch 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18z) |
+| TikTok | Software Engineer Project Intern, Recommendation Infrastructure, Video Social 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/18F) |
+| TikTok | New Grad 2027: Backend Software Engineer, Business Governance 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15K) |
+| TikTok | New Grad 2027: Backend Software Engineer, Emerging Products & AI Safety 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15M) |
+| TikTok | New Grad 2027: Backend Software Engineer (TikTok-PGC-Digital Content Center) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15N) |
+| TikTok | New Grad 2027: Frontend Software Engineer (Global CRM) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15O) |
+| TikTok | New Grad 2027: AI Software Engineer (TikTok-PGC-OGC&Creator Strategy) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15P) |
+| TikTok | New Grad 2027: Software Engineer, Ads Infrastructure 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15S) |
+| TikTok | New Grad 2027: Site Reliability Engineer (Global SRE) 🆕 | Tech | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15T) |
+| TikTok | New Grad 2027: Machine Learning Engineer (Ads Signal & Measurement) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15U) |
+| TikTok | New Grad 2027: Research Scientist, TikTok Recommendation 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15V) |
+| TikTok | New Grad 2027: Software Engineer, Transaction Platform 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15W) |
+| TikTok | New Grad 2027: Machine Learning Engineer, TikTok Recommendation 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15X) |
+| TikTok | New Grad 2027: Software Engineer/Mobile Engineer (Ads Core Demonstration) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/15Y) |
+| TikTok | New Grad 2027: Data Engineer, Monetization Data 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/160) |
+| TikTok | New Grad 2027: Machine Learning Engineer, Commerce Ads 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/162) |
+| TikTok | New Grad 2027: Machine Learning Engineer (E-Commerce Recommendation Mall) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/163) |
+| TikTok | New Grad 2027: Machine Learning Engineer (E-Commerce Recommendation/Search Alliance) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/164) |
+| TikTok | New Grad 2027: ML Infra Engineer, Ads Infra 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/168) |
+| TikTok | New Grad 2027: Software Engineer (AI Agent & Global Revenue Platform) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/169) |
+| TikTok | New Grad 2027: Machine Learning Engineer (E-Commerce Supply Chain & Logistics) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16a) |
+| TikTok | New Grad 2027: Machine Learning Engineer, E-Commerce Recommendation Foundation 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16b) |
+| TikTok | New Grad 2027: Backend Software Engineer (Trust & Safety) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16d) |
+| TikTok | New Grad 2027: Machine Learning Engineer, E-Commerce Recommendation Live 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16e) |
+| TikTok | New Grad 2027: Software Engineer, Ads Interface 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16g) |
+| TikTok | New Grad 2027: Machine Learning Engineer (Search Ads) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16h) |
+| TikTok | New Grad 2027: Machine Learning Engineer, Search Quality 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16j) |
+| TikTok | New Grad 2027: Machine Learning Engineer, TikTok Trust and Safety 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16k) |
+| TikTok | New Grad 2027: Frontend Software Engineer (Ads Interface) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16n) |
+| TikTok | New Grad 2027: Machine Learning Engineer, E-Commerce Governance 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16o) |
+| TikTok | New Grad 2027: Software Engineer, Ads Infra 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16q) |
+| TikTok | New Grad 2027: AI Systems Engineer (AI Code Infrastructure-Agentic Ops US) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16t) |
+| TikTok | New Grad 2027: Backend Engineer, User Growth 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16u) |
+| TikTok | New Grad 2027: Machine Learning Engineer, TikTok-Data-Search-Recommendation 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16v) |
+| TikTok | New Grad 2027: Software Engineer (Media Engine) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16w) |
+| TikTok | New Grad 2027: Recommendation Architecture AI/ML Infrastructure Engineer, Data-Arch-TikTok Live 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16x) |
+| TikTok | New Grad 2027: Backend Software Engineer, Global E-commerce 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16y) |
+| TikTok | New Grad 2027: Software Engineer (TikTok AI Search & Visual Search Infra Team) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16A) |
+| TikTok | New Grad 2027: Machine Learning Engineer, Performance Monetization 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16B) |
+| TikTok | New Grad 2027: Machine Learning Engineer (Ads Targeting) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16C) |
+| TikTok | New Grad 2027: Software Engineer (Ads Delivery) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16E) |
+| TikTok | New Grad 2027: Software Engineer (Ads Measurement Signal Technology) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16F) |
+| TikTok | New Grad 2027: AI Engineer (Client Arch) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16G) |
+| TikTok | New Grad 2027: Software Development Engineer (Global E-Commerce-Quality Platform & AI Test Automation) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16H) |
+| TikTok | New Grad 2027: Machine Learning Engineer, Search-Basic Ranking 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16I) |
+| TikTok | New Grad 2027: Machine Learning MLOps Engineer 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16J) |
+| TikTok | New Grad 2027: Software Engineer (Ads Signal & Measurement) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16K) |
+| TikTok | New Grad 2027: Software Engineer, Global CRM 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16M) |
+| TikTok | New Grad 2027: Machine Learning Engineer (App Ads and Gaming) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16S) |
+| TikTok | New Grad 2027: Backend Software Engineer, Creation Platform 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16T) |
+| TikTok | New Grad 2027: AI Infra Engineer (Recommendation & LLM) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16U) |
+| TikTok | New Grad 2027: Data Scientist (Multimedia) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16V) |
+| TikTok | New Grad 2027: LLM Post-training Engineer (Research & Product) 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16Y) |
+| TikTok | New Grad 2027: Machine Learning Engineer, Monetization Technology - Ads Core Global 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/16Z) |
+| TikTok | New Grad 2027: Machine Learning Engineer, Ads Delivery 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/172) |
+| TikTok | New Grad 2027: Software Engineer (Video-on-Demand Algorithm) 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/176) |
+| TikTok | New Grad 2027: Software Engineer, Foundation Platform 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/177) |
+| TikTok | New Grad 2027: Backend Software Engineer, Privacy and Security - Product 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17a) |
+| TikTok | New Grad 2027: Backend Engineer, TikTok Vertical Recommendation Architecture 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17d) |
+| TikTok | New Grad 2027: Software Engineer, Business Integrity 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17g) |
+| TikTok | New Grad 2027: Machine Learning Engineer, TikTok Vertical Recommendation 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17h) |
+| TikTok | New Grad 2027: Backend Software Engineer, Data Lifecycle Management 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17i) |
+| TikTok | New Grad 2027: Machine Learning Engineer, Visual Search 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17j) |
+| TikTok | New Grad 2027: Software Engineer, Recommendation Infrastructure 🆕 | SWE | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17l) |
+| TikTok | New Grad 2027: Big Data Engineer, TikTok Recommendation Architecture 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/17m) |
+| TikTok | Research Engineer Intern, Agentic Systems & AI Infrastructure - TikTok-Generalized Arch 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/17U) |
+| TikTok | Machine Learning Engineer Intern, Recommendation Global E-Commerce 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/18l) |
+| TikTok | Machine Learning Engineer Intern, Global E-Commerce Search 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/18r) |
+| TikTok | Software Engineer Project Intern, Global E-Commerce Search Infrastructure 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/18y) |
+| TikTok | New Grad 2027: Backend Software Engineer (Risk & Response) 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/15L) |
+| TikTok | New Grad 2027: Backend Software Engineer (Feed Safety) 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/15R) |
+| TikTok | New Grad 2027: Software Engineer (Data Arch - E-commerce) 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/15Z) |
+| TikTok | New Grad 2027: Machine Learning Engineer (E-Commerce Recommendation/Search Alliance) 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/161) |
+| TikTok | New Grad 2027: Machine Learning Engineer, E-Commerce Supply Chain & Logistics 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/165) |
+| TikTok | New Grad 2027: Machine Learning Engineer (E-Commerce Recommendation Live) 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/166) |
+| TikTok | New Grad 2027: Backend Software Engineer (Trust & Safety) 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/167) |
+| TikTok | New Grad 2027: Backend Software Engineer (Machine Moderation Platform) 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/16c) |
+| TikTok | New Grad 2027: Machine Learning Engineer, E-Commerce Recommendation Foundation 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/16m) |
+| TikTok | New Grad 2027: Machine Learning Engineer, TikTok Trust and Safety 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/16p) |
+| TikTok | New Grad 2027: Machine Learning Engineer, E-Commerce Recommendation Mall 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/16r) |
+| TikTok | New Grad 2027: Software Engineer (Global E-commerce-Search) 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/16s) |
+| TikTok | New Grad 2027: Fullstack Software Engineer, Global E-commerce 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/16z) |
+| TikTok | New Grad 2027: Machine Learning Engineer (TikTok-Data-Search-Recommendation-Global E-Commerce) 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/16N) |
+| TikTok | New Grad 2027: Machine Learning Engineer, E-Commerce Governance 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/16W) |
+| TikTok | New Grad 2027: Software Engineer (Recommendation Architecture, Feeds Infrastructure) 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/170) |
+| TikTok | New Grad 2027: Machine Learning Engineer, TikTok-Data-Search-Local Service 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/179) |
+| TikTok | New Grad 2027: Backend Software Engineer (Global E-commerce) 🆕 | SWE | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/17b) |
+| TikTok | New Grad 2027: Machine Learning Engineer (Data-Global E-Commerce-Search) 🆕 | Data/ML | New grad | 2027 | Seattle, WA | 0 days ago | [apply](https://go.vansh.nyc/17f) |
 | Arcesium | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://go.vansh.nyc/12z) |
 | Arista Networks | Software Engineer Intern, C/C++ 🆕 | SWE | Intern | ~Summer 2027 | Remote; United States | 1 day ago | [apply](https://go.vansh.nyc/12B) |
 | Braze | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 1 day ago | [apply](https://go.vansh.nyc/12D) |
@@ -297,7 +409,9 @@ _+563 more in the full list below._
 | Hendler Family Brewing Co. | Software Engineering and IT Co-op 🆕 | SWE | Intern | ~Summer 2027 | United States | 2 days ago | [apply](https://go.vansh.nyc/12v) |
 | Hewlett Packard Enterprise | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Sunnyvale-California-United-States-of-America/Software-Engineering-Intern_1214146) |
 | Hewlett Packard Enterprise | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Sunnyvale, CA | 2 days ago | [apply](https://go.vansh.nyc/111) |
+| Intuit | Software Engineering Intern, Full Stack 🆕 | SWE | Intern | ~Summer 2027 | United States | 2 days ago | [apply](https://go.vansh.nyc/17H) |
 | Itron | Systems Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | West Union, SC | 2 days ago | [apply](https://itron.wd5.myworkdayjobs.com/Early_Careers/job/United-States-of-America-South-Carolina-West-Union/Intern---Systems-Engineer--Spring-2027-_JR102789-1) |
+| Johns Hopkins APL | Robotics Engineer Intern, Maritime Systems 🆕 | Tech | Intern | ~Summer 2027 | Laurel, MD | 2 days ago | [apply](https://go.vansh.nyc/17I) |
 | Johns Hopkins APL | New Grad 2027: Software Systems Engineer 🆕 | SWE | New grad | 2027 | Laurel, MD | 2 days ago | [apply](https://go.vansh.nyc/10j) |
 | Johns Hopkins Applied Physics Laboratory | Robotics Engineer Intern - Maritime Systems 🆕 | Tech | Intern | ~Summer 2027 | Laurel, MD | 2 days ago | [apply](https://careers.jhuapl.edu/jobs/60742?icims=1) |
 | Lila Sciences | AI-Driven Equation Discovery Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | Cambridge, MA; San Francisco, CA | 2 days ago | [apply](https://job-boards.greenhouse.io/lilasciences/jobs/4469152009) |
@@ -336,122 +450,8 @@ _+563 more in the full list below._
 | University of Miami | Data Science & AI Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Miami, FL | 2 days ago | [apply](https://umiami.wd1.myworkdayjobs.com/UMCareerStaff/job/Miami-FL/Data-Science---AI-Intern_R100102549) |
 | VSP Vision | AI, Agentic & Machine Learning Development Intern - AI, Agentic & Machine Learning Development 🆕 | Data/ML | Intern | ~Summer 2027 | Remote (US) | 2 days ago | [apply](https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072) |
 | VSP Vision | Agentic & Machine Learning Development Intern, AI 🆕 | Data/ML | Intern | ~Summer 2027 | Remote; United States | 2 days ago | [apply](https://go.vansh.nyc/113) |
-| Virginia Tech Applied Research Corporation | Research Intern, Applied AI & Software Development 🆕 | Data/ML | Intern | ~Summer 2027 | Arlington, VA | 2 days ago | [apply](https://go.vansh.nyc/12r) |
-| Waymo | Research Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Mountain View, CA | 2 days ago | [apply](https://careers.withwaymo.com/jobs?gh_jid=8337719) |
-| Wex | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote (US) | 2 days ago | [apply](https://wexinc.wd5.myworkdayjobs.com/en-US/WEXInc/job/US---Remote/Software-Engineer-Intern_R22585) |
-| Wex | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote; United States | 2 days ago | [apply](https://go.vansh.nyc/10z) |
-| Axiom Space | Enterprise Data Analyst Intern - Power BI & Data Quality 🆕 | Data/ML | Intern | ~Summer 2027 | Houston, TX | 3 days ago | [apply](https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Enterprise-Data-Analyst-Intern--Power-BI---Data-Quality--Summer-2027-_JR100823) |
-| Axiom Space | Enterprise Data Analyst Intern, Power BI & Data Quality 🆕 | Data/ML | Intern | ~Summer 2027 | Houston, TX | 3 days ago | [apply](https://go.vansh.nyc/103) |
-| Base Power | Power Systems Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 3 days ago | [apply](https://jobs.ashbyhq.com/base-power/8397f115-7806-4911-a12b-6231852c3443) |
-| Benchmark Space Systems | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Burlington, VT | 3 days ago | [apply](https://go.vansh.nyc/11X) |
-| Bosch | IT Systems Engineering Intern (19 hours per week) 🆕 | SWE | Intern | ~Summer 2027 | Roseville, CA, us | 3 days ago | [apply](https://jobs.smartrecruiters.com/BoschGroup/744000158620079) |
-| Boston Scientific | AI Solutions Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Arden Hills, MN | 3 days ago | [apply](https://bostonscientific.eightfold.ai/careers/job/563602813547675) |
-| Boston Scientific | AI Solutions Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Arden Hills, MN | 3 days ago | [apply](https://go.vansh.nyc/YR) |
-| CACI | Systems Engineering Co-op Intern 🆕 | SWE | Intern | ~Summer 2027 | Rochester, NY | 3 days ago | [apply](https://caci.wd1.myworkdayjobs.com/external/job/Rochester-NY-US/Systems-Engineering-Co-op-Intern---Spring-2027_334157) |
-| CACI | Software Engineering Co-op Intern 🆕 | SWE | Intern | ~Summer 2027 | Rochester, NY | 3 days ago | [apply](https://caci.wd1.myworkdayjobs.com/external/job/Rochester-NY-US/Software-Engineering-Co-op-Intern---Spring-2027_334160) |
-| CACI | Software Engineering Co-op 🆕 | SWE | Intern | ~Summer 2027 | Rochester, NY | 3 days ago | [apply](https://go.vansh.nyc/YV) |
-| CareSource | AI Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Remote (US) | 3 days ago | [apply](https://caresource.wd1.myworkdayjobs.com/caresource/job/Remote/XMLNAME-2027-Summer-Internship-Program---AI-Intern_R14123) |
-| CareSource | Full Stack AI Development Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote (US) | 3 days ago | [apply](https://caresource.wd1.myworkdayjobs.com/caresource/job/Remote/XMLNAME-2027-Summer-Internship-Program---Full-Stack-AI-Development-Intern-1_R14181) |
-| CareSource | AI Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Remote; United States | 3 days ago | [apply](https://go.vansh.nyc/105) |
-| CareSource | Full Stack AI Development Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote; United States | 3 days ago | [apply](https://go.vansh.nyc/106) |
-| Centene | AI Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Missouri | 3 days ago | [apply](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/AI-Engineer-Intern--Undergraduate---Summer-2027-_1667739) |
-| Charles River Analytics | AI Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Cambridge, MA | 3 days ago | [apply](https://job-boards.greenhouse.io/charlesriveranalytics90/jobs/8333895) |
-| Cloudflare | Product Manager Intern 🆕 | PM | Intern | ~Summer 2027 | Austin, TX | 3 days ago | [apply](https://boards.greenhouse.io/cloudflare/jobs/8274790) |
-| Danaher | Application Integration Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Brea, CA | 3 days ago | [apply](https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Brea-California-United-States/Intern---Application-Integration-Developer_R1316677) |
-| Danaher Corporation | Application Integration Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Brea, CA | 3 days ago | [apply](https://go.vansh.nyc/ZF) |
-| Disney | Enterprise Technology & Data Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Orlando, FL | 3 days ago | [apply](https://go.vansh.nyc/YL) |
-| Disney | Full Stack Web Development Intern, Walt Disney Animation Studios 🆕 | SWE | Intern | ~Summer 2027 | Burbank, CA | 3 days ago | [apply](https://go.vansh.nyc/YM) |
-| Diversified Automation | Hardware Engineering Co-Op 🆕 | Tech | Intern | ~Summer 2027 | Louisville, KY | 3 days ago | [apply](https://jobs.lever.co/diversified-automation/7a1f1890-bc5d-4e5e-a510-7fe7f85660d3) |
-| Emerson Electric | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 3 days ago | [apply](https://go.vansh.nyc/10L) |
-| Ericsson | AI and Automation Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Plano, TX | 3 days ago | [apply](https://go.vansh.nyc/YK) |
-| GM Financial | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Arlington, TX | 3 days ago | [apply](https://go.vansh.nyc/Zs) |
-| General Motors | AI/ML Engineer Intern - Autonomous Vehicles 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA; Sunnyvale, CA | 3 days ago | [apply](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer---Autonomous-Vehicles_JR-202623439) |
-| General Motors | AI/ML Engineer Intern, Autonomous Vehicles 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA; Sunnyvale, CA | 3 days ago | [apply](https://go.vansh.nyc/ZG) |
-| Genius AI | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 3 days ago | [apply](https://jobs.ashbyhq.com/geniusai/96ebddc5-6ed4-4e68-813b-55d44c315b27/application?embed=true) |
-| Genius AI | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 3 days ago | [apply](https://go.vansh.nyc/108) |
-| Gilead Sciences | Research Intern, Discovery Sciences and Technologies, AI 🆕 | Data/ML | Intern | ~Summer 2027 | Foster City, CA | 3 days ago | [apply](https://go.vansh.nyc/Z5) |
-| Gilead Sciences | Research Intern, Inflammation, AI 🆕 | Data/ML | Intern | ~Summer 2027 | Foster City, CA | 3 days ago | [apply](https://go.vansh.nyc/Z6) |
-| Gilead Sciences | Research Intern, Oncology Biomarker - AI 🆕 | Data/ML | Intern | ~Summer 2027 | Foster City, CA | 3 days ago | [apply](https://go.vansh.nyc/Z7) |
-| GlobalFoundries | Digital Design Backend Engineering Intern - 3D and AI Flows 🆕 | SWE | Intern | ~Summer 2027 | Santa Clara, CA | 3 days ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/Digital-Design-Backend-Engineering-Intern--3D-and-AI-Flows_JR-2604355) |
-| Golden Analytics | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Bellevue, WA | 3 days ago | [apply](https://ats.rippling.com/golden/jobs/2ba326f7-9259-47df-9f54-bef4ce5c5fb5) |
-| Great American Insurance Company | DevOps Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cincinnati, OH | 3 days ago | [apply](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826) |
-| Great American Insurance Company | Content Publishing Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cincinnati, OH | 3 days ago | [apply](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Content-Publishing-Developer-Intern---Summer-2027_R9813) |
-| Hasbro | Electrical Engineering Co-op 🆕 | Tech | Intern | ~Summer 2027 | Boston, MA | 3 days ago | [apply](https://job-boards.greenhouse.io/hasbro/jobs/4472128009) |
-| Hewlett Packard Enterprise | ASIC Verification Engineering Intern 🆕 | Tech | Intern | ~Summer 2027 | Roseville, CA | 3 days ago | [apply](https://go.vansh.nyc/Zt) |
-| JM Family | Customer Experience Data Analyst Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Deerfield Beach, FL | 3 days ago | [apply](https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125) |
-| JM Family | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Deerfield Beach, FL | 3 days ago | [apply](https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105158) |
-| JM Family Enterprises | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Deerfield Beach, FL; Jacksonville, FL | 3 days ago | [apply](https://go.vansh.nyc/YU) |
-| KLA | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Milpitas, CA | 3 days ago | [apply](https://go.vansh.nyc/YS) |
-| KLA | Software Intern 🆕 | SWE | Intern | ~Summer 2027 | Milpitas, CA | 3 days ago | [apply](https://go.vansh.nyc/Zl) |
-| KLA Corporation | Software Intern 🆕 | SWE | Intern | ~Summer 2027 | Milpitas, CA | 3 days ago | [apply](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Intern_2642700) |
-| L3Harris Technologies | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Carlsbad, CA | 3 days ago | [apply](https://go.vansh.nyc/YO) |
-| Leidos | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Annapolis Junction, MD | 3 days ago | [apply](https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00195829) |
-| Leidos | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Annapolis Junction, MD | 3 days ago | [apply](https://go.vansh.nyc/ZT) |
-| Loft Orbital | Test Engineering Intern - Test Engineering 🆕 | Tech | Intern | ~Summer 2027 | Golden, CO | 3 days ago | [apply](https://jobs.lever.co/loftorbital/be396d08-738d-4f3d-bea4-cbbdc88c3db9/apply) |
-| Lunar Energy | Hardware Test Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Mountain View, CA | 3 days ago | [apply](https://job-boards.greenhouse.io/lunarenergy/jobs/6237015004) |
-| MITRE | AI Solutions Architect Intern 🆕 | Data/ML | Intern | ~Summer 2027 | McLean, VA | 3 days ago | [apply](https://go.vansh.nyc/13Y) |
-| Mativ | Data Science and Business Analytics Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Alpharetta, GA | 3 days ago | [apply](https://go.vansh.nyc/11Y) |
-| Meta | Research Scientist Intern - Scam and Trust 🆕 | Data/ML | Intern | ~Summer 2027 | Menlo Park, CA | 3 days ago | [apply](https://www.metacareers.com/jobs/2355649268510104) |
-| Meta | Research Scientist Intern - AI Infra 🆕 | Data/ML | Intern | ~Summer 2027 | Menlo Park, CA | 3 days ago | [apply](https://www.metacareers.com/jobs/4603165899971826) |
-| Meta | Research Scientist Intern - Multiple Teams 🆕 | Data/ML | Intern | ~Summer 2027 | Seattle, WA; Bellevue, WA | 3 days ago | [apply](https://www.metacareers.com/jobs/1105933535765181) |
-| Metova Federal | AI Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Orlando, FL | 3 days ago | [apply](https://go.vansh.nyc/ZU) |
-| Micron Technology | ASIC Digital Design Intern 🆕 | Tech | Intern | ~Summer 2027 | Minneapolis, MN | 3 days ago | [apply](https://go.vansh.nyc/Z8) |
-| Microsoft | Applied Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Redmond, WA | 3 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393557050150) |
-| Microsoft | Applied Scientist Intern, Turing 🆕 | Data/ML | Intern | ~Summer 2027 | Redmond, WA | 3 days ago | [apply](https://go.vansh.nyc/Z4) |
-| NVIDIA | VLSI CAD Timing Intern - Applied AI 🆕 | Data/ML | Intern | ~Summer 2027 | Santa Clara, CA; United States | 3 days ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/VLSI-CAD-Timing-Intern--Applied-AI---Summer-2027_JR2026799) |
-| NVIDIA | Compiler Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA | 3 days ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607) |
-| NVIDIA | AI Systems Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 3 days ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170) |
-| NVIDIA | Compiler Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA | 3 days ago | [apply](https://go.vansh.nyc/102) |
-| National Interstate Insurance | Content Publishing Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cincinnati, OH | 3 days ago | [apply](https://go.vansh.nyc/Ze) |
-| National Interstate Insurance | DevOps Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Cincinnati, OH | 3 days ago | [apply](https://go.vansh.nyc/Zr) |
-| Nintendo | Software Engineer Intern, Connectivity 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA | 3 days ago | [apply](https://go.vansh.nyc/12p) |
-| Noble Machines | Electrical Engineer – Early Career - Embedded Systems & Tools 🆕 | Tech | New grad | ~Summer 2027 | Sunnyvale, CA | 3 days ago | [apply](https://job-boards.greenhouse.io/undercontrolroboticsinc/jobs/4473572009) |
-| Northrop Grumman | New Grad 2027: Associate Cyber Software Engineer 🆕 | SWE | New grad | 2027 | Aurora, CO | 3 days ago | [apply](https://go.vansh.nyc/Zv) |
-| Northrop Grumman | Systems Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Woodland Hills, LA | 3 days ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Woodland-Hills/XMLNAME-2027-Systems-Engineer-Intern---Woodland-Hills-CA_R10249319-1) |
-| Northwood Space | Software Engineer, Platform (Early Career) 🆕 | SWE | New grad | ~Summer 2027 | Torrance, CA | 3 days ago | [apply](https://jobs.ashbyhq.com/NorthwoodSpace/f7b9e8d5-7368-4a54-b445-ff647f12b1b6) |
-| Overland AI | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA | 3 days ago | [apply](https://ats.rippling.com/overland-ai/jobs/37dd9f44-cdb1-4e2e-98c5-800b9b8cb40e) |
-| Path Robotics | Machine Learning & Robotics Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Columbus, OH | 3 days ago | [apply](https://boards.greenhouse.io/pathrobotics/jobs/8924241002) |
-| Philips | Data Engineer Co-op - Biocompatibility 🆕 | Data/ML | Intern | ~Summer 2027 | Murrysville, PA | 3 days ago | [apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Murrysville-Pennsylvania-United-States/Co-op---Data-Engineer--Biocompatibility----Murrysville--PA---January-to-June-2027_591730) |
-| Philips | Data Engineer Co-op, Biocompatibility 🆕 | Data/ML | Intern | ~Summer 2027 | Murrysville, PA | 3 days ago | [apply](https://go.vansh.nyc/ZZ) |
-| RTX | Electrical Engineering Intern 🆕 | Tech | Intern | ~Summer 2027 | Fort Wayne, IN | 3 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Electrical-Engineering-Hardware-Intern--Summer-2027--Onsite-_01886126) |
-| RTX | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Sterling, VA | 3 days ago | [apply](https://go.vansh.nyc/ZE) |
-| SCM | Quantitative Research Analyst Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Radnor, PA | 3 days ago | [apply](https://job-boards.greenhouse.io/scmaea/jobs/998317) |
-| SOSi | Entry-Level PeopleSoft Software Developer 🆕 | SWE | New grad | ~Summer 2027 | Charleston, SC | 3 days ago | [apply](https://go.vansh.nyc/Zn) |
-| Sallie Mae | Data Science and Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Newark, DE; Arlington County, Arlington, VA | 3 days ago | [apply](https://sallie-mae.wd5.myworkdayjobs.com/Careers/job/Newark-DE/Data-Science---Engineering-Intern_R26_000659) |
-| Samsung | Systems Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 3 days ago | [apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046887003) |
-| Schweitzer Engineering Laboratories | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Charlotte, NC | 3 days ago | [apply](https://selinc.wd1.myworkdayjobs.com/SEL/job/North-Carolina---Charlotte/Engineering-Intern_2026-23468) |
-| Schweitzer Engineering Laboratories | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Charlotte, NC | 3 days ago | [apply](https://go.vansh.nyc/ZH) |
-| Signify | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Peachtree City, GA | 3 days ago | [apply](https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Peachtree-City/Product-Management-Intern--Cooper-Lighting-Solutions---Spring-2027_366870) |
-| SmartFlower Solar | Embedded Systems Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Woburn, MA | 3 days ago | [apply](https://apply.workable.com/smartflower-solar-llc/j/240CCDA520/apply) |
-| Sonos | Software Product Manager Intern 🆕 | PM | Intern | ~Summer 2027 | Seattle, WA | 3 days ago | [apply](https://sonos.wd1.myworkdayjobs.com/Sonos/job/Seattle-WA/Software-Product-Management-Intern--Seattle-_R2888-1) |
-| Sonos | Software Engineer Intern - Partner Engineering 🆕 | SWE | Intern | ~Summer 2027 | Boston, MA | 3 days ago | [apply](https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1) |
-| Syngenta Group | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Raleigh, NC | 3 days ago | [apply](https://jobs.smartrecruiters.com/SyngentaGroup/744000158494415) |
-| Syntiant | DevOps Machine Learning Infrastructure Intern 🆕 | SWE | Intern | ~Summer 2027 | Irvine, CA | 3 days ago | [apply](https://go.vansh.nyc/11V) |
-| T-Mobile | Associate Product Manager Intern 🆕 | PM | Intern | ~Summer 2027 | Overland Park, KS | 3 days ago | [apply](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Assoc-Product-Manager-Internship_REQ380746) |
-| T-Mobile | Associate AI Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Overland Park, KS | 3 days ago | [apply](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484) |
-| T-Mobile | Associate Product Manager Intern 🆕 | PM | Intern | ~Summer 2027 | Overland Park, KS | 3 days ago | [apply](https://go.vansh.nyc/Zz) |
-| Talos Trading | Software Engineer Intern, Dealer 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 3 days ago | [apply](https://jobs.ashbyhq.com/talos-trading/91fd5274-3b6b-43cf-b366-9f6dc2ae5977) |
-| Talos Trading | Software Engineer Intern, RFQ 🆕 | SWE | Intern | ~Summer 2027 | New York, NY | 3 days ago | [apply](https://jobs.ashbyhq.com/talos-trading/2c833180-484f-4657-80e3-f822cf1a0285) |
-| Tesla | Data Engineer Intern - Energy 🆕 | Data/ML | Intern | ~Summer 2027 | Palo Alto, CA | 3 days ago | [apply](https://www.tesla.com/careers/search/job/287982) |
-| Thoughtworks | Software Developer New Grad 🆕 | SWE | New grad | ~Summer 2027 | Chicago, IL | 3 days ago | [apply](https://www.thoughtworks.com/careers/jobs/8333235?gh_jid=8333235) |
-| Thoughtworks | New Grad: Software Developer 🆕 | SWE | New grad | ~Summer 2027 | Chicago, IL | 3 days ago | [apply](https://go.vansh.nyc/Z2) |
-| Toyota Research Institute | Robotics Intern - Human-Machine Interaction Research 🆕 | Tech | Intern | ~Summer 2027 | Los Altos, CA | 3 days ago | [apply](https://jobs.lever.co/tri/dcc68e06-e6a6-4cb5-b0a9-282ab9c16dc8/apply) |
-| Two Six Technologies | Systems Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Arlington County, Arlington, VA | 3 days ago | [apply](https://job-boards.greenhouse.io/twosixtechnologies/jobs/6236518004) |
-| Two Six Technologies | Systems Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Arlington, VA | 3 days ago | [apply](https://go.vansh.nyc/Z3) |
-| USAFacts | AI & Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Bellevue, WA | 3 days ago | [apply](https://job-boards.greenhouse.io/usafacts/jobs/4472154009) |
-| V2X | Electrical Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Indianapolis, IN | 3 days ago | [apply](https://careers.gov2x.com/jobs/63854?icims=1) |
-| Vestmark Internship Program | Cloud Engineer Co-op 🆕 | Tech | Intern | ~Summer 2027 | Wakefield, MA | 3 days ago | [apply](https://go.vansh.nyc/100) |
-| Waggoner Financial | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Lansing, MI | 3 days ago | [apply](https://apply.workable.com/waggoner-financial/j/FA0B644142/apply) |
-| Waggoner Financial | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Lansing, MI | 3 days ago | [apply](https://go.vansh.nyc/109) |
-| Walmart | Corporate Market Strategy Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Bentonville, AR | 3 days ago | [apply](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Always-AR-Bentonville-Home-Office/R-2690844--USA--Corporate-Intern---Market-Strategy-Data-Science-Intern_R-2690844) |
-| Western Magnetics | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | South SF | 3 days ago | [apply](https://jobs.ashbyhq.com/westmag/d0b7d88b-4f22-4c1f-abc7-0bd724878882/application?embed=true) |
-| Zoox | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Foster City, CA | 3 days ago | [apply](https://go.vansh.nyc/ZY) |
-| ABB | AI Robotics Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 4 days ago | [apply](https://abb.wd3.myworkdayjobs.com/external_career_page/job/Milpitas-California-USA/AI-Robotics-Intern--Fall-2026_JR00044846) |
-| ASML | Data Engineer Co-op Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Diego, CA | 4 days ago | [apply](https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626) |
-| ASML | Data Engineer Co-op 🆕 | Data/ML | Intern | ~Summer 2027 | San Diego, CA | 4 days ago | [apply](https://go.vansh.nyc/Yt) |
-| Ace Hardware | IT Associate Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Oak Brook, IL | 4 days ago | [apply](https://acehardware.wd1.myworkdayjobs.com/External/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797) |
 
-_Showing the newest 300 of 7407 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 7527 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 7407 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **98.2%** of roles carry an exact posting timestamp from the source (7275/7407).
-- **8.3%** come from a company's own board rather than a community feed.
-- **3698** duplicates merged, **25** near-duplicates collapsed.
-- **168** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **98.3%** of roles carry an exact posting timestamp from the source (7396/7527).
+- **8.1%** come from a company's own board rather than a community feed.
+- **3740** duplicates merged, **25** near-duplicates collapsed.
+- **169** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>19 source(s) returned 404 this run (token likely renamed)</summary>
 

@@ -1,30 +1,30 @@
 {
   "schema": 4,
-  "updated": "2026-11-01T08:31:52+00:00",
-  "count": 7407,
+  "updated": "2026-11-01T18:43:11+00:00",
+  "count": 7527,
   "metrics": {
-    "roles_open": 7407,
-    "roles_closed_tracked": 168,
-    "companies": 1639,
+    "roles_open": 7527,
+    "roles_closed_tracked": 169,
+    "companies": 1643,
     "sources_configured": 506,
     "sources_ok": 453,
     "sources_dead": 19,
     "sources_failed": 1,
     "by_level": {
-      "intern": 6292,
-      "new_grad": 1115
+      "intern": 6329,
+      "new_grad": 1198
     },
     "by_category": {
-      "Software Engineering": 3754,
-      "Data / ML / AI": 2234,
-      "Other Technical": 1102,
+      "Software Engineering": 3816,
+      "Data / ML / AI": 2289,
+      "Other Technical": 1105,
       "Product Management": 317
     },
     "by_source": {
-      "community": 6767,
+      "community": 6888,
       "greenhouse": 280,
       "ashby": 139,
-      "workday": 64,
+      "workday": 63,
       "lever": 58,
       "smartrecruiters": 31,
       "Greenhouse": 29,
@@ -33,40 +33,40 @@
       "workable": 3,
       "Ashby": 3
     },
-    "dates_trusted": 7275,
-    "dates_trusted_pct": 98.2,
-    "dates_known": 7404,
+    "dates_trusted": 7396,
+    "dates_trusted_pct": 98.3,
+    "dates_known": 7524,
     "dates_known_pct": 100.0,
     "dates_unknown": 3,
-    "terms_inferred": 6441,
-    "first_party": 613,
-    "first_party_pct": 8.3,
+    "terms_inferred": 6478,
+    "first_party": 612,
+    "first_party_pct": 8.1,
     "dedupe": {
-      "input": 7538,
-      "merged": 3698,
+      "input": 7697,
+      "merged": 3740,
       "near_dupes": 25,
-      "output": 3815
+      "output": 3932
     },
     "lifecycle": {
-      "new": 131,
+      "new": 121,
       "returning": 0,
-      "still_open": 3684,
-      "closed": 0,
+      "still_open": 3811,
+      "closed": 1,
       "reopened": 0
     },
     "filtered_out": {
-      "not_early_career": 42210,
-      "not_technical": 5306,
-      "non_us": 1568,
+      "not_early_career": 42209,
+      "not_technical": 5372,
+      "non_us": 1571,
       "undergrad:phd_required": 309,
+      "undergrad:masters_required": 87,
       "location_unknown": 81,
-      "undergrad:masters_required": 76,
       "stale_term": 2,
       "undergrad:graduate_students_only": 2,
       "undergrad:advanced_degree_in_description": 2,
       "undergrad:senior_role": 1
     },
-    "remote_roles": 226
+    "remote_roles": 227
   },
   "source_health": {
     "dbt Labs": {
@@ -256,12 +256,12 @@
     },
     "Stripe": {
       "status": "ok",
-      "count": 745,
+      "count": 746,
       "ats": "greenhouse"
     },
     "Databricks": {
       "status": "ok",
-      "count": 904,
+      "count": 909,
       "ats": "greenhouse"
     },
     "Coinbase": {
@@ -301,7 +301,7 @@
     },
     "Anthropic": {
       "status": "ok",
-      "count": 675,
+      "count": 674,
       "ats": "greenhouse"
     },
     "Scale AI": {
@@ -326,7 +326,7 @@
     },
     "Duolingo": {
       "status": "ok",
-      "count": 57,
+      "count": 56,
       "ats": "greenhouse"
     },
     "Elastic": {
@@ -387,7 +387,7 @@
     },
     "Samsara": {
       "status": "ok",
-      "count": 338,
+      "count": 339,
       "ats": "greenhouse"
     },
     "Flexport": {
@@ -407,7 +407,7 @@
     },
     "Cloudflare": {
       "status": "ok",
-      "count": 464,
+      "count": 463,
       "ats": "greenhouse"
     },
     "Notion": {
@@ -425,24 +425,24 @@
       "count": 163,
       "ats": "greenhouse"
     },
-    "Linear": {
-      "status": "ok",
-      "count": 31,
-      "ats": "ashby"
-    },
     "OpenAI": {
       "status": "ok",
       "count": 810,
       "ats": "ashby"
     },
-    "Vercel": {
+    "Linear": {
       "status": "ok",
-      "count": 91,
-      "ats": "greenhouse"
+      "count": 31,
+      "ats": "ashby"
     },
     "Pinterest": {
       "status": "ok",
       "count": 170,
+      "ats": "greenhouse"
+    },
+    "Vercel": {
+      "status": "ok",
+      "count": 91,
       "ats": "greenhouse"
     },
     "Instacart": {
@@ -485,15 +485,15 @@
       "count": 54,
       "ats": "ashby"
     },
-    "NerdWallet": {
-      "status": "ok",
-      "count": 24,
-      "ats": "ashby"
-    },
     "GitLab": {
       "status": "ok",
       "count": 238,
       "ats": "greenhouse"
+    },
+    "NerdWallet": {
+      "status": "ok",
+      "count": 24,
+      "ats": "ashby"
     },
     "SoFi": {
       "status": "ok",
@@ -502,7 +502,7 @@
     },
     "Cursor": {
       "status": "ok",
-      "count": 125,
+      "count": 124,
       "ats": "ashby"
     },
     "Chime": {
@@ -543,15 +543,15 @@
       "count": 106,
       "ats": "ashby"
     },
-    "Character.AI": {
-      "status": "ok",
-      "count": 13,
-      "ats": "ashby"
-    },
     "Palantir": {
       "status": "ok",
       "count": 301,
       "ats": "lever"
+    },
+    "Character.AI": {
+      "status": "ok",
+      "count": 13,
+      "ats": "ashby"
     },
     "Watershed": {
       "status": "ok",
@@ -672,7 +672,7 @@
     },
     "ElevenLabs": {
       "status": "ok",
-      "count": 138,
+      "count": 139,
       "ats": "ashby"
     },
     "Riot Games": {
@@ -685,15 +685,15 @@
       "count": 105,
       "ats": "ashby"
     },
+    "Mastercard": {
+      "status": "ok",
+      "count": 37,
+      "ats": "workday"
+    },
     "Scopely": {
       "status": "ok",
       "count": 178,
       "ats": "greenhouse"
-    },
-    "Mastercard": {
-      "status": "ok",
-      "count": 38,
-      "ats": "workday"
     },
     "Writer": {
       "status": "ok",
@@ -752,7 +752,7 @@
     },
     "CircleCI": {
       "status": "ok",
-      "count": 13,
+      "count": 14,
       "ats": "greenhouse"
     },
     "LangChain": {
@@ -831,11 +831,6 @@
       "count": 9,
       "ats": "ashby"
     },
-    "Workday": {
-      "status": "ok",
-      "count": 13,
-      "ats": "workday"
-    },
     "Prefect": {
       "status": "ok",
       "count": 7,
@@ -846,14 +841,24 @@
       "count": 4,
       "ats": "ashby"
     },
+    "PostHog": {
+      "status": "ok",
+      "count": 11,
+      "ats": "ashby"
+    },
     "LaunchDarkly": {
       "status": "ok",
       "count": 45,
       "ats": "greenhouse"
     },
-    "PostHog": {
+    "Workday": {
       "status": "ok",
-      "count": 11,
+      "count": 13,
+      "ats": "workday"
+    },
+    "Render": {
+      "status": "ok",
+      "count": 35,
       "ats": "ashby"
     },
     "Tailscale": {
@@ -861,9 +866,9 @@
       "count": 58,
       "ats": "greenhouse"
     },
-    "Render": {
+    "Railway": {
       "status": "ok",
-      "count": 35,
+      "count": 7,
       "ats": "ashby"
     },
     "Chainguard": {
@@ -871,9 +876,9 @@
       "count": 94,
       "ats": "greenhouse"
     },
-    "Railway": {
+    "Doppler": {
       "status": "ok",
-      "count": 7,
+      "count": 6,
       "ats": "ashby"
     },
     "Mixpanel": {
@@ -881,9 +886,9 @@
       "count": 43,
       "ats": "greenhouse"
     },
-    "Doppler": {
+    "Socket": {
       "status": "ok",
-      "count": 6,
+      "count": 27,
       "ats": "ashby"
     },
     "Checkr": {
@@ -891,9 +896,9 @@
       "count": 41,
       "ats": "greenhouse"
     },
-    "Socket": {
+    "Semgrep": {
       "status": "ok",
-      "count": 27,
+      "count": 13,
       "ats": "ashby"
     },
     "Abnormal Security": {
@@ -903,12 +908,12 @@
     },
     "Cisco": {
       "status": "ok",
-      "count": 465,
+      "count": 467,
       "ats": "workday"
     },
-    "Semgrep": {
+    "n8n": {
       "status": "ok",
-      "count": 13,
+      "count": 49,
       "ats": "ashby"
     },
     "Orca Security": {
@@ -916,9 +921,9 @@
       "count": 9,
       "ats": "greenhouse"
     },
-    "n8n": {
+    "Secureframe": {
       "status": "ok",
-      "count": 50,
+      "count": 7,
       "ats": "ashby"
     },
     "Backblaze": {
@@ -926,9 +931,9 @@
       "count": 35,
       "ats": "greenhouse"
     },
-    "Secureframe": {
+    "Drata": {
       "status": "ok",
-      "count": 7,
+      "count": 27,
       "ats": "ashby"
     },
     "Sauce Labs": {
@@ -936,9 +941,9 @@
       "count": 10,
       "ats": "greenhouse"
     },
-    "Drata": {
+    "ClickUp": {
       "status": "ok",
-      "count": 27,
+      "count": 48,
       "ats": "ashby"
     },
     "Stability AI": {
@@ -946,9 +951,9 @@
       "count": 3,
       "ats": "greenhouse"
     },
-    "ClickUp": {
+    "Physical Intelligence": {
       "status": "ok",
-      "count": 48,
+      "count": 44,
       "ats": "ashby"
     },
     "SingleStore": {
@@ -956,9 +961,9 @@
       "count": 41,
       "ats": "greenhouse"
     },
-    "Physical Intelligence": {
+    "Suno": {
       "status": "ok",
-      "count": 44,
+      "count": 71,
       "ats": "ashby"
     },
     "Yugabyte": {
@@ -966,9 +971,9 @@
       "count": 13,
       "ats": "greenhouse"
     },
-    "Suno": {
+    "Poolside": {
       "status": "ok",
-      "count": 71,
+      "count": 2,
       "ats": "ashby"
     },
     "Descript": {
@@ -976,9 +981,9 @@
       "count": 9,
       "ats": "greenhouse"
     },
-    "Poolside": {
+    "Unstructured": {
       "status": "ok",
-      "count": 2,
+      "count": 5,
       "ats": "ashby"
     },
     "Honeycomb": {
@@ -986,9 +991,9 @@
       "count": 22,
       "ats": "greenhouse"
     },
-    "Unstructured": {
+    "Ideogram": {
       "status": "ok",
-      "count": 5,
+      "count": 4,
       "ats": "ashby"
     },
     "Alloy": {
@@ -996,9 +1001,9 @@
       "count": 29,
       "ats": "greenhouse"
     },
-    "Ideogram": {
+    "Luma AI": {
       "status": "ok",
-      "count": 4,
+      "count": 28,
       "ats": "ashby"
     },
     "Treasury Prime": {
@@ -1006,9 +1011,9 @@
       "count": 2,
       "ats": "greenhouse"
     },
-    "Luma AI": {
+    "Vanta": {
       "status": "ok",
-      "count": 28,
+      "count": 79,
       "ats": "ashby"
     },
     "Solaris": {
@@ -1021,11 +1026,6 @@
       "count": 0,
       "ats": "lever",
       "error": "HTTP 404"
-    },
-    "Vanta": {
-      "status": "ok",
-      "count": 79,
-      "ats": "ashby"
     },
     "tastytrade": {
       "status": "ok",
@@ -1046,11 +1046,6 @@
       "status": "ok",
       "count": 32,
       "ats": "greenhouse"
-    },
-    "Visa": {
-      "status": "ok",
-      "count": 309,
-      "ats": "workday"
     },
     "Luno": {
       "status": "ok",
@@ -1077,6 +1072,11 @@
       "status": "ok",
       "count": 68,
       "ats": "greenhouse"
+    },
+    "Visa": {
+      "status": "ok",
+      "count": 309,
+      "ats": "workday"
     },
     "ExodusPoint Capital": {
       "status": "ok",
@@ -1113,11 +1113,6 @@
       "count": 214,
       "ats": "greenhouse"
     },
-    "Salesforce": {
-      "status": "ok",
-      "count": 550,
-      "ats": "workday"
-    },
     "Pie Insurance": {
       "status": "ok",
       "count": 30,
@@ -1125,7 +1120,7 @@
     },
     "Wiz": {
       "status": "ok",
-      "count": 113,
+      "count": 115,
       "ats": "greenhouse"
     },
     "BeyondTrust": {
@@ -1138,20 +1133,35 @@
       "count": 64,
       "ats": "greenhouse"
     },
+    "Boeing": {
+      "status": "ok",
+      "count": 434,
+      "ats": "workday"
+    },
+    "Salesforce": {
+      "status": "ok",
+      "count": 542,
+      "ats": "workday"
+    },
     "Bugcrowd": {
       "status": "ok",
       "count": 12,
-      "ats": "greenhouse"
-    },
-    "Axonius": {
-      "status": "ok",
-      "count": 22,
       "ats": "greenhouse"
     },
     "Stytch": {
       "status": "ok",
       "count": 0,
       "ats": "ashby"
+    },
+    "Axonius": {
+      "status": "ok",
+      "count": 22,
+      "ats": "greenhouse"
+    },
+    "Samsung": {
+      "status": "ok",
+      "count": 326,
+      "ats": "workday"
     },
     "Cribl": {
       "status": "ok",
@@ -1168,6 +1178,11 @@
       "count": 8,
       "ats": "greenhouse"
     },
+    "Rula": {
+      "status": "ok",
+      "count": 34,
+      "ats": "ashby"
+    },
     "OneTrust": {
       "status": "ok",
       "count": 81,
@@ -1178,9 +1193,9 @@
       "count": 9,
       "ats": "greenhouse"
     },
-    "Rula": {
+    "Insitro": {
       "status": "ok",
-      "count": 34,
+      "count": 14,
       "ats": "ashby"
     },
     "Ro": {
@@ -1188,20 +1203,10 @@
       "count": 54,
       "ats": "lever"
     },
-    "Boeing": {
-      "status": "ok",
-      "count": 434,
-      "ats": "workday"
-    },
     "Osano": {
       "status": "ok",
       "count": 11,
       "ats": "greenhouse"
-    },
-    "Insitro": {
-      "status": "ok",
-      "count": 14,
-      "ats": "ashby"
     },
     "Ping Identity": {
       "status": "ok",
@@ -1228,25 +1233,20 @@
       "count": 62,
       "ats": "greenhouse"
     },
-    "Elation Health": {
-      "status": "ok",
-      "count": 18,
-      "ats": "greenhouse"
-    },
     "Aurora Solar": {
       "status": "ok",
       "count": 10,
       "ats": "ashby"
     },
+    "Elation Health": {
+      "status": "ok",
+      "count": 18,
+      "ats": "greenhouse"
+    },
     "Komodo Health": {
       "status": "ok",
       "count": 22,
       "ats": "greenhouse"
-    },
-    "Samsung": {
-      "status": "ok",
-      "count": 326,
-      "ats": "workday"
     },
     "Recursion Pharmaceuticals": {
       "status": "ok",
@@ -1285,7 +1285,7 @@
     },
     "Toast": {
       "status": "ok",
-      "count": 328,
+      "count": 329,
       "ats": "greenhouse"
     },
     "ClassPass": {
@@ -1315,7 +1315,7 @@
     },
     "Motive": {
       "status": "ok",
-      "count": 167,
+      "count": 166,
       "ats": "greenhouse"
     },
     "Everlaw": {
@@ -1351,7 +1351,7 @@
     },
     "Community · SimplifyJobs S2026": {
       "status": "ok",
-      "count": 5119,
+      "count": 5137,
       "ats": "community_listings"
     },
     "Braze": {
@@ -1361,7 +1361,7 @@
     },
     "Community · vanshb03 S2027": {
       "status": "ok",
-      "count": 1750,
+      "count": 1854,
       "ats": "community_listings"
     },
     "Iterable": {
@@ -1430,25 +1430,20 @@
       "count": 21,
       "ats": "ashby"
     },
-    "SoloPulse": {
-      "status": "ok",
-      "count": 10,
-      "ats": "lever"
-    },
     "Butterfly Network": {
       "status": "ok",
       "count": 17,
       "ats": "greenhouse"
     },
-    "NVIDIA": {
-      "status": "ok",
-      "count": 580,
-      "ats": "workday"
-    },
     "Kognitos": {
       "status": "ok",
       "count": 3,
       "ats": "ashby"
+    },
+    "SoloPulse": {
+      "status": "ok",
+      "count": 10,
+      "ats": "lever"
     },
     "PathAI": {
       "status": "ok",
@@ -1480,6 +1475,11 @@
       "count": 4,
       "ats": "ashby"
     },
+    "NVIDIA": {
+      "status": "ok",
+      "count": 580,
+      "ats": "workday"
+    },
     "True Anomaly": {
       "status": "ok",
       "count": 205,
@@ -1500,11 +1500,6 @@
       "count": 108,
       "ats": "ashby"
     },
-    "Hermeus": {
-      "status": "ok",
-      "count": 78,
-      "ats": "lever"
-    },
     "Nirmata": {
       "status": "ok",
       "count": 2,
@@ -1524,6 +1519,11 @@
       "status": "ok",
       "count": 255,
       "ats": "ashby"
+    },
+    "Hermeus": {
+      "status": "ok",
+      "count": 78,
+      "ats": "lever"
     },
     "Muon Space": {
       "status": "ok",
@@ -1615,11 +1615,6 @@
       "count": 22,
       "ats": "ashby"
     },
-    "Belvedere Trading": {
-      "status": "ok",
-      "count": 17,
-      "ats": "lever"
-    },
     "Hightouch": {
       "status": "not_found",
       "count": 0,
@@ -1640,6 +1635,11 @@
       "status": "ok",
       "count": 14,
       "ats": "ashby"
+    },
+    "Belvedere Trading": {
+      "status": "ok",
+      "count": 17,
+      "ats": "lever"
     },
     "Enterpret": {
       "status": "ok",
@@ -1671,11 +1671,6 @@
       "count": 68,
       "ats": "greenhouse"
     },
-    "PlusAI": {
-      "status": "ok",
-      "count": 45,
-      "ats": "lever"
-    },
     "Middesk": {
       "status": "ok",
       "count": 18,
@@ -1685,6 +1680,11 @@
       "status": "ok",
       "count": 28,
       "ats": "ashby"
+    },
+    "PlusAI": {
+      "status": "ok",
+      "count": 45,
+      "ats": "lever"
     },
     "Rilla": {
       "status": "ok",
@@ -1772,20 +1772,25 @@
       "count": 80,
       "ats": "greenhouse"
     },
+    "Xsolla": {
+      "status": "ok",
+      "count": 189,
+      "ats": "lever"
+    },
     "Rivian and Volkswagen Group Technologies": {
       "status": "ok",
       "count": 161,
-      "ats": "ashby"
-    },
-    "Cybernetic Labs": {
-      "status": "ok",
-      "count": 36,
       "ats": "ashby"
     },
     "TMEIC": {
       "status": "ok",
       "count": 51,
       "ats": "workable"
+    },
+    "Cybernetic Labs": {
+      "status": "ok",
+      "count": 36,
+      "ats": "ashby"
     },
     "Fab2": {
       "status": "ok",
@@ -1797,11 +1802,6 @@
       "count": 20,
       "ats": "ashby"
     },
-    "Xsolla": {
-      "status": "ok",
-      "count": 189,
-      "ats": "lever"
-    },
     "Western Digital": {
       "status": "ok",
       "count": 345,
@@ -1812,19 +1812,14 @@
       "count": 187,
       "ats": "ashby"
     },
-    "Persona AI": {
-      "status": "ok",
-      "count": 22,
-      "ats": "ashby"
-    },
     "Diversified Automation": {
       "status": "ok",
       "count": 12,
       "ats": "lever"
     },
-    "Etched.ai": {
+    "Persona AI": {
       "status": "ok",
-      "count": 123,
+      "count": 22,
       "ats": "ashby"
     },
     "HPR (Hyannis Port Research)": {
@@ -1832,9 +1827,9 @@
       "count": 13,
       "ats": "greenhouse"
     },
-    "Melotech": {
+    "Etched.ai": {
       "status": "ok",
-      "count": 13,
+      "count": 123,
       "ats": "ashby"
     },
     "Rendezvous Robotics": {
@@ -1842,9 +1837,14 @@
       "count": 23,
       "ats": "greenhouse"
     },
+    "Melotech": {
+      "status": "ok",
+      "count": 13,
+      "ats": "ashby"
+    },
     "LinkedIn": {
       "status": "ok",
-      "count": 206,
+      "count": 205,
       "ats": "smartrecruiters"
     },
     "Atomic Semi": {
@@ -1858,11 +1858,6 @@
       "count": 11,
       "ats": "ashby"
     },
-    "Bosch": {
-      "status": "ok",
-      "count": 1000,
-      "ats": "smartrecruiters"
-    },
     "Mobius Renewables": {
       "status": "ok",
       "count": 0,
@@ -1873,19 +1868,24 @@
       "count": 7,
       "ats": "ashby"
     },
+    "Bosch": {
+      "status": "ok",
+      "count": 1000,
+      "ats": "smartrecruiters"
+    },
     "Voloridge": {
       "status": "ok",
-      "count": 10,
+      "count": 9,
       "ats": "greenhouse"
-    },
-    "ShyftLabs": {
-      "status": "ok",
-      "count": 31,
-      "ats": "lever"
     },
     "Valstad": {
       "status": "ok",
       "count": 10,
+      "ats": "ashby"
+    },
+    "Melius": {
+      "status": "ok",
+      "count": 5,
       "ats": "ashby"
     },
     "Eulerity": {
@@ -1893,9 +1893,9 @@
       "count": 14,
       "ats": "greenhouse"
     },
-    "Melius": {
+    "Yotta Labs": {
       "status": "ok",
-      "count": 5,
+      "count": 4,
       "ats": "ashby"
     },
     "Figure": {
@@ -1903,9 +1903,9 @@
       "count": 99,
       "ats": "greenhouse"
     },
-    "Yotta Labs": {
+    "Astera": {
       "status": "ok",
-      "count": 4,
+      "count": 44,
       "ats": "ashby"
     },
     "Docugami": {
@@ -1913,9 +1913,9 @@
       "count": 7,
       "ats": "greenhouse"
     },
-    "Astera": {
+    "Heliux": {
       "status": "ok",
-      "count": 44,
+      "count": 11,
       "ats": "ashby"
     },
     "Veeam Software": {
@@ -1923,9 +1923,9 @@
       "count": 202,
       "ats": "greenhouse"
     },
-    "Heliux": {
+    "Anthelion Capital": {
       "status": "ok",
-      "count": 11,
+      "count": 1,
       "ats": "ashby"
     },
     "Axiomatic AI": {
@@ -1933,30 +1933,25 @@
       "count": 2,
       "ats": "greenhouse"
     },
-    "Multiply Labs": {
+    "Magnet Forensics": {
       "status": "ok",
-      "count": 11,
+      "count": 40,
       "ats": "lever"
-    },
-    "Anthelion Capital": {
-      "status": "ok",
-      "count": 1,
-      "ats": "ashby"
     },
     "ProNexus": {
       "status": "ok",
       "count": 0,
       "ats": "workable"
     },
-    "Integra FEC": {
-      "status": "ok",
-      "count": 11,
-      "ats": "greenhouse"
-    },
     "Quadrillion": {
       "status": "ok",
       "count": 6,
       "ats": "ashby"
+    },
+    "Integra FEC": {
+      "status": "ok",
+      "count": 11,
+      "ats": "greenhouse"
     },
     "Turabify": {
       "status": "ok",
@@ -1968,11 +1963,6 @@
       "count": 338,
       "ats": "greenhouse"
     },
-    "Magnet Forensics": {
-      "status": "ok",
-      "count": 40,
-      "ats": "lever"
-    },
     "WallStreetQuants": {
       "status": "ok",
       "count": 4,
@@ -1983,45 +1973,35 @@
       "count": 81,
       "ats": "greenhouse"
     },
-    "StudyFetch": {
-      "status": "ok",
-      "count": 0,
-      "ats": "rippling"
-    },
     "Luminance": {
       "status": "ok",
       "count": 59,
       "ats": "workable"
-    },
-    "Bot Auto": {
-      "status": "ok",
-      "count": 25,
-      "ats": "greenhouse"
     },
     "Phonely": {
       "status": "ok",
       "count": 18,
       "ats": "ashby"
     },
-    "Brio Water Technology": {
+    "Bot Auto": {
+      "status": "ok",
+      "count": 25,
+      "ats": "greenhouse"
+    },
+    "Multiply Labs": {
+      "status": "ok",
+      "count": 11,
+      "ats": "lever"
+    },
+    "StudyFetch": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
-    },
-    "InstaLILY": {
-      "status": "ok",
-      "count": 22,
-      "ats": "greenhouse"
     },
     "Vital Lyfe": {
       "status": "ok",
       "count": 13,
       "ats": "ashby"
-    },
-    "LightGuide, Inc.": {
-      "status": "ok",
-      "count": 0,
-      "ats": "rippling"
     },
     "Cirrus Logic": {
       "status": "not_found",
@@ -2029,20 +2009,15 @@
       "ats": "lever",
       "error": "HTTP 404"
     },
-    "SK Hynix Memory Solution": {
+    "InstaLILY": {
       "status": "ok",
-      "count": 28,
+      "count": 22,
       "ats": "greenhouse"
     },
-    "Field AI": {
+    "Brio Water Technology": {
       "status": "ok",
-      "count": 106,
-      "ats": "lever"
-    },
-    "HyperLight": {
-      "status": "ok",
-      "count": 15,
-      "ats": "workable"
+      "count": 0,
+      "ats": "rippling"
     },
     "Droyd Robotics": {
       "status": "ok",
@@ -2051,32 +2026,62 @@
     },
     "NBCUniversal": {
       "status": "ok",
-      "count": 435,
+      "count": 434,
       "ats": "smartrecruiters"
+    },
+    "SK Hynix Memory Solution": {
+      "status": "ok",
+      "count": 28,
+      "ats": "greenhouse"
+    },
+    "HyperLight": {
+      "status": "ok",
+      "count": 15,
+      "ats": "workable"
+    },
+    "LightGuide, Inc.": {
+      "status": "ok",
+      "count": 0,
+      "ats": "rippling"
+    },
+    "ShyftLabs": {
+      "status": "ok",
+      "count": 31,
+      "ats": "lever"
+    },
+    "Cohere": {
+      "status": "ok",
+      "count": 120,
+      "ats": "ashby"
     },
     "Redwood Materials": {
       "status": "ok",
       "count": 133,
       "ats": "greenhouse"
     },
-    "Cohere": {
-      "status": "ok",
-      "count": 122,
-      "ats": "ashby"
-    },
     "Moon": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
+    },
+    "Field AI": {
+      "status": "ok",
+      "count": 106,
+      "ats": "lever"
+    },
+    "Kastle AI": {
+      "status": "ok",
+      "count": 17,
+      "ats": "ashby"
     },
     "Chicago Trading Company": {
       "status": "ok",
       "count": 5,
       "ats": "greenhouse"
     },
-    "Kastle AI": {
+    "Tacit": {
       "status": "ok",
-      "count": 17,
+      "count": 11,
       "ats": "ashby"
     },
     "Prophet": {
@@ -2084,14 +2089,9 @@
       "count": 17,
       "ats": "greenhouse"
     },
-    "Kepler Communications": {
+    "NTT DATA AIVista": {
       "status": "ok",
-      "count": 25,
-      "ats": "lever"
-    },
-    "Tacit": {
-      "status": "ok",
-      "count": 11,
+      "count": 6,
       "ats": "ashby"
     },
     "Stevens Capital Management": {
@@ -2099,14 +2099,19 @@
       "count": 29,
       "ats": "greenhouse"
     },
+    "Kepler Communications": {
+      "status": "ok",
+      "count": 25,
+      "ats": "lever"
+    },
     "Denari": {
       "status": "ok",
       "count": 0,
       "ats": "rippling"
     },
-    "NTT DATA AIVista": {
+    "GRITT ROBOTICS INC": {
       "status": "ok",
-      "count": 6,
+      "count": 18,
       "ats": "ashby"
     },
     "BlackEdge Capital": {
@@ -2114,9 +2119,9 @@
       "count": 3,
       "ats": "greenhouse"
     },
-    "GRITT ROBOTICS INC": {
+    "OpusClip": {
       "status": "ok",
-      "count": 18,
+      "count": 11,
       "ats": "ashby"
     },
     "Five Rings": {
@@ -2124,25 +2129,15 @@
       "count": 17,
       "ats": "greenhouse"
     },
-    "OpusClip": {
+    "Bild AI": {
       "status": "ok",
-      "count": 11,
+      "count": 4,
       "ats": "ashby"
     },
     "Radix Trading": {
       "status": "ok",
       "count": 8,
       "ats": "greenhouse"
-    },
-    "Dexterra Group": {
-      "status": "ok",
-      "count": 493,
-      "ats": "smartrecruiters"
-    },
-    "Bild AI": {
-      "status": "ok",
-      "count": 4,
-      "ats": "ashby"
     },
     "Gitar, Inc.": {
       "status": "not_found",
@@ -2155,6 +2150,11 @@
       "count": 0,
       "ats": "ashby"
     },
+    "Dexterra Group": {
+      "status": "ok",
+      "count": 493,
+      "ats": "smartrecruiters"
+    },
     "Onware": {
       "status": "ok",
       "count": 0,
@@ -2165,16 +2165,16 @@
       "count": 36,
       "ats": "ashby"
     },
-    "Pendulum Intelligence": {
-      "status": "ok",
-      "count": 0,
-      "ats": "rippling"
-    },
     "Egra": {
       "status": "not_found",
       "count": 0,
       "ats": "ashby",
       "error": "HTTP 404"
+    },
+    "Pendulum Intelligence": {
+      "status": "ok",
+      "count": 0,
+      "ats": "rippling"
     },
     "Eragon": {
       "status": "ok",
@@ -2226,25 +2226,25 @@
       "count": 4,
       "ats": "ashby"
     },
-    "Phonic": {
+    "Red Bull": {
       "status": "ok",
-      "count": 7,
-      "ats": "ashby"
+      "count": 1000,
+      "ats": "smartrecruiters"
     },
     "ConnectPrep": {
       "status": "ok",
       "count": 3,
       "ats": "workable"
     },
-    "Red Bull": {
-      "status": "ok",
-      "count": 1000,
-      "ats": "smartrecruiters"
-    },
     "Moment Energy": {
       "status": "ok",
       "count": 26,
       "ats": "greenhouse"
+    },
+    "Phonic": {
+      "status": "ok",
+      "count": 7,
+      "ats": "ashby"
     },
     "Veeda AI": {
       "status": "not_found",
@@ -2273,15 +2273,15 @@
       "count": 10,
       "ats": "ashby"
     },
-    "VetsEZ": {
-      "status": "ok",
-      "count": 74,
-      "ats": "breezy"
-    },
     "Constellation Space": {
       "status": "ok",
       "count": 4,
       "ats": "ashby"
+    },
+    "VetsEZ": {
+      "status": "ok",
+      "count": 74,
+      "ats": "breezy"
     },
     "Pylon": {
       "status": "ok",
@@ -2293,15 +2293,15 @@
       "count": 16,
       "ats": "greenhouse"
     },
-    "Institute of Foundation Models": {
-      "status": "ok",
-      "count": 42,
-      "ats": "lever"
-    },
     "1X": {
       "status": "ok",
       "count": 100,
       "ats": "ashby"
+    },
+    "Institute of Foundation Models": {
+      "status": "ok",
+      "count": 42,
+      "ats": "lever"
     },
     "TribalScale": {
       "status": "ok",
@@ -2338,15 +2338,15 @@
       "count": 11,
       "ats": "greenhouse"
     },
-    "Fluxergy": {
-      "status": "ok",
-      "count": 6,
-      "ats": "lever"
-    },
     "Astera Labs": {
       "status": "ok",
       "count": 3,
       "ats": "greenhouse"
+    },
+    "Fluxergy": {
+      "status": "ok",
+      "count": 6,
+      "ats": "lever"
     },
     "Quadric": {
       "status": "ok",
@@ -2358,54 +2358,39 @@
       "count": 16,
       "ats": "ashby"
     },
-    "Reply": {
+    "Lawrence Livermore National Laboratory (LLNL)": {
       "status": "ok",
-      "count": 51,
-      "ats": "lever"
+      "count": 181,
+      "ats": "smartrecruiters"
     },
     "Apera AI": {
       "status": "ok",
       "count": 11,
       "ats": "greenhouse"
     },
-    "Lawrence Livermore National Laboratory (LLNL)": {
-      "status": "ok",
-      "count": 181,
-      "ats": "smartrecruiters"
-    },
     "Binance": {
       "status": "ok",
-      "count": 10,
+      "count": 9,
       "ats": "ashby"
     },
-    "Acceldata": {
+    "Reply": {
       "status": "ok",
-      "count": 36,
+      "count": 51,
       "ats": "lever"
-    },
-    "Eluvio": {
-      "status": "ok",
-      "count": 2,
-      "ats": "workable"
     },
     "AfterQuery": {
       "status": "ok",
       "count": 40,
       "ats": "ashby"
     },
-    "Rainmaker": {
-      "status": "ok",
-      "count": 19,
-      "ats": "lever"
-    },
     "InfiniteQuant": {
       "status": "ok",
       "count": 3,
       "ats": "smartrecruiters"
     },
-    "Al Warren Oil Company": {
+    "Eluvio": {
       "status": "ok",
-      "count": 3,
+      "count": 2,
       "ats": "workable"
     },
     "Hiverge": {
@@ -2413,10 +2398,25 @@
       "count": 4,
       "ats": "ashby"
     },
+    "Al Warren Oil Company": {
+      "status": "ok",
+      "count": 3,
+      "ats": "workable"
+    },
+    "Acceldata": {
+      "status": "ok",
+      "count": 36,
+      "ats": "lever"
+    },
     "Meshy": {
       "status": "ok",
       "count": 19,
       "ats": "ashby"
+    },
+    "Rainmaker": {
+      "status": "ok",
+      "count": 20,
+      "ats": "lever"
     },
     "Workato": {
       "status": "ok",
@@ -2428,11 +2428,6 @@
       "count": 1,
       "ats": "ashby"
     },
-    "Cloudforce": {
-      "status": "ok",
-      "count": 1,
-      "ats": "lever"
-    },
     "Omnis": {
       "status": "ok",
       "count": 0,
@@ -2443,15 +2438,15 @@
       "count": 142,
       "ats": "greenhouse"
     },
-    "Tessera Labs": {
-      "status": "ok",
-      "count": 30,
-      "ats": "ashby"
-    },
     "Intuitive Surgical": {
       "status": "ok",
       "count": 781,
       "ats": "smartrecruiters"
+    },
+    "Tessera Labs": {
+      "status": "ok",
+      "count": 30,
+      "ats": "ashby"
     },
     "Doctors Without Borders": {
       "status": "ok",
@@ -2488,10 +2483,20 @@
       "count": 7,
       "ats": "greenhouse"
     },
+    "Cloudforce": {
+      "status": "ok",
+      "count": 1,
+      "ats": "lever"
+    },
     "Super": {
       "status": "ok",
       "count": 16,
       "ats": "ashby"
+    },
+    "Codeage": {
+      "status": "ok",
+      "count": 3,
+      "ats": "smartrecruiters"
     },
     "Homebase": {
       "status": "ok",
@@ -2503,20 +2508,15 @@
       "count": 5,
       "ats": "greenhouse"
     },
-    "Codeage": {
+    "Barkback": {
       "status": "ok",
-      "count": 3,
+      "count": 6,
       "ats": "smartrecruiters"
     },
     "Blockhouse": {
       "status": "ok",
       "count": 1,
       "ats": "ashby"
-    },
-    "Barkback": {
-      "status": "ok",
-      "count": 6,
-      "ats": "smartrecruiters"
     },
     "Poshmark": {
       "status": "ok",
@@ -2561,13 +2561,18 @@
     },
     "Smiths Detection": {
       "status": "ok",
-      "count": 541,
+      "count": 542,
       "ats": "smartrecruiters"
     },
     "Community · vanshb03 New-Grad 2026": {
       "status": "ok",
-      "count": 726,
+      "count": 829,
       "ats": "community_listings"
+    },
+    "Waabi": {
+      "status": "ok",
+      "count": 92,
+      "ats": "lever"
     },
     "Fundwell": {
       "status": "ok",
@@ -2576,18 +2581,13 @@
     },
     "Community · SimplifyJobs S2027": {
       "status": "ok",
-      "count": 5119,
+      "count": 5137,
       "ats": "community_listings"
     },
     "HCompany": {
       "status": "ok",
       "count": 36,
       "ats": "ashby"
-    },
-    "Waabi": {
-      "status": "ok",
-      "count": 92,
-      "ats": "lever"
     },
     "Bree": {
       "status": "ok",
@@ -2621,6 +2621,38 @@
     }
   },
   "listings": [
+    {
+      "company": "Amazon",
+      "title": "New Grad 2027: ASIC Engineer I, Annapurna Labs",
+      "url": "https://go.vansh.nyc/17n",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Cupertino, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "8d178435-601f-40b6-92ef-99e511232dba",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/17n",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Cupertino, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17n",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
     {
       "company": "ByteDance",
       "title": "Student Researcher Intern, Seed Model - AI Foundation Model Infrastructure",
@@ -3165,6 +3197,70 @@
       "location_display": "San Jose, CA",
       "is_remote": false,
       "canonical_url": "https://go.vansh.nyc/14B",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "ByteDance",
+      "title": "Security Engineering Project Intern, Watermark",
+      "url": "https://go.vansh.nyc/15F",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "e5652882-aec5-42d2-8f07-03fd3b22499e",
+      "remote": null,
+      "department": "Winter",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/15F",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15F",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "ByteDance",
+      "title": "Backend Development Engineer Intern, Infrastructure Platform Delivery",
+      "url": "https://go.vansh.nyc/17L",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "2af6b612-533f-4f4c-8772-b0a53cc046f0",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17L",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17L",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "vanshb03 S2027",
@@ -4651,6 +4747,70 @@
     },
     {
       "company": "ByteDance",
+      "title": "Student Researcher Intern, Seed Model - AI Foundation Models Infrastructure",
+      "url": "https://go.vansh.nyc/15E",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "d7e4c0a1-43f7-4347-9839-ecedb1bb542c",
+      "remote": null,
+      "department": "Winter",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/15E",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15E",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern, AML-Engine-Orchestration",
+      "url": "https://go.vansh.nyc/17K",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "11c7246a-5401-41ee-bbee-55cd7642ec02",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17K",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17K",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "ByteDance",
       "title": "New Grad 2027: Research Scientist, Seed Model - AI Foundation Model Infrastructure",
       "url": "https://go.vansh.nyc/14I",
       "source": "community",
@@ -4998,6 +5158,3436 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "DivcoWest",
+      "title": "AI Intern",
+      "url": "https://go.vansh.nyc/18L",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Francisco, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "c7db5406-7e73-49b7-bfe7-22afef9eae53",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18L",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Francisco, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18L",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Insomniac Games",
+      "title": "Undergraduate Gameplay Programming Intern",
+      "url": "https://go.vansh.nyc/18P",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Burbank, CA; Remote",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "31a1907c-f4fa-41b9-ada3-c77ec406789e",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18P",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Burbank, CA; Remote",
+      "is_remote": true,
+      "canonical_url": "https://go.vansh.nyc/18P",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TRG",
+      "title": "Full Stack Application Developer Intern",
+      "url": "https://secure7.saashr.com/ta/6203759.careers?ShowJob=638057422&lang=en-US",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Dallas, TX",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "406b0816-39b7-4e44-bdd9-17030f08c8f2",
+      "remote": null,
+      "department": "N/A",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://secure7.saashr.com/ta/6203759.careers?ShowJob=638057422&lang=en-US",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Dallas, TX",
+      "is_remote": false,
+      "canonical_url": "https://secure7.saashr.com/ta/6203759.careers?ShowJob=638057422&lang=en-US",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "AI Engineer Intern, TikTok-Client Arch",
+      "url": "https://go.vansh.nyc/17P",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "5226abaf-6357-4ef3-ae89-5d0ad20a50d4",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17P",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17P",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Data Science Intern, TikTok Integrity and Safety",
+      "url": "https://go.vansh.nyc/17R",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "9eda811d-0d33-4f11-b2aa-6e7f26941436",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17R",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17R",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Machine Learning MLOps Intern, Global SRE",
+      "url": "https://go.vansh.nyc/17S",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "71be5816-365e-4a7a-80f1-99cbde10093c",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17S",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17S",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "ML Infra Engineer Intern, Ads Infra",
+      "url": "https://go.vansh.nyc/17V",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "fbe96fbf-c019-44e1-9949-df6ed2f33dfe",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17V",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17V",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Software Engineer Intern, TikTok AI Search & Visual Search Infra Team",
+      "url": "https://go.vansh.nyc/183",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "be22787e-0d16-4ee7-a940-bdb8ea8e903f",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/183",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/183",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Data Engineering Project Intern, Ads Targeting",
+      "url": "https://go.vansh.nyc/186",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "faadd496-408b-45ab-80c8-1b406a79deac",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/186",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/186",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Machine Learning Engineer Intern, TikTok-Data-Search-Local Service",
+      "url": "https://go.vansh.nyc/189",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "73f3f4cf-7bb8-4171-a50f-6201f97987d8",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/189",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/189",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Data Scientist Project Intern, TikTok Integrity and Safety",
+      "url": "https://go.vansh.nyc/18b",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "593beb2d-dd0c-4456-b6c4-c44d5e318ac2",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18b",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18b",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Machine Learning Engineer Intern, TikTok-Data-Search-Basic Ranking",
+      "url": "https://go.vansh.nyc/18c",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "7688944a-c25e-41da-8bd8-e61e98a90c3b",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18c",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18c",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Recommendation Architecture AI/ML Infrastructure Engineer Intern, Data-Arch-TikTok Live",
+      "url": "https://go.vansh.nyc/18h",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "24c8e701-220e-4dd8-8eab-10dd0c78697d",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18h",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18h",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Machine Learning Engineer Intern, Visual Search",
+      "url": "https://go.vansh.nyc/18j",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "abe516ee-220b-49d5-a2d4-f6fdd414e3e2",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18j",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18j",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Data Science Project Intern, Advertisement",
+      "url": "https://go.vansh.nyc/18k",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "2d332cf6-856c-43b1-ad7a-e059fb8bec23",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18k",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18k",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Software Engineer Intern, Ads Infrastructure",
+      "url": "https://go.vansh.nyc/18m",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "632d38de-5b7c-4db5-91a5-83d57b29dcc7",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18m",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18m",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Software Engineer Intern, Search Data Infra",
+      "url": "https://go.vansh.nyc/18n",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "6c306a29-4246-471e-943e-40953cf6c2c7",
+      "remote": null,
+      "department": "Fall",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18n",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18n",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Software Engineer Intern, Search Architecture",
+      "url": "https://go.vansh.nyc/18q",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "6e279e72-45f1-4eb1-bcfe-c13695713df2",
+      "remote": null,
+      "department": "Fall",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18q",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18q",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "AI Software Engineer Project Intern, Transaction Platform",
+      "url": "https://go.vansh.nyc/18t",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "52da898f-565f-4728-910e-47a8e06a6de2",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18t",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18t",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Frontend Engineer Project Intern, Multimedia Arch",
+      "url": "https://go.vansh.nyc/18z",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "53492975-36bb-4bb8-a660-4a940074a96c",
+      "remote": null,
+      "department": "Fall",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18z",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18z",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Software Engineer Project Intern, Recommendation Infrastructure, Video Social",
+      "url": "https://go.vansh.nyc/18F",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "33ea4511-e520-4386-ba33-6d8dc72b3ddf",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18F",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18F",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer, Business Governance",
+      "url": "https://go.vansh.nyc/15K",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "ab851e0a-c1c8-412d-9992-54ac658c3686",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15K",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15K",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer, Emerging Products & AI Safety",
+      "url": "https://go.vansh.nyc/15M",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "3fffd545-edab-458a-9439-8159265e62e4",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15M",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15M",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer (TikTok-PGC-Digital Content Center)",
+      "url": "https://go.vansh.nyc/15N",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "e17e63c5-f646-4750-be24-fc01745ec46b",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15N",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15N",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Frontend Software Engineer (Global CRM)",
+      "url": "https://go.vansh.nyc/15O",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "0a3a6615-1d28-4191-b285-bef2ece8edfd",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15O",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15O",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: AI Software Engineer (TikTok-PGC-OGC&Creator Strategy)",
+      "url": "https://go.vansh.nyc/15P",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "c95e13ae-08a3-4dc2-aa44-a8fcbf543bbf",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15P",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15P",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer, Ads Infrastructure",
+      "url": "https://go.vansh.nyc/15S",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "484a3104-de7e-40cd-886c-94672b6ff949",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15S",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15S",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Site Reliability Engineer (Global SRE)",
+      "url": "https://go.vansh.nyc/15T",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "6d476146-0cc6-4c74-aa8e-17d09a76b839",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15T",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15T",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer (Ads Signal & Measurement)",
+      "url": "https://go.vansh.nyc/15U",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "90d4958c-2d47-4860-a51c-296a58cff621",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15U",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15U",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Research Scientist, TikTok Recommendation",
+      "url": "https://go.vansh.nyc/15V",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "d3268f70-b41a-495d-8f98-f93acf4939af",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15V",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15V",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer, Transaction Platform",
+      "url": "https://go.vansh.nyc/15W",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "8f62f583-0033-41b1-9217-4e37e3a43959",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15W",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15W",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, TikTok Recommendation",
+      "url": "https://go.vansh.nyc/15X",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "b16b84c5-f7bf-4a2d-a415-1d484332a6be",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15X",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15X",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer/Mobile Engineer (Ads Core Demonstration)",
+      "url": "https://go.vansh.nyc/15Y",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "5ec291c5-4d7f-4717-b500-08c33492144b",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15Y",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15Y",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Data Engineer, Monetization Data",
+      "url": "https://go.vansh.nyc/160",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "e0f62ae4-91a8-46b9-8069-5499aaba6187",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/160",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/160",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, Commerce Ads",
+      "url": "https://go.vansh.nyc/162",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "05139e4d-c774-4c62-b03b-199b08695f40",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/162",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/162",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer (E-Commerce Recommendation Mall)",
+      "url": "https://go.vansh.nyc/163",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "50c857c9-355e-4a99-9fa5-b3fb982b2e24",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/163",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/163",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer (E-Commerce Recommendation/Search Alliance)",
+      "url": "https://go.vansh.nyc/164",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "b92dbb86-d7ca-488a-afa0-dedf0247fc95",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/164",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/164",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: ML Infra Engineer, Ads Infra",
+      "url": "https://go.vansh.nyc/168",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "0b65349a-fdd8-4766-853f-7f054c352d31",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/168",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/168",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer (AI Agent & Global Revenue Platform)",
+      "url": "https://go.vansh.nyc/169",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "302a328b-e9dd-4e7c-b089-4fc10607fc05",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/169",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/169",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer (E-Commerce Supply Chain & Logistics)",
+      "url": "https://go.vansh.nyc/16a",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "0b1deb63-0009-44bf-9454-a61ed5e9d18f",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16a",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16a",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, E-Commerce Recommendation Foundation",
+      "url": "https://go.vansh.nyc/16b",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "a6965183-5b15-4f2d-801f-752f7d3abc3d",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16b",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16b",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer (Trust & Safety)",
+      "url": "https://go.vansh.nyc/16d",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "aaa30569-6cc7-4d81-bd33-126ce02d828c",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16d",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16d",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, E-Commerce Recommendation Live",
+      "url": "https://go.vansh.nyc/16e",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "dca1e9d4-801f-4d8e-a6d4-8f55230de38b",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16e",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16e",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer, Ads Interface",
+      "url": "https://go.vansh.nyc/16g",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "4aa9e73e-c84b-4037-b9c9-f01a5b104990",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16g",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16g",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer (Search Ads)",
+      "url": "https://go.vansh.nyc/16h",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "99cdd964-3d80-4200-bd6f-599290deeb63",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16h",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16h",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, Search Quality",
+      "url": "https://go.vansh.nyc/16j",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "c1d55cb8-349c-41c6-a2a8-ed056c360c54",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16j",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16j",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, TikTok Trust and Safety",
+      "url": "https://go.vansh.nyc/16k",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "912c6d1d-7793-4757-ba99-ff8cde0f4be5",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16k",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16k",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Frontend Software Engineer (Ads Interface)",
+      "url": "https://go.vansh.nyc/16n",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "3aec897b-7b09-46b7-943c-01da5588d10b",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16n",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16n",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, E-Commerce Governance",
+      "url": "https://go.vansh.nyc/16o",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "fabc53a0-c8c9-4dd1-ba79-0816c2eb65d7",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16o",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16o",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer, Ads Infra",
+      "url": "https://go.vansh.nyc/16q",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "1d87de72-ffdb-410f-95a4-608dd716df70",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16q",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16q",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: AI Systems Engineer (AI Code Infrastructure-Agentic Ops US)",
+      "url": "https://go.vansh.nyc/16t",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "1b910816-52a2-4670-a123-534e6658529e",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16t",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16t",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Engineer, User Growth",
+      "url": "https://go.vansh.nyc/16u",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "76b48c9c-de50-483a-8c0a-50764f2f524e",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16u",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16u",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, TikTok-Data-Search-Recommendation",
+      "url": "https://go.vansh.nyc/16v",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "050bd27a-b46a-4e3c-b622-b52a6fbd0d12",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16v",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16v",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer (Media Engine)",
+      "url": "https://go.vansh.nyc/16w",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "94e46154-06a1-4e1a-8d89-9a0202c9366f",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16w",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16w",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Recommendation Architecture AI/ML Infrastructure Engineer, Data-Arch-TikTok Live",
+      "url": "https://go.vansh.nyc/16x",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "7460209d-4c2d-4e3b-9181-d843f046eace",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16x",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16x",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer, Global E-commerce",
+      "url": "https://go.vansh.nyc/16y",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "085cdf12-f415-41f1-aa86-41149865fde1",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16y",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16y",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer (TikTok AI Search & Visual Search Infra Team)",
+      "url": "https://go.vansh.nyc/16A",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "4978165e-723b-4bea-b29a-38d1533fdff9",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16A",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16A",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, Performance Monetization",
+      "url": "https://go.vansh.nyc/16B",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "758159cd-a36c-4cb9-8e66-9ab3f01919c8",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16B",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16B",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer (Ads Targeting)",
+      "url": "https://go.vansh.nyc/16C",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "5f14200b-c9ef-4dac-acf3-7538c4f23565",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16C",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16C",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer (Ads Delivery)",
+      "url": "https://go.vansh.nyc/16E",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "75bbcd6d-9579-441c-8f96-6f1d23e15d50",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16E",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16E",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer (Ads Measurement Signal Technology)",
+      "url": "https://go.vansh.nyc/16F",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "7c9ec11c-8b8a-40fb-a6c5-1251c7334a0e",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16F",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16F",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: AI Engineer (Client Arch)",
+      "url": "https://go.vansh.nyc/16G",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "5ade5b5e-0630-4634-952a-5ddd31dc4b2d",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16G",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16G",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Development Engineer (Global E-Commerce-Quality Platform & AI Test Automation)",
+      "url": "https://go.vansh.nyc/16H",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "ec8e3c8b-c5c0-4f48-8350-d6dc113d7467",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16H",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16H",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, Search-Basic Ranking",
+      "url": "https://go.vansh.nyc/16I",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "fa0e6fd8-7807-49b1-bcc2-bebaf51e96e0",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16I",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16I",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning MLOps Engineer",
+      "url": "https://go.vansh.nyc/16J",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "2a6f82d4-1182-482d-a4b6-7a4b89425637",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16J",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16J",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer (Ads Signal & Measurement)",
+      "url": "https://go.vansh.nyc/16K",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "df317231-4b69-43e9-a36f-0a59ec312fd5",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16K",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16K",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer, Global CRM",
+      "url": "https://go.vansh.nyc/16M",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "8641e386-1e3e-4dbc-9dea-b093a63363ad",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16M",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16M",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer (App Ads and Gaming)",
+      "url": "https://go.vansh.nyc/16S",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "4d969c1a-545b-4c2c-ba3e-ceb076e3b107",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16S",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16S",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer, Creation Platform",
+      "url": "https://go.vansh.nyc/16T",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "792f2acf-1f76-43d2-94b2-6346e423ddb7",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16T",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16T",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: AI Infra Engineer (Recommendation & LLM)",
+      "url": "https://go.vansh.nyc/16U",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "345ea1c0-2320-46bd-96c4-d9068e7296d8",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16U",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16U",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Data Scientist (Multimedia)",
+      "url": "https://go.vansh.nyc/16V",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "3cbf6023-38d6-48bc-b87c-10c7588810f5",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16V",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16V",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: LLM Post-training Engineer (Research & Product)",
+      "url": "https://go.vansh.nyc/16Y",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "30107c9f-482e-4c5d-bbb1-af103aaaf0c5",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16Y",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16Y",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, Monetization Technology - Ads Core Global",
+      "url": "https://go.vansh.nyc/16Z",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "936c853a-69f8-4728-8e27-69ceee1950e1",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16Z",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16Z",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, Ads Delivery",
+      "url": "https://go.vansh.nyc/172",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "a9400cf2-d928-4730-a983-9508df12f357",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/172",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/172",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer (Video-on-Demand Algorithm)",
+      "url": "https://go.vansh.nyc/176",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "6a6699df-b65a-42d1-ad9f-6529084a0ec9",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/176",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/176",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer, Foundation Platform",
+      "url": "https://go.vansh.nyc/177",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "75916dca-f99b-4e7b-97e0-a96fcc32f0cc",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/177",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/177",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer, Privacy and Security - Product",
+      "url": "https://go.vansh.nyc/17a",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "9dde8c27-95aa-4130-9fba-bb0b7d56c9e4",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/17a",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17a",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Engineer, TikTok Vertical Recommendation Architecture",
+      "url": "https://go.vansh.nyc/17d",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "55a5f692-52de-4415-afc6-d60e9428ccca",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/17d",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17d",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer, Business Integrity",
+      "url": "https://go.vansh.nyc/17g",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "9e438b62-934a-4219-8076-925ced270548",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/17g",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17g",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, TikTok Vertical Recommendation",
+      "url": "https://go.vansh.nyc/17h",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "ccdb57f4-8b6b-44dd-835c-24fd79444071",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/17h",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17h",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer, Data Lifecycle Management",
+      "url": "https://go.vansh.nyc/17i",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "e9b8b6a2-9340-484b-8996-0a0e576ed773",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/17i",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17i",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, Visual Search",
+      "url": "https://go.vansh.nyc/17j",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "cf5849d8-c809-4a4e-a437-5526d0720264",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/17j",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17j",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer, Recommendation Infrastructure",
+      "url": "https://go.vansh.nyc/17l",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "d511eeea-e1f8-41df-8520-95c5c55fd39a",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/17l",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17l",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Big Data Engineer, TikTok Recommendation Architecture",
+      "url": "https://go.vansh.nyc/17m",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "f2f4a1d7-0400-4364-837c-db28f11d2797",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/17m",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17m",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Research Engineer Intern, Agentic Systems & AI Infrastructure - TikTok-Generalized Arch",
+      "url": "https://go.vansh.nyc/17U",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "c72174da-3b41-41a2-a9ea-d56bcff81049",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17U",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17U",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Machine Learning Engineer Intern, Recommendation Global E-Commerce",
+      "url": "https://go.vansh.nyc/18l",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "dca8497a-36e4-4a4a-89c1-10cea740a02d",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18l",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18l",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Machine Learning Engineer Intern, Global E-Commerce Search",
+      "url": "https://go.vansh.nyc/18r",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "05e6c7f9-bb1a-448c-bdca-295a4c73d7d8",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18r",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18r",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "Software Engineer Project Intern, Global E-Commerce Search Infrastructure",
+      "url": "https://go.vansh.nyc/18y",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "d744de80-70eb-432a-a893-21f87c28be29",
+      "remote": null,
+      "department": "Fall",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18y",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18y",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer (Risk & Response)",
+      "url": "https://go.vansh.nyc/15L",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "622b4862-36b8-43a4-bb04-67b6aa5efe4d",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15L",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15L",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer (Feed Safety)",
+      "url": "https://go.vansh.nyc/15R",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "3d172baf-a1fc-4f1c-b731-5154fe35ff95",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15R",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15R",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer (Data Arch - E-commerce)",
+      "url": "https://go.vansh.nyc/15Z",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "6cd55831-f2f8-4658-a078-845792724ea3",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/15Z",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/15Z",
+      "term_inferred": false,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 New-Grad 2026",
+          "url": "https://go.vansh.nyc/16Q"
+        }
+      ],
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer (E-Commerce Recommendation/Search Alliance)",
+      "url": "https://go.vansh.nyc/161",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "a041c2c8-866f-478d-bc41-e4f3ab4aefea",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/161",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/161",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, E-Commerce Supply Chain & Logistics",
+      "url": "https://go.vansh.nyc/165",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "27160a70-16df-4135-83b2-78d5e70fc8ac",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/165",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/165",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer (E-Commerce Recommendation Live)",
+      "url": "https://go.vansh.nyc/166",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "d6a1db67-0bbb-49ce-b477-76174e29a405",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/166",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/166",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer (Trust & Safety)",
+      "url": "https://go.vansh.nyc/167",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "82f61443-6f02-4ebb-ad34-33282b41354f",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/167",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/167",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer (Machine Moderation Platform)",
+      "url": "https://go.vansh.nyc/16c",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "c4952b8d-115e-4b55-b336-449c9808d9c6",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16c",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16c",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, E-Commerce Recommendation Foundation",
+      "url": "https://go.vansh.nyc/16m",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "a2de12bd-a675-4643-92f1-1cca635a66b6",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16m",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16m",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, TikTok Trust and Safety",
+      "url": "https://go.vansh.nyc/16p",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "6bd9fb98-d28d-4b1b-9755-72106164c63c",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16p",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16p",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, E-Commerce Recommendation Mall",
+      "url": "https://go.vansh.nyc/16r",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "329d13e8-c506-4848-8165-de736e273df8",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16r",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16r",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer (Global E-commerce-Search)",
+      "url": "https://go.vansh.nyc/16s",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "164433a7-8268-4ccb-872e-ff691c7436cd",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16s",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16s",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Fullstack Software Engineer, Global E-commerce",
+      "url": "https://go.vansh.nyc/16z",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "be1f29ea-8398-43c0-bc86-ebecfcd98b65",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16z",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16z",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer (TikTok-Data-Search-Recommendation-Global E-Commerce)",
+      "url": "https://go.vansh.nyc/16N",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "113f06b0-e59a-445a-b4e8-b7015b806e9f",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16N",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16N",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, E-Commerce Governance",
+      "url": "https://go.vansh.nyc/16W",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "fe8e5156-723b-48df-afdd-a8160a89e419",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/16W",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/16W",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Software Engineer (Recommendation Architecture, Feeds Infrastructure)",
+      "url": "https://go.vansh.nyc/170",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "be55ad35-41e4-44c8-b177-a12a3af174dd",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/170",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/170",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer, TikTok-Data-Search-Local Service",
+      "url": "https://go.vansh.nyc/179",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "8d3c3e72-a3a8-4717-8865-811acd3f06c4",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/179",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/179",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Backend Software Engineer (Global E-commerce)",
+      "url": "https://go.vansh.nyc/17b",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "7dea4367-4726-4ca4-883a-7f7ddd8b18c4",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/17b",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17b",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "TikTok",
+      "title": "New Grad 2027: Machine Learning Engineer (Data-Global E-Commerce-Search)",
+      "url": "https://go.vansh.nyc/17f",
+      "source": "community",
+      "source_name": "Community · vanshb03 New-Grad 2026",
+      "location": "Seattle, WA",
+      "posted": {
+        "value": "2026-11-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "a6badd68-7a25-4b7c-a5a6-531d893a051c",
+      "remote": null,
+      "department": "",
+      "is_first_party": false,
+      "category": "Data / ML / AI",
+      "term": "2027",
+      "term_priority": 4,
+      "level": "new_grad",
+      "identity": "url:https://go.vansh.nyc/17f",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Seattle, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17f",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "vanshb03 New-Grad 2026",
       "misses": 0,
       "status": "open"
     },
@@ -7394,6 +10984,38 @@
       "status": "open"
     },
     {
+      "company": "Intuit",
+      "title": "Software Engineering Intern, Full Stack",
+      "url": "https://go.vansh.nyc/17H",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "United States",
+      "posted": {
+        "value": "2026-10-30",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "b4503ebc-2f6b-4adb-937e-72db2095cd34",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17H",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "United States",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17H",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
       "company": "Itron",
       "title": "Systems Engineer Intern",
       "url": "https://itron.wd5.myworkdayjobs.com/Early_Careers/job/United-States-of-America-South-Carolina-West-Union/Intern---Systems-Engineer--Spring-2027-_JR102789-1",
@@ -7436,6 +11058,38 @@
         }
       ],
       "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Johns Hopkins APL",
+      "title": "Robotics Engineer Intern, Maritime Systems",
+      "url": "https://go.vansh.nyc/17I",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Laurel, MD",
+      "posted": {
+        "value": "2026-10-30",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "69076685-ca10-44c8-bb43-c197016aa915",
+      "remote": null,
+      "department": "Spring",
+      "is_first_party": false,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17I",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Laurel, MD",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17I",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
       "misses": 0,
       "status": "open"
     },
@@ -11551,6 +15205,12 @@
       "canonical_url": "https://job-boards.greenhouse.io/scmaea/jobs/998317",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/17s"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -11648,6 +15308,38 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Samsung Semiconductor",
+      "title": "Systems Software Engineering Intern",
+      "url": "https://go.vansh.nyc/17G",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "San Jose, CA",
+      "posted": {
+        "value": "2026-10-29",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "25d17a41-fe76-4ece-ba7b-d7343f00be41",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17G",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "San Jose, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17G",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
       "misses": 0,
       "status": "open"
     },
@@ -40747,6 +44439,38 @@
       "location_display": "Saint Louis, MO",
       "is_remote": false,
       "canonical_url": "https://go.vansh.nyc/D5",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Sycamore",
+      "title": "Member of Technical Staff Intern, Infrastructure",
+      "url": "https://go.vansh.nyc/18T",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Palo Alto, CA",
+      "posted": {
+        "value": "2026-10-21",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "aa399b12-0937-4b45-a85d-1b84792293ad",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/18T",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Palo Alto, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/18T",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "vanshb03 S2027",
@@ -75629,6 +79353,12 @@
       "canonical_url": "https://www.ixl.com/company/jobs?gh_jid=8862214002",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/17D"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -104067,6 +107797,12 @@
       "canonical_url": "https://jobs.smartrecruiters.com/Keenfinity/744000151397189",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/17B"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -107475,6 +111211,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7681783406632782085",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18a"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -117260,6 +121002,70 @@
       "status": "open"
     },
     {
+      "company": "Antares",
+      "title": "Reactor Software Engineering Intern",
+      "url": "https://go.vansh.nyc/17z",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Los Angeles, CA",
+      "posted": {
+        "value": "2026-09-16",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "948da996-7dab-4069-8390-a5bf7fc61634",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17z",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Los Angeles, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17z",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Antares",
+      "title": "Multiphysics Software Intern",
+      "url": "https://go.vansh.nyc/17A",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Los Angeles, CA",
+      "posted": {
+        "value": "2026-09-16",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "1784b5b4-d369-4739-adde-8838ee6a60c9",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17A",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Los Angeles, CA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17A",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
       "company": "Antares Nuclear",
       "title": "Software Engineer Intern",
       "url": "https://jobs.ashbyhq.com/Antares/419ef2df-f0aa-4b68-994a-077e08a959e3/application?embed=true",
@@ -119683,7 +123489,7 @@
       "level": "intern",
       "identity": "url:https://www.tesla.com/careers/search/job/283630",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-10-07",
+      "last_seen": "2026-11-01",
       "location_display": "Buffalo, NY",
       "is_remote": false,
       "canonical_url": "https://www.tesla.com/careers/search/job/283630",
@@ -131409,6 +135215,38 @@
     {
       "company": "Lyft",
       "title": "Data Science Intern, Algorithms (Summer 2027 - SF/NYC)",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002",
+      "source": "greenhouse",
+      "source_name": "Greenhouse · Lyft",
+      "location": "New York, NY",
+      "posted": {
+        "value": "2026-09-11",
+        "precision": "exact",
+        "field": "first_published"
+      },
+      "ats_job_id": "8796124002",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Data / ML / AI",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002",
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-11-01",
+      "location_display": "New York, NY",
+      "is_remote": false,
+      "canonical_url": "https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002",
+      "term_inferred": false,
+      "is_phd": false,
+      "health_key": "Lyft",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Lyft",
+      "title": "Data Science Intern, Algorithms (Summer 2027 - SF/NYC)",
       "url": "https://app.careerpuck.com/job-board/lyft/job/8767723002?gh_jid=8767723002",
       "source": "greenhouse",
       "source_name": "Greenhouse · Lyft",
@@ -131499,38 +135337,6 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "vanshb03 S2027",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Lyft",
-      "title": "Data Science Intern, Algorithms (Summer 2027 - SF/NYC)",
-      "url": "https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002",
-      "source": "greenhouse",
-      "source_name": "Greenhouse · Lyft",
-      "location": "New York, NY",
-      "posted": {
-        "value": "2026-09-11",
-        "precision": "exact",
-        "field": "first_published"
-      },
-      "ats_job_id": "8796124002",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Data / ML / AI",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002",
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-11-01",
-      "location_display": "New York, NY",
-      "is_remote": false,
-      "canonical_url": "https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002",
-      "term_inferred": false,
-      "is_phd": false,
-      "health_key": "Lyft",
       "misses": 0,
       "status": "open"
     },
@@ -131760,6 +135566,38 @@
     },
     {
       "company": "Microsoft",
+      "title": "Software Engineering Intern",
+      "url": "https://go.vansh.nyc/17x",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Redmond, WA",
+      "posted": {
+        "value": "2026-09-11",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "9ac05af2-7269-4dfc-98bf-dd4b94b60202",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17x",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Redmond, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17x",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Microsoft",
       "title": "Software Engineer Intern",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556983223",
       "source": "community",
@@ -131787,6 +135625,38 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Software Engineering Intern",
+      "url": "https://go.vansh.nyc/17y",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Reston, VA",
+      "posted": {
+        "value": "2026-09-11",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "9bf362fe-814a-498e-8eca-094d9512c2c2",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17y",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "Reston, VA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17y",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
       "misses": 0,
       "status": "open"
     },
@@ -145740,6 +149610,12 @@
       "canonical_url": "https://jobs.ashbyhq.com/powertown/642bc3ac-1d1f-400a-975e-a80e745f277b/application?embed=true",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/17w"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -158522,6 +162398,38 @@
     },
     {
       "company": "Hermeus",
+      "title": "Software Engineer Intern - Modeling & Simulation - Multiple Teams",
+      "url": "https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "LA",
+      "posted": {
+        "value": "2026-09-01",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "768502d1-3bb6-48fe-8605-2c02c23d8e9e",
+      "remote": null,
+      "department": "Spring 2027",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-11-01",
+      "location_display": "Los Angeles, CA",
+      "is_remote": false,
+      "canonical_url": "https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Hermeus",
       "title": "Subsystem Test Engineering Intern - Spring/Summer 2027",
       "url": "https://jobs.lever.co/hermeus/643fd7b7-9015-43a1-aa2b-a54f117b403c",
       "source": "lever",
@@ -158581,38 +162489,6 @@
       "term_inferred": false,
       "is_phd": false,
       "health_key": "Hermeus",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Hermeus",
-      "title": "Software Engineer Intern - Modeling & Simulation - Multiple Teams",
-      "url": "https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "LA",
-      "posted": {
-        "value": "2026-09-01",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "768502d1-3bb6-48fe-8605-2c02c23d8e9e",
-      "remote": null,
-      "department": "Spring 2027",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply",
-      "first_seen": "2026-09-02",
-      "last_seen": "2026-11-01",
-      "location_display": "Los Angeles, CA",
-      "is_remote": false,
-      "canonical_url": "https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
     },
@@ -173580,6 +177456,12 @@
       "canonical_url": "https://go.vansh.nyc/Pp",
       "term_inferred": false,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 New-Grad 2026",
+          "url": "https://go.vansh.nyc/174"
+        }
+      ],
       "health_key": "vanshb03 New-Grad 2026",
       "misses": 0,
       "status": "open"
@@ -174931,6 +178813,38 @@
       "term_inferred": true,
       "is_phd": false,
       "health_key": "SimplifyJobs New-Grad",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Hyphenate",
+      "title": "Software Engineering Intern",
+      "url": "https://go.vansh.nyc/17t",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "New York, NY",
+      "posted": {
+        "value": "2026-08-25",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "661272ab-1496-48b4-9823-983f49845412",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/17t",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "location_display": "New York, NY",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/17t",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
       "misses": 0,
       "status": "open"
     },
@@ -177424,7 +181338,7 @@
       "level": "intern",
       "identity": "url:https://jobs.smartrecruiters.com/InfiniteQuant/744000145263134",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-10-31",
+      "last_seen": "2026-11-01",
       "location_display": "Dubai - United Arab Emirates; New York, NY",
       "is_remote": false,
       "canonical_url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000145263134",
@@ -183500,6 +187414,14 @@
           "url": "https://lifeattiktok.com/search/7675163472469444917"
         },
         {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18s"
+        },
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18v"
+        },
+        {
           "source": "Community · SimplifyJobs S2027",
           "url": "https://lifeattiktok.com/search/7675163472469444917"
         }
@@ -183542,6 +187464,14 @@
           "url": "https://lifeattiktok.com/search/7672930401597671733"
         },
         {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18o"
+        },
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18x"
+        },
+        {
           "source": "Community · SimplifyJobs S2027",
           "url": "https://lifeattiktok.com/search/7672930401597671733"
         }
@@ -183582,6 +187512,10 @@
         {
           "source": "Community · SimplifyJobs S2026",
           "url": "https://lifeattiktok.com/search/7675524738811218229"
+        },
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/184"
         },
         {
           "source": "Community · SimplifyJobs S2027",
@@ -183656,6 +187590,14 @@
         {
           "source": "Community · SimplifyJobs S2026",
           "url": "https://lifeattiktok.com/search/7674029284224092421"
+        },
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18u"
+        },
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18A"
         },
         {
           "source": "Community · SimplifyJobs S2027",
@@ -186674,6 +190616,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7675128776856029445",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18e"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -187936,6 +191884,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7674032146438162693",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18d"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -189304,6 +193258,12 @@
       "canonical_url": "https://jobs.bytedance.com/en/position/7673636205233490181/detail",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/15G"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -195991,6 +199951,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7671232204182276405",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18f"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -196027,6 +199993,14 @@
         {
           "source": "Community · SimplifyJobs S2026",
           "url": "https://lifeattiktok.com/search/7670839752644233525"
+        },
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/17W"
+        },
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/188"
         },
         {
           "source": "Community · SimplifyJobs S2027",
@@ -197279,6 +201253,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7670738362521520437",
       "term_inferred": false,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18i"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -197311,6 +201291,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7671211313289398581",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/17T"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -197407,6 +201393,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7670700387322300677",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18g"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -198779,6 +202771,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7670295535077427509",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18D"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -198875,6 +202873,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7670281449668905269",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18C"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -199793,6 +203797,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7669683639101884725",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/17Y"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -199825,6 +203835,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7670287013157095733",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18w"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -199857,6 +203873,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7670289874020993285",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18E"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -200613,6 +204635,44 @@
     },
     {
       "company": "Microsoft",
+      "title": "Software Engineer Security & Identity Intern",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
+      "source": "community",
+      "source_name": "Community · SimplifyJobs S2026",
+      "location": "Redmond, WA",
+      "posted": {
+        "value": "2026-08-04",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "b412b084-36e9-45e2-b3a0-561c4336e62e",
+      "remote": null,
+      "department": "Fall 2026",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://apply.careers.microsoft.com/careers/job/1970393556922930",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-11-01",
+      "location_display": "Redmond, WA",
+      "is_remote": false,
+      "canonical_url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
+      "term_inferred": true,
+      "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/5J"
+        }
+      ],
+      "health_key": "SimplifyJobs S2026",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Microsoft",
       "title": "Software Engineer Intern, Data Platform/Analytics",
       "url": "https://go.vansh.nyc/5I",
       "source": "community",
@@ -200637,38 +204697,6 @@
       "location_display": "Redmond, WA",
       "is_remote": false,
       "canonical_url": "https://go.vansh.nyc/5I",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "vanshb03 S2027",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Software Engineer Intern, Security & Identity",
-      "url": "https://go.vansh.nyc/5J",
-      "source": "community",
-      "source_name": "Community · vanshb03 S2027",
-      "location": "Redmond, WA",
-      "posted": {
-        "value": "2026-08-04",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "2fc17ba3-562c-4170-a89a-cbeb28cfda48",
-      "remote": null,
-      "department": "Summer",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://go.vansh.nyc/5J",
-      "first_seen": "2026-10-25",
-      "last_seen": "2026-11-01",
-      "location_display": "Redmond, WA",
-      "is_remote": false,
-      "canonical_url": "https://go.vansh.nyc/5J",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "vanshb03 S2027",
@@ -200765,6 +204793,38 @@
       "location_display": "Multiple Locations, United States",
       "is_remote": false,
       "canonical_url": "https://go.vansh.nyc/5M",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "vanshb03 S2027",
+      "misses": 0,
+      "status": "open"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Software Engineer Intern, Security & Identity",
+      "url": "https://go.vansh.nyc/5J",
+      "source": "community",
+      "source_name": "Community · vanshb03 S2027",
+      "location": "Redmond, WA",
+      "posted": {
+        "value": "2026-08-04",
+        "precision": "exact",
+        "field": "date_posted"
+      },
+      "ats_job_id": "2fc17ba3-562c-4170-a89a-cbeb28cfda48",
+      "remote": null,
+      "department": "Summer",
+      "is_first_party": false,
+      "category": "Software Engineering",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://go.vansh.nyc/5J",
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
+      "location_display": "Redmond, WA",
+      "is_remote": false,
+      "canonical_url": "https://go.vansh.nyc/5J",
       "term_inferred": true,
       "is_phd": false,
       "health_key": "vanshb03 S2027",
@@ -201071,44 +205131,6 @@
         {
           "source": "Community · vanshb03 S2027",
           "url": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922923"
-        }
-      ],
-      "health_key": "SimplifyJobs S2026",
-      "misses": 0,
-      "status": "open"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Software Engineer Security & Identity Intern",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
-      "source": "community",
-      "source_name": "Community · SimplifyJobs S2026",
-      "location": "Redmond, WA",
-      "posted": {
-        "value": "2026-08-04",
-        "precision": "exact",
-        "field": "date_posted"
-      },
-      "ats_job_id": "b412b084-36e9-45e2-b3a0-561c4336e62e",
-      "remote": null,
-      "department": "Fall 2026",
-      "is_first_party": false,
-      "category": "Software Engineering",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://apply.careers.microsoft.com/careers/job/1970393556922930",
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-10-07",
-      "location_display": "Redmond, WA",
-      "is_remote": false,
-      "canonical_url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
-      "term_inferred": true,
-      "is_phd": false,
-      "merged_from": [
-        {
-          "source": "Community · vanshb03 S2027",
-          "url": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922930"
         }
       ],
       "health_key": "SimplifyJobs S2026",
@@ -201647,6 +205669,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7669700361976809733",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/17Q"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -201717,6 +205745,10 @@
           "url": "https://lifeattiktok.com/search/7669693205558561077"
         },
         {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/181"
+        },
+        {
           "source": "Community · SimplifyJobs S2027",
           "url": "https://lifeattiktok.com/search/7669693205558561077"
         }
@@ -201753,6 +205785,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7669707492914727221",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/182"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -201817,6 +205855,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7669711968043092229",
       "term_inferred": false,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/17Z"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -201849,6 +205893,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7669698648817305909",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/180"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -201881,6 +205931,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7668654528822954245",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/17N"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -201945,6 +206001,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7669709472078170373",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/17X"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -202123,6 +206185,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7669700822370945333",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/17O"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -206209,6 +210277,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7662653087863081221",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18B"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -206551,6 +210625,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7665475460339665157",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18p"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -207183,6 +211263,10 @@
           "url": "https://lifeattiktok.com/search/7668202602270951733"
         },
         {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/187"
+        },
+        {
           "source": "Community · SimplifyJobs S2027",
           "url": "https://lifeattiktok.com/search/7668202602270951733"
         }
@@ -207223,6 +211307,10 @@
         {
           "source": "Community · SimplifyJobs S2026",
           "url": "https://lifeattiktok.com/search/7668202600147552517"
+        },
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/185"
         },
         {
           "source": "Community · SimplifyJobs S2027",
@@ -224134,6 +228222,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7584179082162653445",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18H"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -235702,6 +239796,12 @@
       "canonical_url": "https://lifeattiktok.com/search/7621299118434961669",
       "term_inferred": true,
       "is_phd": false,
+      "merged_from": [
+        {
+          "source": "Community · vanshb03 S2027",
+          "url": "https://go.vansh.nyc/18G"
+        }
+      ],
       "health_key": "SimplifyJobs S2026",
       "misses": 0,
       "status": "open"
@@ -251830,38 +255930,6 @@
       "status": "open"
     },
     {
-      "company": "Cisco",
-      "title": "Hardware Engineer I (Intern) - United States",
-      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024756",
-      "source": "workday",
-      "source_name": "Workday · Cisco",
-      "location": "San Jose, California, US; Carlsbad, California, US",
-      "posted": {
-        "value": "2026-10-26",
-        "precision": "approximate",
-        "field": "postedOn"
-      },
-      "ats_job_id": "2024756",
-      "remote": null,
-      "department": "",
-      "is_first_party": true,
-      "category": "Other Technical",
-      "term": "Summer 2027",
-      "term_priority": 0,
-      "level": "intern",
-      "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024756",
-      "first_seen": "2026-10-30",
-      "last_seen": "2026-10-31",
-      "location_display": "San Jose, California, US; Carlsbad, California, US",
-      "is_remote": false,
-      "canonical_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024756",
-      "term_inferred": true,
-      "is_phd": false,
-      "health_key": "Cisco",
-      "misses": 1,
-      "status": "open"
-    },
-    {
       "company": "Salesforce",
       "title": "Summer 2027 Intern - AI Research",
       "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1",
@@ -253624,6 +257692,39 @@
     }
   ],
   "closed": [
+    {
+      "company": "Cisco",
+      "title": "Hardware Engineer I (Intern) - United States",
+      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024756",
+      "source": "workday",
+      "source_name": "Workday · Cisco",
+      "location": "San Jose, California, US; Carlsbad, California, US",
+      "posted": {
+        "value": "2026-10-26",
+        "precision": "approximate",
+        "field": "postedOn"
+      },
+      "ats_job_id": "2024756",
+      "remote": null,
+      "department": "",
+      "is_first_party": true,
+      "category": "Other Technical",
+      "term": "Summer 2027",
+      "term_priority": 0,
+      "level": "intern",
+      "identity": "url:https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024756",
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-31",
+      "location_display": "San Jose, California, US; Carlsbad, California, US",
+      "is_remote": false,
+      "canonical_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024756",
+      "term_inferred": true,
+      "is_phd": false,
+      "health_key": "Cisco",
+      "misses": 2,
+      "status": "closed",
+      "closed_at": "2026-11-01"
+    },
     {
       "company": "Roblox",
       "title": "[Summer 2027] Product Management Intern",
