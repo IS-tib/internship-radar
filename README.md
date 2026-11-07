@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**8351 open roles** · **1710 companies** · **446/506 sources healthy** · updated 2026-11-07 08:07 UTC  
-7113 internships · 1238 new-grad · SWE 4241 · Data/ML 2565 · Tech 1210 · PM 335
+**8353 open roles** · **1714 companies** · **453/506 sources healthy** · updated 2026-11-07 18:26 UTC  
+7115 internships · 1238 new-grad · SWE 4241 · Data/ML 2568 · Tech 1209 · PM 335
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,17 +19,22 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (975)
+## 🆕 Just posted — last 7 days (981)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Corning | HPC DevOps Engineer Intern, Science & Technology 🆕 | Tech | Intern | ~Summer 2027 | Corning, NY | 0 days ago | [apply](https://go.vansh.nyc/1lY) |
+| Dayton Freight | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Dayton, OH | 0 days ago | [apply](https://go.vansh.nyc/1m9) |
+| IDEMIA | Service Platform Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Brentwood, TN | 0 days ago | [apply](https://go.vansh.nyc/1m1) |
+| Kinaxis | Developer Co-op, Machine Learning 🆕 | Data/ML | Intern | ~Summer 2027 | Remote; United States | 0 days ago | [apply](https://go.vansh.nyc/1mb) |
 | Northwood Space | Electrical Engineer (New Grad) 🆕 | Tech | New grad | ~Summer 2027 | Torrance, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/northwoodspace/ca73b132-2264-4649-ad83-73ea3e69fe5d) |
 | Northwood Space | Electrical Engineer New Grad 🆕 | Tech | New grad | ~Summer 2027 | Los Angeles, CA; Torrance, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/NorthwoodSpace/ca73b132-2264-4649-ad83-73ea3e69fe5d/application?embed=true) |
+| Springs Window Fashions | Textile Engineering Analytics & Software Intern 🆕 | SWE | Intern | ~Summer 2027 | Middleton, WI | 0 days ago | [apply](https://go.vansh.nyc/1me) |
 | TikTok | GEO Content Product Manager Intern 🆕 | PM | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7696000178264361269) |
 | TikTok | Research Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7704981006856145205) |
 | Zoox | AI Workflows & Safety Decision Making Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Foster City, CA | 0 days ago | [apply](https://jobs.lever.co/zoox/0168ad29-2fd8-4c91-865c-b9fff8aa30c1/apply) |
 | Zoox | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA; Foster City, CA | 0 days ago | [apply](https://jobs.lever.co/zoox/85c6aec7-8da2-445d-9c4d-812365dbce97/apply) |
+| empirical | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Dakota Dunes, SD | 0 days ago | [apply](https://go.vansh.nyc/1mg) |
 | ASM | Product Intelligence Engineering Intern, AI/ML 🆕 | Data/ML | Intern | ~Summer 2027 | Phoenix, AZ | 1 day ago | [apply](https://go.vansh.nyc/1jZ) |
 | ASM International | Product Intelligence Engineering Intern - AI/ML 🆕 | Data/ML | Intern | ~Summer 2027 | Phoenix, AZ | 1 day ago | [apply](https://www.asm.com/open-vacancies/?gh_jid=5029228101) |
 | Alaska Airlines | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | SeaTac, WA | 1 day ago | [apply](https://go.vansh.nyc/1kc) |
@@ -138,25 +143,25 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Zoox | Software Engineer Intern, Software Platforms & Product 🆕 | SWE | Intern | ~Summer 2027 | Foster City, CA | 1 day ago | [apply](https://go.vansh.nyc/1jV) |
 | Zoox | Software Engineer Intern, Software Systems 🆕 | SWE | Intern | ~Summer 2027 | Foster City, CA | 1 day ago | [apply](https://go.vansh.nyc/1jW) |
 | APEX Analytix | Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Greensboro, NC | 2 days ago | [apply](https://go.vansh.nyc/1ii) |
-| APEX Analytix | Automation Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Greensboro, NC | 2 days ago | [apply](https://go.vansh.nyc/1ij) |
-| APEX Analytix | Data Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Greensboro, NC | 2 days ago | [apply](https://go.vansh.nyc/1ik) |
-| APEX Analytix | Data Analyst Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Greensboro, NC | 2 days ago | [apply](https://go.vansh.nyc/1il) |
-| Amazon | Software Development Engineer – Early Career - Embedded Systems 🆕 | Tech | New grad | ~Summer 2027 | Redmond, WA; Northridge, LA | 2 days ago | [apply](https://amazon.jobs/en/jobs/10598021/software-development-engineer-embedded-systems-amazon-leo-early-career-2027-us) |
-| Amazon | New Grad 2027: Software Development Engineer, Embedded Systems 🆕 | Tech | New grad | 2027 | Redmond, WA; Northridge, LA | 2 days ago | [apply](https://go.vansh.nyc/1jB) |
 
-_+855 more in the full list below._
+_+861 more in the full list below._
 
-## 📋 All open roles — newest first (8351)
+## 📋 All open roles — newest first (8353)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Corning | HPC DevOps Engineer Intern, Science & Technology 🆕 | Tech | Intern | ~Summer 2027 | Corning, NY | 0 days ago | [apply](https://go.vansh.nyc/1lY) |
+| Dayton Freight | Software Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Dayton, OH | 0 days ago | [apply](https://go.vansh.nyc/1m9) |
+| IDEMIA | Service Platform Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Brentwood, TN | 0 days ago | [apply](https://go.vansh.nyc/1m1) |
+| Kinaxis | Developer Co-op, Machine Learning 🆕 | Data/ML | Intern | ~Summer 2027 | Remote; United States | 0 days ago | [apply](https://go.vansh.nyc/1mb) |
 | Northwood Space | Electrical Engineer (New Grad) 🆕 | Tech | New grad | ~Summer 2027 | Torrance, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/northwoodspace/ca73b132-2264-4649-ad83-73ea3e69fe5d) |
 | Northwood Space | Electrical Engineer New Grad 🆕 | Tech | New grad | ~Summer 2027 | Los Angeles, CA; Torrance, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/NorthwoodSpace/ca73b132-2264-4649-ad83-73ea3e69fe5d/application?embed=true) |
+| Springs Window Fashions | Textile Engineering Analytics & Software Intern 🆕 | SWE | Intern | ~Summer 2027 | Middleton, WI | 0 days ago | [apply](https://go.vansh.nyc/1me) |
 | TikTok | GEO Content Product Manager Intern 🆕 | PM | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7696000178264361269) |
 | TikTok | Research Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://lifeattiktok.com/search/7704981006856145205) |
 | Zoox | AI Workflows & Safety Decision Making Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Foster City, CA | 0 days ago | [apply](https://jobs.lever.co/zoox/0168ad29-2fd8-4c91-865c-b9fff8aa30c1/apply) |
 | Zoox | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA; Foster City, CA | 0 days ago | [apply](https://jobs.lever.co/zoox/85c6aec7-8da2-445d-9c4d-812365dbce97/apply) |
+| empirical | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Dakota Dunes, SD | 0 days ago | [apply](https://go.vansh.nyc/1mg) |
 | ASM | Product Intelligence Engineering Intern, AI/ML 🆕 | Data/ML | Intern | ~Summer 2027 | Phoenix, AZ | 1 day ago | [apply](https://go.vansh.nyc/1jZ) |
 | ASM International | Product Intelligence Engineering Intern - AI/ML 🆕 | Data/ML | Intern | ~Summer 2027 | Phoenix, AZ | 1 day ago | [apply](https://www.asm.com/open-vacancies/?gh_jid=5029228101) |
 | Alaska Airlines | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | SeaTac, WA | 1 day ago | [apply](https://go.vansh.nyc/1kc) |
@@ -436,22 +441,17 @@ _+855 more in the full list below._
 | Northrop Grumman | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | McClellan, CA | 3 days ago | [apply](https://go.vansh.nyc/1h5) |
 | Northrop Grumman | Software Embedded Engineering Intern 🆕 | Tech | Intern | ~Summer 2027 | Sykesville, MD | 3 days ago | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Sykesville/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Sykesville-MD_R10258553) |
 | Northrop Grumman | S/W Embedded Engineering Intern 🆕 | Tech | Intern | ~Summer 2027 | Sykesville, MD | 3 days ago | [apply](https://go.vansh.nyc/1fW) |
-| Paccar | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Denton, TX | 3 days ago | [apply](https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Data-Engineer-TX-76205-7864/1454360033/?ats=successfactors) |
 | Paccar | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Denton, TX | 3 days ago | [apply](https://go.vansh.nyc/1gB) |
+| Paccar | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Denton, TX | 3 days ago | [apply](https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Data-Engineer-TX-76205-7864/1454360033/?ats=successfactors) |
 | Pacific Northwest National Laboratory | Early Career Software Engineer 🆕 | SWE | New grad | ~Summer 2027 | Richland, WA | 3 days ago | [apply](https://careers.pnnl.gov/jobs/12900?icims=1) |
 | Parsons | AI/ML Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Centreville, VA; United States | 3 days ago | [apply](https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---VA-Centreville/AI-ML-Engineering-Intern-Summer-2027_R188194) |
 | Parsons | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Huntsville, AL | 3 days ago | [apply](https://go.vansh.nyc/1gI) |
 | Prologis | AI and Automation Intern, IT 🆕 | Data/ML | Intern | ~Summer 2027 | Denver, CO | 3 days ago | [apply](https://go.vansh.nyc/1gr) |
-| RTX | Electrical Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Cedar Rapids, IA | 3 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Electrical-Engineering-Intern--Summer-2027--Onsite-_01886131) |
 | RTX | Control/Diagnostic Software Intern 🆕 | SWE | Intern | ~Summer 2027 | Jupiter, FL | 3 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-JUPITER-ADR--17900-Beeline-Hwy--ADR-BLDG/Intern--Summer-2027---Control-Diagnostic-Software--Onsite-_01883840) |
+| RTX | Electrical Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Cedar Rapids, IA | 3 days ago | [apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Electrical-Engineering-Intern--Summer-2027--Onsite-_01886131) |
 | RTX | Control/Diagnostic Software Intern 🆕 | SWE | Intern | ~Summer 2027 | Jupiter, FL | 3 days ago | [apply](https://go.vansh.nyc/1g8) |
-| Rolls-Royce | New Grad 2027: Integrated Control Systems Engineer - Software 🆕 | SWE | New grad | 2027 | Indianapolis, IN | 3 days ago | [apply](https://go.vansh.nyc/1hE) |
-| STARKEY DE MÉXICO S.A. DE C.V. | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Eden Prairie, MN | 3 days ago | [apply](https://go.vansh.nyc/1j1) |
-| Samsung Research America | Robotics Lab Intern 🆕 | Tech | Intern | ~Summer 2027 | Mountain View, CA | 3 days ago | [apply](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8927812002) |
-| SharkNinja | Spring 2027: Mechanical Engineering Co-op, Wearable and Biomedical Devices (January to June) 🆕 | Tech | Intern | Spring 2027 | Needham, MA, United States | 3 days ago | [apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4727128006) |
-| Smith+Nephew | Robotics Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Pittsburgh, PA | 3 days ago | [apply](https://go.vansh.nyc/1gO) |
 
-_Showing the newest 300 of 8351 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 8353 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 8351 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **98.6%** of roles carry an exact posting timestamp from the source (8230/8351).
-- **7.2%** come from a company's own board rather than a community feed.
-- **4001** duplicates merged, **23** near-duplicates collapsed.
-- **208** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **98.6%** of roles carry an exact posting timestamp from the source (8239/8353).
+- **7.1%** come from a company's own board rather than a community feed.
+- **3999** duplicates merged, **23** near-duplicates collapsed.
+- **217** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>19 source(s) returned 404 this run (token likely renamed)</summary>
 
