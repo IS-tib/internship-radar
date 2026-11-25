@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**9723 open roles** · **1988 companies** · **451/506 sources healthy** · updated 2026-11-25 10:46 UTC  
-8369 internships · 1354 new-grad · SWE 4848 · Data/ML 3060 · Tech 1407 · PM 408
+**9747 open roles** · **1989 companies** · **451/506 sources healthy** · updated 2026-11-25 22:54 UTC  
+8391 internships · 1356 new-grad · SWE 4861 · Data/ML 3068 · Tech 1410 · PM 408
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,26 +19,47 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (438)
+## 🆕 Just posted — last 7 days (462)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Advanced Energy | Firmware Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Fort Collins, CO | 0 days ago | [apply](https://jobs.advanced-energy.com/job/Fort-Collins-Intern-Firmware-Engineer-Spring-2027-CO-80525/1453648400/?ats=successfactors) |
+| Apex Technology, Inc. | Software Engineering, Operating Systems Internship (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/3ce65300-2818-4601-9ee4-34a3c012d915) |
+| Apex Technology, Inc. | Flight Software Engineering Internship (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/744ea544-2601-4e58-8fac-94ea300653e3) |
+| Apex Technology, Inc. | Software Engineering Internship, Test & Automation (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/692bb497-59ba-44df-bacf-fffd2f7c6344) |
+| Apex Technology, Inc. | Ground Software Engineering Internship (Spring or Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/2d5ad921-241f-4e7a-b9ff-9d01763da88c) |
 | Bandwidth | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Raleigh, NC | 0 days ago | [apply](https://job-boards.greenhouse.io/bandwidth/jobs/8414452) |
 | Base Power | Quantitative Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 0 days ago | [apply](https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e) |
+| Coinbase | Security Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Hybrid - New York, NY | 0 days ago | [apply](https://www.coinbase.com/careers/positions/8415869?gh_jid=8415869) |
+| Coinbase | Security Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | New York, NY | 0 days ago | [apply](https://go.vansh.nyc/1Ju) |
 | ConnectPrep | Data Analyst Internship 🆕 | Data/ML | Intern | ~Summer 2027 | Washington, District of Columbia, United States | 0 days ago | [apply](https://apply.workable.com/j/9F465A2E1A) |
+| Danaher Corporation | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Chaska, MN | 0 days ago | [apply](https://go.vansh.nyc/1Jy) |
+| Eulerity | Digital Marketing Intern - Technical AI & Automation 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 0 days ago | [apply](https://job-boards.greenhouse.io/eulerity/jobs/4732314006) |
+| Jabil | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | St. Petersburg, FL; Tampa, FL | 0 days ago | [apply](https://go.vansh.nyc/1Jo) |
 | Microsoft | Research Intern - AI Systems Architecture - Efficient LLM Inference 🆕 | Data/ML | Intern | ~Summer 2027 | Redmond, WA | 0 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393557079428) |
 | NBCUniversal | Universal Studios Hollywood, Technical Services, Mechanical Engineering Internship – Summer 2027 🆕 | Tech | Intern | Summer 2027 | Universal City, CALIFORNIA, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/NBCUniversal3/744000163583264) |
 | NVIDIA | Software Engineering Intern, Simulation Technology 🆕 | SWE | Intern | ~Summer 2027 | Santa Clara, CA | 0 days ago | [apply](https://go.vansh.nyc/1J0) |
 | Nikkiso | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Huntington Beach, CA | 0 days ago | [apply](https://careers-nikkiso.icims.com/jobs/4528/job?mobile=true&needsRedirect=false) |
+| Noblis | AI/ML Research Intern 🆕 | Data/ML | Intern | ~Summer 2027 | United States | 0 days ago | [apply](https://careers.noblis.org/jobs/28841?icims=1&lang=en-us) |
 | Ralliant | Hardware Engineering Co-op 🆕 | Tech | Intern | ~Summer 2027 | Solon, OH | 0 days ago | [apply](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10451) |
+| SambaNova | AI Performance Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Austin, TX; San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jj) |
+| SambaNova | Compiler Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX; San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jk) |
+| SambaNova | ML Infrastructure Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX; San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jp) |
+| SambaNova | Machine Learning Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Austin, TX; San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jr) |
+| SambaNova | Cloud Platform Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jq) |
 | Samsung | LLM Inference Acceleration Architecture Intern - Moe & Attention-FFN Disaggregation 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8216717003) |
 | Samsung Semiconductor | LLM Inference Acceleration Architecture Intern, MoE & Attention–FFN Disaggregation 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/1IH) |
 | Veeva Systems | Associate Software Engineer New Grad 🆕 | SWE | New grad | ~Summer 2027 | Raleigh, NC | 0 days ago | [apply](https://jobs.lever.co/veeva/7272b636-1a5e-4e4b-a0af-763d2951429f/apply) |
 | Veeva Systems | New Grad 2027: Associate Software Engineer 🆕 | SWE | New grad | 2027 | Raleigh, NC | 0 days ago | [apply](https://go.vansh.nyc/1IJ) |
+| XPENG Motors | Software Engineer - Computing Platform (New Graduate) 🆕 | SWE | New grad | ~Summer 2027 | Santa Clara, CA | 0 days ago | [apply](https://job-boards.greenhouse.io/xpengmotors/jobs/8962912002) |
+| XPENG Motors | New Grad: Software Engineer - Computing Platform 🆕 | SWE | New grad | ~Summer 2027 | Santa Clara, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jt) |
+| Xona Space | Software Engineering Intern, Engineering Productivity 🆕 | SWE | Intern | ~Summer 2027 | Burlingame, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jx) |
+| Aerospace Corporation | Machine Learning Engineer Undergrad Intern 🆕 | Data/ML | Intern | ~Summer 2027 | El Segundo, CA; Chantilly, VA | 1 day ago | [apply](https://go.vansh.nyc/1Jh) |
+| Aerospace Corporation | Embedded Software Engineering Undergrad Intern 🆕 | SWE | Intern | ~Summer 2027 | El Segundo, CA | 1 day ago | [apply](https://go.vansh.nyc/1J8) |
 | Amazon | Front-End Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA; Chicago, IL | 1 day ago | [apply](https://amazon.jobs/en/jobs/10609992/front-end-engineer-internship-2027-us) |
 | Amazon | New Grad 2027: Front-End Engineer 🆕 | SWE | New grad | 2027 | Seattle, WA | 1 day ago | [apply](https://go.vansh.nyc/1Iv) |
 | Ameren | Robotics, AI, OT, Software Development Intern 🆕 | Data/ML | Intern | ~Summer 2027 | St. Louis, MO | 1 day ago | [apply](https://go.vansh.nyc/1Iz) |
+| Analog Devices | Embedded Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 1 day ago | [apply](https://go.vansh.nyc/1Jb) |
 | Apex Technology, Inc. | Software Engineer, Test Automation Internship (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 1 day ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/2268adcb-a0f6-4e12-a206-8f99e048486d) |
 | Apex Technology, Inc. | Mechanical Ground Systems Engineering Internship (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 1 day ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/e34724bd-0db2-4433-9352-7ad49d37e627) |
 | Aptima Inc. (All Jobs) | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Fairborn, OH | 1 day ago | [apply](https://go.vansh.nyc/1Is) |
@@ -56,6 +77,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Meta | Battery Engineer Intern - Battery Systems Engineering 🆕 | SWE | Intern | ~Summer 2027 | Sunnyvale, CA | 1 day ago | [apply](https://www.metacareers.com/jobs/1165674205921515) |
 | Motorola | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Salt Lake City, UT | 1 day ago | [apply](https://go.vansh.nyc/1J2) |
 | NVIDIA | Developer Technology Intern, AI 🆕 | Data/ML | Intern | ~Summer 2027 | Santa Clara, CA | 1 day ago | [apply](https://go.vansh.nyc/1Im) |
+| Nasdaq | Data Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Denver, CO | 1 day ago | [apply](https://go.vansh.nyc/1Jl) |
 | Neuralink | Electrical Test Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | South SF | 1 day ago | [apply](https://boards.greenhouse.io/neuralink/jobs/8197808003) |
 | Neuralink | Electrical Test Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | South San Francisco, California, United States | 1 day ago | [apply](https://boards.greenhouse.io/neuralink/jobs/8197808003?gh_jid=8197808003) |
 | PatientPoint | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Cincinnati, OH | 1 day ago | [apply](https://job-boards.greenhouse.io/patientpointinviteonly/jobs/4755910005) |
@@ -80,8 +102,10 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | APEX Analytix | Software Engineer Intern - Platform Tooling 🆕 | SWE | Intern | ~Summer 2027 | Greensboro, NC | 2 days ago | [apply](https://ats.rippling.com/apexanalytix-careers/jobs/0ab75bb7-08ee-403a-bbe5-3937bb948b19) |
 | Aon | IT / Cybersecurity Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Chicago, IL | 2 days ago | [apply](https://go.vansh.nyc/1H4) |
 | Artefact | AI Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://job-boards.greenhouse.io/artefactlinkedin/jobs/8958074002) |
+| Artefact | AI Builder Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://job-boards.greenhouse.io/artefactnoram/jobs/8958081002) |
 | Artefact | AI Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://go.vansh.nyc/1Gz) |
 | Artefact | AI Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://go.vansh.nyc/1I4) |
+| Artefact | AI Builder Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://go.vansh.nyc/1J4) |
 | Benchling | Software Engineer, Intern (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | San Francisco, CA | 2 days ago | [apply](https://jobs.ashbyhq.com/benchling/96370d1b-d35e-446b-8e26-dce088860099) |
 | Benchling | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA | 2 days ago | [apply](https://jobs.ashbyhq.com/benchling/96370d1b-d35e-446b-8e26-dce088860099/application?embed=true) |
 | Capital Technology Group | Data Engineering and Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Silver Spring, MD | 2 days ago | [apply](https://boards.greenhouse.io/capitaltg/jobs/5307074007) |
@@ -119,53 +143,50 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | ManTech | CNO Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Remote; United States | 2 days ago | [apply](https://go.vansh.nyc/1H5) |
 | Meta | Research Scientist Intern - Spatial-temporal Consistent 4D Generation 🆕 | Data/ML | Intern | ~Summer 2027 | Redmond, WA | 2 days ago | [apply](https://www.metacareers.com/jobs/2357948038329505) |
 | Micron Technology | Advanced Modeling and AI Solutions Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Boise, ID | 2 days ago | [apply](https://go.vansh.nyc/1GW) |
-| Milliman | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Indianapolis, IN | 2 days ago | [apply](https://recruiting2.ultipro.com/MIL1017/JobBoard/f54234e9-dfde-b183-fd20-4fbdb19cba7a/OpportunityDetail?opportunityId=1940672b-d3b1-4e15-a834-fde16cb5a420) |
-| Motorola Solutions | Mission Critical Networks Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Schaumburg, IL; Chicago, IL | 2 days ago | [apply](https://go.vansh.nyc/1Hn) |
-| Nintendo | IT Platform Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Redmond, WA | 2 days ago | [apply](https://go.vansh.nyc/1GU) |
-| Northrop Grumman | New Grad 2027: Associate Software Engineer / Software Engineer 🆕 | SWE | New grad | 2027 | Colorado Springs, CO | 2 days ago | [apply](https://go.vansh.nyc/1GL) |
-| Nuro | Technical Program Manager, Systems Intern 🆕 | Tech | Intern | ~Summer 2027 | Mountain View, California (HQ) | 2 days ago | [apply](https://nuro.ai/careersitem?gh_jid=8412577) |
-| Oscar Health | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | New York, New York, United States | 2 days ago | [apply](https://oscarhealth.com/careers/jobs?gh_jid=8407472) |
-| Philips | Embedded Software Development Intern, AI-Agentic 🆕 | Data/ML | Intern | ~Summer 2027 | Bothell, WA | 2 days ago | [apply](https://go.vansh.nyc/1Ij) |
-| Quantiq | New Grad: Software Developer 🆕 | SWE | New grad | ~Summer 2027 | Austin, TX | 2 days ago | [apply](https://go.vansh.nyc/1GR) |
-| Red Bull | 2027 Internship, Spring - Data Science 🆕 | Data/ML | Intern | Spring 2027 | Morristown, NJ, us | 2 days ago | [apply](https://jobs.smartrecruiters.com/RedBull/744000163139699) |
-| Rockwell Automation | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Milwaukee, WI | 2 days ago | [apply](https://go.vansh.nyc/1HN) |
-| Saab | Software Engineering Co-op 🆕 | SWE | Intern | ~Summer 2027 | East Syracuse, NY | 2 days ago | [apply](https://go.vansh.nyc/1Hj) |
-| Saab | Software Engineer Co-op 🆕 | SWE | Intern | ~Summer 2027 | East Syracuse, NY | 2 days ago | [apply](https://go.vansh.nyc/1Hk) |
-| Samsung Research America | Computer Vision Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Mountain View, CA | 2 days ago | [apply](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8955802002) |
-| Shield | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Dallas, TX | 2 days ago | [apply](https://go.vansh.nyc/1H8) |
-| Shield AI | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Dallas, TX | 2 days ago | [apply](https://jobs.ashbyhq.com/shield/f96617c2-a120-4b3b-844d-790fcda42503/application?embed=true) |
-| Stantec | Data Scientist Intern - Water 🆕 | Data/ML | Intern | ~Summer 2027 | Boston, MA; Denver, CO | 2 days ago | [apply](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1009005) |
-| Stantec | Data Scientist Intern, Water 🆕 | Data/ML | Intern | ~Summer 2027 | San Diego, CA | 2 days ago | [apply](https://go.vansh.nyc/1GO) |
-| T-Mobile | Site Reliability Engineering (SRE) Intern, Database Platform Engineering 🆕 | SWE | Intern | ~Summer 2027 | Atlanta, GA | 2 days ago | [apply](https://go.vansh.nyc/1Ik) |
-| TikTok | Client Security & Data Foundation Software Engineer Intern - BRIC 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 2 days ago | [apply](https://lifeattiktok.com/search/7705023349533346101) |
-| ViaSat | Embedded Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Tempe, AZ | 2 days ago | [apply](https://careers.viasat.com/jobs/10478?icims=1&lang=en-us) |
-| Applied Intuition | New Grad 2027: Forward Deployed Engineer 🆕 | Tech | New grad | 2027 | Sunnyvale, CA | 3 days ago | [apply](https://go.vansh.nyc/1Gu) |
-| MITRE | Embedded Security Intern, Electronics Prototype 🆕 | Tech | Intern | ~Summer 2027 | Bedford, MA | 3 days ago | [apply](https://go.vansh.nyc/1GA) |
-| Neogen | Embedded Systems Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Oakdale, MN | 3 days ago | [apply](https://neogen.wd5.myworkdayjobs.com/neogencareers/job/Oakdale/Software-or-Firmware-Engineer-Intern_REQ-11064) |
-| Neogen | Embedded Systems Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Oakdale, MN | 3 days ago | [apply](https://go.vansh.nyc/1Gp) |
 
-_+318 more in the full list below._
+_+342 more in the full list below._
 
-## 📋 All open roles — newest first (9723)
+## 📋 All open roles — newest first (9747)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Advanced Energy | Firmware Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Fort Collins, CO | 0 days ago | [apply](https://jobs.advanced-energy.com/job/Fort-Collins-Intern-Firmware-Engineer-Spring-2027-CO-80525/1453648400/?ats=successfactors) |
+| Apex Technology, Inc. | Software Engineering, Operating Systems Internship (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/3ce65300-2818-4601-9ee4-34a3c012d915) |
+| Apex Technology, Inc. | Flight Software Engineering Internship (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/744ea544-2601-4e58-8fac-94ea300653e3) |
+| Apex Technology, Inc. | Software Engineering Internship, Test & Automation (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/692bb497-59ba-44df-bacf-fffd2f7c6344) |
+| Apex Technology, Inc. | Ground Software Engineering Internship (Spring or Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 0 days ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/2d5ad921-241f-4e7a-b9ff-9d01763da88c) |
 | Bandwidth | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Raleigh, NC | 0 days ago | [apply](https://job-boards.greenhouse.io/bandwidth/jobs/8414452) |
 | Base Power | Quantitative Developer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 0 days ago | [apply](https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e) |
+| Coinbase | Security Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Hybrid - New York, NY | 0 days ago | [apply](https://www.coinbase.com/careers/positions/8415869?gh_jid=8415869) |
+| Coinbase | Security Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | New York, NY | 0 days ago | [apply](https://go.vansh.nyc/1Ju) |
 | ConnectPrep | Data Analyst Internship 🆕 | Data/ML | Intern | ~Summer 2027 | Washington, District of Columbia, United States | 0 days ago | [apply](https://apply.workable.com/j/9F465A2E1A) |
+| Danaher Corporation | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Chaska, MN | 0 days ago | [apply](https://go.vansh.nyc/1Jy) |
+| Eulerity | Digital Marketing Intern - Technical AI & Automation 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 0 days ago | [apply](https://job-boards.greenhouse.io/eulerity/jobs/4732314006) |
+| Jabil | Data Scientist Intern 🆕 | Data/ML | Intern | ~Summer 2027 | St. Petersburg, FL; Tampa, FL | 0 days ago | [apply](https://go.vansh.nyc/1Jo) |
 | Microsoft | Research Intern - AI Systems Architecture - Efficient LLM Inference 🆕 | Data/ML | Intern | ~Summer 2027 | Redmond, WA | 0 days ago | [apply](https://apply.careers.microsoft.com/careers/job/1970393557079428) |
 | NBCUniversal | Universal Studios Hollywood, Technical Services, Mechanical Engineering Internship – Summer 2027 🆕 | Tech | Intern | Summer 2027 | Universal City, CALIFORNIA, us | 0 days ago | [apply](https://jobs.smartrecruiters.com/NBCUniversal3/744000163583264) |
 | NVIDIA | Software Engineering Intern, Simulation Technology 🆕 | SWE | Intern | ~Summer 2027 | Santa Clara, CA | 0 days ago | [apply](https://go.vansh.nyc/1J0) |
 | Nikkiso | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Huntington Beach, CA | 0 days ago | [apply](https://careers-nikkiso.icims.com/jobs/4528/job?mobile=true&needsRedirect=false) |
+| Noblis | AI/ML Research Intern 🆕 | Data/ML | Intern | ~Summer 2027 | United States | 0 days ago | [apply](https://careers.noblis.org/jobs/28841?icims=1&lang=en-us) |
 | Ralliant | Hardware Engineering Co-op 🆕 | Tech | Intern | ~Summer 2027 | Solon, OH | 0 days ago | [apply](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10451) |
+| SambaNova | AI Performance Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Austin, TX; San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jj) |
+| SambaNova | Compiler Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX; San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jk) |
+| SambaNova | ML Infrastructure Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX; San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jp) |
+| SambaNova | Machine Learning Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Austin, TX; San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jr) |
+| SambaNova | Cloud Platform Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jq) |
 | Samsung | LLM Inference Acceleration Architecture Intern - Moe & Attention-FFN Disaggregation 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8216717003) |
 | Samsung Semiconductor | LLM Inference Acceleration Architecture Intern, MoE & Attention–FFN Disaggregation 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 0 days ago | [apply](https://go.vansh.nyc/1IH) |
 | Veeva Systems | Associate Software Engineer New Grad 🆕 | SWE | New grad | ~Summer 2027 | Raleigh, NC | 0 days ago | [apply](https://jobs.lever.co/veeva/7272b636-1a5e-4e4b-a0af-763d2951429f/apply) |
 | Veeva Systems | New Grad 2027: Associate Software Engineer 🆕 | SWE | New grad | 2027 | Raleigh, NC | 0 days ago | [apply](https://go.vansh.nyc/1IJ) |
+| XPENG Motors | Software Engineer - Computing Platform (New Graduate) 🆕 | SWE | New grad | ~Summer 2027 | Santa Clara, CA | 0 days ago | [apply](https://job-boards.greenhouse.io/xpengmotors/jobs/8962912002) |
+| XPENG Motors | New Grad: Software Engineer - Computing Platform 🆕 | SWE | New grad | ~Summer 2027 | Santa Clara, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jt) |
+| Xona Space | Software Engineering Intern, Engineering Productivity 🆕 | SWE | Intern | ~Summer 2027 | Burlingame, CA | 0 days ago | [apply](https://go.vansh.nyc/1Jx) |
+| Aerospace Corporation | Machine Learning Engineer Undergrad Intern 🆕 | Data/ML | Intern | ~Summer 2027 | El Segundo, CA; Chantilly, VA | 1 day ago | [apply](https://go.vansh.nyc/1Jh) |
+| Aerospace Corporation | Embedded Software Engineering Undergrad Intern 🆕 | SWE | Intern | ~Summer 2027 | El Segundo, CA | 1 day ago | [apply](https://go.vansh.nyc/1J8) |
 | Amazon | Front-End Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Seattle, WA; Chicago, IL | 1 day ago | [apply](https://amazon.jobs/en/jobs/10609992/front-end-engineer-internship-2027-us) |
 | Amazon | New Grad 2027: Front-End Engineer 🆕 | SWE | New grad | 2027 | Seattle, WA | 1 day ago | [apply](https://go.vansh.nyc/1Iv) |
 | Ameren | Robotics, AI, OT, Software Development Intern 🆕 | Data/ML | Intern | ~Summer 2027 | St. Louis, MO | 1 day ago | [apply](https://go.vansh.nyc/1Iz) |
+| Analog Devices | Embedded Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 1 day ago | [apply](https://go.vansh.nyc/1Jb) |
 | Apex Technology, Inc. | Software Engineer, Test Automation Internship (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 1 day ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/2268adcb-a0f6-4e12-a206-8f99e048486d) |
 | Apex Technology, Inc. | Mechanical Ground Systems Engineering Internship (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 1 day ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/e34724bd-0db2-4433-9352-7ad49d37e627) |
 | Aptima Inc. (All Jobs) | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Fairborn, OH | 1 day ago | [apply](https://go.vansh.nyc/1Is) |
@@ -183,6 +204,7 @@ _+318 more in the full list below._
 | Meta | Battery Engineer Intern - Battery Systems Engineering 🆕 | SWE | Intern | ~Summer 2027 | Sunnyvale, CA | 1 day ago | [apply](https://www.metacareers.com/jobs/1165674205921515) |
 | Motorola | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Salt Lake City, UT | 1 day ago | [apply](https://go.vansh.nyc/1J2) |
 | NVIDIA | Developer Technology Intern, AI 🆕 | Data/ML | Intern | ~Summer 2027 | Santa Clara, CA | 1 day ago | [apply](https://go.vansh.nyc/1Im) |
+| Nasdaq | Data Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Denver, CO | 1 day ago | [apply](https://go.vansh.nyc/1Jl) |
 | Neuralink | Electrical Test Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | South SF | 1 day ago | [apply](https://boards.greenhouse.io/neuralink/jobs/8197808003) |
 | Neuralink | Electrical Test Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | South San Francisco, California, United States | 1 day ago | [apply](https://boards.greenhouse.io/neuralink/jobs/8197808003?gh_jid=8197808003) |
 | PatientPoint | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Cincinnati, OH | 1 day ago | [apply](https://job-boards.greenhouse.io/patientpointinviteonly/jobs/4755910005) |
@@ -207,8 +229,10 @@ _+318 more in the full list below._
 | APEX Analytix | Software Engineer Intern - Platform Tooling 🆕 | SWE | Intern | ~Summer 2027 | Greensboro, NC | 2 days ago | [apply](https://ats.rippling.com/apexanalytix-careers/jobs/0ab75bb7-08ee-403a-bbe5-3937bb948b19) |
 | Aon | IT / Cybersecurity Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Chicago, IL | 2 days ago | [apply](https://go.vansh.nyc/1H4) |
 | Artefact | AI Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://job-boards.greenhouse.io/artefactlinkedin/jobs/8958074002) |
+| Artefact | AI Builder Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://job-boards.greenhouse.io/artefactnoram/jobs/8958081002) |
 | Artefact | AI Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://go.vansh.nyc/1Gz) |
 | Artefact | AI Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://go.vansh.nyc/1I4) |
+| Artefact | AI Builder Intern 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 2 days ago | [apply](https://go.vansh.nyc/1J4) |
 | Benchling | Software Engineer, Intern (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | San Francisco, CA | 2 days ago | [apply](https://jobs.ashbyhq.com/benchling/96370d1b-d35e-446b-8e26-dce088860099) |
 | Benchling | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | San Francisco, CA | 2 days ago | [apply](https://jobs.ashbyhq.com/benchling/96370d1b-d35e-446b-8e26-dce088860099/application?embed=true) |
 | Capital Technology Group | Data Engineering and Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Silver Spring, MD | 2 days ago | [apply](https://boards.greenhouse.io/capitaltg/jobs/5307074007) |
@@ -426,32 +450,8 @@ _+318 more in the full list below._
 | Symbotic | Software Engineer Intern - Front-End 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 5 days ago | [apply](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Austin-TX/Intern--Software-Engineer--Front-End_R8567-1) |
 | Symbotic | Software Engineer Intern, Front-End 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 5 days ago | [apply](https://go.vansh.nyc/1Ez) |
 | TASI Measurement | Embedded Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Kent, WA | 5 days ago | [apply](https://tasimeasurement.rec.pro.ukg.net/TAS1500TASI/JobBoard/2fb92a77-0aea-4e34-864b-11b2e6f60345/OpportunityDetail?opportunityId=598e3211-4d28-4fc1-a672-7c97a1814c31) |
-| TASI Measurement | Embedded Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Kent, WA | 5 days ago | [apply](https://go.vansh.nyc/1Fr) |
-| TCOM | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Sioux Falls, SD | 5 days ago | [apply](https://recruiting.ultipro.com/TCO1001TCOM/JobBoard/74e57e92-4355-44d7-8471-3c6eecfda9ef/OpportunityDetail?opportunityId=e8df2c4d-5bfd-4b2c-9dc2-d1f4713497f5) |
-| TCOM | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Sioux Falls, SD | 5 days ago | [apply](https://go.vansh.nyc/1FB) |
-| Tarana Wireless | Hardware Test Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Milpitas, CA | 5 days ago | [apply](https://taranawireless.applytojob.com/apply/qLnpfwLHew/Hardware-Test-Engineer-Intern) |
-| Tesla | Software Engineer Intern - SI Hardware Architecture Simulation 🆕 | SWE | Intern | ~Summer 2027 | Palo Alto, CA | 5 days ago | [apply](https://www.tesla.com/careers/search/job/290756) |
-| The SilverLogic | AI Engineer/Consultant Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Boca Raton, FL | 5 days ago | [apply](https://silverlogic.bamboohr.com/careers/36/) |
-| The SilverLogic | AI Engineer/Consultant Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Boca Raton, FL | 5 days ago | [apply](https://go.vansh.nyc/1EE) |
-| TransUnion | Data Science & Analytics Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Chicago, IL | 5 days ago | [apply](https://go.vansh.nyc/1Ea) |
-| Trener Robotics | Robotics Engineer / Lab Technician Intern 🆕 | Tech | Intern | ~Summer 2027 | San Jose, CA | 5 days ago | [apply](https://jobs.ashbyhq.com/trener-robotics/49c2c8a6-7016-4c54-895e-9a3a4a060a74/application?embed=true) |
-| VanEck | ETF Product Intern 🆕 | PM | Intern | ~Summer 2027 | New York, NY | 5 days ago | [apply](https://vaneck.rec.pro.ukg.net/VAN1502VEAC/JobBoard/9158c56d-61c9-447f-98b1-4ba0b04ca31d/OpportunityDetail?opportunityId=185d986f-8f9f-40ac-bf05-a26e3aa02f9e) |
-| Watchfire Signs | Electrical Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Danville, IL | 5 days ago | [apply](https://watchfiresigns.rec.pro.ukg.net/WAT1501WFSI/JobBoard/d3278620-b590-426f-899b-eb88c1096ad9/OpportunityDetail?opportunityId=b1767d7f-6f93-4aaf-b6cd-f7835e4d032d) |
-| Watchfire Signs | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | Danville, IL | 5 days ago | [apply](https://watchfiresigns.rec.pro.ukg.net/WAT1501WFSI/JobBoard/d3278620-b590-426f-899b-eb88c1096ad9/OpportunityDetail?opportunityId=b1838552-e606-4247-a3ce-2ce25d11e732) |
-| Werner Electric Supply | AI Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Appleton, WI | 5 days ago | [apply](https://recruiting2.ultipro.com/WER1000WERE/JobBoard/9cc9fbca-288f-4c69-99d7-b81d31b89844/OpportunityDetail?opportunityId=48ee1836-bd71-4533-a83a-a5170a0e984d) |
-| Woodward Governor | AI Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Niles, IL; Fort Collins, CO | 5 days ago | [apply](https://woodward.wd5.myworkdayjobs.com/woodward/job/Fort-Collins---Lincoln-Campus-HQ/AI-Summer-2027-Internship_JR114291) |
-| Worthington Enterprises | AI Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Columbus, OH | 5 days ago | [apply](https://go.vansh.nyc/1Gj) |
-| Wurl | Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Remote (US) | 5 days ago | [apply](https://job-boards.greenhouse.io/wurljobs/jobs/4731130006) |
-| Wurl | Data Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Remote; United States | 5 days ago | [apply](https://go.vansh.nyc/1Ep) |
-| Würth Elektronik | Lab Test Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Plano, TX | 5 days ago | [apply](https://recruiting.ultipro.com/wur1001wgna/JobBoard/e869ce68-a921-45eb-9467-2c7d2f5970a6/OpportunityDetail?opportunityId=2b9b8743-fa69-4c19-af25-d087061762ae) |
-| enGen | Data Engineer & Analyst Undergraduate Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Pittsburgh, PA | 5 days ago | [apply](https://go.vansh.nyc/1DQ) |
-| iA | Software Data Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Indianapolis, IN | 5 days ago | [apply](https://workforcenow.adp.com/job?cid=93fdfc70-37a2-4cde-ba86-0da4925db4c8&jobId=9200936413732_1) |
-| iCapital Network | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | New York, NY | 5 days ago | [apply](https://job-boards.greenhouse.io/icapitalnetwork/jobs/8944694002) |
-| Allied Consultants | AI/ML Engineer Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Austin, TX | 6 days ago | [apply](https://go.vansh.nyc/1D1) |
-| Barry's | Undergraduate Summer Scholar Intern - Data Analyst 🆕 | Data/ML | Intern | ~Summer 2027 | New York, NY | 6 days ago | [apply](https://ats.rippling.com/barrys-careers/jobs/1205224b-cfd0-4b9e-afc1-fc041da94c7f) |
-| Bitdeer | New Grad 2027: AI Engineering 🆕 | Data/ML | New grad | 2027 | San Jose, CA | 6 days ago | [apply](https://go.vansh.nyc/1D9) |
 
-_Showing the newest 300 of 9723 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 9747 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 9723 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **98.8%** of roles carry an exact posting timestamp from the source (9602/9723).
+- **98.7%** of roles carry an exact posting timestamp from the source (9625/9747).
 - **6.1%** come from a company's own board rather than a community feed.
-- **3870** duplicates merged, **18** near-duplicates collapsed.
-- **226** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **3857** duplicates merged, **18** near-duplicates collapsed.
+- **225** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>21 source(s) returned 404 this run (token likely renamed)</summary>
 
