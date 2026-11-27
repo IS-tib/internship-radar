@@ -2,8 +2,8 @@
 
 A self-updating board of **US software, data/ML, and product roles for undergraduates**, scraped straight from company job boards and ranked **newest-first**.
 
-**9865 open roles** · **2011 companies** · **450/506 sources healthy** · updated 2026-11-27 10:24 UTC  
-8498 internships · 1367 new-grad · SWE 4914 · Data/ML 3114 · Tech 1420 · PM 417
+**9867 open roles** · **2011 companies** · **450/506 sources healthy** · updated 2026-11-27 22:27 UTC  
+8500 internships · 1367 new-grad · SWE 4915 · Data/ML 3115 · Tech 1420 · PM 417
 
 > **Scope.** Undergraduate-eligible roles located in the United States. Postings restricted to PhD, Master's, or graduate students are filtered out, as are senior/experienced positions. A role is only included when its location gives positive evidence of being US-based — a bare "Remote" with no country is excluded rather than assumed.
 
@@ -19,7 +19,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 >
 > Only exact dates earn the 🆕 badge. A `~` before a term (e.g. `~Summer 2027`) means the term was inferred from the posting date because the title didn't state one.
 
-## 🆕 Just posted — last 7 days (427)
+## 🆕 Just posted — last 7 days (428)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -114,6 +114,7 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Signet Jewelers | Software Engineering Intern, Digital Commerce 🆕 | SWE | Intern | ~Summer 2027 | Irving, TX | 2 days ago | [apply](https://go.vansh.nyc/1K8) |
 | Staples | Full Stack Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 2 days ago | [apply](https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job/77145) |
 | Starkey | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Eden Prairie, MN | 2 days ago | [apply](https://recruiting2.ultipro.com/sta1003stark/JobBoard/aa9d7813-93e5-4731-9f45-8ccb56bea5fd/OpportunityDetail?opportunityId=dffb5d69-1f21-45e3-8929-c8a4746e349a) |
+| T-Mobile | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | United States | 2 days ago | [apply](https://go.vansh.nyc/1Lq) |
 | Tesla | Robotics Audio DSP Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Palo Alto, CA | 2 days ago | [apply](https://www.tesla.com/careers/search/job/291227) |
 | Tombras | Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Knoxville, TN | 2 days ago | [apply](https://ats.rippling.com/tombrascareers/jobs/fe7d5efc-78ca-4e57-8f46-2b9a1c9e8cf9) |
 | Total Quality Logistics | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Cincinnati, OH | 2 days ago | [apply](https://tql.avature.net/en_US/TQLexternalcareers/JobDetail/19765) |
@@ -142,11 +143,10 @@ A self-updating board of **US software, data/ML, and product roles for undergrad
 | Apex Technology, Inc. | Software Engineer, Test Automation Internship (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 3 days ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/2268adcb-a0f6-4e12-a206-8f99e048486d) |
 | Apex Technology, Inc. | Mechanical Ground Systems Engineering Internship (Summer 2027) 🆕 | SWE | Intern | Summer 2027 | Los Angeles, CA | 3 days ago | [apply](https://jobs.ashbyhq.com/apex-technology-inc/e34724bd-0db2-4433-9352-7ad49d37e627) |
 | Aptima Inc. (All Jobs) | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Fairborn, OH | 3 days ago | [apply](https://go.vansh.nyc/1Is) |
-| BEUMER Group | AI Development Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Somerset County, NJ | 3 days ago | [apply](https://jobs.smartrecruiters.com/BEUMERGroup1/744000163483739) |
 
-_+307 more in the full list below._
+_+308 more in the full list below._
 
-## 📋 All open roles — newest first (9865)
+## 📋 All open roles — newest first (9867)
 
 | Company | Role | Type | Level | Term | Location | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -241,6 +241,7 @@ _+307 more in the full list below._
 | Signet Jewelers | Software Engineering Intern, Digital Commerce 🆕 | SWE | Intern | ~Summer 2027 | Irving, TX | 2 days ago | [apply](https://go.vansh.nyc/1K8) |
 | Staples | Full Stack Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Austin, TX | 2 days ago | [apply](https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job/77145) |
 | Starkey | Software Engineer Intern 🆕 | SWE | Intern | ~Summer 2027 | Eden Prairie, MN | 2 days ago | [apply](https://recruiting2.ultipro.com/sta1003stark/JobBoard/aa9d7813-93e5-4731-9f45-8ccb56bea5fd/OpportunityDetail?opportunityId=dffb5d69-1f21-45e3-8929-c8a4746e349a) |
+| T-Mobile | Software Engineering Intern 🆕 | SWE | Intern | ~Summer 2027 | United States | 2 days ago | [apply](https://go.vansh.nyc/1Lq) |
 | Tesla | Robotics Audio DSP Engineer Intern 🆕 | Tech | Intern | ~Summer 2027 | Palo Alto, CA | 2 days ago | [apply](https://www.tesla.com/careers/search/job/291227) |
 | Tombras | Data Science Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Knoxville, TN | 2 days ago | [apply](https://ats.rippling.com/tombrascareers/jobs/fe7d5efc-78ca-4e57-8f46-2b9a1c9e8cf9) |
 | Total Quality Logistics | Product Management Intern 🆕 | PM | Intern | ~Summer 2027 | Cincinnati, OH | 2 days ago | [apply](https://tql.avature.net/en_US/TQLexternalcareers/JobDetail/19765) |
@@ -449,9 +450,8 @@ _+307 more in the full list below._
 | Centene Corporation | Undergraduate Analytics Engineering Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Remote; United States | 7 days ago | [apply](https://go.vansh.nyc/1DY) |
 | Cisco | Data Science Analyst II Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Jose, CA | 7 days ago | [apply](https://go.vansh.nyc/1F1) |
 | Cisco | AI Cybersecurity Engineer I Intern 🆕 | Data/ML | Intern | ~Summer 2027 | Research Triangle Park, NC | 7 days ago | [apply](https://go.vansh.nyc/1G5) |
-| Cisco | AI Researcher II Intern 🆕 | Data/ML | Intern | ~Summer 2027 | San Francisco, CA | 7 days ago | [apply](https://go.vansh.nyc/1Eb) |
 
-_Showing the newest 300 of 9865 — the complete, machine-readable set is in_ `listings.json`.
+_Showing the newest 300 of 9867 — the complete, machine-readable set is in_ `listings.json`.
 
 ## 🏢 Direct portals (no public API — apply on their sites)
 
@@ -463,10 +463,10 @@ _Showing the newest 300 of 9865 — the complete, machine-readable set is in_ `l
 
 ### Data quality this run
 
-- **98.8%** of roles carry an exact posting timestamp from the source (9745/9865).
+- **98.8%** of roles carry an exact posting timestamp from the source (9748/9867).
 - **6.0%** come from a company's own board rather than a community feed.
-- **3887** duplicates merged, **18** near-duplicates collapsed.
-- **211** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
+- **3869** duplicates merged, **18** near-duplicates collapsed.
+- **212** recently-closed roles tracked (so a filled role disappears deliberately, not silently).
 
 <details><summary>22 source(s) returned 404 this run (token likely renamed)</summary>
 
